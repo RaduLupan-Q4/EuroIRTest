@@ -3,3 +3,5 @@ os: windows
 files:
   - source: \index.html
     destination: D:\http
+  - source: \Solutions\
+    destination: D:\http
