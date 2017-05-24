@@ -1,0 +1,301 @@
+﻿.IRChartColour {
+    color: #0094D4;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    background-color: #0094D4;
+}
+
+/* table-look */
+.table-look,
+.table-look th,
+.table-look td {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .table-look th,
+    .table-look td {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: bold;
+        border-collapse: collapse;
+        text-align: left;
+    }
+
+    .table-look th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd;
+        color: #000;
+    }
+
+    .table-look td {
+        background-color: #f9f9f9;
+        border: none;
+        font-weight: normal;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+/*
+    IRCalc
+*/
+
+.tooltipHTML div span.subHeader{width: 120px;}
+
+#calculate-button, #lookup-button {
+    background-color: #0094D4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 34px;
+    line-height: 34px;
+}
+
+
+    #calculate-button:hover, #lookup-button:hover {
+        background-color: #3071a9;
+    }
+
+.IRToolCalcResultsTable.horizontal {
+    display: table;
+}
+
+.IRToolCalcResultsTable.vertical {
+    display: none;
+}
+
+    .IRToolCalcResultsTable.vertical td {
+        text-align: right;
+        width: 20%;
+    }
+
+        .IRToolCalcResultsTable.vertical td.Header {
+            text-align: left;
+        }
+
+
+
+
+.disclaimer-IRQuote {
+    display: none;
+}
+
+/* Miniquote */
+
+
+.IRQuoteModule .miniquoteDisclaimer2 {
+    text-align: center;
+}
+
+#LSEiFrame, #JSEiFrame, #mainFrame {
+    margin-top: 10px;
+    height: 210px;
+    width: 100%;
+}
+
+
+.IRChartComparison, .IRChartMenuTrigger {
+    display: none;
+}
+
+.IRChartHTMLMiniPlaceholder {
+    height: 200px;
+}
+
+.disclaimer-IRChartMini, .disclaimer-IRMiniquoteChart {
+    display: none;
+}
+
+.IRQuoteModule {
+    width: 100%;
+    color: #72665B;
+}
+
+    .IRQuoteModule * {
+        font-family: 'Open Sans';
+    }
+
+    .IRQuoteModule h1 {
+        font-family: 'Open Sans';
+        position: relative;
+        display: block;
+        line-height: 28px;
+        font-size: 29px;
+        font-weight: normal;
+        margin-bottom: 0.67em;
+    }
+
+    .IRQuoteModule h3 {
+        font-family: 'Open Sans';
+        line-height: 20px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .IRQuoteModule h4 {
+        font-family: 'Open Sans';
+        line-height: 1.5;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .IRQuoteModule .share p {
+        margin: 0 0 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 1.5;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    .IRQuoteModule .share {
+        margin-top: 10px;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .IRQuoteModule .shareWrapper {
+        margin-right: 2%;
+        width: 33%;
+        float: left;
+        min-width: 190px;
+    }
+
+    .IRQuoteModule .tabs-container {
+        width: 65%;
+        float: left;
+    }
+
+    /*
+    .IRQuoteModule .share {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11pt;
+
+        margin-top: 10px;
+        display: block;
+        padding-bottom: 10px;
+    }
+    */
+
+
+    .IRQuoteModule .miniquoteDisclaimer {
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .IRQuoteModule .miniquoteDisclaimer a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+
+
+
+    .IRQuoteModule .formatArrowPos {
+        width: 24px;
+        height: 12px;
+        display: inline-block;
+        background-image: url(images/mqUp.gif);
+        background-position: center center;
+    }
+
+    .IRQuoteModule .formatArrowNeg {
+        width: 24px;
+        height: 12px;
+        display: inline-block;
+        background-image: url(images/mqDown.gif);
+        background-position: center center;
+    }
+
+.divideLine {
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0 20px 0;
+}
+/* Tabs =========================================================== */
+.tabsWrapper {
+    float: left;
+    padding-left: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+    .tabsWrapper li {
+        float: left;
+        text-decoration: none;
+        list-style-type: none;
+        color: #fff;
+        background-color: #fff;
+        float: left;
+    }
+
+        .tabsWrapper li a {
+            text-decoration: none;
+            color: #72665B;
+            width: 100px;
+            height: 33px;
+            /* display: block; */
+            display: flex;
+            text-align: center;
+            -webkit-flex-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            border: 1px solid #ddd;
+            position: relative;
+            line-height: 35px;
+        }
+
+            .tabsWrapper li a.current {
+                background: #3b9cf7;
+                color: #fff;
+                border: 0;
+                height: 35px;
+            }
+/* End ============================================================ */
+
+/* Media Queries ================================================== */
+@media screen and (max-width: 600px) {
+    .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: table;
+    }
+
+    .IRQuoteModule .share2, .IRQuoteModule .tabs-container, .IRQuoteModule .shareWrapper {
+        width: 100%;
+    }
+
+    .IRQuoteModule .share.LSEWrapper, .IRQuoteModule .share.JSEWrapper {
+        width: 49%;
+        float: left;
+    }
+
+    .IRQuoteModule .share.LSEWrapper {
+        margin-right: 2%;
+    }
+
+    .shareWrapper.col-sm-7 .divideLine {
+        display: none;
+    }
+
+    .shareWrapper.col-sm-7 {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+}
+/* End ============================================================ */
+
+li.tabActive {
+	background:#3b9cf7!important;
+	color:White!important;
+}
+li.tabActive a {
+	background:#3b9cf7!important;
+	color:White!important;
+}
