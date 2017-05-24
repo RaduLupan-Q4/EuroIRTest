@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'HelveticaNeueRoman';
+    src: url('../Nasdaq/fonts/HelveticaNeueLTStd-Roman.eot'); /* IE9 Compat Modes */
+    src: url('../Nasdaq/fonts/HelveticaNeueLTStd-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../Nasdaq/fonts/HelveticaNeueLTStd-Roman.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../Nasdaq/fonts/HelveticaNeueLTStd-Roman.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../Nasdaq/fonts/HelveticaNeueLTStd-Roman.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src: url('../Nasdaq/fonts/HelveticaNeueLTStd-Bd.eot'); /* IE9 Compat Modes */
+    src: url('../Nasdaq/fonts/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../Nasdaq/fonts/HelveticaNeueLTStd-Bd.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../Nasdaq/fonts/HelveticaNeueLTStd-Bd.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../Nasdaq/fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+    /*font-family: 'HelveticaNeueRoman';*/
+    font-family: 'Open Sans', sans-serif;
+    padding: 1%;
+}
+
+h2 {
+    color: #ff6a00;
+}
+
+
+select.showDate {
+    height: 32px;
+    background: #F5F5F5;
+}
+
+
+.table-look th, .table-look td {
+    text-align: left;
+}
+
+
+.IRShareholderStructureChartModule {
+    width: 100%;
+}
+
+td.shareAmount {
+    font-weight: bold;
+}
+
+.IRShareholderStructureModule .chartNumberOfShares {
+    margin-bottom: 60px;
+}
+
+td.shareSize, td.shareSizePercent, td.totalShareSize, td.totalShareSizePercent, th.shareSize {
+    background: #eaeaea;
+    text-align: right;
+    color: #000;
+}
+
+th.totalShareSizePercent {
+    width: 10%;
+}
+
+.table-look th.shareSize, .table-look td.shareSize, table-llok th.totalShareSize, .table-look td.totalShareSize {
+    padding-right: 2%;
+    width: 15%;
+}
+
+th.shareSize {
+    text-align: left;
+}
+
+th.shareSizePercent {
+    text-align: right;
+    width: 10%;
+}
+
+td.shareSizePercent, td.totalShareSizePercent, .IRShareholderStructureModule th.shareSizePercent {
+    padding-right: 2%;
+    text-align: right;
+}
+
+.IRShareholderStructureModule .shareholderSize, .IRShareholderStructureModule th.shareSize {
+    text-align: right;
+}
+
+.IRShareholderStructureModule .chartNumberOfShares {
+    font-weight: bold;
+    width: 200px;
+    float: left;
+    text-transform: uppercase;
+    background-color: #7CB5EC;
+    color: #fff;
+    padding-left: 1%;
+}
+
+.IRShareholderStructureModule .progress-bar {
+    padding-left: 1%;
+    float: left;
+}
+
+.IRShareholderStructureModule .chartNumberOfShares {
+}
+
+.IRShareholderStructureModule {
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #eb2e2c;
+    border-bottom: 1px solid #a8a9a3;
+}
+
+    .IRShareholderStructureModule th {
+        line-height: 40px;
+        height: 40px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        color: #585852;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: 1px solid #a8a9a3;
+    }
+
+.table-look th.shareSize {
+    background: #fff;
+}
+
+.IRShareholderStructureChartModule th {
+    font-size: 14px;
+    min-width: 120px;
+    width: 15%;
+    height: 23px;
+    float: left;
+    padding: 0;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.progress-bar {
+    background-color: #eb2e2c;
+}
+
+.IRShareholderStructureChartModule td {
+    width: 85%;
+    padding-top: 0;
+    padding-bottom: 0;
+    float: left;
+    padding-left: 0;
+}
+
+.shareholder td.shareholderSize {
+    text-align: right;
+}
+
+.IRShareholderStructureModule .progress {
+    margin-bottom: 0;
+    border-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.IRShareholderStructureChartModule .progress-bar {
+    line-height: 17px;
+}
+
+.IRShareholderStructureChartModule .progress {
+    margin-bottom: 0;
+    float: left;
+    width: 100%;
+    height: 15px;
+    margin-top: 2px;
+    border-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #EDEDED;
+}
+
+.IRShareholderStructureModule.table-look td {
+    border: 0;
+}
+
+
+.IRShareholderStructureModule tr {
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+
+.IRShareholderStructureModule .total {
+    font-weight: bold;
+}
+
+.IRShareholderStructureModule .order-depth-bar-left {
+    padding: 0px 5px 0px 5px;
+    vertical-align: middle;
+}
+
+th.sector, td.sector {
+    max-width: 25%;
+}
+
+td.sector {
+    white-space: normal;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+th.sectorColor {
+    border-right: 0;
+}
+
+th.sector {
+    border-left: 0;
+}
+
+.sectorColor1 {
+    background-color: #66c353;
+}
+
+.sectorColor2 {
+    background-color: #1c1c1e;
+}
+
+.sectorColor3 {
+    background-color: #d48039;
+}
+
+.sectorColor4 {
+    background-color: #5e63c7;
+}
+
+.sectorColor5 {
+    background-color: #619ad1;
+}
+
+.sectorColor6 {
+    background-color: #d64165;
+}
+
+
+th.sectorColor, td.sectorColor {
+    width: 5px;
+}
+
+
+.progress {
+    position: relative;
+}
+
+    .progress span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        color: #000;
+        text-shadow: 0px 1px 1px rgba(249, 255, 252, 1);
+    }
+/*.shareholder td.shareholderSize, .shareholder td.total.shareholderSize
+{
+    text-align: center;
+}*/
+
+.shareholderSizePercent {
+    display: none;
+}
+
+.table-look th.shareHolderSizeProgressbar, .table-look td.shareHolderSizeProgressbar {
+    text-align: center;
+}
+
+.groupSector {
+    margin-bottom: 2px;
+}
+
+/* Media Queries ======================================================= */
+
+@media screen and (max-width: 850px) {
+    td.IRShareholderStructureChartModule {
+        width: 70%;
+    }
+
+    .shareAmount, .shareholderSize, .shareholderSizePercent {
+        /*width: 20%;*/
+    }
+
+    .shareHolderSizeProgressbar {
+        width: 40%;
+    }
+}
+
+
+
+@media screen and (min-width: 651px) {
+    #containerMobile {
+        display: none;
+    }
+
+    #containerDesktop {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .IRShareholderStructureChartModule td {
+        width: 75%;
+    }
+
+    .shareholder .shareSizePercent, .shareholder .shareSize, .shareholder .total.desktop {
+        display: none;
+    }
+
+    .IRShareholderStructureModule th.column-first, .IRShareholderStructureModule th {
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    #containerMobile {
+        display: block;
+    }
+
+    #containerDesktop {
+        display: none;
+    }
+
+    .highcharts-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .IRShareholderStructureChartModule td {
+        width: 60%;
+    }
+
+    .IRShareholderStructureModule td.shareholderSize {
+        text-align: right;
+        padding-right: 4%;
+    }
+
+    .IRShareholderStructureModule.groupSector .shareSize, .IRShareholderStructureModule.groupSector .shareSizePercent, .IRShareholderStructureModule.groupSector .totalShareSizePercent, .IRShareholderStructureModule.groupSector .totalShareSize {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .IRShareholderStructureChartModule td {
+        width: 65%;
+    }
+
+    .IRShareholderStructureChartModule th {
+        font-size: 12px;
+        min-width: 100px;
+    }
+
+    .IRShareholderStructureChartModule .progress {
+        height: 13px;
+    }
+}

@@ -1,0 +1,133 @@
+﻿.IRChartColour {
+    color: #0284AA;
+}
+
+.chartChangePeriod div.activePeriod {
+    background-color: #0284AA;
+}
+.chartChangePeriod div:hover {
+    background-color: #0284AA;
+}
+
+.IRChartHTMLPlaceholder {
+}
+
+
+.tooltipHTML {
+    background-color: #fff;
+}
+
+.IRChartClientName {
+    color: #666;
+}
+
+.IRChartCurrency {
+    color: #666;
+}
+
+
+.profile-wrapper{float:left; font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;  color: #45596B;  font-size: 10pt;}
+.profile-wrapper h2{font-size: 16px; font-weight: bold; padding-left: 0;}
+.profile-wrapper .IRTable {border-top: none; border-collapse: collapse; width: 100%;}
+.profile-wrapper .IRTable tbody {border: 0;}
+.profile-wrapper .IRTable tr {border: 0;}
+.profile-wrapper .IRTable th, .profile-wrapper .IRTable td {
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #90C63D;
+  padding: 2px;
+  line-height: 20px;
+  font-size: 10pt;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: #45596B;
+}
+.profile-wrapper .table-wrapper{width: 100%; float:left; margin-top: 20px;}
+.profile-wrapper .table-wrapper .company-listing-data, .profile-wrapper .table-wrapper .price-data{float: left; width: 45%; padding-right: 2%;}
+.profile-wrapper .table-wrapper .IRTable{width: 100%;}
+.profile-wrapper .IRTable{float: left;}
+.profile-wrapper .IRTable th{font-weight: normal; min-width: 140px;}
+.profile-wrapper .IRTable th.column-first, .profile-wrapper .IRTable td.column-first {min-width: 140px; width: 30% }
+.profile-wrapper .IRTable.price-data th{width: 40%;}
+.profile-wrapper .IRTable.price-data th.column-first, .profile-wrapper .IRTable.price-data td.column-first{min-width: 120px; width: 30%}
+.profile-wrapper .IRTable th, .profile-wrapper .IRTable td, .profile-wrapper .IRTable th.left-align, .profile-wrapper .IRTable td.left-align {text-align: left;}
+.profile-wrapper .formatArrowPos, .profile-wrapper .formatArrowNeg {background-position: left;}
+.profile-wrapper .price-data td.price{text-indent: 10px; height: 25px; width: 100%;}
+
+
+
+
+/* IRDetailedSharePrice ===================================================== */
+.IRDetailedSharePrice.table-look th, .IRDetailedSharePrice.table-look td {
+    border-left: 0;
+    border-right: 0;
+}
+
+.IRDetailedSharePrice.table-look td {
+    padding: 0;
+    padding-left: 0.91em;
+    border-bottom: 1px solid #019D54;
+    height: 24px;
+    line-height: 24px;
+}
+
+table.IRDetailedSharePrice {
+    width: 100%;
+    margin-bottom: 1.25em;
+}
+
+.IRQuoteHorizontalModule h1 {
+    display: block;
+    border-bottom: 1px solid #b2b2b2;
+    padding: 6px 0 10px;
+    color: #019d54;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2.0em;
+}
+
+.IRQuoteHorizontalModule h2 {
+    font-size: 1.250em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    padding: 0;
+    color: #4c4c4c;
+}
+
+.IRQuoteHorizontalModule h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #019D54;
+    height: 17px;
+    margin-bottom: 17.25px;
+}
+
+
+
+.IRDetailedSharePrice th, .IRDetailedSharePrice td {
+    padding: 5px 10px;
+    text-align: left;
+    width: 110px;
+}
+
+.IRDetailedSharePrice td {
+    border-bottom-color: #019D54;
+}
+
+.IRDetailedSharePrice .formatColourPos {
+    color: #1BA71B;
+}
+/* End ======================================================================== */
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .profile-wrapper .IRTable.company-listing-data{margin-bottom: 35px;}
+    .profile-wrapper .table-wrapper .company-listing-data, .profile-wrapper .table-wrapper .price-data{width: 100% !important;}
+}
+

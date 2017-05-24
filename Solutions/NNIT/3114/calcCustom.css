@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+.IRCalcModule select{width: 44px;}
+
+.IRCalcModule .IRChartCalcPlaceholder {
+    display: none;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look {
+}
+
+.IRCalcModule .customCalcModuleWrapper #calc-form {
+    width: 49%;
+    float: left;
+    background: #F6F4EF;
+    height: 400px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical tr {
+    float: left;
+    width: 100%;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical th {
+    float: left;
+    text-align: left;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical td {
+    float: left;
+}
+
+
+
+#result-section {
+    float: right;
+    width: 49%;
+    display: block;
+    background: #F6F4EF;
+    height: 400px;
+    padding: 20px;
+}
+
+.customCalcModuleWrapper #result-section .title, .IRCalcModule .customCalcModuleWrapper #calc-form .title {
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #780000;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.IRToolCalcResultsTable.table-look.vertical tr, .IRToolCalcResultsTable.table-look.vertical tr:nth-child(2n) {
+    background: transparent;
+}
+
+.IRToolCalcResultsTable.table-look.vertical {
+    display: block;
+}
+
+    .IRToolCalcResultsTable.table-look.vertical th {
+        width: 50%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #a8a9a3;
+        font-weight: 400;
+        color: inherit;
+    }
+
+    .IRToolCalcResultsTable.table-look.vertical td {
+        width: 50%;
+        text-align: right;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        border: 0;
+        border-bottom: 1px solid #a8a9a3;
+        font-weight: 700;
+    }
+
+    .IRToolCalcResultsTable.table-look.vertical tr:last-child td, .IRToolCalcResultsTable.table-look.vertical tr:last-child th {
+        border: 0;
+    }
+
+.IRToolCalcResultsTable.table-look.vertical {
+    border: none;
+}
+
+.divideLine {
+    display: none;
+}
+
+.formDivider .input-row input[type="radio"], .formDivider .input-row .radio label {
+    vertical-align: middle;
+    top: 0;
+}
+
+.formDivider .input-row .radio label {
+    /* margin-right: 30px; */
+}
+
+    .formDivider .input-row .radio label:last-child {
+        margin-right: 0;
+    }
+
+.formDivider .input-row {
+    margin-bottom: 20px;
+}
+
+    .formDivider .input-row label.input-label {
+        width: 160px;
+        line-height: 29px;
+    }
+
+.input-wrapper {
+    right: 0;
+}
+
+.wide-input {
+    width: 159px;
+}
+
+    .wide-input.radio {
+        width: auto;
+    }
+
+@media only screen and (max-width: 700px) {
+    #result-section, .IRCalcModule .customCalcModuleWrapper #calc-form {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    #lookup-table-form .submit {
+        width: 100%;
+    }
+
+    #summaryIframe {
+        height: 810px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .tabs-container ul li a {
+        width: 100%;
+        max-width: initial;
+        margin: 0px 0px 10px 0;
+    }
+
+    .tabs-container ul li.firstTab a {
+        margin-top: 21px;
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+
+    .tabs-container ul li.tab2 a {
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+
+
+    .tabs-container ul li.lastTab a {
+        margin-bottom: 21px;
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+}
+
+
+.customCalcModuleWrapper #to-month{display: initial;}
+
+@media only screen and (max-width: 350px) {
+    .tabs-container ul li.firstTab a, .tabs-container ul li.tab2 a, .tabs-container ul li.lastTab a {
+        background-position: 35% center;
+    }
+    .IRCalcModule #amount-invested {
+        min-width: 120px;
+    }
+}

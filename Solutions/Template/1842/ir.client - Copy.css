@@ -1,0 +1,58 @@
+﻿/* IRCalcModule ========================================= */ 
+.IRCalcModule #calc-form .from-label, .IRCalcModule #calc-form .to-label, .IRCalcModule label.dividend-label, .IRCalcModule .amount-invested-label, .IRCalcModule .invested-label {
+        line-height: 24px;
+    }
+
+@media only screen and (max-width: 571px) {
+    .IRCalcModule .horizontal {
+        display: none;
+    }
+
+    .IRCalcModule .vertical td {
+        text-align: right;
+        padding: 5px;
+    }
+
+    .IRCalcModule .IRToolCalcResultsTable th.Header {
+        width: 40%;
+    }
+
+    .IRCalcModule #calc-form {
+        height: 150px;
+    }
+
+   .IRCalcModule .IRToolCalcResultsTable.vertical th.Header{text-align:left;} 
+}
+
+/* ======================================================== */
+
+/* Media Queries ========================================= */ 
+@media only screen and (min-width: 572px) {
+    .table-look.vertical {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .IRLookupResultsTable.responsive th:nth-child(4),
+    .IRLookupResultsTable.responsive td:nth-child(4) {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .IRLookupResultsTable.responsive th:nth-child(3),
+    .IRLookupResultsTable.responsive td:nth-child(3) {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .IRLookupResultsTable.responsive th:nth-child(2),
+    .IRLookupResultsTable.responsive td:nth-child(2) {
+        display: none !important;
+    }
+}
+/* ======================================================== */

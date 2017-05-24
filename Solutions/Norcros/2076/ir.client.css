@@ -1,0 +1,145 @@
+﻿*, body {
+    font-family:  'Museo Sans W01', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #5985A6;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #404040;
+    
+}
+.IRChartComparisonHeader, .basicButtonLook, .IRChartCompanyName{
+    color:#404040;
+}
+.IRQuoteModule {
+    border:none;
+}
+
+    .IRQuoteModule th, .IRQuoteModule td {
+        height: 20px;
+        line-height: 20px;
+        border: none;
+    }
+
+    .IRQuoteModule th {
+        border-bottom: 1px solid #5D87A1;
+        font-weight: bold;
+        color: #404040;
+
+    }
+
+    .IRQuoteModule td {
+        border-bottom: 2px solid #5D87A1;
+        color: #404040;
+    }
+
+.IRChartClientName {
+    border-color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+.IRChartCurrency {
+    color: #404040;
+}
+
+.chartCurrentPriceBox .chartLastPrice {
+    color: #ffffff;
+}
+
+.chartChangePeriod {
+    border-top: 1px solid #EEEEEE;
+}
+
+    .chartChangePeriod div {
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
+    }
+
+        .chartChangePeriod div.activePeriod {
+            background-color: #5985A6;
+        }
+
+.disclaimer {
+}
+
+.disclaimer {
+    font-family:  'Museo Sans W01', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #777;
+}
+
+    .disclaimer a:link, .disclaimer a:visited {
+        font-family:  'Museo Sans W01', Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #777;
+        text-decoration: none;
+    }
+
+    .disclaimer a:hover {
+        font-family: 'Museo Sans W01', Arial, Helvetica, sans-serif;
+        color: #000;
+    }
+
+.inputTextTitle {
+    padding-top: 10px;
+    line-height: 20px;
+}
+input[type=text] {
+    padding: 10px;
+    line-height: 20px;
+}
+input[type=email] {
+    height:28px;
+}
+
+
+.buttonStyle {
+     font-size: 12px;
+    background: #5985A6;
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    border: 1px solid #5985A6;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /*color: #FFF;
+    height: 38px;
+    
+    background-color: #5985A6;
+    padding: 7px 10px 7px 10px;*/
+}
+
+    .buttonStyle:hover {
+          color: #333;
+        background-color: #e6e6e6;
+        border: 0;
+       
+        /*color: #FFF;
+        height: 38px;
+         border: 1px solid #5985A6;
+        background-color: #5985A6;*/
+    }
+
+
+.IRChartHTMLPlaceholder {
+    height: 200px;
+}
+
+/* @media only screen =========================================================*/
+@media only screen and (max-width: 500px) {
+     .column-last,  .column-last {
+        display:none;
+        }
+
+}
+/* End ======================================================================== */

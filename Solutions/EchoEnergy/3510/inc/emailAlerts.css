@@ -1,0 +1,291 @@
+﻿/*@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/MontserratRegular.eot') format('embedded-opentype'), url('../fonts/MontserratRegular.ttf') format('truetype'), url('../fonts/MontserratRegular.woff') format('woff');
+}*/
+
+a:hover {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #000;
+}
+
+.inputText input {
+    padding: 5px;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    border: 1px solid #878787;
+}
+
+.inputText {
+    float: left;
+    width: 100%;
+    max-width: 250px;
+}
+
+.blockInner {
+    float: none;
+}
+
+.buttonStyle {
+    -webkit-appearance: none;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 25px;
+    width: 100px;
+    background-color: #f39200;
+    border-color: #f39200;
+    color: #ffffff;
+}
+
+    .buttonStyle:hover {
+        height: 30px;
+        line-height: 30px;
+        border-radius: 25px;
+        width: 100px;
+        background-color: #232b41;
+        border-color: #232b41;
+        color: #ffffff;
+    }
+
+.inputTextTitle {
+    line-height: 30px;
+    height: 30px;
+    min-width: 110px;
+}
+
+.formLoginConfirm.buttonStyle.clearInput {
+    width: 40%;
+}
+
+.fullwidth {
+    width: 100%;
+    height: 50px;
+}
+
+.subPageLogin {
+    height: 200px;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+}
+
+.subGroup #allRNSnews {
+    font-weight: 400;
+}
+
+.checkbox {
+    height: 22px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 31px;
+    background-image: url('checkbox_false.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    min-width: 145px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-size: 22px;
+    background-position: center left;
+    width: 45%;
+    float: left;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.emailAlerts .buttonStyle {
+    font-size: 14px;
+    margin-right: 0px;
+    background-color: #f2933d;
+    box-shadow: none;
+    height: 30px;
+    min-width: 186px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 0;
+    float: left;
+}
+
+    .emailAlerts .buttonStyle:hover {
+        box-shadow: none;
+        color: #fff;
+        background: #232b41;
+    }
+
+
+.formUnsubscribe.buttonUnsubscribe, .goToHome {
+    margin-left: 10px;
+    line-height: 30px;
+    height: 30px;
+    color: #232b41;
+    font-size: 14px;
+}
+
+.subGroup {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.checkbox.checked {
+    background-image: url('checkbox_true.png');
+}
+
+.requiredFieldMSG {
+    color: red;
+    font-weight: bold;
+}
+
+.hidden, .disclaimer.disclaimer-IRCustomModule {
+    display: none;
+}
+
+.semiTransparantOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: White;
+    opacity: 0.7;
+    z-index: 900;
+}
+
+.pageVerification {
+    width: 100%;
+    margin-right: 10px;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 50px;
+    left: 10px;
+    z-index: 2000;
+    padding: 8px;
+    background-color: white;
+    max-width: 297px;
+}
+
+.pageUnsubscribe .inputTextTitle {
+    min-width: 110px;
+    width: 30%;
+}
+
+.pageUnsubscribe .inputText input {
+    width: 100%;
+    max-width: initial;
+}
+
+.emailNotification {
+    color: red;
+    visibility: hidden;
+}
+
+.x-close {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #f39200;
+    margin-right: -16px;
+    margin-top: -23px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+    .buttonStyle {
+        clear: both;
+        margin-top: 10px
+
+    }
+}
+@media only screen and (max-width: 540px) {
+    .inputText {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .subPageLogin {
+        height: 300px;
+    }
+
+    .fullwidth {
+        height: 80px;
+    }
+
+    .subGroup .checkbox {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .pageUnsubscribe .formUnsubscribeInTool {
+        line-height: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .emailAlerts .buttonStyle {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    /*div {
+        width: 95% !important;
+    }*/
+
+    .emailAlerts input[type=email] {
+        width: 100%;
+    }
+
+    input.checkboxRelease {
+        width: 13px !important;
+    }
+
+    .formLogin.clearInput {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 370px) {
+    .inputText {
+        width: 100%;
+    }
+
+    .pageUnsubscribe .inputText input {
+        margin-bottom: 10px;
+    }
+
+    .emailAlerts .buttonStyle {
+        width: 100%;
+    }
+
+    .formUnsubscribe.buttonUnsubscribe, .goToHome {
+        text-align: right;
+        margin-left: 0;
+        display: block;
+        line-height: 30px;
+        height: 30px;
+        float: right;
+        min-width: 60px;
+    }
+}

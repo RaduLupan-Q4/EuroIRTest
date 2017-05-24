@@ -1,0 +1,1865 @@
+{
+  "data": [
+    {
+      "name": "Income Statement",
+      "notes": [],
+      "data": [
+        {
+          "name": "Revenue",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 3579
+            },
+            {
+              "year": "Q2/15",
+              "value": 3449
+            },
+            {
+              "year": "Q3/15",
+              "value": 3522
+            },
+            {
+              "year": "Q4/15",
+              "value": 3452
+            },
+            {
+              "year": "Q1/16",
+              "value": 3609
+            },
+            {
+              "year": "Q2/16",
+              "value": 3429
+            },
+            {
+              "year": "Q3/16",
+              "value": 3522
+            },
+            {
+              "year": "Q4/16",
+              "value": 3452
+            }
+          ],
+          "dec": 0,
+          "label": "MDKK",
+          "chart": "bar"
+        },
+        {
+          "name": "Gross profit",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 2064
+            },
+            {
+              "year": "Q2/15",
+              "value": 2005
+            },
+            {
+              "year": "Q3/15",
+              "value": 2070
+            },
+            {
+              "year": "Q4/15",
+              "value": 1990
+            },
+            {
+              "year": "Q1/16",
+              "value": 2079
+            },
+            {
+              "year": "Q2/16",
+              "value": 1998
+            },
+            {
+              "year": "Q3/16",
+              "value": 1942
+            },
+            {
+              "year": "Q4/16",
+              "value": 2107
+            }
+          ],
+          "label": "MDKK",
+          "chart": "bar"
+        },
+        {
+          "name": "EBITDA",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 1206
+            },
+            {
+              "year": "Q2/15",
+              "value": 1215
+            },
+            {
+              "year": "Q3/15",
+              "value": 1243
+            },
+            {
+              "year": "Q4/15",
+              "value": 1347
+            },
+            {
+              "year": "Q1/16",
+              "value": 1181
+            },
+            {
+              "year": "Q2/16",
+              "value": 1194
+            },
+            {
+              "year": "Q3/16",
+              "value": 1211
+            },
+            {
+              "year": "Q4/16",
+              "value": 1374
+            }
+          ],
+          "label": "MDKK",
+          "chart": "bar"
+        },
+        {
+          "name": "Operating profit / EBIT",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 979
+            },
+            {
+              "year": "Q2/15",
+              "value": 930
+            },
+            {
+              "year": "Q3/15",
+              "value": 1013
+            },
+            {
+              "year": "Q4/15",
+              "value": 962
+            },
+            {
+              "year": "Q1/16",
+              "value": 950
+            },
+            {
+              "year": "Q2/16",
+              "value": 961
+            },
+            {
+              "year": "Q3/16",
+              "value": 973
+            },
+            {
+              "year": "Q4/16",
+              "value": 1062
+            }
+          ],
+          "label": "MDKK",
+          "chart": "bar"
+        }
+      ],
+      "group": [
+        {
+          "title": "Net profit",
+          "notes": [],
+          "data": [
+            {
+              "name": "Net profit",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 707
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 682
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 743
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 693
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 745
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 751
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 749
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 805
+                }
+              ],
+              "label": "MDKK",
+              "chart": "bar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Balance sheet",
+      "notes": [],
+      "data": [
+        {
+          "name": "Total assets",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 18471
+            },
+            {
+              "year": "Q2/15",
+              "value": 18326
+            },
+            {
+              "year": "Q3/15",
+              "value": 17916
+            },
+            {
+              "year": "Q4/15",
+              "value": 17791
+            },
+            {
+              "year": "Q1/16",
+              "value": 17529
+            },
+            {
+              "year": "Q2/16",
+              "value": 17757
+            },
+            {
+              "year": "Q3/16",
+              "value": 17814
+            },
+            {
+              "year": "Q4/16",
+              "value": 18659
+            }
+          ],
+          "label": "MDKK",
+          "chart": "bar"
+        },
+        {
+          "name": "Shareholders' equity",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 11268
+            },
+            {
+              "year": "Q2/15",
+              "value": 11196
+            },
+            {
+              "year": "Q3/15",
+              "value": 11097
+            },
+            {
+              "year": "Q4/15",
+              "value": 11593
+            },
+            {
+              "year": "Q1/16",
+              "value": 10633
+            },
+            {
+              "year": "Q2/16",
+              "value": 10963
+            },
+            {
+              "year": "Q3/16",
+              "value": 10972
+            },
+            {
+              "year": "Q4/16",
+              "value": 11745
+            }
+          ],
+          "label": "MDKK",
+          "chart": "bar"
+        },
+        {
+          "name": "Total liabilities",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 7203
+            },
+            {
+              "year": "Q2/15",
+              "value": 7130
+            },
+            {
+              "year": "Q3/15",
+              "value": 6819
+            },
+            {
+              "year": "Q4/15",
+              "value": 6198
+            },
+            {
+              "year": "Q1/16",
+              "value": 6896
+            },
+            {
+              "year": "Q2/16",
+              "value": 6794
+            },
+            {
+              "year": "Q3/16",
+              "value": 6842
+            },
+            {
+              "year": "Q4/16",
+              "value": 6914
+            }
+          ],
+          "label": "MDKK",
+          "chart": "bar"
+        },
+        {
+          "name": "Net interest-bearing debt",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 210
+            },
+            {
+              "year": "Q2/15",
+              "value": -62
+            },
+            {
+              "year": "Q3/15",
+              "value": 213
+            },
+            {
+              "year": "Q4/15",
+              "value": 437
+            },
+            {
+              "year": "Q1/16",
+              "value": 1252
+            },
+            {
+              "year": "Q2/16",
+              "value": 1136
+            },
+            {
+              "year": "Q3/16",
+              "value": 1138
+            },
+            {
+              "year": "Q4/16",
+              "value": 990
+            }
+          ],
+          "label": "MDKK",
+          "chart": "bar"
+        }
+      ],
+      "group": [
+        {
+          "title": "Assets",
+          "notes": [],
+          "data": [
+            {
+              "name": "Non-current assets",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 11784
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 11459
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 11398
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 11643
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 11279
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 11539
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 11738
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 12266
+                }
+              ],
+              "label": "MDKK",
+              "chart": "column"
+            },
+            {
+              "name": "Current assets",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 6687
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 6867
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 6518
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 6148
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 6250
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 6218
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 6076
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 6393
+                }
+              ],
+              "label": "MDKK",
+              "chart": "column"
+            },
+            {
+              "name": "Total assets",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 18471
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 18326
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 17916
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 17791
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 17529
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 17757
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 17814
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 18659
+                }
+              ],
+              "label": "MDKK",
+              "chart": "line"
+            }
+          ]
+        },
+        {
+          "title": "Liabilities & Shareholders' equity",
+          "notes": [],
+          "data": [
+            {
+              "name": "Shareholders' equity",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 11268
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 11196
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 11097
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 11593
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 10633
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 10963
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 10972
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 11745
+                }
+              ],
+              "label": "MDKK",
+              "chart": "bar"
+            },
+            {
+              "name": "Non-current liabilities",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 3133
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 2980
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 3006
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 2898
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 2904
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 3337
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 3432
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 3352
+                }
+              ],
+              "label": "MDKK",
+              "chart": "bar"
+            },
+            {
+              "name": "Current liabilities",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 4070
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 4150
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 3813
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 3300
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 3992
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 3457
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 3410
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 3562
+                }
+              ],
+              "label": "MDKK",
+              "chart": "bar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statement of Cash Flows",
+      "notes": [],
+      "data": [
+        {
+          "name": "Cash flow from operating activities",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 762
+            },
+            {
+              "year": "Q2/15",
+              "value": 1225
+            },
+            {
+              "year": "Q3/15",
+              "value": 688
+            },
+            {
+              "year": "Q4/15",
+              "value": 664
+            },
+            {
+              "year": "Q1/16",
+              "value": 776
+            },
+            {
+              "year": "Q2/16",
+              "value": 1120
+            },
+            {
+              "year": "Q3/16",
+              "value": 1072
+            },
+            {
+              "year": "Q4/16",
+              "value": 872
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Cash flow from investing activities before acquisitions and purchase of financial assets",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": -152
+            },
+            {
+              "year": "Q2/15",
+              "value": -219
+            },
+            {
+              "year": "Q3/15",
+              "value": -282
+            },
+            {
+              "year": "Q4/15",
+              "value": -362
+            },
+            {
+              "year": "Q1/16",
+              "value": -139
+            },
+            {
+              "year": "Q2/16",
+              "value": -403
+            },
+            {
+              "year": "Q3/16",
+              "value": -204
+            },
+            {
+              "year": "Q4/16",
+              "value": -442
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Cash flow from financing activities",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": -1877
+            },
+            {
+              "year": "Q2/15",
+              "value": -682
+            },
+            {
+              "year": "Q3/15",
+              "value": -775
+            },
+            {
+              "year": "Q4/15",
+              "value": -347
+            },
+            {
+              "year": "Q1/16",
+              "value": -965
+            },
+            {
+              "year": "Q2/16",
+              "value": -586
+            },
+            {
+              "year": "Q3/16",
+              "value": -657
+            },
+            {
+              "year": "Q4/16",
+              "value": -276
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Net cash flow",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": -1302
+            },
+            {
+              "year": "Q2/15",
+              "value": -324
+            },
+            {
+              "year": "Q3/15",
+              "value": -388
+            },
+            {
+              "year": "Q4/15",
+              "value": -233
+            },
+            {
+              "year": "Q1/16",
+              "value": -328
+            },
+            {
+              "year": "Q2/16",
+              "value": 131
+            },
+            {
+              "year": "Q3/16",
+              "value": 60
+            },
+            {
+              "year": "Q4/16",
+              "value": 144
+            }
+          ],
+          "label": "MDKK",
+          "chart": "line"
+        }
+      ]
+    },
+    {
+      "name": "Key figures",
+      "group": [
+        {
+          "title": "Revenue growth",
+          "notes": [],
+          "data": [
+            {
+              "name": "Revenue growth",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 18
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 15
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 14
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 12
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 1
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 0
+                },
+                {
+                  "year": "Q3/16",
+                  "value": -1
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 1
+                }
+              ],
+              "label": "%",
+              "chart": "line"
+            },
+            {
+              "name": "Research and development costs/Revenue",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 13.0
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 14.7
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 13.4
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 13.1
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 13.9
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 13.3
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 12.3
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 13.8
+                }
+              ],
+              "label": "%",
+              "chart": "line"
+            }
+          ]
+        },
+        {
+          "title": "Equity and debt",
+          "notes": [
+            "Key ratios have been prepared in accordance with the Danish Society of Financial Analysts' \"Recommendations & Financial Ratios 2010\""
+          ],
+          "data": [
+            {
+              "name": "Return on equity",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 25.1
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 24.7
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 25.4
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 24.7
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 26.8
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 26.5
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 26.5
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 26.1
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            },
+            {
+              "name": "Debt-to-equity ratio",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 1.9
+                },
+                {
+                  "year": "Q2/15",
+                  "value": -0.6
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 1.9
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 3.8
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 11.8
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 10.4
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 10.4
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 8.4
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            },
+            {
+              "name": "Equity ratio",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 61.0
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 61.1
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 61.9
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 65.2
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 60.7
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 61.7
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 61.6
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 62.9
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            }
+          ]
+        },
+        {
+          "title": "EPS and dividends",
+          "notes": [],
+          "data": [
+            {
+              "name": "Earnings per share DKK 2 share",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 2.29
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 2.22
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 2.43
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 2.28
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 2.45
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 2.49
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 2.50
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 2.71
+                }
+              ],
+              "dec": 2,
+              "label": "DKK",
+              "chart": "bar"
+            },
+            {
+              "name": "Earnings per share DKK 2 (diluted)",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 2.27
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 2.20
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 2.41
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 2.25
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 2.43
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 2.46
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 2.48
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 2.69
+                }
+              ],
+              "dec": 2,
+              "label": "DKK",
+              "chart": "bar"
+            }
+          ]
+        },
+        {
+          "title": "Per revenue data",
+          "notes": [],
+          "data": [
+            {
+              "name": "Net Investments/Revenue",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 4.2
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 6.3
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 8.0
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 8.2
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 3.9
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 11.8
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 5.8
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 12.8
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            },
+            {
+              "name": "Free cash flow before acq. and purchase of financial assets/Revenue",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 17.0
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 29.2
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 11.5
+                },
+                {
+                  "year": "Q4/15",
+                  "value": -17.4
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 17.7
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 12.2
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 24.6
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 12.5
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            },
+            {
+              "name": "Return on invested capital (ROIC), including goodwill",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 26.6
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 26.4
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 26.6
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 25.9
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 25.0
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 25.4
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 25.3
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 25.1
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            }
+          ]
+        },
+        {
+          "title": "R&D costs and margins",
+          "notes": [],
+          "data": [
+            {
+              "name": "EBIT margin",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 27.4
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 27.0
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 28.8
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 27.9
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 26.3
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 28.0
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 28.7
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 28.6
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            },
+            {
+              "name": "Gross margin",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 57.7
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 58.1
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 58.8
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 57.6
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 57.6
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 58.3
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 57.3
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 56.7
+                }
+              ],
+              "dec": 1,
+              "label": "%",
+              "chart": "line"
+            },
+            {
+              "name": "Research and development costs",
+              "data": [
+                {
+                  "year": "Q1/15",
+                  "value": 467
+                },
+                {
+                  "year": "Q2/15",
+                  "value": 507
+                },
+                {
+                  "year": "Q3/15",
+                  "value": 471
+                },
+                {
+                  "year": "Q4/15",
+                  "value": 451
+                },
+                {
+                  "year": "Q1/16",
+                  "value": 502
+                },
+                {
+                  "year": "Q2/16",
+                  "value": 456
+                },
+                {
+                  "year": "Q3/16",
+                  "value": 432
+                },
+                {
+                  "year": "Q4/16",
+                  "value": 475
+                }
+              ],
+              "label": "MDKK",
+              "chart": "column"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sales by geographical area",
+      "notes": [],
+      "data": [
+        {
+          "name": "Europe, Middle East & Africa",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 1214
+            },
+            {
+              "year": "Q2/15",
+              "value": 1186
+            },
+            {
+              "year": "Q3/15",
+              "value": 1300
+            },
+            {
+              "year": "Q4/15",
+              "value": 1162
+            },
+            {
+              "year": "Q1/16",
+              "value": 1340
+            },
+            {
+              "year": "Q2/16",
+              "value": 1246
+            },
+            {
+              "year": "Q3/16",
+              "value": 1261
+            },
+            {
+              "year": "Q4/16",
+              "value": 1260
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "North America",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 1363
+            },
+            {
+              "year": "Q2/15",
+              "value": 1291
+            },
+            {
+              "year": "Q3/15",
+              "value": 1118
+            },
+            {
+              "year": "Q4/15",
+              "value": 1241
+            },
+            {
+              "year": "Q1/16",
+              "value": 1275
+            },
+            {
+              "year": "Q2/16",
+              "value": 1141
+            },
+            {
+              "year": "Q3/16",
+              "value": 1063
+            },
+            {
+              "year": "Q4/16",
+              "value": 1276
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Asia Pacific",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 658
+            },
+            {
+              "year": "Q2/15",
+              "value": 662
+            },
+            {
+              "year": "Q3/15",
+              "value": 669
+            },
+            {
+              "year": "Q4/15",
+              "value": 679
+            },
+            {
+              "year": "Q1/16",
+              "value": 692
+            },
+            {
+              "year": "Q2/16",
+              "value": 695
+            },
+            {
+              "year": "Q3/16",
+              "value": 673
+            },
+            {
+              "year": "Q4/16",
+              "value": 731
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Latin America",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 344
+            },
+            {
+              "year": "Q2/15",
+              "value": 310
+            },
+            {
+              "year": "Q3/15",
+              "value": 435
+            },
+            {
+              "year": "Q4/15",
+              "value": 370
+            },
+            {
+              "year": "Q1/16",
+              "value": 302
+            },
+            {
+              "year": "Q2/16",
+              "value": 347
+            },
+            {
+              "year": "Q3/16",
+              "value": 393
+            },
+            {
+              "year": "Q4/16",
+              "value": 447
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        }
+      ]
+    },
+    {
+      "name": "Sales by industry",
+      "notes": [],
+      "data": [
+        {
+          "name": "Total Sales",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 3579
+            },
+            {
+              "year": "Q2/15",
+              "value": 3449
+            },
+            {
+              "year": "Q3/15",
+              "value": 3522
+            },
+            {
+              "year": "Q4/15",
+              "value": 3452
+            },
+            {
+              "year": "Q1/16",
+              "value": 3609
+            },
+            {
+              "year": "Q2/16",
+              "value": 3429
+            },
+            {
+              "year": "Q3/16",
+              "value": 3390
+            },
+            {
+              "year": "Q4/16",
+              "value": 3714
+            }
+          ],
+          "label": "MDKK",
+          "chart": "line"
+        },
+        {
+          "name": "Household Care",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 1127
+            },
+            {
+              "year": "Q2/15",
+              "value": 1138
+            },
+            {
+              "year": "Q3/15",
+              "value": 1219
+            },
+            {
+              "year": "Q4/15",
+              "value": 1148
+            },
+            {
+              "year": "Q1/16",
+              "value": 1176
+            },
+            {
+              "year": "Q2/16",
+              "value": 1154
+            },
+            {
+              "year": "Q3/16",
+              "value": 1154
+            },
+            {
+              "year": "Q4/16",
+              "value": 1218
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Food & Beverages",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 921
+            },
+            {
+              "year": "Q2/15",
+              "value": 925
+            },
+            {
+              "year": "Q3/15",
+              "value": 969
+            },
+            {
+              "year": "Q4/15",
+              "value": 900
+            },
+            {
+              "year": "Q1/16",
+              "value": 926
+            },
+            {
+              "year": "Q2/16",
+              "value": 930
+            },
+            {
+              "year": "Q3/16",
+              "value": 947
+            },
+            {
+              "year": "Q4/16",
+              "value": 937
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Bioenergy",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 660
+            },
+            {
+              "year": "Q2/15",
+              "value": 628
+            },
+            {
+              "year": "Q3/15",
+              "value": 639
+            },
+            {
+              "year": "Q4/15",
+              "value": 616
+            },
+            {
+              "year": "Q1/16",
+              "value": 626
+            },
+            {
+              "year": "Q2/16",
+              "value": 570
+            },
+            {
+              "year": "Q3/16",
+              "value": 579
+            },
+            {
+              "year": "Q4/16",
+              "value": 663
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Agriculture & Feed",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 649
+            },
+            {
+              "year": "Q2/15",
+              "value": 492
+            },
+            {
+              "year": "Q3/15",
+              "value": 465
+            },
+            {
+              "year": "Q4/15",
+              "value": 524
+            },
+            {
+              "year": "Q1/16",
+              "value": 582
+            },
+            {
+              "year": "Q2/16",
+              "value": 496
+            },
+            {
+              "year": "Q3/16",
+              "value": 452
+            },
+            {
+              "year": "Q4/16",
+              "value": 676
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        },
+        {
+          "name": "Technical & Pharma",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 222
+            },
+            {
+              "year": "Q2/15",
+              "value": 266
+            },
+            {
+              "year": "Q3/15",
+              "value": 230
+            },
+            {
+              "year": "Q4/15",
+              "value": 264
+            },
+            {
+              "year": "Q1/16",
+              "value": 299
+            },
+            {
+              "year": "Q2/16",
+              "value": 279
+            },
+            {
+              "year": "Q3/16",
+              "value": 258
+            },
+            {
+              "year": "Q4/16",
+              "value": 220
+            }
+          ],
+          "label": "MDKK",
+          "chart": "column"
+        }
+      ]
+    },
+    {
+      "name": "Environmental and social data",
+      "notes": [],
+      "data": [
+        {
+          "name": "Water efficiency improvement on 2014",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 3
+            },
+            {
+              "year": "Q2/15",
+              "value": 5
+            },
+            {
+              "year": "Q3/15",
+              "value": 7
+            },
+            {
+              "year": "Q4/15",
+              "value": 9
+            },
+            {
+              "year": "Q1/16",
+              "value": 11
+            },
+            {
+              "year": "Q2/16",
+              "value": 11
+            },
+            {
+              "year": "Q3/16",
+              "value": 8
+            },
+            {
+              "year": "Q4/16",
+              "value": 6
+            }
+          ],
+          "label": "%",
+          "chart": "line"
+        },
+        {
+          "name": "Energy efficiency improvement on 2014",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 5
+            },
+            {
+              "year": "Q2/15",
+              "value": 7
+            },
+            {
+              "year": "Q3/15",
+              "value": 11
+            },
+            {
+              "year": "Q4/15",
+              "value": 15
+            },
+            {
+              "year": "Q1/16",
+              "value": 16
+            },
+            {
+              "year": "Q2/16",
+              "value": 15
+            },
+            {
+              "year": "Q3/16",
+              "value": 12
+            },
+            {
+              "year": "Q4/16",
+              "value": 10
+            }
+          ],
+          "label": "%",
+          "chart": "line"
+        },
+        {
+          "name": "CO2 intensity reduction vs. 2014",
+          "data": [
+            {
+              "year": "Q1/15",
+              "value": 5
+            },
+            {
+              "year": "Q2/15",
+              "value": 7
+            },
+            {
+              "year": "Q3/15",
+              "value": 12
+            },
+            {
+              "year": "Q4/15",
+              "value": 17
+            },
+            {
+              "year": "Q1/16",
+              "value": 21
+            },
+            {
+              "year": "Q2/16",
+              "value": 20
+            },
+            {
+              "year": "Q3/16",
+              "value": 18
+            },
+            {
+              "year": "Q4/16",
+              "value": 16
+            }
+          ],
+          "label": "%",
+          "chart": "line"
+        }
+      ]
+    }
+  ]
+}

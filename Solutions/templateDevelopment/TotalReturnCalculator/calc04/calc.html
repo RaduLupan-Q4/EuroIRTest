@@ -1,0 +1,939 @@
+<!-- Header Start -->
+
+<base href="http://ir1.euroinvestor.com/asp/ir/GemDiamonds/calc.aspx" target="_blank">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Gem Diamonds - Investor Relations</title>
+    <meta name="description" content="share price calculator." />
+    <meta name="keywords" content="share, share price, calculate, yield" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="datepicker.css" type="text/css" />
+      <script type="text/javascript">
+
+
+
+          $(function () {
+              setInterval(function () { respons(); }, 500);
+          });
+
+
+          function respons() {
+              if ($(window).width() < 560) {
+                  $('.remove').addClass('hide');
+                  $('.insert').removeClass('hide');
+
+              } else {
+                  $('.insert').addClass('hide');
+                  $('.remove').removeClass('hide');
+              }
+          }
+    </script>
+    <style type="text/css">
+        ::-webkit-input-placeholder {
+            font-size: 11px;
+            font-family: Arial;
+        }
+
+        :-moz-placeholder { /* Firefox 18- */
+            font-size: 11px;
+            font-family: Arial;
+        }
+
+        ::-moz-placeholder { /* Firefox 19+ */
+            font-size: 11px;
+            font-family: Arial;
+        }
+
+        :-ms-input-placeholder {
+            font-size: 11px;
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body ">
+
+    
+    <input type="hidden" name="language" id="language" value="en">
+    
+
+    <div>
+        <form method="post" name="investmentCalculator" action="calc.aspx?listing=0" target="_self">
+            <input type="hidden" name="language" id="Hidden1" value="en" />
+            <input type="hidden" name="stockid" id="stockid" value="612898">
+            <script type="text/javascript">
+                ///<returns>Date as array, with tag id's starting with "type+{day,month,year}".</returns>
+                function getDate(type) {
+                    var ret = [];
+                    var val = function (name) { return document.getElementById(type + name).value; }
+                    ret.push(val("day"), val("month"), val("year"));
+                    return ret;
+                }
+                function changeListing(listing) {
+                    var pageURL = 'calc.aspx';
+                    pageURL += '?listing=' + listing;
+                    window.location = pageURL;
+                }
+            </script>
+
+            
+
+            <!--<iframe src="CurrentValueCalculator.aspx?" style="width: 100%; height: 180px; overflow: hidden;"></iframe>-->
+            
+            <span style="font-size: 14px; font-weight: bold;  width: 100%;">Calculate the value of your holding</span>
+            <table style="border: none; width: 100%; border-collapse: collapse; margin: 0; padding: 0;margin-bottom:20px; margin-top: 10px;">
+                <tr style="height: 27px; line-height: 27px;">
+                    <!-- Listing -->
+                    <th style="text-align: left;">The current share price is </th>
+                    <td style="text-align:right" id="lastPrice" lastprice="1.27">1.27 £</td>
+                </tr>
+                                    
+                <tr>
+                    <th style="text-align: left; height: 27px; line-height: 27px;">
+                        Enter the number of shares that you own
+                    </th>
+                    <td style="text-align:right">
+                        <input autocomplete="off" placeholder="" class="calculationMethod_noSharesYouOwn" style="width: 119px; right: 0px; position: relative; top: 0px; line-height: 18px; height: 18px;" type="text" id="amount" value="" />
+                        <!--<label for="InvestedTypeShares"><span id="holdingBasedOnSharesYouOwn"></span></label>-->
+                    </td>
+                </tr>
+                <tr style="height: 27px; line-height: 27px;">
+                    <th style="text-align: left;">
+                        Use the Calculate button to work out the value of your holding
+                    </th>
+                    <td style="text-align:right; padding-top: 5px;">
+                        <input type="button" class="styledButton2 calculation_holdingBasedOnSharesYouOwn" value="Calculate" />
+                    </td>
+                </tr>
+                <tr style="height: 27px; line-height: 27px;">
+                    <th style="text-align: left;">
+                        The value of your holding currently stands at
+
+                    </th>
+                    <td style="text-align:right">
+                        <span id="holdingBasedOnSharesYouOwn">0.00</span> £
+                    </td>
+                </tr>
+            </table>
+
+                        <span style="font-size: 14px; font-weight: bold;  width: 100%;">Calculate the change in value of your holding</span>
+
+            <table class="lookupCalc" style="margin-bottom: 20px; margin-top: 10px;" border="0" cellspacing="0">
+                <tr>
+                    <td style="text-align: center; border: 0px; padding-bottom: 0px;">
+                        
+                        
+                        
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; border: 0px; ">
+                        <table style="border: none; width: 100%; border-collapse: collapse; margin: 0; padding: 0;">
+                            
+                            
+                            <!-- startdate -->
+                            <tr>
+                                <th style="text-align: left;">
+                                    
+                                    Select the date of purchase: (date, month, year)
+                                </th>
+                                
+                                <td style="text-align: right;">
+                                    
+
+                                    
+                                    <label for="startday" style="display: none;">start day</label><select name="startday" id="startday" class="form_field" style=" height: 20px;">
+                                        
+                                        <option value="01" >
+                                            01
+                                        </option>
+                                        
+                                        <option value="02" >
+                                            02
+                                        </option>
+                                        
+                                        <option value="03" >
+                                            03
+                                        </option>
+                                        
+                                        <option value="04" >
+                                            04
+                                        </option>
+                                        
+                                        <option value="05" >
+                                            05
+                                        </option>
+                                        
+                                        <option value="06" >
+                                            06
+                                        </option>
+                                        
+                                        <option value="07" >
+                                            07
+                                        </option>
+                                        
+                                        <option value="08" >
+                                            08
+                                        </option>
+                                        
+                                        <option value="09" >
+                                            09
+                                        </option>
+                                        
+                                        <option value="10" >
+                                            10
+                                        </option>
+                                        
+                                        <option value="11" >
+                                            11
+                                        </option>
+                                        
+                                        <option value="12" >
+                                            12
+                                        </option>
+                                        
+                                        <option value="13"  selected="selected" >
+                                            13
+                                        </option>
+                                        
+                                        <option value="14" >
+                                            14
+                                        </option>
+                                        
+                                        <option value="15" >
+                                            15
+                                        </option>
+                                        
+                                        <option value="16" >
+                                            16
+                                        </option>
+                                        
+                                        <option value="17" >
+                                            17
+                                        </option>
+                                        
+                                        <option value="18" >
+                                            18
+                                        </option>
+                                        
+                                        <option value="19" >
+                                            19
+                                        </option>
+                                        
+                                        <option value="20" >
+                                            20
+                                        </option>
+                                        
+                                        <option value="21" >
+                                            21
+                                        </option>
+                                        
+                                        <option value="22" >
+                                            22
+                                        </option>
+                                        
+                                        <option value="23" >
+                                            23
+                                        </option>
+                                        
+                                        <option value="24" >
+                                            24
+                                        </option>
+                                        
+                                        <option value="25" >
+                                            25
+                                        </option>
+                                        
+                                        <option value="26" >
+                                            26
+                                        </option>
+                                        
+                                        <option value="27" >
+                                            27
+                                        </option>
+                                        
+                                        <option value="28" >
+                                            28
+                                        </option>
+                                        
+                                        <option value="29" >
+                                            29
+                                        </option>
+                                        
+                                        <option value="30" >
+                                            30
+                                        </option>
+                                        
+                                        <option value="31" >
+                                            31
+                                        </option>
+                                        
+                                    </select>
+                                    <label for="startmonth" style="display: none;">start month</label><select name="startmonth" id="startmonth" class="form_field" style="height: 20px;">
+                                        
+                                        <option value="01" >
+                                            Jan
+                                        </option>
+                                        
+                                        <option value="02" >
+                                            Feb
+                                        </option>
+                                        
+                                        <option value="03" >
+                                            Mar
+                                        </option>
+                                        
+                                        <option value="04" >
+                                            Apr
+                                        </option>
+                                        
+                                        <option value="05" >
+                                            May
+                                        </option>
+                                        
+                                        <option value="06" >
+                                            Jun
+                                        </option>
+                                        
+                                        <option value="07"  selected="selected" >
+                                            Jul
+                                        </option>
+                                        
+                                        <option value="08" >
+                                            Aug
+                                        </option>
+                                        
+                                        <option value="09" >
+                                            Sep
+                                        </option>
+                                        
+                                        <option value="10" >
+                                            Oct
+                                        </option>
+                                        
+                                        <option value="11" >
+                                            Nov
+                                        </option>
+                                        
+                                        <option value="12" >
+                                            Dec
+                                        </option>
+                                        
+                                    </select>
+                                    <label for="startyear" style="display: none;">start year</label><select name="startyear" id="startyear" class="form_field" style=" height: 20px;">
+                                        
+                                        <option value="1992" >
+                                            1992
+                                        </option>
+                                        
+                                        <option value="1993" >
+                                            1993
+                                        </option>
+                                        
+                                        <option value="1994" >
+                                            1994
+                                        </option>
+                                        
+                                        <option value="1995" >
+                                            1995
+                                        </option>
+                                        
+                                        <option value="1996" >
+                                            1996
+                                        </option>
+                                        
+                                        <option value="1997" >
+                                            1997
+                                        </option>
+                                        
+                                        <option value="1998" >
+                                            1998
+                                        </option>
+                                        
+                                        <option value="1999" >
+                                            1999
+                                        </option>
+                                        
+                                        <option value="2000" >
+                                            2000
+                                        </option>
+                                        
+                                        <option value="2001" >
+                                            2001
+                                        </option>
+                                        
+                                        <option value="2002" >
+                                            2002
+                                        </option>
+                                        
+                                        <option value="2003" >
+                                            2003
+                                        </option>
+                                        
+                                        <option value="2004" >
+                                            2004
+                                        </option>
+                                        
+                                        <option value="2005" >
+                                            2005
+                                        </option>
+                                        
+                                        <option value="2006" >
+                                            2006
+                                        </option>
+                                        
+                                        <option value="2007" >
+                                            2007
+                                        </option>
+                                        
+                                        <option value="2008" >
+                                            2008
+                                        </option>
+                                        
+                                        <option value="2009" >
+                                            2009
+                                        </option>
+                                        
+                                        <option value="2010" >
+                                            2010
+                                        </option>
+                                        
+                                        <option value="2011" >
+                                            2011
+                                        </option>
+                                        
+                                        <option value="2012" >
+                                            2012
+                                        </option>
+                                        
+                                        <option value="2013" >
+                                            2013
+                                        </option>
+                                        
+                                        <option value="2014" >
+                                            2014
+                                        </option>
+                                        
+                                        <option value="2015"  selected="selected" >
+                                            2015
+                                        </option>
+                                        
+                                        <option value="2016" >
+                                            2016
+                                        </option>
+                                        
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <!-- enddate -->
+                            <tr>
+                                <th style="text-align: left;">Enter the value of your holding (at purchase), GBP</th>
+                                <td>
+                                    <input autocomplete="off" placeholder="Value of Holding" class="calculationMethod_valueOfHolding" style="width: 119px; right: 0px; position: relative; top: 0px; line-height: 18px; height:18px;" type="text" id="amount" value="" />
+                                    <label for="InvestedTypeShares"><span id="InvestedTypeSharesLabel"></span></label>
+                                </td>
+                            </tr>
+                             <tr>
+                                <th style="text-align: left;">
+                                    Enter the number of shares that you own:																	
+                                </th>
+                                <td style="text-align: right;">
+                                    <input autocomplete="off" placeholder="Number of Shares" class="calculationMethod_noShares" style="width: 119px; right: 0px; position: relative; top: 0px; line-height: 18px; height: 18px;" type="text" name="InvestedType" id="InvestedTypeAmount" value="" />
+                                    <label for="InvestedTypeAmount" style="padding-right: 0px;"><span id="InvestedTypeAmountLabel"Z</span> <span id="amountcur"></span></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="text-align: left; float: none; vertical-align: middle;">Use the Calculate button to work out the value of your holding</th>
+                                <td style="text-align: right; margin-top: 5px; float: right;">
+                                    <input type="button" class="styledButton doCalculation" value="Calculate" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        
+        <center>							
+			
+        
+            <table class="lookupCalc IRTable" cellspacing="0" cellpadding="0" style="margin-top: 5px;">
+                <tr>
+                    <th>Estimated purchase price of your shares (per share)</th>
+                    <td style="width: 200px"><span id="out_purchasePriceOfSharesPerShare">0.00</span>&nbsp;£</td>
+                </tr>
+                <tr>
+                    <th>
+Total Dividend paid to date</th>
+                    <td><span id="out_dividendsPaidToDate">0.00</span>&nbsp;£</td>
+                </tr>
+                <tr>
+                    <th>
+The value of your holding currently stands at</th>
+                    <td><span id="out_currentValueOfHolding">0.00</span>&nbsp;£</td>
+                </tr>
+                <tr>
+                    <th>The Absolute change in value of your holding since purchase</th>
+                    <td><span id="out_changeInHolding_absolute">0.00</span>&nbsp;£</td>
+                </tr>
+                <tr>
+                    <th>The Percent change in value of your holding since purchase</th>
+                    <td><span id="out_changeInHolding_relative">0.00</span> %</td>
+                </tr>
+                <tr>
+                    <th>The value of your holding currently stands at (Dividend Reinvested)</th>
+                    <td><span id="out_reinvested_currentValueOfHolding">0.00</span>&nbsp;£</td>
+                </tr>
+                <tr>
+                    <th>The Absolute change in value of your holding since purchase (Dividend Reinvested)</th>
+                    <td><span id="out_reinvested_changeInHolding_absolute">0.00</span>&nbsp;£</td>
+                </tr>
+                <tr>
+                    <th>The Percent change in value of your holding since purchase (Dividend Reinvested)</th>
+                    <td><span id="out_reinvested_changeInHolding_relative">0.00</span> %</td>
+                </tr>
+            </table>
+        
+    <table class="lookupCalc" border="0" cellspacing="0" style="width:100%; padding: 0; margin-top: 20px;">          
+                <tr>
+                    <th style="font-weight: bold; font-size: 14px; height: 35px;">Share price look-up</th>
+                    <td></td>
+                </tr> 
+                <tr>
+                    <td style="vertical-align: top; border: 0px; width: 100%;">
+                        <table style="border: none; width: 100%; border-collapse: collapse; margin:0; padding:0;">
+                            <tr>
+                                <th style="text-align: left; width: 49%;">                                    
+                                	Period:
+                                </th>
+                                <td style="text-align: right; padding: 0;">
+                                    
+                                    <label for="startday" style="display: none;">start day</label><select name="startday" id="startday_lookup" class="form_field" style=" height: 20px;">
+                                        
+                                        <option value="01" >
+                                            01
+                                        </option>
+                                        
+                                        <option value="02" >
+                                            02
+                                        </option>
+                                        
+                                        <option value="03" >
+                                            03
+                                        </option>
+                                        
+                                        <option value="04" >
+                                            04
+                                        </option>
+                                        
+                                        <option value="05" >
+                                            05
+                                        </option>
+                                        
+                                        <option value="06" >
+                                            06
+                                        </option>
+                                        
+                                        <option value="07" >
+                                            07
+                                        </option>
+                                        
+                                        <option value="08" >
+                                            08
+                                        </option>
+                                        
+                                        <option value="09" >
+                                            09
+                                        </option>
+                                        
+                                        <option value="10" >
+                                            10
+                                        </option>
+                                        
+                                        <option value="11" >
+                                            11
+                                        </option>
+                                        
+                                        <option value="12" >
+                                            12
+                                        </option>
+                                        
+                                        <option value="13"  selected="selected" >
+                                            13
+                                        </option>
+                                        
+                                        <option value="14" >
+                                            14
+                                        </option>
+                                        
+                                        <option value="15" >
+                                            15
+                                        </option>
+                                        
+                                        <option value="16" >
+                                            16
+                                        </option>
+                                        
+                                        <option value="17" >
+                                            17
+                                        </option>
+                                        
+                                        <option value="18" >
+                                            18
+                                        </option>
+                                        
+                                        <option value="19" >
+                                            19
+                                        </option>
+                                        
+                                        <option value="20" >
+                                            20
+                                        </option>
+                                        
+                                        <option value="21" >
+                                            21
+                                        </option>
+                                        
+                                        <option value="22" >
+                                            22
+                                        </option>
+                                        
+                                        <option value="23" >
+                                            23
+                                        </option>
+                                        
+                                        <option value="24" >
+                                            24
+                                        </option>
+                                        
+                                        <option value="25" >
+                                            25
+                                        </option>
+                                        
+                                        <option value="26" >
+                                            26
+                                        </option>
+                                        
+                                        <option value="27" >
+                                            27
+                                        </option>
+                                        
+                                        <option value="28" >
+                                            28
+                                        </option>
+                                        
+                                        <option value="29" >
+                                            29
+                                        </option>
+                                        
+                                        <option value="30" >
+                                            30
+                                        </option>
+                                        
+                                        <option value="31" >
+                                            31
+                                        </option>
+                                        
+                                    </select>
+                                    <label for="startmonth" style="display: none;">start month</label><select name="startmonth" id="startmonth_lookup" class="form_field" style="height: 20px;">
+                                        
+                                        <option value="01" >
+                                            Jan
+                                        </option>
+                                        
+                                        <option value="02" >
+                                            Feb
+                                        </option>
+                                        
+                                        <option value="03" >
+                                            Mar
+                                        </option>
+                                        
+                                        <option value="04" >
+                                            Apr
+                                        </option>
+                                        
+                                        <option value="05" >
+                                            May
+                                        </option>
+                                        
+                                        <option value="06" >
+                                            Jun
+                                        </option>
+                                        
+                                        <option value="07"  selected="selected" >
+                                            Jul
+                                        </option>
+                                        
+                                        <option value="08" >
+                                            Aug
+                                        </option>
+                                        
+                                        <option value="09" >
+                                            Sep
+                                        </option>
+                                        
+                                        <option value="10" >
+                                            Oct
+                                        </option>
+                                        
+                                        <option value="11" >
+                                            Nov
+                                        </option>
+                                        
+                                        <option value="12" >
+                                            Dec
+                                        </option>
+                                        
+                                    </select>
+                                    <label for="startyear" style="display: none;">start year</label><select name="startyear" id="startyear_lookup" class="form_field" style=" height: 20px;">
+                                        
+                                        <option value="2006" >
+                                            2006
+                                        </option>
+                                        
+                                        <option value="2007" >
+                                            2007
+                                        </option>
+                                        
+                                        <option value="2008" >
+                                            2008
+                                        </option>
+                                        
+                                        <option value="2009" >
+                                            2009
+                                        </option>
+                                        
+                                        <option value="2010" >
+                                            2010
+                                        </option>
+                                        
+                                        <option value="2011" >
+                                            2011
+                                        </option>
+                                        
+                                        <option value="2012" >
+                                            2012
+                                        </option>
+                                        
+                                        <option value="2013" >
+                                            2013
+                                        </option>
+                                        
+                                        <option value="2014" >
+                                            2014
+                                        </option>
+                                        
+                                        <option value="2015"  selected="selected"
+                                            >
+                                            2015
+                                        </option>
+                                        
+                                        <option value="2016" >
+                                            2016
+                                        </option>
+                                        
+                                    </select>                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="border: none; text-align: left; width: 49%;">
+                                    Use the Lookup button to work out the value of your holding</th>
+                                <td style="padding-top:5px; text-align: right;">
+                                    <input type="button" class="lookupButton styledButton" value="Calculate" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Share Price</th>
+                                <td><span id="lookupOutput">0.00</span> £</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        
+
+<table style="width: 100%; border: 0px; padding: 0px; margin: 0px;">
+
+    <tr>
+        <td style="text-align: center; font-size: 10px; font-family: Arial;">
+            Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/" target="_blank" title="EuroInvestor Investor Relation Services" 
+                style="text-align: center; font-size: 10px; font-family: Arial; color: #000;">EuroInvestor</a> and our data suppliers. <br />
+            
+            Data delayed by 15-20 min. <br />
+            
+            See <a target="_blank" href="http://ir1.euroinvestor.com/asp/ir/Disclaimers/MainDisclaimer.aspx" style="text-align: center; font-size: 10px; font-family: Arial;color: #000;">Terms of use</a>
+        </td>
+    </tr>
+
+</table>
+
+    </div>
+      <script type="text/javascript">
+
+
+
+          $(function () {
+              var inputType = '';// valueOfHoldingAtInvestmentDate OR numberOfSharesAtInvestmentDate
+              var InvestedType = '';
+              var inputAmount = '';
+
+
+              var noSharesBought = 0;
+              var purchasePriceOfSharesPerShare = 0;
+              var dividendsPaidToDate = 0;
+              var currentValueOfHolding = 0;
+              var changeInHolding_absolute = 0;
+              var changeInHolding_relative = 0;
+              var reinvested_currentValueOfHolding = 0;
+              var reinvested_changeInHolding_absolute = 0;
+              var reinvested_changeInHolding_relative = 0;
+
+              function setCalculationMethod_valueOfHolding() {
+                  inputType = 'valueOfHoldingAtInvestmentDate';
+                  $('.calculationMethod_noShares').val("");
+                  InvestedType = 'InvestedTypeAmount';
+              }
+              function setCalculationMethod_noShares() {
+                  inputType = 'numberOfSharesAtInvestmentDate';
+                  $('.calculationMethod_valueOfHolding').val("");
+                  InvestedType = 'InvestedTypeShares';
+              }
+
+              function outputCalculations() {
+                  /*console.log("noSharesBought : " + noSharesBought);
+                  console.log("purchasePriceOfSharesPerShare : " + purchasePriceOfSharesPerShare);
+                  console.log("dividendsPaidToDate : " + dividendsPaidToDate);
+                  console.log("currentValueOfHolding : " + currentValueOfHolding);
+                  console.log("changeInHolding_absolute : " + changeInHolding_absolute);
+                  console.log("changeInHolding_relative : " + changeInHolding_relative);
+                  console.log("reinvested_currentValueOfHolding : " + reinvested_currentValueOfHolding);
+                  console.log("reinvested_changeInHolding_absolute : " + reinvested_changeInHolding_absolute);
+                  console.log("reinvested_changeInHolding_relative : " + reinvested_changeInHolding_relative);*/
+                  setOutput('out_noSharesBought', noSharesBought, '');
+                  setOutput('out_purchasePriceOfSharesPerShare', purchasePriceOfSharesPerShare, 'convertFromPenceToPounds');
+                  setOutput('out_dividendsPaidToDate', dividendsPaidToDate, '');
+                  setOutput('out_currentValueOfHolding', currentValueOfHolding, '');
+                  setOutput('out_changeInHolding_absolute', changeInHolding_absolute, '');
+                  setOutput('out_changeInHolding_relative', changeInHolding_relative, '');
+                  setOutput('out_reinvested_currentValueOfHolding', reinvested_currentValueOfHolding, '');
+                  setOutput('out_reinvested_changeInHolding_absolute', reinvested_changeInHolding_absolute, '');
+                  setOutput('out_reinvested_changeInHolding_relative', reinvested_changeInHolding_relative, '');
+
+              }
+              function outputLookup() {
+                  setOutput('lookupOutput', purchasePriceOfSharesPerShare, 'convertFromPenceToPounds');
+              }
+              function setOutput(idName, valueOfField, customStyle) {
+                  if (customStyle = 'convertFromPenceToPounds') {
+                      $('#' + idName).html(parseFloat(valueOfField / 100).toFixed(2));
+                  } else {
+                      $('#' + idName).html(parseFloat(valueOfField).toFixed(2));
+                  }
+
+              }
+
+              function json_dividendOff(sendParameters) {
+                  $.getJSON("Calc_json/calc_json.aspx", sendParameters, function (json) {
+                      purchasePriceOfSharesPerShare = parseFloat(json.data.BuyPrice);
+                      noSharesBought = json.data.NoSharesBought;
+                      currentValueOfHolding = parseFloat(json.data.SellPrice) * parseFloat(noSharesBought);
+                      json_dividendCASH(sendParameters);
+                  });
+              }
+              function json_dividendCASH(sendParameters) {
+                  sendParameters.dividend = 'cash';
+                  $.getJSON("Calc_json/calc_json.aspx", sendParameters, function (json) {
+                      dividendsPaidToDate = json.data.ValueAtSellDate - currentValueOfHolding;
+                      changeInHolding_absolute = json.data.ValueAtSellDate - (parseFloat(json.data.BuyPrice) * parseFloat(noSharesBought));
+                      changeInHolding_relative = (changeInHolding_absolute / (parseFloat(json.data.BuyPrice) * parseFloat(noSharesBought)) * 100) - 0;
+                      json_dividendREINVEST(sendParameters);
+                  });
+
+              }
+              function json_dividendREINVEST(sendParameters) {
+                  sendParameters.dividend = 'reinvest';
+                  $.getJSON("Calc_json/calc_json.aspx", sendParameters, function (json) {
+                      reinvested_currentValueOfHolding = json.data.ValueAtSellDate;
+                      reinvested_changeInHolding_absolute = json.data.ValueAtSellDate - (parseFloat(json.data.BuyPrice) * parseFloat(noSharesBought));
+                      reinvested_changeInHolding_relative = (reinvested_changeInHolding_absolute / (parseFloat(json.data.BuyPrice) * parseFloat(noSharesBought))) * 100 - 0;
+                      outputCalculations();
+                  });
+              }
+              function json_lookup(sendParameters) {
+                  $.getJSON("Calc_json/calc_json.aspx", sendParameters, function (json) {
+                      purchasePriceOfSharesPerShare = parseFloat(json.data.BuyPrice);
+                      outputLookup();
+                  });
+              }
+              /*
+              
+              console.log("purchasePriceOfSharesPerShare : " + purchasePriceOfSharesPerShare);
+              console.log("dividendsPaidToDate : " + dividendsPaidToDate);
+              console.log("currentValueOfHolding : " + currentValueOfHolding);
+              console.log("changeInHolding_absolute : " + changeInHolding_absolute);
+              console.log("changeInHolding_relative : " + changeInHolding_relative);
+              console.log("reinvested_currentValueOfHolding : " + reinvested_currentValueOfHolding);
+              console.log("reinvested_changeInHolding_absolute : " + reinvested_changeInHolding_absolute);
+              console.log("reinvested_changeInHolding_relative : " + reinvested_changeInHolding_relative);
+              */
+
+
+              $('.lookupButton').click(function () {
+                  var sendParameters = {
+                      stockid: '612898',//612898515
+                      startday: $('#startday_lookup').val(),
+                      startmonth: $('#startmonth_lookup').val(),
+                      startyear: $('#startyear_lookup').val(),
+                      dividend: 'off',
+                      InvestedType: 'InvestedTypeShares',
+                      amount: '1'
+                  };
+                  json_lookup(sendParameters);
+              });
+              $('.doCalculation').click(function () {
+                  /*console.log(''); console.log('');*/
+                  var sendParameters = {
+                      stockid: '612898',//612898515
+                      startday: $('#startday').val(),
+                      startmonth: $('#startmonth').val(),
+                      startyear: $('#startyear').val(),
+                      dividend: 'off',
+                      InvestedType: InvestedType,
+                      amount: ''
+                  };
+                      if (InvestedType == 'InvestedTypeShares') {
+                          sendParameters.amount = $('.calculationMethod_noShares').val();
+                      }
+                      if (InvestedType == 'InvestedTypeAmount') {
+                          sendParameters.amount = parseFloat($('.calculationMethod_valueOfHolding').val() * 100);
+                      }
+                      json_dividendOff(sendParameters);
+                  });
+              $('.calculationMethod_valueOfHolding').click(function () {
+                  setCalculationMethod_valueOfHolding();
+              });
+              $('.calculationMethod_valueOfHolding').change(function () {
+                  setCalculationMethod_valueOfHolding();
+              });
+              $('.calculationMethod_noShares').click(function () {
+                  setCalculationMethod_noShares();
+              });
+              $('.calculationMethod_noShares').change(function () {
+                  setCalculationMethod_noShares();
+              });
+              $('.calculation_holdingBasedOnSharesYouOwn').click(function () {
+                  $('#holdingBasedOnSharesYouOwn').html(parseFloat($('#lastPrice').attr('lastprice')) * parseFloat($('.calculationMethod_noSharesYouOwn').val()));
+              });
+
+          });
+    </script>
+</body>
+</html>

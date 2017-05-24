@@ -1,0 +1,155 @@
+<base href="http://ir.euroinvestor.com/solutions/Raute/2378/lookup.aspx" target="_blank">
+<html dir="lrt">
+<head>
+    <title>IR Solutions, Euroinvestor</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635793031194669922" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=635890532135184019" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/includes/css/libs/jquery-ui1-11-1_smoothness.css?v=635810169525468128" />
+    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/Raute/2378/ir.client.css" />
+</head>
+<body>
+
+
+    <script type="text/javascript">
+        var activeModules = ["IRLookup"];
+    </script>
+
+    <div class="IRLookupModule">
+        <div class="IRChartColour"></div>
+        <span class="ajaxLoader">Loading</span>
+    </div>
+
+
+
+    <script id="IRLookupTemplate" type="text/x-handlebars-template">
+        <div class="IRChartLookupPlaceholder" style="display:none"></div>
+
+        <form id="lookup-table-form">
+            <div>
+                <label>From</label>
+                <input class="js-from" value="18-03-2015" id="datepicker-from" type="text" style="">
+            </div>
+            <div>
+                <label>To</label>
+                <input class="js-to" value="18-03-2016" id="datepicker-to" type="text">
+            </div>
+            <div>
+                <div class="submit" style="">Search</div>
+            </div>
+        </form>
+        <iframe src="about:blank" class="lookup-table" id="lookupIframe"></iframe>
+    </script>
+
+    <script id="IRLookupTableTemplate" type="text/x-handlebars-template">
+        <table class="IRLookupResultsTable table-look horizontal responsive">
+            <tr>
+                <th class="Header column-first date">{{headers/t_date}}</th>
+                <th class="Header open">{{headers/t_open}}</th>
+                <th class="Header high">{{headers/t_high}}</th>
+                <th class="Header low">{{headers/t_low}}</th>
+                <th class="Header">{{headers/t_close}}</th>
+                <th class="Header column-last volume">{{headers/t_volume}}</th>
+            </tr>
+            {{#each closePrices}}
+            <tr>
+                <td class="Data column-first date">{{date}}</td>
+                <td class="Data price">{{decimal openPrice 2}}</td>
+                <td class="Data high">{{decimal high 2}}</td>
+                <td class="Data low">{{decimal low 2}}</td>
+                <td class="Data">{{decimal closePrice 2}}</td>
+                <td class="Data column-last volume">{{volume}}</td>
+            </tr>
+            {{/each}}
+        </table>
+    </script>
+
+    <div class="disclaimer disclaimer-IRLookup">
+        <script type="text/javascript" src="/includes/js/libs/jquery2-1-4.min.js?v=635808478220682775"></script>
+        <script type="text/javascript" src="http://localhost/solutions/Raute/2378/ir.client.js"></script>
+        <script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=635893185104017734"></script>
+        <script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635793031199586841"></script>
+        <script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+        <script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+        <script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+        <script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+        <script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635793031199506909"></script>
+        <script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635793031198936378"></script>
+        <script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=635889809206474823"></script>
+        <script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=635890565104310821"></script>
+        <script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=635808478220057902"></script>
+        <script type="text/javascript" src="/inc/scripts/jsv.js?v=635793031199216579"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="/inc/scripts/core/ir.tool.lookup.js?v=635888936537776014"></script>
+        <script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=635890548722757094"></script>
+    </div>
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+    function updateTimeframe() {
+        var graphUrlTemplate = "http://devir.euroinvestor.com/Solutions/Raute/2378/lookup.aspx?mode=list&from=__FROM__&to=__TO__&frequency=Daily&listing=0";
+        var fromSplitted = $("input.js-from").val().split('-');
+        var toSplitted = $("input.js-to").val().split('-');
+
+        var graphUrl = graphUrlTemplate.replace(/__FROM__/, (fromSplitted[2] + '-' + fromSplitted[1] + '-' + fromSplitted[0])).replace(/__TO__/, (toSplitted[2] + '-' + toSplitted[1] + '-' + toSplitted[0]));
+        $('#lookupIframe').attr('src', graphUrl);
+    }
+    function initializeLookupCustom() {
+        $('#lookup-table-form div.submit').click(function () {
+            updateTimeframe();
+        });
+        if (getParameterByName("mode") === "list") {
+            $('body').css('overflow-y', 'scroll');
+            $('.disclaimer-IRLookup').css('display', 'none');
+        } else {
+            updateTimeframe();
+        }
+    }
+    $(function () {
+        var initiatedLookup = false;
+        setInterval(function () {
+            if (initiatedLookup == false) {
+                try {
+                    if ($('.IRChartLookupPlaceholder').html().length > 10 && initiatedLookup == false) { //If main Lookup handlebars loaded
+                        initializeLookupCustom();
+                        initiatedLookup = true;
+
+                        $("#datepicker-from").datepicker({
+                            dateFormat: "dd-mm-yy"
+                        });
+                        $("#datepicker-to").datepicker({
+                            dateFormat: "dd-mm-yy"
+                        });
+                    }
+                } catch (err) {
+                }
+                try {
+                    if ($('.IRLookupResultsTable').html().length > 200) {//If main LookupList handlebars loaded
+                        initializeLookupCustom();
+                        initiatedLookup = true;
+                    }
+                }
+                catch (err) {
+                }
+            }
+        }, 200);
+        setInterval(function () {
+            $('iframe').each(function () {
+
+                if ($(this).attr('scrolling') == 'no') {
+                    $(this).attr('scrolling', 'yes');
+                    $(this).attr("src", $(this).attr("src"));
+                }
+            });
+        }, 2000);
+        /**/
+    });
+</script>
+
+
+
+<link rel="stylesheet" href="lookup.css?v=635930488761213532" />

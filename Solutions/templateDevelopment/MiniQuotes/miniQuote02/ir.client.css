@@ -1,0 +1,347 @@
+
+body {
+    font-size: .75em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #3b454d;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+input[type=text] {
+}
+
+a {
+    color: inherit;
+}
+/*.formatColourPos::before{content:"+";}*/
+
+.divideLine {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+input, select {
+    padding: 0px 7px;
+    line-height: 36px;
+    height: 36px;
+    background-color: #fdfdfd;
+    border: 1px solid #e5e5e5;
+}
+
+    input:focus, select:focus {
+        color: #444;
+        border: 1px solid #aaa;
+        outline: none;
+        box-shadow: 0 0 3px rgba(0,0,0,.2);
+    }
+
+.wide-input {
+    width: 195px;
+}
+
+input[type=number] {
+}
+
+input[type=submit], input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit {
+    height: 47px;
+    line-height: 47px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    background: #f08484;
+    text-align: center;
+    box-shadow: none;
+    padding: 0px 34px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:hover {
+        background: #e87777;
+        box-shadow: none;
+        color: #fff;
+    }
+
+    input[type=submit]:focus, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:focus {
+        outline: none;
+        background: #e87777;
+    }
+
+.last .formatArrowNeg {
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    vertical-align: 8px;
+}
+
+.last .formatArrowPos {
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    vertical-align: 8px;
+}
+
+.IRQuoteModule {
+    font-size: 14px;
+}
+
+    .IRQuoteModule .name {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .IRQuoteModule .updated {
+        text-align: right;
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #95989d;
+        font-weight: 600;
+    }
+
+.table-look {
+    margin-bottom: 10px;
+    /*    table-layout: fixed;*/
+    border-collapse: collapse;
+}
+
+.IRMiniquoteModule .table-look {
+    border-bottom: 0;
+}
+
+.table-look tr {
+}
+
+.table-look td, .table-look th {
+    line-height: 48px;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #e5e5e5;
+    padding: 0;
+}
+
+/*
+.table-look td:after, .table-look th:after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 34px;
+    box-sizing: border-box;
+    background-color: #d5d4d0;
+    display: inline-block;
+    top: 8px;
+    left: 0px;
+}
+
+.table-look td:first-child:after, .table-look th:first-child:after{
+    content: "";
+    display: none;
+}
+*/
+
+/*
+.table-look tr:nth-child(odd){
+    background-color: #f5f6f3;
+}
+*/
+
+.IRNewsModule .IRNewsTool .IRDataGroup div.IRData, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    padding: 0 0 0 0;
+}
+
+.table-look th {
+    color: #fff;
+    background-color: #77787B;
+    border-color: #c7d5de;
+    font-weight: 600;
+}
+
+.table-look td {
+    color: #747474;
+}
+
+    .table-look td.formatColourPos, *.formatColourPos {
+        color: green;
+    }
+
+    .table-look td.formatColourNeg, *.formatColourNeg {
+        color: red;
+    }
+
+    .table-look th.column-first, .table-look td.column-first {
+        text-align: left;
+        padding-left: 10px;
+        border-left-width: 1px;
+    }
+
+    .table-look th.column-last, .table-look td.column-last {
+        text-align: right;
+        padding-right: 10px;
+        border-right-width: 1px;
+    }
+
+.timestamp {
+    text-align: center;
+}
+
+/* IRMiniquoteModule ===================================================== */
+.disclaimer-IRMiniquote {
+    display: none;
+}
+
+.IRMiniquoteModule {
+}
+
+.IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    font-size: 14px;
+}
+
+table.miniquoteChartTable {
+    width: 100%;
+    font-size: 12px;
+}
+
+.miniquoteChartTable td {
+    max-width: 100px;
+}
+
+    .miniquoteChartTable td.lastColumn {
+        text-align: right;
+        width: 90px;
+    }
+
+.miniquoteChartTable .Symbol {
+    vertical-align: middle;
+    font-size: 16px;
+    width: 40%;
+}
+
+.IRMiniQuoteQuoteModule .mQuoteTable {
+    width: 100%;
+    line-height: 1.7;
+}
+
+.mQuoteTable td.first-col {
+    width: 30%;
+}
+
+.mQuoteTable td.last-col {
+    text-align: right;
+}
+
+.IRMiniQuoteQuoteModule .updated {
+}
+
+.IRMiniQuoteQuoteModule .last, .IRMiniQuoteQuoteModule .currency {
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.IRMiniQuoteQuoteModule .currency {
+    font-size: 21px;
+}
+
+.IRMiniQuoteQuoteModule .change {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+    .IRMiniQuoteQuoteModule .change .decimals {
+        display: block;
+    }
+
+}
+
+.IRMiniQuoteQuoteModule .closeDate, .IRMiniQuoteQuoteModule .change, .IRMiniQuoteQuoteModule .delayed {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-weight: 400;
+}
+
+.IRMiniQuoteQuoteModule .closeDate {
+    font-weight: 300;
+    display: none;
+}
+
+.IRMiniQuoteQuoteModule .delayed {
+    font-size: 12px;
+}
+
+.IRMiniQuoteQuoteModule .divideLine {
+    margin-bottom: 28px;
+    margin-top: 35px;
+    border-bottom: 2px solid #cacaca;
+    width: 84%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.IRMiniQuoteQuoteModule .arrow {
+    width: 7px;
+    height: 6px;
+}
+
+    .IRMiniQuoteQuoteModule .arrow.formatArrowPos {
+        background-image: none;
+    }
+
+.IRMiniQuoteQuoteModule .sharePriceLink a {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 19px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    float: left;
+    background-image: url('images/arrowRight.png');
+    background-repeat: no-repeat;
+    background-position: 13% center;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLinkWrapper {
+}
+
+.miniquoteChartWrapper div {
+    line-height: 18px;
+    color: #3C4144;
+    text-indent: 5px;
+}
+
+    .miniquoteChartWrapper div.Header {
+        font-weight: 700;
+    }
+
+    .miniquoteChartWrapper div.Data {
+        padding-bottom: 3px;
+    }
+
+    .miniquoteChartWrapper div.formatColourNeg {
+        color: red;
+    }
+
+    .miniquoteChartWrapper div.formatColourPos {
+        color: green;
+    }
+
+/* End =================================================================== */
+

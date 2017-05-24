@@ -1,0 +1,51 @@
+.lookup-table{
+  height: auto;
+  border-bottom: 1px solid #a8a9a3;
+  padding-bottom: 20px;
+}
+
+.table-look th, .table-look td, label{
+  font-family: 'Fira Sans', sans-serif;
+  color: #585852;
+
+}
+
+.table-look th, .table-look td{
+  padding: 0;
+}
+.table-look th{
+  height: 40px;
+  line-height: 40px;
+}
+
+.table-look td{
+  line-height: 30px;
+  height: auto;
+}
+
+.table look tbody:nth-child(2){
+  padding-top: 10px;
+}
+
+.table-look th{
+  font-size: 18px;
+  font-weight: 500;
+  border-top: 1px solid #a8a9a3;
+  border-bottom: 1px solid #a8a9a3;
+  margin-bottom: 10px;
+}
+
+.IRLookupModule {
+    height: 350px;
+    overflow: scroll;
+}
+
+#lookup-table-form {
+    display: none;
+}
+
+@media only screen and (max-width: 571px){
+  #lookup-table-form .submit{
+    width: 100%;
+  }
+}

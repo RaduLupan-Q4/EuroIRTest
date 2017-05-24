@@ -1,0 +1,603 @@
+﻿
+body {
+    font-size: 9pt;
+    /*font-size: 16px;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+.table-look th, .table-look td {
+    border: none;
+    padding: 6px 12px;
+}
+
+.IRChartModule * {
+    font-size: 12px;
+}
+
+.IRChartModule .IRChartPlaceholderArea .IRChartChangePeriodOuter .IRChartChangePeriod div.activePeriod {
+    background-color: #3FA43C;
+}
+
+.IRChartColour {
+    color: rgb(63, 168, 54);
+}
+
+.IROrdersModule .orderDepthBarLeft .progress-bar {
+    background-color: rgb(63, 164, 60);
+}
+
+table.IRToolQuoteTable.table-look.responsive th {
+    font-weight: bold;
+    line-height: 11pt;
+}
+
+
+.IRCalcSection .floatBoxOuter {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    max-width: 600px;
+    float: none;
+    margin: auto;
+    border: 0px solid red;
+    height: 80px;
+}
+
+.IRCalcSection .floatBoxOuterRes {
+    max-width: 600px;
+    float: none;
+    margin: auto;
+    border: 0px solid red;
+    height: 80px;
+}
+
+.IRLookupSection .floatBoxOuter {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    max-width: 600px;
+    float: none;
+    margin: auto;
+    border: 0px solid red;
+    height: 80px;
+}
+
+.IRCalcSection .floatBox {
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.IRLookupSection .floatBox {
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+.IRCalcSection .floatBox.right {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 30px;
+}
+
+.IRLookupSection .floatBox.right {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+}
+
+.IRCalcModule .IRCalculateButton {
+    border: none;
+    background-color: #D42D27;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #D42D27;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    width: 200px;
+}
+
+    .IRCalcModule .IRCalculateButton:hover {
+        cursor: pointer;
+    }
+
+.IRLookupSection .IRLookupButton {
+    border: none;
+    background-color: #D42D27;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #D42D27;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    width: 200px;
+}
+
+    .IRLookupSection .IRLookupButton:hover {
+        cursor: pointer;
+    }
+
+.IRCalcSection .IRCalcButton {
+    border: none;
+    line-height: 30px;
+}
+
+.IRLookupSection .IRCalcButton {
+    border: none;
+    line-height: 30px;
+}
+
+
+h3 {
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    margin: 1.25rem 0rem .625rem 0rem;
+    vertical-align: baseline;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    line-height: 30px;
+    border: 1px solid #D9D9D9;
+    border-left: none;
+    border-right: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #404040;
+}
+
+.dividerBar {
+    border: 1px solid #D9D9D9;
+}
+
+.IRQuoteModule.profile-wrapper {
+    font-size: 16px;
+}
+/*select, input {
+    font-family: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    border: 1px solid #D9D9D9;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    width: 200px;
+}
+
+select {
+    padding-left: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+    -webkit-appearance: none;
+    -moz-appearance: radio-container;
+    appearance: none;
+    background-image: url('Images/dropdownArrow.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}*/
+
+select {
+    height: 20px;
+    /*height: auto;*/
+    cursor: pointer;
+    line-height: 12px;
+    font-family: inherit;
+    font-size: 9pt;
+    padding: 0px 12px;
+    max-width: 96px;
+}
+
+    select::-ms-expand {
+        display: none;
+    }
+
+.IRChangeListing select {
+    width: 290px;
+}
+
+input {
+    padding-left: 30px;
+    width: 170px;
+}
+
+.input-row {
+    position: relative;
+    height: 35px;
+}
+
+
+
+
+.calcResultOuter .floatBoxOuter,
+.calcResultOuter .floatBox {
+    line-height: 15px;
+    height: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+}
+
+.floatBoxOuter sup {
+    font-size: 12px;
+    vertical-align: super;
+}
+
+
+
+.floatBoxOuterRes {
+    width: 100%;
+    height: 30px;
+    clear: both;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .floatBoxOuterRes .floatBoxInner {
+        line-height: inherit;
+    }
+
+        .floatBoxOuterRes .floatBoxInner.left {
+            float: left;
+        }
+
+        .floatBoxOuterRes .floatBoxInner.right {
+            float: right;
+        }
+
+
+
+label {
+    font-size: 9pt;
+}
+
+
+
+input#from.hide-background, input#to.hide-background {
+    background: none;
+}
+
+.ui-datepicker-divHide {
+    display: none;
+}
+
+input#from, input#to {
+    background-image: url(images/calendar.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .IRNewsModule .news-filter-wrapper .textArea {
+        min-width: 100px;
+    }
+
+    .IRNewsModule .news-filter-wrapper #select-filter, .IRNewsModule .search-for-box input {
+        min-width: 175px;
+    }
+}
+
+
+
+@media only screen and (min-width: 572px) {
+    h3.vertical-header {
+        display: none;
+    }
+
+    .divideLine.vertical {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+
+    table.IRQuoteModule {
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+
+    div.IRNewsModule div.IRData {
+        padding-left: 0 !important;
+    }
+
+    div.IRNewsModule div.IRTitle {
+        max-width: 230px;
+        overflow: hidden;
+    }
+}
+
+.IRDownloadPDF {
+    display: inline;
+}
+
+.IRDownloadPDF {
+    display: inline;
+}
+
+.IRDownloadKB {
+    display: inline;
+}
+/* IRNews end */
+
+
+.IRDetailedSharePrice th.Header {
+    background-color: #EEEFEF;
+    color: #2a2623;
+}
+
+th.Header {
+    font-weight: bold;
+    text-align: right;
+    background-color: #EEEFEF;
+}
+
+.IRDetailedSharePrice.table-look.horizontal th.Header {
+    /*border-top: 1px solid #BFBFBF;*/
+    font-weight: bold;
+}
+
+.IRDetailedSharePrice.table-look.horizontal td.Data {
+    background-color: #FFF;
+}
+
+.table-look th, .table-look td {
+    text-align: right;
+}
+
+td.Header.profile {
+    border: 1px solid #ccc;
+    text-align: left;
+    border-right: none;
+}
+
+
+td.Data.profile {
+    border: 1px solid #ccc;
+    border-left: none;
+}
+
+#profile-table tr:nth-child(odd) {
+    background: #EEEFEF;
+    border: 1px solid #ccc;
+}
+
+.table-look {
+    border: 0px solid #ffffff;
+    border-collapse: collapse;
+}
+
+
+
+/* Miniquote */
+.miniquote-name {
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5F5F5F;
+    text-transform: uppercase;
+}
+
+.IRMiniquoteModule {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #EEEFEF;
+}
+
+.Data.miniquote-last {
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Data.change.miniquote-change-today {
+    /*float:left;*/
+    padding-bottom: 10px;
+    /*padding-top: 10px;*/
+}
+
+#yearToDate {
+    margin-left: 30px;
+}
+
+.IRQuoteModule * {
+    color: #404040;
+    font-size: 14px;
+}
+
+.IRQuoteModule .lastAndCurrency {
+    font-weight: bold;
+}
+
+th.Header.miniquoteChart {
+    background-color: transparent;
+    text-align: left;
+}
+
+#lookup-form {
+    line-height: 30px;
+    padding: 6px 12px;
+}
+
+#lookup-button {
+    -webkit-appearance: none;
+    border: none;
+    /*margin-top: 5px;*/
+    background-color: #d7d7d7;
+    color: #333;
+    /*border: 1px solid #A9A9A9;*/
+    height: auto;
+    text-align: center;
+    /* width: 200px; */
+    box-shadow: none;
+    font-size: 9pt;
+    width: 96px;
+}
+
+.option-select {
+    width: 96px;
+}
+
+
+.IRLookupSection .floatBox.left {
+    width: 110px;
+}
+
+
+.IRLookupSection .floatBox .date-select {
+    width: 95px;
+}
+
+
+.IRChartModule .IRChartComparison {
+    font-weight: bold;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.IRChartNavigation .IRChartComparison:hover {
+    background-color: #ffffff;
+    border-left: 1px solid #349a37;
+    color: #349a37;
+}
+
+.IRChartNavigation .IRChartComparison.active {
+    background-color: #fff;
+}
+
+/*.IRChartModule .IRChartComparison {
+    background-color: #fbce07
+}*/
+
+
+
+IRLookupResultsTable th, .IRLookupResultsTable td {
+    font-size: 9pt;
+    padding: 6px 12px;
+    color: #333;
+}
+
+.IRLookupResultsTable th {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .volume {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .low {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .high {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .IRChartModule .IRChartComparison {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .ask {
+        display: none;
+    }
+
+    table.IRToolQuoteTable.table-look.responsive .bid {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .last, .updated-timestamp {
+        display: none;
+    }
+
+    .ui-datepicker-trigger {
+        display: none;
+    }
+}
+
+.IRChartNavigation .IRChartMenuTrigger {
+    background-color: #fff;
+    float: right;
+    cursor: pointer;
+    /* border: 1px solid #eee; */
+    border-left: 1px solid #eee;
+    color: #333;
+}
+
+    .IRChartNavigation .IRChartMenuTrigger:hover {
+        color: #349A37;
+        border-left: 1px solid #349A37;
+    }
+
+.disclaimer-customMiniquote a,
+.disclaimer-customMiniquote a:visited {
+    color: #353535;
+}
+
+.formatArrowNeg {
+    /*height: 10px;*/
+    margin-right: 5px;
+    background: no-repeat;
+    background-size: 10px;
+    background-image: url('../images/medium-down.gif');
+    background-position: center center;
+}
+
+.formatArrowPos {
+    margin-right: 5px;
+    background: no-repeat;
+    background-size: 10px;
+    background-image: url('../images/medium-up.gif');
+    background-position: center center;
+}
+
+.formatArrowDef {
+    margin-right: 5px;
+    background: no-repeat;
+    background-size: 10px;
+    background-image: url('../images/medium-unchanged.gif');
+    background-position: center center;
+}

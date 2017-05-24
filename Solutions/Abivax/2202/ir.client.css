@@ -1,0 +1,357 @@
+﻿/*@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.eot) format('eot');
+    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff) format('woff');
+    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    color: #4f4f4f;
+}
+
+/*a {
+    font-family: 'Open Sans';
+}*/
+
+a:hover {
+    color: #00c8d7;
+}
+
+h2 {
+    color: #722a94;
+}
+
+input[type=number], input[type=submit] {
+    background-color: transparent;
+    border: 1px solid #c3c3c2;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5%;
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    padding-right: 2%;
+}
+
+
+
+/* IRMiniquoteModule ===================================================== */
+.IRMiniquoteModule {
+    /*max-width: 270px;*/
+    font-size: 14px;
+    text-align: left;
+    /*height: 280px;*/
+}
+
+    .IRMiniquoteModule .table-look th, .IRMiniquoteModule .table-look td {
+        border: 0;
+    }
+
+    .IRMiniquoteModule h2 {
+        font-size: 25px;
+        margin: 5px 0 10px 0;
+        font-weight: normal;
+    }
+
+.IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    height: 110px;
+    padding-top: 12px;
+    padding: 5px;
+}
+
+.IRMiniQuoteQuoteModule .last {
+    font-size: 33px;
+    line-height: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 0px;
+}
+
+.IRMiniQuoteQuoteModule .currency {
+    color: #722a94;
+    font-size: 18px;
+    /*float: left;*/
+    margin-top: 18px;
+    padding-left: 5px;
+}
+
+.IRMiniQuoteQuoteModule .closeDate, .IRMiniQuoteQuoteModule .change, .IRMiniQuoteQuoteModule .delayed {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: normal;
+}
+
+
+.IRMiniQuoteQuoteModule .divideLine {
+    margin-bottom: 28px;
+    margin-top: 35px;
+    border-bottom: 2px solid #cacaca;
+    width: 84%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.IRMiniQuoteQuoteModule.table-look {
+    width: initial;
+}
+
+.IRMiniQuoteQuoteModule .arrow {
+    font-size: 20px;
+    color: #42c7b6;
+    font-weight: bold;
+    float: left;
+    margin-left: 45px;
+    margin-right: 10px;
+    background-image: url(../2202/images/arrow.png);
+    width: 11px;
+    height: 16px;
+}
+
+.formatArrowNeg, .formatArrowPos {
+    width: 11px;
+    height: 13px;
+    display: inline-block;
+    background-position: center center;
+    margin-right: 3px;
+}
+
+.formatArrowPos {
+    background-image: url(../images/arrow_up.png);
+    background-repeat: no-repeat;
+    color: #91c453;
+}
+
+.formatArrowNeg {
+    background-image: url(../images/arrow_down.png);
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLink a {
+    color: #00c8d7;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLinkWrapper {
+}
+/* End =================================================================== */
+
+
+
+/* IRDetailedSharePrice ===================================================== */
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    background-color: #632480;
+    color: #fff;
+}
+/* chart ================================================ */
+.chartDisclaimer {
+    display: none;
+}
+
+.table-look th {
+    text-align: left;
+    color: #4f4f4f;
+    border-top: 1px solid #c5b6b8 !important;
+    border-bottom: 1px solid #c5b6b8 !important;
+    border: 0;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    background: #ede9ea;
+}
+
+.table-look td {
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-bottom: 1px solid #C5B6B8 !important;
+}
+/* End============================================================*/
+
+.IRQuoteHorizontalModule span {
+    padding: 0;
+    margin: 0 5px 0 0;
+    font-size: 0.917em;
+    float: left;
+    padding-top: 4px;
+    margin-bottom: 5px;
+}
+
+IRMiniquoteModule. DetailedSharePrice {
+    height: initial;
+}
+
+.IRDetailedSharePrice.table-look th {
+    text-transform: none;
+}
+
+.IRDetailedSharePrice.table-look th, .IRDetailedSharePrice.table-look td {
+    border: 0;
+    font-size: 13px;
+}
+
+.IRDetailedSharePrice.table-look td {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-bottom: 1px solid #C5B6B8 !important;
+}
+
+
+
+table.IRDetailedSharePrice {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+    table.IRDetailedSharePrice tr.last {
+        border-bottom: 1px solid #C2BEB3;
+    }
+
+.IRQuoteHorizontalModule h1 {
+    font-size: 19.7px;
+    color: #262626;
+    padding-bottom: 16px;
+    font-weight: normal;
+    display: block;
+    position: relative;
+}
+
+.IRQuoteHorizontalModule h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.IRQuoteHorizontalModule h3 {
+    text-align: left;
+    font-size: 18px;
+    /*float: left;*/
+    width: 100%;
+    color: #632480;
+    font-weight: bold;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.IRDetailedSharePrice.table-look th {
+    color: #4f4f4f;
+    border-top: 1px solid #c5b6b8 !important;
+    border-bottom: 1px solid #c5b6b8 !important;
+    border: 0;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    background: #ede9ea;
+}
+
+.IRDetailedSharePrice th, .IRDetailedSharePrice td {
+    padding: 0;
+    text-align: left;
+    width: 110px;
+}
+
+.IRDetailedSharePrice td {
+    border-bottom-color: #019D54;
+}
+
+.IRDetailedSharePrice .formatColourPos {
+    color: #1BA71B;
+}
+/* End ======================================================================== */
+
+
+
+
+
+/* @media only screen =========================================================*/
+@media only screen and (max-width: 800px) {
+    .profile-wrapper .IRTable.company-listing-data {
+        margin-bottom: 35px;
+    }
+
+    .profile-wrapper .table-wrapper .company-listing-data, .profile-wrapper .table-wrapper .price-data {
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and (min-width: 521px) {
+    .IRDetailedSharePrice.vertical, .vertical-header, .IRToolCalcResultsTable.vertical {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+
+    .IRDetailedSharePrice.horizontal, .horizontal-header, .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+
+
+    .IRQuoteHorizontalModule h3 {
+        font-size: 18px;
+    }
+
+    .IRDetailedSharePrice.table-look th, .IRDetailedSharePrice.table-look td {
+        font-size: 14px;
+        padding-left: 10px;
+        border-top: 1px solid #C5B6B8;
+    }
+}
+
+.table-look {
+    width: 100%;
+    border: 0px solid #ffffff;
+    border-collapse: collapse;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .filter-wrapper .datepicker #from-month, .filter-wrapper .datepicker #to-month {
+        width: 67%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #tableH {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #tableV {
+        display: none;
+    }
+}
+/* End ======================================================================== */
+

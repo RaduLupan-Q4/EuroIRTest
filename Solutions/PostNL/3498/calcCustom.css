@@ -1,0 +1,405 @@
+
+.IRCalcModule select{width: 55px;}
+
+.IRCalcModule .IRChartCalcPlaceholder {
+    display: none;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look {
+    border-top: 0;
+}
+.IRCalcModule #amount-invested {
+        width: 135px;
+    }
+
+.IRCalcModule .customCalcModuleWrapper #calc-form {
+    width: 100%;
+/*    float: left;*/
+    padding: 20px 30px;
+    background: #fff;
+    height: 400px;
+    margin-top: 0;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical tr {
+    float: left;
+    width: 100%;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical th {
+    float: left;
+    text-align: left;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical td {
+    float: left;
+}
+
+#from-datepicker, #to-datepicker {
+    border-radius: 6px;
+    font-size: 14px;
+    color: #444444;
+    text-align: left;
+    padding-left: 15px;
+    height: 40px;
+    width: 135px;
+}
+
+.input-label.from-label {
+}
+
+.input-label.to-label {
+}
+
+.ui-datepicker-trigger {
+    visibility: hidden;
+}
+
+.CalcBtn {
+    color: #fff;
+    border: 1px solid #ed8c00;
+    background-color: #ed8c00;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 0;
+    cursor: pointer;
+    width: 140px;
+    border-radius: 8px 8px 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 43px;
+    height: 43px;
+}
+
+.CalcBtn:hover {
+    background-color: #fff;
+    color: #ed8c00;
+}
+
+#result-section {
+/*    float: right;*/
+    display: none;
+    width: 100%;
+    padding: 20px 30px;
+    background: #fff;
+    height: 400px;
+}
+.priceCalcHead {
+    height: 40px;
+    color: #001a73;
+    font-size: 32px;
+    margin-top: 10px;
+    padding: 0 30px;
+}
+
+.IRCalcModule .customCalcModuleWrapper #calc-form .title {
+    font-size: 17px;
+    color: #e67907;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.customCalcModuleWrapper #result-section .title {
+    font-size: 17px;
+    color: #001a73;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.formDivider .input-row:nth-child(2) {
+    margin-top: 30px;
+    width: 135px;
+    text-align: right;
+}
+.IRToolCalcResultsTable.table-look.vertical tr, .IRToolCalcResultsTable.table-look.vertical tr:nth-child(2n) {
+    background: transparent;
+}
+
+.IRToolCalcResultsTable.table-look.vertical {
+    display: block;
+}
+
+    .IRToolCalcResultsTable.table-look.vertical th {
+        width: 50%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+        color: #444;
+        background: none;
+        border: 0;
+        border-bottom: 1px solid #e6e6e6;
+        font-weight: 400;
+    }
+
+    .IRToolCalcResultsTable.table-look.vertical td {
+        width: 50%;
+        text-align: right;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+        border: 0;
+        border-bottom: 1px solid #e6e6e6;
+        font-weight: 400;
+    }
+
+
+.IRToolCalcResultsTable.table-look.vertical {
+    border-bottom: 0;
+    display: inline-table;
+}
+
+.divideLine {
+    display: none;
+}
+
+label {
+    font-size: 16px;
+    color: #444;
+}
+
+.formDivider .input-row input[type="radio"], .formDivider .input-row .radio label {
+    vertical-align: middle;
+    top: 0;
+}
+
+.formDivider .input-row .radio label {
+    margin-right: 30px;
+}
+
+    .formDivider .input-row .radio label:last-child {
+        margin-right: 0;
+    }
+
+.formDivider .input-row {
+    margin-bottom: 30px;
+    width: 135px;
+    text-align: right;
+}
+
+    .formDivider .input-row label.input-label {
+        width: 160px;
+        line-height: 29px;
+    }
+
+.input-wrapper {
+    left: 165px;
+    right: inherit;
+}
+
+.wide-input {
+    width: 159px;
+}
+
+    .wide-input.radio {
+        width: auto;
+        position: relative;
+        top: -27px;
+        text-align: left;
+    }
+
+.input-wrapper.calculateButton {
+    position: relative;
+    left: 0;
+    margin-top: 20px;
+/*    border-top: 1px solid #e3e3e3;*/
+}
+
+#calc-form .formDivider:nth-child(2) {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+}
+
+.calculateButton input[type=submit] {
+    color: #fff;
+    background-color: #ed8c00;
+    border: 1px solid #ed8c00;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 0;
+    cursor: pointer;
+    width: 157px;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border-radius: 8px 8px 0;
+}
+
+input[type=submit]:hover, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:hover {
+    background-color: #fff;
+    color: #ed8c00;
+    box-shadow: none;
+    border: 1px solid #ED8C00;
+    font-weight: 500;
+}
+
+.Data.yield-cell, .Data.yield-change-cell {
+    color: #00a657;
+}
+
+
+.ui-widget {
+    width: 368px;
+    height: 335px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    padding: 18px;
+    z-index: 2000 !important;
+}
+
+.ui-datepicker-title {
+    font-size: 16px;
+    text-align: center;
+    color: #000c8a;
+}
+
+.ui-widget-header {
+    background: none;
+    color: #585852;
+    border-radius: 0;
+    border: 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.ui-datepicker-calendar thead tr th {
+    font-weight: 500;
+    color: #000c8a;
+}
+
+.ui-datepicker td {
+    padding: 8px;
+    border: 1px solid #d4d4d4;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    color: #d4d4d4;
+    border: 0;
+    background: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    color: #ed8c00;
+}
+
+.ui-datepicker-unselectable.ui-state-disabled .ui-state-default {
+    color: #d4d4d4;
+}
+
+.ui-datepicker .ui-datepicker-next span {
+    background: url(images/datapicker_arrow_right.svg) center center no-repeat;
+}
+.ui-widget-header .ui-icon {
+    background: url(images/datapicker_arrow_left.svg) center center no-repeat;
+}
+.ui-datepicker .ui-datepicker-next.ui-state-hover {
+    top: 2px;
+    right: 2px;
+    border: 0;
+    background: none;
+}
+
+.ui-datepicker .ui-datepicker-prev.ui-state-hover {
+    top: 2px;
+    left: 2px;
+    border: 0;
+    background: none;
+}
+.ui-datepicker-current-day {
+    background-color: #ed8c00;
+    color: #ffffff;
+}
+.ui-datepicker .ui-datepicker-days-cell-over.ui-datepicker-current-day {
+    background-color: #ed8c00;
+    color: #ffffff;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 800px) {
+    #result-section, .IRCalcModule .customCalcModuleWrapper #calc-form {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0;
+    }
+    
+    .priceCalcHead {
+        padding: 0;
+    }
+
+        .IRCalcModule .customCalcModuleWrapper #calc-form .title {
+            padding-top: 20px;
+        }
+
+    #lookup-table-form .submit {
+        width: 100%;
+    }
+
+    #summaryIframe {
+        height: 810px;
+    }
+    /*.IRCalcModule .customCalcModuleWrapper #calc-form {
+        margin-bottom: 20px;
+    }*/
+    
+    
+}
+@media (max-width: 535px) {
+    .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+        left:0 !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .tabs-container ul li a {
+        width: 100%;
+        max-width: initial;
+        margin: 0px 0px 10px 0;
+    }
+
+    .tabs-container ul li.firstTab a {
+        margin-top: 21px;
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+
+    .tabs-container ul li.tab2 a {
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+
+
+    .tabs-container ul li.lastTab a {
+        margin-bottom: 21px;
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+}
+
+
+.customCalcModuleWrapper #to-month{display: initial;}
+
+@media only screen and (max-width: 330px) {
+    .tabs-container ul li.firstTab a, .tabs-container ul li.tab2 a, .tabs-container ul li.lastTab a {
+        background-position: 35% center;
+    }
+}

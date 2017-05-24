@@ -1,0 +1,208 @@
+<!-- Header Start -->
+
+<base href="http://ir.euroinvestor.com/solutions/FerrariExample/2442/calcSimple.aspx" target="_blank">
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635960691510356812" />
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=636035058565257347" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css" type="text/css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/libs/jquery-ui1-11-1_smoothness.css?v=635810169525468128" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:9000/FerrariExample/2442/ir.client.css?v=636016913032634228" />
+</head>
+<body>
+
+
+<!-- Header End -->
+
+<link href='//fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+    var activeModules = ["IRCalc"];
+</script>
+
+<div class="IRCalcModule">
+    <div class="IRChartColour"></div>
+    <span class="ajaxLoader">Loading</span>
+</div>
+
+<script id="IRCalcTemplate" type="text/x-handlebars-template">
+
+    <div class="IRChartCalcPlaceholder"></div>
+
+    <div class="customCalcModuleWrapper">
+        <form id="calc-form">
+            <span class="title">Choose Investment</span>
+            <div class="formDivider">
+                <div class="input-row">
+                    <label class="input-label invested-label">{{t_invested}}: </label>
+                    <div class="input-wrapper wide-input radio">
+                        <input type="radio" name="invested" value="amount" id="amount-radio" checked="checked" />
+                        <label for="amount-radio">{{t_amount}}</label>
+                        <input type="radio" name="invested" value="shares" id="shares-radio" />
+                        <label for="shares-radio">{{t_shares}}</label>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <label class="input-label amount-invested-label">{{t_amount_invested}}:</label>
+                    <div class="input-wrapper">
+                        <span id="currency-symbol"></span>
+                        <input type="text" id="amount-invested" class="wide-input" step="any" min="0" />
+                    </div>
+                </div>
+                <div class="input-row">
+                    <label for="from-datepicker" class="input-label from-label" style="float: left;">{{t_from}}:</label>
+                    <div class="input-wrapper">
+                        {{{datepicker 'from'}}}
+                {{{selectFromDay}}}
+                {{{selectFromMonth}}}
+                {{{selectFromYear}}}
+                    </div>
+                </div>
+                <div class="input-row">
+                    <label for="to-datepicker" class="input-label to-label">{{t_to}}: </label>
+                    <div class="input-wrapper">
+                        {{{datepicker 'to'}}}
+                {{{selectToDay}}}
+                {{{selectToMonth}}}
+                {{{selectToYear}}}
+                    </div>
+                </div>
+            </div>
+            <div class="formDivider">
+                <div class="input-row">
+                    <div class="input-wrapper calculateButton">
+                        <input type="submit" value="{{t_calculate}}" id="calculate-button" />
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="divideLine"></div>
+        <section id="result-section">
+            <span class="title">Summary</span>
+            <table class="IRToolCalcResultsTable table-look vertical responsive-flip">
+                <tr>
+                    <th class="Header date">{{t_investment_date}}</th>
+                    <td class="Data start-date-cell">-</td>
+                </tr>
+                <tr>
+                    <th class="Header value">{{t_value}}</th>
+                    <td class="Data buy-value-cell">-</td>
+                </tr>
+                <tr>
+                    <th class="Header number-of-shares">{{t_number_of_shares}}</th>
+                    <td class="Data est-shares-cell">-</td>
+                </tr>
+                <tr>
+                    <th class="Header price">{{t_price}}</th>
+                    <td class="Data buy-price-cell">-</td>
+                </tr>
+                <tr>
+                    <th class="Header end-date">End date</th>
+                    <td class="Data end-date-cell">-</td>
+                </tr>
+                
+                <tr>
+                    <th class="Header sell-price">{{t_sell_price}}</th>
+                    <td class="Data sell-price-cell">-</td>
+                </tr>
+                <tr>
+                    <th class="Header value">Value at End Date:</th>
+                    <td class="Data value-now-cell">-</td>
+                </tr>
+                <tr>
+                    <th class="Header change-in-price">{{t_change}} %:</th>
+                    <td class="Data yield-cell">-</td>
+                </tr>
+                <tr>
+                    <th class="Header change">{{t_change}}:</th>
+                    <td class="Data yield-change-cell">-</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+</script>
+
+<!-- Footer Start -->
+
+<div class="disclaimer disclaimer-IRCalc2">
+<span class="disclaimer-copyright">Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a> </span><span class="disclaimer-dataSource">and our data suppliers. </span><span class="disclaimer-delayed">Data delayed by 15-20 min.</span><span class="disclaimer-terms"> <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a></span></div>
+<script type="text/javascript" src="/includes/js/libs/jquery1-8-3.min.js?v=635810177706204834"></script>
+<script type="text/javascript" src="ir.client.js?v=636016913032634228"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=636038531330798541"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635979478298352876"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635979478298523004"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635979478297302170"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=636035758083067935"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=636035065599684865"></script>
+<script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=635808478220057902"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"/></script>
+<script type="text/javascript" src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.tool.calc2.js?v=635961560577665604"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=636035746958400797"></script>
+</body>
+</html>
+
+<!-- Footer End -->
+
+<link rel="stylesheet" href="calcCustom.css?v=636016913032487738" />
+
+<script type="text/javascript">
+   
+    var customXApplied = false;
+    function prepareCustomX() {
+        if (!customXApplied) {
+            if (typeof ($('#calculate-button').html()) != 'undefined') {
+                $('#calculate-button').click(function () {
+                    setTimeout(function () {
+
+                        var amountInvested = parseFloat($("#amount-invested").val(), 10),
+                            unit = readUnit(),
+                            fromDate = readFromDate(),
+                            toDate = readToDate(),
+                            results = {};
+
+                        var startIndex = getIndexThatBestMatchesDate(stockData, "date", new Date(fromDate)),
+                           
+                                endIndex = getIndexThatBestMatchesDate(stockData, "date", new Date(toDate)),
+                                buyStockPrice = parseFloat(stockData[startIndex].closePrice);
+                        sellStockPrice = parseFloat(stockData[endIndex].closePrice);
+                        
+                        results.buyStockPrice = parseFloat(buyStockPrice);
+                        results.sellStockPrice = parseFloat(sellStockPrice);
+
+                        fromDate = readFromDate();
+                        
+                        toDate = readToDate();
+                        
+                        fromDate = moment(fromDate).format("DD-MM-YYYY");
+                        toDate = moment(toDate).format("DD-MM-YYYY");
+
+                        $('.start-date-cell').text(fromDate);
+                       
+                        $('.end-date-cell').text(toDate);
+
+                        $(".value-now-cell").text(globalActiveCalcCurrency + ' ' + formatDecimal(results.buyStockPrice));
+                        $(".value-end-date-cell").text(sellStockPrice);
+                        $(".yield-change-cell").text((sellStockPrice - buyStockPrice).toFixed(2));
+
+                    }, 200);
+                });
+                customXApplied = true;
+            }
+        }
+    }
+    $(function () {
+        setInterval(function () {
+            //prepareCustomX();
+        }, 200);
+    });
+
+</script>

@@ -1,0 +1,37 @@
+/* Kent Reliance - Master styles */
+
+@font-face {
+    font-family: 'FS Me Web Regular';
+    src: url('fonts/FSMeWeb-Regular.eot'); /* IE9 */
+    src: url('fonts/FSMeWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/FSMeWeb-Regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/FSMeWeb-Regular.svg#FS Me Web Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Me Web Light';
+    src: url('fonts/FSMeWeb-Light.eot'); /* IE9 */
+    src: url('fonts/FSMeWeb-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/FSMeWeb-Light.woff') format('woff'), /* Modern Browsers */
+         url('fonts/FSMeWeb-Light.svg#FS Me Web Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Me Web Bold';
+    src: url('fonts/FSMeWeb-Bold.eot'); /* IE9 */
+    src: url('fonts/FSMeWeb-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/FSMeWeb-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/FSMeWeb-Bold.svg#FS Me Web Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Example Useage in  styles */
+
+body {
+    font-family:"FS Me Web Light", Helvetica, Arial, Verdana , sans-serif; 
+} 

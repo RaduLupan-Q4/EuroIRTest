@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Stag Sans Web", Arial, sans-serif;
+    color: #666666;
+}
+
+.inputText {
+    width: 100%;
+    max-width: none;
+}
+
+/* webkit solution */
+::-webkit-input-placeholder { text-align:left; }
+/* mozilla solution */
+input:-moz-placeholder { text-align:left; }
+
+.blockInner {
+    max-width: 100%;
+}
+
+.inputText input {
+    height: 40px;
+}
+
+.styled-select select {
+   background: #fff;
+   width: 110%;
+   padding: 5px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 38px;
+}
+
+.styled-select {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    height: 38px;
+    overflow: hidden;
+    border: 1px solid #aaa;
+}
+
+input {
+    padding-left: 8px;
+}
+
+
+input[type=submit] {
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 0px;
+    padding-left: 5px;
+    padding-right: 4px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.075em;
+    box-shadow: none;
+    height: 40px;
+    min-width: 100px;
+    background: #0e4b84;
+    border: 1px solid #0e4b84;
+    background-image: url(images/arrow-right2.png);
+    background-repeat: no-repeat;
+    background-position: right 1px center;
+    background-size: 18px;
+}
+
+#selectedProfile option {
+    color: grey;
+}
+
+.arrow {
+    position: absolute;
+    right: 12px;
+    top: 13px;
+}
+
+.buttonStyle:hover {
+    color: #fff;
+    background: #0e4b84;
+    border: 1px solid #0e4b84;
+}
+.blockOuter {
+    margin-bottom: 10px;
+}
+.inputText input {
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #aaa;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.unsubscribeBtnTranslation {
+    margin-top: 30px;
+}
+
+.unsubscribeNextToButton {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: #5B5377;
+}
+
+.arrowRight {
+    margin-right: 4px;
+}
+input.formUnsubscribeInTool.buttonStyle.clearInput.unsubscribeBtnTranslation {
+    width: 150px;
+}

@@ -1,0 +1,55 @@
+﻿* {
+    font-family: 'Proxima N W01 Reg', sans-serif;
+}
+
+body {
+    font-family: 'Proxima N W01 Reg' sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.table-look-horizontal {
+}
+
+    .table-look-horizontal th, .table-look-horizontal td {
+        border-bottom: 1px solid #F26522;
+        color: #333;
+        line-height: 20px;
+    }
+
+    .table-look-horizontal th {
+        font-weight: normal;
+    }
+
+    .table-look-horizontal td {
+        border-bottom: 2px solid #F26522;
+    }
+
+/*test*/
+
+
+.debugStatus {
+    clear: both;
+}
+
+
+.IRChartClientName {
+    color: #333;
+}
+
+.IRChartCurrency {
+    color: #333;
+}
+
+.chartCurrentPriceBox {
+    border: 1px solid #F26522;
+    background-color: #F26522;
+}
+
+.chartCurrentPriceBoxArrow div.irCPB1, .chartCurrentPriceBoxArrow div.irCPB2, .chartCurrentPriceBoxArrow div.irCPB3 {
+    background-color: #F26522;
+}
+
+.chartChangePeriod div.activePeriod {
+    background-color: #F26522;
+}

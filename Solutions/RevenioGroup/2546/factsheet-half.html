@@ -1,0 +1,80 @@
+<base href="http://ir.euroinvestor.com/solutions/RevenioGroup/2546/factsheet.aspx" target="_blank">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=636009821844524552" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/RevenioGroup/2546/inc/factsheet.css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+
+
+<script type="text/javascript">
+    var activeModules = ['IRFactsheet'];
+    var activeFeatures = ['ShareData', 'PerformanceChart', 'KeyFigures'];
+</script>
+
+<header>
+      <div class="wrapper"><span>Fact Sheet Grid system #4</span></div>
+</header>
+
+<div class="IRFactsheetModule"></div>
+
+<script type="text/javascript" src="/includes/js/libs/jquery2-1-4.min.js?v=636009821860712206"></script>
+<script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=636009821859709121"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=636009821859396460"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=636009821861024858"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=636009821861181170"></script>
+<script type="text/javascript" src="ir.client.js?v=636071173771171259"></script>
+<script type="text/javascript" src="http://localhost/solutions/RevenioGroup/2546/inc/ir.factsheet.js"></script>
+
+
+<script id="IRFactsheetTemplate" type="text/x-handlebars-template">
+
+    <div class="wrapper">
+        <div class="grid half-box">
+            <div class="item IRFactsheetAbout">
+                <div class="section wide boxes">
+                    <div class="boxFact">
+                        <div class="fake-bg"></div>
+                        <div class="icon share"></div>
+                        <div class="text">
+                            <span class="title">Share info</span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                    <div class="boxFact">
+                        <div class="fake-bg"></div>
+                        <div class="icon send"></div>
+                        <div class="text">
+                            <span class="title">Traffic info</span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    {{{includeFactsheetChart 'Column' 'Market value' 'Market value' 'Market value, EURm' '200'}}}
+                </div>
+                <div class="section">
+                    {{{includeFactsheetSharePriceChartPlaceholder 'Development in share price' '200px'}}}
+                </div>
+            </div>
+            <div class="item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+            </div>
+        </div>
+        <div class="IRFactsheet">
+            {{{includeFactsheetDownloadPDF}}}
+        </div>
+    </div>
+
+</script>
+
+<script type="text/javascript">
+    Handlebars.registerHelper('customShareMillionsInFull', function (shareMillions) {
+        var sharesRaw = parseFloat(shareMillions) * 1000000;
+        return formatNumberWithLocalDelimiters(sharesRaw);
+    });
+</script>

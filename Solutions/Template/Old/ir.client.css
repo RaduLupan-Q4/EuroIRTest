@@ -1,0 +1,9 @@
+﻿body { }
+
+td, th {
+    white-space: nowrap;
+}
+
+.debugStatus {
+    color: #aaa;
+}

@@ -1,0 +1,68 @@
+<base href="http://ir.euroinvestor.com/solutions/Raute/2378/news.aspx" target="_blank">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+    var activeModules = ['IRNewsArticle'];
+</script>
+<div class="newsBorder">
+    <button class="backBtn">Back</button>
+    <div class="IRToolArticleLogo"></div>
+    <div class="IRArticleModule"></div>
+
+
+    <script id="IRNewsArticleTemplate" type="text/x-handlebars-template">
+        {{{showNewsArticleLogo}}}
+    <br />
+
+        {{article/name}}
+    <br />
+
+        {{{showNewsArticle articleData}}}
+    <br />
+        <div class="attachmentList">
+            <h2 class="newsArticleHeader">Attachments</h2>
+            {{#each attachments}}
+
+        <a href="{{url}}" target="_blank"><span class="attachmentIcon"></span>{{fileName}}</a>
+
+            {{/each}}
+        </div>
+    </script>
+
+
+
+
+
+    <script type="text/javascript" src="/includes/js/libs/jquery2-1-4.min.js?v=635808478220682775"></script>
+<script type="text/javascript" src="ir.client.js?v=635809524423156068"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=635900929188146884"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635808478207695096"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635808478207851217"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635808478206445019"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=635889809206474823"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=635899396362244809"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=635890548722757094"></script>
+</body>
+</html>
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.backBtn').click(function () {
+            window.open('news.aspx', '_self');
+		return false;
+	});
+});
+</script>
+<link rel="stylesheet" href="ir.client.css?v=635823311899321225" />

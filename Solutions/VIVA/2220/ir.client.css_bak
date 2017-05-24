@@ -1,0 +1,555 @@
+﻿@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    /*src: url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.eot);*/
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    font-family: 'OpenSans', arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+.disclaimer {
+    display: none;
+}
+
+.RKDDisclaimer {
+    position: relative;
+    top: 10px;
+    max-width: 400px;
+    margin: auto;
+    color: #777;
+    cursor: default;
+    text-align: center;
+    font-size: 10px;
+}
+
+h2 {
+    color: #666;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    -webkit-appearance: none;
+}
+
+#calc-form, #lookup-form {
+    font-size: 13px;
+}
+
+/*select{min-width: 50px;}*/
+
+.IRQuoteModule .updated {
+    font-size: 12px;
+}
+
+input[type=submit] {
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: #aacf0e;
+    background-image: -webkit-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: -moz-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: -ms-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: -o-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: linear-gradient(to bottom, #aacf0e, #98bb07);
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    border: 0;
+    box-shadow: none;
+}
+
+    input[type=submit]:hover {
+        opacity: 0.9;
+        border: 0;
+        box-shadow: none;
+        color: #fff;
+    }
+
+.clear {
+    clear: both;
+}
+
+/* SharePriceTools ======================================================= */
+
+.sharePriceToolsIFrameWrapper #chartiframe {
+    width: 100%;
+    float: left;
+    height: 750px;
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+}
+
+.sharePriceToolsIFrameWrapper #calciframe {
+    width: 48%;
+    padding-right: 4%;
+    float: left;
+    height: 900px;
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+}
+
+.sharePriceToolsIFrameWrapper #lookupiframe {
+    width: 48%;
+    float: right;
+    text-align: right;
+    height: 610px;
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+}
+
+/* End =================================================================== */
+
+.IRQuoteModule .Data.change {
+    color: #48ff00;
+}
+
+.IRChartColour {
+    /*color: #00A6D5;*/
+    color: rgb(0, 166, 213);
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    /*background-color: #00A6D5;
+    color: #fff;*/
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background: #aacf0e;
+    background-image: -webkit-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: -moz-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: -ms-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: -o-linear-gradient(top, #aacf0e, #98bb07);
+    background-image: linear-gradient(to bottom, #aacf0e, #98bb07);
+    height: 25px;
+    line-height: 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+    border-radius: 5px;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+    opacity: 0.9;
+}
+
+.IRQuoteModule div.updated {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table-look {
+    border: none;
+}
+
+    .table-look th, .table-look td {
+        font-weight: 400;
+        font-style: normal;
+        line-height: 20px;
+        border: 1px solid #c8c8c8;
+        text-align: center;
+        padding: 0;
+        line-height: 40px;
+        height: 40px;
+    }
+
+    .table-look th {
+        padding: 3px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 13px;
+        background-color: #e45edb;
+    }
+
+    .table-look td {
+        padding: 3px;
+        font-size: 13px;
+        background: #ffffff;
+    }
+
+.chartDisclaimer, .performanceDisclaimer, .calcDisclaimer, .lookupDisclaimer {
+    display: none;
+}
+
+/* IRMiniquoteModule ===================================================== */
+.IRMiniquoteModule {
+    /*max-width: 270px;*/
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    /*height: 280px;*/
+}
+
+    .IRMiniquoteModule .table-look th, .IRMiniquoteModule .table-look td {
+        border: 0;
+    }
+
+    .IRMiniquoteModule h2 {
+        font-size: 25px;
+        margin: 5px 0 10px 0;
+        font-weight: normal;
+    }
+
+.IRMiniQuoteQuoteModule .miniquoteContentWrapper {
+    width: 23%;
+    float: left;
+}
+
+.IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    padding-left: 2%;
+    background-color: #e45edb;
+    float: left;
+    border-radius: 5px;
+    width: 98%;
+    min-height: 88px;
+    color: #fff;
+}
+
+    .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper .latestChangeLabel, .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper .symbolLabel {
+        text-align: left;
+    }
+
+    .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper .latestChange, .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper .latestPrice {
+        float: right;
+    }
+
+    .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper .change, .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper .last {
+        width: 90%;
+        padding-right: 10%;
+        text-align: left;
+    }
+
+    .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper .last {
+        border-bottom: 1px solid #e6e6e6;
+        height: 44px;
+        line-height: 44px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+.IRMiniquoteModule .lastUpdated {
+    font-size: 11px;
+    color: #777;
+    text-align: left;
+    float: left;
+}
+
+.IRMiniquoteModule .openHighLow.table-look, .IRMiniquoteModule .volumeSharesMarketCap.table-look {
+    float: left;
+    margin-left: 2%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.IRMiniquoteModule .openHighLow.table-look {
+    width: 32%;
+}
+
+.IRMiniquoteModule .volumeSharesMarketCap.table-look {
+    width: 40%;
+}
+
+    .IRMiniquoteModule .openHighLow.table-look .Header, .IRMiniquoteModule .volumeSharesMarketCap.table-look .Header {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .IRMiniquoteModule .openHighLow.table-look .Header, .IRMiniquoteModule .volumeSharesMarketCap.table-look .Header, .IRMiniquoteModule .openHighLow.table-look .Data, .IRMiniquoteModule .volumeSharesMarketCap.table-look .Data {
+        line-height: 28px;
+        height: 28px;
+        text-align: left;
+        padding-left: 2%;
+        border-bottom: 1px solid #e6e6e6;
+        width: 48%;
+        float: left;
+    }
+
+        .IRMiniquoteModule .openHighLow.table-look .Header.dayLow, .IRMiniquoteModule .volumeSharesMarketCap.table-look .Header.marketCap, .IRMiniquoteModule .openHighLow.table-look .Data.dayLow, .IRMiniquoteModule .volumeSharesMarketCap.table-look .Data.marketCap {
+            border-bottom: 0;
+        }
+
+
+.IRMiniQuoteQuoteModule .last {
+    line-height: 22px;
+    height: 24px;
+    float: left;
+    margin-left: 0px;
+    background-color: #e45edb;
+    color: #fff;
+    width: 100%;
+}
+
+.IRMiniQuoteQuoteModule .currency {
+    color: #00A6D5;
+    font-size: 18px;
+    /*float: left;*/
+    margin-top: 18px;
+    padding-left: 5px;
+}
+
+.IRMiniQuoteQuoteModule .closeDate, .IRMiniQuoteQuoteModule .change, .IRMiniQuoteQuoteModule .delayed {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.IRMiniQuoteQuoteModule .change {
+    margin-top: 15px;
+}
+
+.IRMiniQuoteQuoteModule .divideLine {
+    margin-bottom: 28px;
+    margin-top: 35px;
+    border-bottom: 2px solid #cacaca;
+    width: 84%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.IRMiniQuoteQuoteModule.table-look {
+    width: initial;
+}
+
+.IRMiniQuoteQuoteModule .arrow {
+    font-size: 20px;
+    color: #42c7b6;
+    font-weight: bold;
+    float: left;
+    margin-left: 45px;
+    margin-right: 10px;
+    /*background-image: url(../2210/images/arrow.png);*/
+    width: 11px;
+    height: 16px;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLink a {
+    color: #00c8d7;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLinkWrapper {
+}
+
+/* IRLookup- & IRCalcModule ================================ */
+
+.IRLookupModule .IRLookupResultsTable.horizontal th,
+.IRLookupModule .IRLookupResultsTable.horizontal td {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    height: 30px;
+    border: none;
+    color: #666;
+}
+
+
+.IRLookupModule .IRLookupResultsTable.horizontal th {
+    color: #fff;
+    font-weight: bold;
+}
+
+.IRPerformanceModule .Header {
+    text-align: right;
+}
+
+.formatArrowNeg, .formatArrowPos {
+    width: 11px;
+    /*height: 22px;*/
+    display: inline-block;
+    background-position: center center;
+    margin-right: 3px;
+}
+
+.formatArrowPos {
+    /*background-image: url(../images/arrow_up.png);*/
+    background-repeat: no-repeat;
+    color: #91c453;
+}
+
+.formatArrowNeg {
+    /*background-image: url(../images/arrow_down.png);*/
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.IRToolCalcResultsTable.horizontal {
+    display: table;
+}
+
+.IRToolCalcResultsTable.vertical {
+    display: none;
+}
+
+.IRCalcModule .input-wrapper, .IRLookupModule .input-wrapper {
+    text-align: right;
+}
+
+.IRLookupModule label {
+    float: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+.IRCalcModule label, .IRCalcModule input[type="radio"] {
+    float: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal th {
+}
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal td {
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical th {
+    text-align: left;
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical td {
+    text-align: right;
+    border-bottom: 2px solid #DDD;
+    width: 40%;
+}
+
+
+/* IRQuoteDualModule ======================================= */
+.IRQuoteDualModule.table-look th, .IRQuoteDualModule.table-look td {
+    font-size: 10px;
+}
+
+.IRQuoteDualModule.table-look th {
+    line-height: 13px;
+    font-size: 10px;
+    background-color: #CED2E5;
+    color: #00348B;
+    text-align: center;
+    font-weight: normal;
+    border-collapse: collapse;
+    padding: 5px;
+    border: 2px solid #FFFFFF;
+}
+
+.IRQuoteDualModule.table-look td {
+    line-height: 13px;
+    background-color: #E5E7F1;
+    color: #00348B;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid #FFFFFF;
+    vertical-align: middle;
+}
+
+.IRQuoteDualModule .exchange {
+    width: 108px;
+}
+
+.IRQuoteDualModule.table-look .column-first {
+    text-align: left;
+}
+
+.IRQuoteDualModule th.column-first, .IRQuoteDualModule th.column-last {
+    visibility: hidden;
+}
+
+.IRQuoteDualModule .column-last {
+    width: 60px;
+}
+/* End ===================================================== */
+
+.IRCalcModule select {
+    min-width: 50px;
+}
+
+
+/* Media Queries =========================================== */
+@media screen and (max-width: 700px) {
+    .IRMiniQuoteQuoteModule .miniquoteContentWrapper {
+        width: 49%;
+        padding-right: 1%;
+    }
+
+    .IRMiniquoteModule .openHighLow.table-look {
+        width: 49%;
+        margin-left: 0;
+    }
+
+    .IRMiniquoteModule .volumeSharesMarketCap.table-look {
+        width: 99%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: table;
+    }
+
+    iframe.calc {
+        height: 500px !important;
+    }
+
+    .sharePriceToolsIFrameWrapper #calciframe, .sharePriceToolsIFrameWrapper #lookupiframe {
+        width: 100%;
+        padding-right: 0%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 350px) {
+        .formatArrowNeg, .formatArrowPos {
+            width: 9px;
+            height: 9px;
+        }
+
+        .IRMiniQuoteQuoteModule .miniquoteContentWrapper {
+            width: 99%;
+            padding-right: 0%;
+        }
+
+        .IRMiniquoteModule .openHighLow.table-look {
+            width: 99%;
+            margin-left: 0;
+            margin-top: 10px;
+        }
+
+        .IRMiniquoteModule .lastUpdated {
+            float: right;
+        }
+    }
+
+
+    /* End ===================================================== */
