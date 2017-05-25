@@ -1,0 +1,2266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cffd4322-0f16-4ad3-a88f-d0b553bd624d" name="Default" comment="" />
+    <ignored path="AFAB.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AFAB" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.6290138">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ir.util.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.util.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3315">
+                  <caret line="4710" column="2" selection-start-line="4710" selection-start-column="2" selection-end-line="4710" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#5124#5641#0" expanded="false" />
+                    <element signature="e#5666#6772#0" expanded="false" />
+                    <element signature="e#7699#8033#0" expanded="false" />
+                    <element signature="e#8220#8382#0" expanded="false" />
+                    <element signature="e#8639#8667#0" expanded="false" />
+                    <element signature="e#8698#8758#0" expanded="false" />
+                    <element signature="e#11107#11665#0" expanded="false" />
+                    <element signature="e#11734#13194#0" expanded="false" />
+                    <element signature="e#13279#13988#0" expanded="false" />
+                    <element signature="e#14006#14181#0" expanded="false" />
+                    <element signature="n#!!block;n#initCheckActive#0" expanded="false" />
+                    <element signature="n#!!block;n#initSolutionInfo#0" expanded="false" />
+                    <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+                    <element signature="n#!!block;n#getClientName#0" expanded="false" />
+                    <element signature="n#!!block;n#getCustomerKeyRequired#0" expanded="false" />
+                    <element signature="n#!!block;n#initData#0" expanded="false" />
+                    <element signature="n#!!block;n#checkActiveDataRequests#0" expanded="false" />
+                    <element signature="n#!!block;n#checkActiveModules#0" expanded="false" />
+                    <element signature="n#!!block;n#checkActiveFeatures#0" expanded="false" />
+                    <element signature="n#!!block;n#updateLCID#0" expanded="false" />
+                    <element signature="n#!!block;n#changeGlobalDecimalSeparator#0" expanded="false" />
+                    <element signature="n#!!block;n#getServiceEngingeURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getProtocol#0" expanded="false" />
+                    <element signature="n#!!block;n#getHost#0" expanded="false" />
+                    <element signature="n#!!block;n#getNewsArticlePath#0" expanded="false" />
+                    <element signature="n#!!block;n#getImagePath#0" expanded="false" />
+                    <element signature="n#!!block;n#getLogoPath#0" expanded="false" />
+                    <element signature="n#!!block;n#setReadingDirection#0" expanded="false" />
+                    <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+                    <element signature="n#!!block;n#getActiveCurrencySymbol#0" expanded="false" />
+                    <element signature="n#!!block;n#requestListingFromURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getExchangeCity#0" expanded="false" />
+                    <element signature="n#!!block;n#setExchangeShort#0" expanded="false" />
+                    <element signature="n#!!block;n#getStoryID#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDOM#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormats#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormatsLookupCalc#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormatsIRMiniquoteChart#0" expanded="false" />
+                    <element signature="n#!!block;n#getUnixFromDate#0" expanded="false" />
+                    <element signature="n#!!block;n#getProfilePerformanceDataForPeriod#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateFromDateArray#0" expanded="false" />
+                    <element signature="n#!!block;n#updateChartHTMLLanguages#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCVNPressRelease#0" expanded="false" />
+                    <element signature="n#!!block;n#chartOpenNewsFromFlag#0" expanded="false" />
+                    <element signature="n#!!block;n#chartOpenPressReleaseFromURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getOHLCfromTranslations#0" expanded="false" />
+                    <element signature="n#!!block;n#formatTooltipDate#0" expanded="false" />
+                    <element signature="n#!!block;n#formatTooltipDateTime#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDateWithReplacedDate#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDateWithFormat#0" expanded="false" />
+                    <element signature="n#!!block;n#translateMonthShort#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipLookup#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipCalc#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDCV#0" expanded="false" />
+                    <element signature="n#!!block;n#updateChartNavBarRange#0" expanded="false" />
+                    <element signature="n#!!block;n#updateActiveChartNavBarRangePeriod#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChartChangeListing#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChangeListing#0" expanded="false" />
+                    <element signature="n#!!block;n#stateNewHistoricalPeriodSelected#0" expanded="false" />
+                    <element signature="n#!!block;n#stateNewIntradayPeriodSelected#0" expanded="false" />
+                    <element signature="n#!!block;n#checkChartState#0" expanded="false" />
+                    <element signature="n#!!block;n#setChartExtremes#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingClosePrice#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingClosePriceWithDataArray#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#getCurrencyCrossFromStockOtherData#0" expanded="false" />
+                    <element signature="n#!!block;n#getCroppedDownscaledData#0" expanded="false" />
+                    <element signature="n#!!block;n#cropListToDateRange#0" expanded="false" />
+                    <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+                    <element signature="n#!!block;n#compareDates#0" expanded="false" />
+                    <element signature="e#85787#85849#0" expanded="false" />
+                    <element signature="n#!!block;n#downscaleData#0" expanded="false" />
+                    <element signature="n#!!block;n#stockDateToListDate#0" expanded="false" />
+                    <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+                    <element signature="n#!!block;n#newsSearch#0" expanded="false" />
+                    <element signature="n#!!block;n#newsFilterReset#0" expanded="false" />
+                    <element signature="n#!!block;n#newsFilter#0" expanded="false" />
+                    <element signature="n#!!block;n#newsAddDistinctFilter#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationCloseOpenBodyDivs#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationShowHide#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationHideAll#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartEventSendExtremes#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartEventUpdateIRChartComparisonPlotLine#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipComparisonDC#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChartCurrencyConversion#0" expanded="false" />
+                    <element signature="e#105289#105600#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipTechnicalAnalysisDP#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTechnicalAnalysis#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysis#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysisToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#resetIRChartNavigation#0" expanded="false" />
+                    <element signature="n#!!block;n#resetIRChart#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#applyTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#applyTSRToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#reApplyTSRToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#initTSRUpdateInterval#0" expanded="false" />
+                    <element signature="e#126269#134582#0" expanded="false" />
+                    <element signature="e#131591#132005#0" expanded="false" />
+                    <element signature="e#132027#132887#0" expanded="false" />
+                    <element signature="e#133675#133954#0" expanded="false" />
+                    <element signature="e#133971#134574#0" expanded="false" />
+                    <element signature="e#134615#188149#0" expanded="false" />
+                    <element signature="e#134702#135057#0" expanded="false" />
+                    <element signature="e#135088#136934#0" expanded="false" />
+                    <element signature="e#136979#140107#0" expanded="false" />
+                    <element signature="e#140165#141131#0" expanded="false" />
+                    <element signature="n#!!block;n#formatColour#0" expanded="false" />
+                    <element signature="n#!!block;n#initMomentTimezone#0" expanded="false" />
+                    <element signature="n#!!block;n#randomIntBetween#0" expanded="false" />
+                    <element signature="e#206365#207384#0" expanded="false" />
+                    <element signature="e#207439#207513#0" expanded="false" />
+                    <element signature="n#!!block;n#shadeColor#0" expanded="false" />
+                    <element signature="n#!!block;n#attachClickHandlers#0" expanded="false" />
+                    <element signature="e#208071#208579#0" expanded="false" />
+                    <element signature="e#208616#211334#0" expanded="false" />
+                    <element signature="e#211370#214121#0" expanded="false" />
+                    <element signature="e#215662#216334#0" expanded="false" />
+                    <element signature="e#216370#217072#0" expanded="false" />
+                    <element signature="e#217121#221704#0" expanded="false" />
+                    <element signature="e#221742#223212#0" expanded="false" />
+                    <element signature="e#223265#224718#0" expanded="false" />
+                    <element signature="e#224757#226201#0" expanded="false" />
+                    <marker date="1475672522000" expanded="true" signature="44585:44637" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="46818:46870" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="49398:49423" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="50482:50507" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="52890:52915" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="54014:54039" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="67429:67481" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="68515:68567" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="89122:89135" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="97732:97842" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="97910:97965" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="98000:98055" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="98090:98145" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="99761:99887" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="100257:100306" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="101377:101426" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="102860:102885" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="103956:103981" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="116364:116379" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.data.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.data.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-4343">
+                  <caret line="1097" column="110" selection-start-line="1097" selection-start-column="104" selection-end-line="1097" selection-end-column="110" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.debug.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.debug.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.util.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/2270/old/ir.util.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="1189" column="6" selection-start-line="1189" selection-start-column="6" selection-end-line="1189" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#7151#8964#0" expanded="false" />
+                    <element signature="e#9702#9744#0" expanded="false" />
+                    <element signature="e#9750#9816#0" expanded="false" />
+                    <element signature="e#9898#9942#0" expanded="false" />
+                    <element signature="e#10032#10084#0" expanded="false" />
+                    <element signature="n#!!block;n#setReadingDirection#0" expanded="false" />
+                    <element signature="n#!!block;n#checkActiveDataRequests#0" expanded="false" />
+                    <element signature="n#!!block;n#initSolutionInfo#0" expanded="false" />
+                    <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+                    <element signature="n#!!block;n#getServiceEngingeURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getProtocol#0" expanded="false" />
+                    <element signature="n#!!block;n#getHost#0" expanded="false" />
+                    <element signature="n#!!block;n#getNewsArticlePath#0" expanded="false" />
+                    <element signature="n#!!block;n#getImagePath#0" expanded="false" />
+                    <element signature="n#!!block;n#getActiveCurrency#0" expanded="false" />
+                    <element signature="n#!!block;n#getActiveCurrencySymbol#0" expanded="false" />
+                    <element signature="n#!!block;n#getActiveTAShort#0" expanded="false" />
+                    <element signature="n#!!block;n#updateLCID#0" expanded="false" />
+                    <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+                    <element signature="n#!!block;n#initClientStyle#0" expanded="false" />
+                    <element signature="n#!!block;n#checkWidthAndReduceChartHeight#0" expanded="false" />
+                    <element signature="n#!!block;n#getWidth#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipCssTopInPx#0" expanded="false" />
+                    <element signature="n#!!block;n#requestListingFromURL#0" expanded="false" />
+                    <element signature="n#!!block;n#initMomentTimezone#0" expanded="false" />
+                    <element signature="n#!!block;n#getExchangeCity#0" expanded="false" />
+                    <element signature="n#!!block;n#getExchangeShort#0" expanded="false" />
+                    <element signature="n#!!block;n#setExchangeShort#0" expanded="false" />
+                    <element signature="n#!!block;n#manualOverwriteActiveLanguage#0" expanded="false" />
+                    <element signature="n#!!block;n#updateChartHTMLLanguages#0" expanded="false" />
+                    <element signature="n#!!block;n#formatTooltipDate#0" expanded="false" />
+                    <element signature="n#!!block;n#formatTooltipDateWithData#0" expanded="false" />
+                    <element signature="n#!!block;n#formatTooltipDateTime#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDateWithReplacedDate#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#find_longest_width#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCVNPressRelease#0" expanded="false" />
+                    <element signature="n#!!block;n#chartOpenNewsFromFlag#0" expanded="false" />
+                    <element signature="n#!!block;n#chartOpenPressReleaseFromURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getOHLCfromTranslations#0" expanded="false" />
+                    <element signature="n#!!block;n#getPathToSolution#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipLookup#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipCalc#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDCV#0" expanded="false" />
+                    <element signature="n#!!block;n#getIndexForMatchingDate#0" expanded="false" />
+                    <element signature="n#!!block;n#updateChartNavBarRange#0" expanded="false" />
+                    <element signature="n#!!block;n#updateActiveChartNavBarRangePeriod#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChartChangeListing#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChangeListingEl#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChangeListing#0" expanded="false" />
+                    <element signature="e#147208#148670#0" expanded="false" />
+                    <element signature="n#!!block;n#stateNewHistoricalPeriodSelected#0" expanded="false" />
+                    <element signature="n#!!block;n#stateNewIntradayPeriodSelected#0" expanded="false" />
+                    <element signature="n#!!block;n#checkChartState#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingClosePrice#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingClosePriceWithDataArray#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDecimal#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDecimalWithCustomNumberOfDecimal#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDecimalNoZero#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDecimalFileSize#0" expanded="false" />
+                    <element signature="n#!!block;n#translateWeekdayShort#0" expanded="false" />
+                    <element signature="n#!!block;n#translateMonthShort#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDateWithFormat#0" expanded="false" />
+                    <element signature="n#!!block;n#formatNumberWithLocalDelimiters#0" expanded="false" />
+                    <element signature="n#!!block;n#getBrowserIEVersion#0" expanded="false" />
+                    <element signature="n#!!block;n#getStoryID#0" expanded="false" />
+                    <element signature="n#!!block;n#getLogoPath#0" expanded="false" />
+                    <element signature="n#!!block;n#validateDateFormat#0" expanded="false" />
+                    <element signature="n#!!block;n#validateDateTimeFormat#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormats#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormatsLookupCalc#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormatsIRMiniquoteChart#0" expanded="false" />
+                    <element signature="n#!!block;n#getCurrencyCrossFromStockOtherData#0" expanded="false" />
+                    <element signature="n#!!block;n#getCurrencyCrossOnlyFromStockOtherData#0" expanded="false" />
+                    <element signature="n#!!block;n#getCroppedDownscaledData#0" expanded="false" />
+                    <element signature="n#!!block;n#cropListToDateRange#0" expanded="false" />
+                    <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+                    <element signature="n#!!block;n#compareDates#0" expanded="false" />
+                    <element signature="e#200384#200446#0" expanded="false" />
+                    <element signature="n#!!block;n#downscaleData#0" expanded="false" />
+                    <element signature="n#!!block;n#stockDateToListDate#0" expanded="false" />
+                    <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+                    <element signature="n#!!block;n#newsFilterReset#0" expanded="false" />
+                    <element signature="n#!!block;n#newsAddDistinctFilter#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationCloseOpenBodyDivs#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationShowHide#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationHideAll#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartEventSendExtremes#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartEventUpdateIRChartComparisonPlotLine#0" expanded="false" />
+                    <element signature="n#!!block;n#getUnixFromDate#0" expanded="false" />
+                    <element signature="n#!!block;n#getProfilePerformanceDataForPeriod#0" expanded="false" />
+                    <element signature="e#217462#218481#0" expanded="false" />
+                    <element signature="n#!!block;n#getAmountOfPxFromTop#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipComparisonDC#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChartCurrencyConversion#0" expanded="false" />
+                    <element signature="n#!!block;n#loadCurrencyConversionAdjustedPrice#0" expanded="false" />
+                    <element signature="n#!!block;n#applyCurrencyConversion#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipTechnicalAnalysisDP#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTechnicalAnalysis#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysis#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysisToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysisDataSimpleMovingAverage#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysisDataExponentialMovingAverage#0" expanded="false" />
+                    <element signature="n#!!block;n#updateSettingsForEnabledTA#0" expanded="false" />
+                    <element signature="n#!!block;n#resetIRChartNavigation#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#applyTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#applyTSRToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#shadeColor#0" expanded="false" />
+                    <element signature="n#!!block;n#reApplyTSRToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#initTSRUpdateInterval#0" expanded="false" />
+                    <element signature="e#255176#257026#0" expanded="false" />
+                    <element signature="e#261475#271463#0" expanded="false" />
+                    <element signature="e#271581#285017#0" expanded="false" />
+                    <element signature="e#285251#287091#0" expanded="false" />
+                    <element signature="n#!!block;n#errorHandling#0" expanded="false" />
+                    <element signature="e#335024#335050#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRDEBUG#0" expanded="false" />
+                    <element signature="n#!!block;n#strD#0" expanded="false" />
+                    <element signature="e#336155#336537#0" expanded="false" />
+                    <element signature="e#336689#336885#0" expanded="false" />
+                    <element signature="n#!!block;n#reportModuleReady#0" expanded="false" />
+                    <marker date="1473257457000" expanded="true" signature="113617:113669" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="115876:115928" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="121040:121065" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="122134:122159" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="124609:124634" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="125729:125754" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="128289:128341" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="129424:129476" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="203758:203771" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="214509:214619" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="214687:214742" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="214777:214832" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="214867:214922" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="219912:219975" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="220346:220395" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="221453:221502" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="222952:222977" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="224070:224095" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="240735:240750" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="242170:242185" ph="..." />
+                    <marker date="1473257457000" expanded="true" signature="243633:243648" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.tool.lookup.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/old/ir.tool.lookup.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="244">
+                  <caret line="287" column="16" selection-start-line="287" selection-start-column="16" selection-end-line="287" selection-end-column="16" />
+                  <folding>
+                    <marker date="1471935122000" expanded="true" signature="9117:9130" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.util.data.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/old/ir.util.data.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="468">
+                  <caret line="798" column="25" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.behaviour.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/old/ir.behaviour.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="348">
+                  <caret line="111" column="62" selection-start-line="111" selection-start-column="62" selection-end-line="111" selection-end-column="62" />
+                  <folding>
+                    <marker date="1474031303000" expanded="true" signature="32651:32704" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.util.draw.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/old/ir.util.draw.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="23220">
+                  <caret line="2203" column="20" selection-start-line="2203" selection-start-column="20" selection-end-line="2203" selection-end-column="20" />
+                  <folding>
+                    <element signature="n#!!block;n#drawMiniquoteChart#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRChartHTMLMiniquote#0" expanded="false" />
+                    <element signature="n#!!block;n#drawPlotLineToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#drawChartHeadlineClientName#0" expanded="false" />
+                    <element signature="n#!!block;n#drawChartCurrency#0" expanded="false" />
+                    <marker date="1475480063000" expanded="true" signature="50113:50223" ph="..." />
+                    <marker date="1475480063000" expanded="true" signature="50291:50346" ph="..." />
+                    <marker date="1475480063000" expanded="true" signature="50381:50436" ph="..." />
+                    <marker date="1475480063000" expanded="true" signature="50471:50526" ph="..." />
+                    <marker date="1475480063000" expanded="true" signature="55931:56016" ph="..." />
+                    <marker date="1475480063000" expanded="true" signature="60604:60657" ph="..." />
+                    <marker date="1475480063000" expanded="true" signature="60817:60870" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ir.draw.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.draw.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2025">
+                  <caret line="446" column="27" selection-start-line="446" selection-start-column="27" selection-end-line="446" selection-end-column="27" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="n#!!block;n#buildBenchmark#0" expanded="false" />
+                    <element signature="n#!!block;n#buildNewsHeadlineTool#0" expanded="false" />
+                    <element signature="n#!!block;n#buildEmailAlertTool#0" expanded="false" />
+                    <element signature="n#!!block;n#buildIRChartHTMLTool#0" expanded="false" />
+                    <element signature="n#!!block;n#buildQuoteTable#0" expanded="false" />
+                    <element signature="n#!!block;n#buildIRProfile#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRMiniquote#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRMiniquoteChart#0" expanded="false" />
+                    <element signature="n#!!block;n#buildNewsEntries#0" expanded="false" />
+                    <element signature="n#!!block;n#setNewsPagination#0" expanded="false" />
+                    <element signature="n#!!block;n#setNewsActivePage#0" expanded="false" />
+                    <element signature="n#!!block;n#activePageSetter#0" expanded="false" />
+                    <element signature="n#!!block;n#applyCssClassesForResponsive#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRChartCompareListNavigation#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRChartHTML#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRChartMiniHTML#0" expanded="false" />
+                    <element signature="e#24452#26130#0" expanded="false" />
+                    <element signature="e#24471#25119#0" expanded="false" />
+                    <element signature="e#25140#25178#0" expanded="false" />
+                    <element signature="e#25195#25787#0" expanded="false" />
+                    <element signature="e#25805#26124#0" expanded="false" />
+                    <element signature="n#!!block;n#applyMiniquoteChartYAxis#0" expanded="false" />
+                    <element signature="n#!!block;n#applyMiniquoteChartChart#0" expanded="false" />
+                    <element signature="n#!!block;n#drawMiniquoteChart#0" expanded="false" />
+                    <element signature="e#28219#28421#0" expanded="false" />
+                    <element signature="e#28499#28746#0" expanded="false" />
+                    <element signature="e#28785#28815#0" expanded="false" />
+                    <element signature="e#28842#29378#0" expanded="false" />
+                    <element signature="n#!!block;n#redrawIRChartHTMLIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRNewsToChartHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#drawIRChartPressReleaseIRChartHeadlineToChartHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#drawActiveListingToChartIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#drawPlotLineToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#drawChartHeadlineClientName#0" expanded="false" />
+                    <element signature="n#!!block;n#drawChartCurrency#0" expanded="false" />
+                    <element signature="n#!!block;n#drawActiveListingToChartMiniHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#drawActiveListingToIRMiniquoteChartHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#drawActiveListingToIRMiniquoteChartIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#drawNewsArticle#0" expanded="false" />
+                    <element signature="n#!!block;n#drawActiveListingToChartLookupHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#updateComparison#0" expanded="false" />
+                    <element signature="n#!!block;n#redrawChartInCompareMode#0" expanded="false" />
+                    <element signature="n#!!block;n#drawActiveListingHistoricalToIRChartHTMLCompare#0" expanded="false" />
+                    <element signature="n#!!block;n#addCompareSeriesToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#removeCompareSeriesFromChart#0" expanded="false" />
+                    <element signature="n#!!block;n#updateActiveComparisonList#0" expanded="false" />
+                    <element signature="n#!!block;n#redrawIRChartInModeTA#0" expanded="false" />
+                    <marker date="1474021604000" expanded="true" signature="33213:33323" ph="..." />
+                    <marker date="1474021604000" expanded="true" signature="33391:33446" ph="..." />
+                    <marker date="1474021604000" expanded="true" signature="33481:33536" ph="..." />
+                    <marker date="1474021604000" expanded="true" signature="33571:33626" ph="..." />
+                    <marker date="1474021604000" expanded="true" signature="37682:37767" ph="..." />
+                    <marker date="1474021604000" expanded="true" signature="42319:42384" ph="..." />
+                    <marker date="1474021604000" expanded="true" signature="42544:42609" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="chart.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2270/chart.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ir.util.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.util.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="334" column="9" selection-start-line="334" selection-start-column="9" selection-end-line="334" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#5124#5641#0" expanded="false" />
+                    <element signature="e#5666#6772#0" expanded="false" />
+                    <element signature="e#7699#8033#0" expanded="false" />
+                    <element signature="e#8220#8382#0" expanded="false" />
+                    <element signature="e#8639#8667#0" expanded="false" />
+                    <element signature="e#8698#8758#0" expanded="false" />
+                    <element signature="e#11107#11665#0" expanded="false" />
+                    <element signature="e#11734#13194#0" expanded="false" />
+                    <element signature="e#13279#13988#0" expanded="false" />
+                    <element signature="e#14006#14181#0" expanded="false" />
+                    <element signature="n#!!block;n#initCheckActive#0" expanded="false" />
+                    <element signature="n#!!block;n#initSolutionInfo#0" expanded="false" />
+                    <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+                    <element signature="n#!!block;n#getClientName#0" expanded="false" />
+                    <element signature="n#!!block;n#getCustomerKeyRequired#0" expanded="false" />
+                    <element signature="n#!!block;n#initData#0" expanded="false" />
+                    <element signature="n#!!block;n#checkActiveDataRequests#0" expanded="false" />
+                    <element signature="n#!!block;n#checkActiveModules#0" expanded="false" />
+                    <element signature="n#!!block;n#checkActiveFeatures#0" expanded="false" />
+                    <element signature="n#!!block;n#updateLCID#0" expanded="false" />
+                    <element signature="n#!!block;n#changeGlobalDecimalSeparator#0" expanded="false" />
+                    <element signature="n#!!block;n#getServiceEngingeURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getProtocol#0" expanded="false" />
+                    <element signature="n#!!block;n#getHost#0" expanded="false" />
+                    <element signature="n#!!block;n#getNewsArticlePath#0" expanded="false" />
+                    <element signature="n#!!block;n#getImagePath#0" expanded="false" />
+                    <element signature="n#!!block;n#getLogoPath#0" expanded="false" />
+                    <element signature="n#!!block;n#setReadingDirection#0" expanded="false" />
+                    <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+                    <element signature="n#!!block;n#getActiveCurrencySymbol#0" expanded="false" />
+                    <element signature="n#!!block;n#requestListingFromURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getExchangeCity#0" expanded="false" />
+                    <element signature="n#!!block;n#setExchangeShort#0" expanded="false" />
+                    <element signature="n#!!block;n#getStoryID#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDOM#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormats#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormatsLookupCalc#0" expanded="false" />
+                    <element signature="n#!!block;n#getChartDateTimeLabelFormatsIRMiniquoteChart#0" expanded="false" />
+                    <element signature="n#!!block;n#getUnixFromDate#0" expanded="false" />
+                    <element signature="n#!!block;n#getProfilePerformanceDataForPeriod#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateFromDateArray#0" expanded="false" />
+                    <element signature="n#!!block;n#updateChartHTMLLanguages#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDOHLCVNPressRelease#0" expanded="false" />
+                    <element signature="n#!!block;n#chartOpenNewsFromFlag#0" expanded="false" />
+                    <element signature="n#!!block;n#chartOpenPressReleaseFromURL#0" expanded="false" />
+                    <element signature="n#!!block;n#getOHLCfromTranslations#0" expanded="false" />
+                    <element signature="n#!!block;n#formatTooltipDate#0" expanded="false" />
+                    <element signature="n#!!block;n#formatTooltipDateTime#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDateWithReplacedDate#0" expanded="false" />
+                    <element signature="n#!!block;n#formatDateWithFormat#0" expanded="false" />
+                    <element signature="n#!!block;n#translateMonthShort#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#getTooltipStrSubTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipLookup#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipCalc#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipDCV#0" expanded="false" />
+                    <element signature="n#!!block;n#updateChartNavBarRange#0" expanded="false" />
+                    <element signature="n#!!block;n#updateActiveChartNavBarRangePeriod#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChartChangeListing#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChangeListing#0" expanded="false" />
+                    <element signature="n#!!block;n#stateNewHistoricalPeriodSelected#0" expanded="false" />
+                    <element signature="n#!!block;n#stateNewIntradayPeriodSelected#0" expanded="false" />
+                    <element signature="n#!!block;n#checkChartState#0" expanded="false" />
+                    <element signature="n#!!block;n#setChartExtremes#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingClosePrice#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingClosePriceWithDataArray#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingIntraday#0" expanded="false" />
+                    <element signature="n#!!block;n#getClosestDateIndexForListingTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#getCurrencyCrossFromStockOtherData#0" expanded="false" />
+                    <element signature="n#!!block;n#getCroppedDownscaledData#0" expanded="false" />
+                    <element signature="n#!!block;n#cropListToDateRange#0" expanded="false" />
+                    <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+                    <element signature="n#!!block;n#compareDates#0" expanded="false" />
+                    <element signature="e#85787#85849#0" expanded="false" />
+                    <element signature="n#!!block;n#downscaleData#0" expanded="false" />
+                    <element signature="n#!!block;n#stockDateToListDate#0" expanded="false" />
+                    <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+                    <element signature="n#!!block;n#newsSearch#0" expanded="false" />
+                    <element signature="n#!!block;n#newsFilterReset#0" expanded="false" />
+                    <element signature="n#!!block;n#newsFilter#0" expanded="false" />
+                    <element signature="n#!!block;n#newsAddDistinctFilter#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationCloseOpenBodyDivs#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationShowHide#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartNavigationHideAll#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartEventSendExtremes#0" expanded="false" />
+                    <element signature="n#!!block;n#IRChartEventUpdateIRChartComparisonPlotLine#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipComparisonDC#0" expanded="false" />
+                    <element signature="n#!!block;n#updateIRChartCurrencyConversion#0" expanded="false" />
+                    <element signature="e#105289#105600#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTooltipTechnicalAnalysisDP#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTechnicalAnalysis#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysis#0" expanded="false" />
+                    <element signature="n#!!block;n#applyAnalysisToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#resetIRChartNavigation#0" expanded="false" />
+                    <element signature="n#!!block;n#resetIRChart#0" expanded="false" />
+                    <element signature="n#!!block;n#updateTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#applyTSR#0" expanded="false" />
+                    <element signature="n#!!block;n#applyTSRToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#reApplyTSRToChart#0" expanded="false" />
+                    <element signature="n#!!block;n#initTSRUpdateInterval#0" expanded="false" />
+                    <element signature="e#126269#134582#0" expanded="false" />
+                    <element signature="e#131591#132005#0" expanded="false" />
+                    <element signature="e#132027#132887#0" expanded="false" />
+                    <element signature="e#133675#133954#0" expanded="false" />
+                    <element signature="e#133971#134574#0" expanded="false" />
+                    <element signature="e#134615#188149#0" expanded="false" />
+                    <element signature="e#134702#135057#0" expanded="false" />
+                    <element signature="e#135088#136934#0" expanded="false" />
+                    <element signature="e#136979#140107#0" expanded="false" />
+                    <element signature="e#140165#141131#0" expanded="false" />
+                    <element signature="n#!!block;n#formatColour#0" expanded="false" />
+                    <element signature="n#!!block;n#initMomentTimezone#0" expanded="false" />
+                    <element signature="n#!!block;n#randomIntBetween#0" expanded="false" />
+                    <element signature="e#206365#207384#0" expanded="false" />
+                    <element signature="e#207439#207513#0" expanded="false" />
+                    <element signature="n#!!block;n#shadeColor#0" expanded="false" />
+                    <element signature="n#!!block;n#attachClickHandlers#0" expanded="false" />
+                    <element signature="e#208071#208579#0" expanded="false" />
+                    <element signature="e#208616#211334#0" expanded="false" />
+                    <element signature="e#211370#214121#0" expanded="false" />
+                    <element signature="e#215662#216334#0" expanded="false" />
+                    <element signature="e#216370#217072#0" expanded="false" />
+                    <element signature="e#217121#221704#0" expanded="false" />
+                    <element signature="e#221742#223212#0" expanded="false" />
+                    <element signature="e#223265#224718#0" expanded="false" />
+                    <element signature="e#224757#226201#0" expanded="false" />
+                    <marker date="1475672522000" expanded="true" signature="44585:44637" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="46818:46870" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="49398:49423" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="50482:50507" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="52890:52915" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="54014:54039" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="67429:67481" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="68515:68567" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="89122:89135" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="97732:97842" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="97910:97965" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="98000:98055" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="98090:98145" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="99761:99887" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="100257:100306" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="101377:101426" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="102860:102885" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="103956:103981" ph="..." />
+                    <marker date="1475672522000" expanded="true" signature="116364:116379" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/2270/miniquote.aspx" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.calc.js" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.debug.js" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.tools.init.js" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.helpers.js" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.data.js" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.draw.js" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.tools.render.js" />
+        <option value="$PROJECT_DIR$/2270/inc/ir.util.js" />
+        <option value="$PROJECT_DIR$/2270/ir.miniquote.ctrl.js" />
+        <option value="$PROJECT_DIR$/2270/old/ir.tool.calc.js" />
+        <option value="$PROJECT_DIR$/2270/inc/core/css/ir.normalize.css" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.tools.render.js" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.data.js" />
+        <option value="$PROJECT_DIR$/2270/calc.html" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.calc.js" />
+        <option value="$PROJECT_DIR$/2270/ir.client.css" />
+        <option value="$PROJECT_DIR$/2270/news.html" />
+        <option value="$PROJECT_DIR$/2270/trades.html" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.debug.js" />
+        <option value="$PROJECT_DIR$/2270/inc/core/css/ir.style.css" />
+        <option value="$PROJECT_DIR$/2270/orders.html" />
+        <option value="$PROJECT_DIR$/2270/newsheadline.html" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.boot.js" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.draw.js" />
+        <option value="$PROJECT_DIR$/2270/miniquotechart.html" />
+        <option value="$PROJECT_DIR$/2270/miniquote.html" />
+        <option value="$PROJECT_DIR$/2270/inc/profile.html" />
+        <option value="$PROJECT_DIR$/2270/profile.html" />
+        <option value="$PROJECT_DIR$/2270/ir.client.js" />
+        <option value="$PROJECT_DIR$/2270/old/ir.behaviour.js" />
+        <option value="$PROJECT_DIR$/2270/lookup.html" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.lookup.js" />
+        <option value="$PROJECT_DIR$/2270/chart.html" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.helpers.js" />
+        <option value="$PROJECT_DIR$/2270/old/ir.util.draw.js" />
+        <option value="$PROJECT_DIR$/2270/old/ir.util.data.js" />
+        <option value="$PROJECT_DIR$/2270/inc/core/js/ir.util.js" />
+        <option value="$PROJECT_DIR$/2270/old/ir.util.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSPotentiallyInvalidConstructorUsage</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2270" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2270" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="old" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2270" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2270" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AFAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2270" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.3.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last.edited.regexp" value="23432.343" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2270/inc/core/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2270" />
+      <recent name="$PROJECT_DIR$/2270/inc/core/js" />
+      <recent name="$PROJECT_DIR$/2270/inc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cffd4322-0f16-4ad3-a88f-d0b553bd624d" name="Default" comment="" />
+      <created>1471852128889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1471852128889</updated>
+      <workItem from="1471852130263" duration="1114000" />
+      <workItem from="1471854369606" duration="24671000" />
+      <workItem from="1472106271269" duration="181919000" />
+      <workItem from="1473683373308" duration="57959000" />
+      <workItem from="1474441448881" duration="28355000" />
+      <workItem from="1475567640776" duration="8342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="302360000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1888654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21584159" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12772277" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21584159" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15850447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06237624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="40" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2270/miniquote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="102" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/lookup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.lookup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="650" column="35" selection-start-line="650" selection-start-column="35" selection-end-line="650" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+            <element signature="n#!!block;n#getParameterByName#0" expanded="false" />
+            <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+            <element signature="n#!!block;n#lookup#0" expanded="false" />
+            <element signature="n#!!block;n#initializeLookup#0" expanded="false" />
+            <element signature="n#!!block;n#compareDates#0" expanded="false" />
+            <element signature="n#!!block;n#getDaysInMonth#0" expanded="false" />
+            <element signature="n#!!block;n#populateChart#0" expanded="false" />
+            <element signature="n#!!block;n#applyChartChart#0" expanded="false" />
+            <element signature="n#!!block;n#applyChartYAxis#0" expanded="false" />
+            <element signature="n#!!block;n#cropGraph#0" expanded="false" />
+            <element signature="n#!!block;n#readFromDate#0" expanded="false" />
+            <element signature="n#!!block;n#readToDate#0" expanded="false" />
+            <element signature="n#!!block;n#setFromDateSelects#0" expanded="false" />
+            <element signature="n#!!block;n#setToDateSelects#0" expanded="false" />
+            <element signature="n#!!block;n#swapDatepickerDates#0" expanded="false" />
+            <element signature="n#!!block;n#swapSelectDates#0" expanded="false" />
+            <element signature="n#!!block;n#dateSelectChangeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#restrictSelectDates#0" expanded="false" />
+            <element signature="n#!!block;n#datePickerChangeHandler#0" expanded="false" />
+            <marker date="1474033268000" expanded="true" signature="8563:8576" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="368" column="9" selection-start-line="368" selection-start-column="9" selection-end-line="368" selection-end-column="9" />
+          <folding>
+            <element signature="e#672#935#0" expanded="false" />
+            <element signature="e#998#1182#0" expanded="false" />
+            <element signature="e#1251#1438#0" expanded="false" />
+            <element signature="e#3968#5053#0" expanded="false" />
+            <element signature="e#6030#6059#0" expanded="false" />
+            <element signature="e#6153#6204#0" expanded="false" />
+            <element signature="e#11109#11488#0" expanded="false" />
+            <element signature="e#11572#12673#0" expanded="false" />
+            <element signature="e#12762#12983#0" expanded="false" />
+            <element signature="e#13079#14001#0" expanded="false" />
+            <element signature="e#14060#14542#0" expanded="false" />
+            <element signature="e#16244#16332#0" expanded="false" />
+            <element signature="e#16390#16704#0" expanded="false" />
+            <element signature="e#16916#17353#0" expanded="false" />
+            <element signature="e#17422#17592#0" expanded="false" />
+            <element signature="e#17667#17808#0" expanded="false" />
+            <element signature="e#17881#18050#0" expanded="false" />
+            <element signature="e#18119#18564#0" expanded="false" />
+            <element signature="e#18631#18963#0" expanded="false" />
+            <element signature="e#19035#19346#0" expanded="false" />
+            <element signature="e#19416#19669#0" expanded="false" />
+            <element signature="e#19756#20175#0" expanded="false" />
+            <element signature="e#20243#21938#0" expanded="false" />
+            <element signature="e#22012#23573#0" expanded="false" />
+            <element signature="e#23799#24610#0" expanded="false" />
+            <element signature="e#24693#25220#0" expanded="false" />
+            <element signature="e#25807#28084#0" expanded="false" />
+            <marker date="1474442142000" expanded="true" signature="24500:24565" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.draw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="839" column="40" selection-start-line="839" selection-start-column="14" selection-end-line="839" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#buildBenchmark#0" expanded="false" />
+            <element signature="n#!!block;n#buildNewsHeadlineTool#0" expanded="false" />
+            <element signature="n#!!block;n#buildEmailAlertTool#0" expanded="false" />
+            <element signature="n#!!block;n#buildIRChartHTMLTool#0" expanded="false" />
+            <element signature="n#!!block;n#buildQuoteTable#0" expanded="false" />
+            <element signature="n#!!block;n#buildIRProfile#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRMiniquote#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRMiniquoteChart#0" expanded="false" />
+            <element signature="n#!!block;n#buildNewsEntries#0" expanded="false" />
+            <element signature="n#!!block;n#setNewsPagination#0" expanded="false" />
+            <element signature="n#!!block;n#setNewsActivePage#0" expanded="false" />
+            <element signature="n#!!block;n#activePageSetter#0" expanded="false" />
+            <element signature="n#!!block;n#applyCssClassesForResponsive#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartCompareListNavigation#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartHTML#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartMiniHTML#0" expanded="false" />
+            <element signature="e#24452#26130#0" expanded="false" />
+            <element signature="e#24471#25119#0" expanded="false" />
+            <element signature="e#25140#25178#0" expanded="false" />
+            <element signature="e#25195#25787#0" expanded="false" />
+            <element signature="e#25805#26124#0" expanded="false" />
+            <element signature="n#!!block;n#applyMiniquoteChartYAxis#0" expanded="false" />
+            <element signature="n#!!block;n#applyMiniquoteChartChart#0" expanded="false" />
+            <element signature="n#!!block;n#drawMiniquoteChart#0" expanded="false" />
+            <element signature="e#28219#28421#0" expanded="false" />
+            <element signature="e#28499#28746#0" expanded="false" />
+            <element signature="e#28785#28815#0" expanded="false" />
+            <element signature="e#28842#29378#0" expanded="false" />
+            <element signature="n#!!block;n#redrawIRChartHTMLIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRNewsToChartHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartPressReleaseIRChartHeadlineToChartHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToChartIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#drawPlotLineToChart#0" expanded="false" />
+            <element signature="n#!!block;n#drawChartHeadlineClientName#0" expanded="false" />
+            <element signature="n#!!block;n#drawChartCurrency#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToChartMiniHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToIRMiniquoteChartHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToIRMiniquoteChartIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#drawNewsArticle#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToChartLookupHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#updateComparison#0" expanded="false" />
+            <element signature="n#!!block;n#redrawChartInCompareMode#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingHistoricalToIRChartHTMLCompare#0" expanded="false" />
+            <element signature="n#!!block;n#addCompareSeriesToChart#0" expanded="false" />
+            <element signature="n#!!block;n#removeCompareSeriesFromChart#0" expanded="false" />
+            <element signature="n#!!block;n#updateActiveComparisonList#0" expanded="false" />
+            <element signature="n#!!block;n#redrawIRChartInModeTA#0" expanded="false" />
+            <marker date="1474021604000" expanded="true" signature="33213:33323" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="33391:33446" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="33481:33536" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="33571:33626" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="37682:37767" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="42319:42384" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="42544:42609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6945">
+          <caret line="463" column="44" selection-start-line="463" selection-start-column="44" selection-end-line="463" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6375">
+          <caret line="843" column="60" selection-start-line="843" selection-start-column="60" selection-end-line="843" selection-end-column="60" />
+          <folding>
+            <element signature="e#5124#5641#0" expanded="false" />
+            <element signature="e#5666#6772#0" expanded="false" />
+            <element signature="e#7699#8033#0" expanded="false" />
+            <element signature="e#8220#8382#0" expanded="false" />
+            <element signature="e#8639#8667#0" expanded="false" />
+            <element signature="e#8698#8758#0" expanded="false" />
+            <element signature="e#11107#11665#0" expanded="false" />
+            <element signature="e#11734#13194#0" expanded="false" />
+            <element signature="e#13279#13988#0" expanded="false" />
+            <element signature="e#14006#14181#0" expanded="false" />
+            <element signature="n#!!block;n#initCheckActive#0" expanded="false" />
+            <element signature="n#!!block;n#initSolutionInfo#0" expanded="false" />
+            <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+            <element signature="n#!!block;n#getClientName#0" expanded="false" />
+            <element signature="n#!!block;n#getCustomerKeyRequired#0" expanded="false" />
+            <element signature="n#!!block;n#initData#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveDataRequests#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveModules#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveFeatures#0" expanded="false" />
+            <element signature="n#!!block;n#updateLCID#0" expanded="false" />
+            <element signature="n#!!block;n#changeGlobalDecimalSeparator#0" expanded="false" />
+            <element signature="n#!!block;n#getServiceEngingeURL#0" expanded="false" />
+            <element signature="n#!!block;n#getProtocol#0" expanded="false" />
+            <element signature="n#!!block;n#getHost#0" expanded="false" />
+            <element signature="n#!!block;n#getNewsArticlePath#0" expanded="false" />
+            <element signature="n#!!block;n#getImagePath#0" expanded="false" />
+            <element signature="n#!!block;n#getLogoPath#0" expanded="false" />
+            <element signature="n#!!block;n#setReadingDirection#0" expanded="false" />
+            <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+            <element signature="n#!!block;n#getActiveCurrencySymbol#0" expanded="false" />
+            <element signature="n#!!block;n#requestListingFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#getExchangeCity#0" expanded="false" />
+            <element signature="n#!!block;n#setExchangeShort#0" expanded="false" />
+            <element signature="n#!!block;n#getStoryID#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDOM#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormats#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsLookupCalc#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsIRMiniquoteChart#0" expanded="false" />
+            <element signature="n#!!block;n#getUnixFromDate#0" expanded="false" />
+            <element signature="n#!!block;n#getProfilePerformanceDataForPeriod#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateFromDateArray#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartHTMLLanguages#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVNPressRelease#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenNewsFromFlag#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenPressReleaseFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#getOHLCfromTranslations#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDateTime#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithReplacedDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithFormat#0" expanded="false" />
+            <element signature="n#!!block;n#translateMonthShort#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubTSR#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipLookup#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipCalc#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartNavBarRange#0" expanded="false" />
+            <element signature="n#!!block;n#updateActiveChartNavBarRangePeriod#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartChangeListing#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChangeListing#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewHistoricalPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewIntradayPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#checkChartState#0" expanded="false" />
+            <element signature="n#!!block;n#setChartExtremes#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePrice#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePriceWithDataArray#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingTSR#0" expanded="false" />
+            <element signature="n#!!block;n#getCurrencyCrossFromStockOtherData#0" expanded="false" />
+            <element signature="n#!!block;n#getCroppedDownscaledData#0" expanded="false" />
+            <element signature="n#!!block;n#cropListToDateRange#0" expanded="false" />
+            <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+            <element signature="n#!!block;n#compareDates#0" expanded="false" />
+            <element signature="e#85787#85849#0" expanded="false" />
+            <element signature="n#!!block;n#downscaleData#0" expanded="false" />
+            <element signature="n#!!block;n#stockDateToListDate#0" expanded="false" />
+            <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+            <element signature="n#!!block;n#newsSearch#0" expanded="false" />
+            <element signature="n#!!block;n#newsFilterReset#0" expanded="false" />
+            <element signature="n#!!block;n#newsFilter#0" expanded="false" />
+            <element signature="n#!!block;n#newsAddDistinctFilter#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationCloseOpenBodyDivs#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationShowHide#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationHideAll#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventSendExtremes#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventUpdateIRChartComparisonPlotLine#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipComparisonDC#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartCurrencyConversion#0" expanded="false" />
+            <element signature="e#105289#105600#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipTechnicalAnalysisDP#0" expanded="false" />
+            <element signature="n#!!block;n#updateTechnicalAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysisToChart#0" expanded="false" />
+            <element signature="n#!!block;n#resetIRChartNavigation#0" expanded="false" />
+            <element signature="n#!!block;n#resetIRChart#0" expanded="false" />
+            <element signature="n#!!block;n#updateTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#reApplyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#initTSRUpdateInterval#0" expanded="false" />
+            <element signature="e#126269#134582#0" expanded="false" />
+            <element signature="e#131591#132005#0" expanded="false" />
+            <element signature="e#132027#132887#0" expanded="false" />
+            <element signature="e#133675#133954#0" expanded="false" />
+            <element signature="e#133971#134574#0" expanded="false" />
+            <element signature="e#134615#188149#0" expanded="false" />
+            <element signature="e#134702#135057#0" expanded="false" />
+            <element signature="e#135088#136934#0" expanded="false" />
+            <element signature="e#136979#140107#0" expanded="false" />
+            <element signature="e#140165#141131#0" expanded="false" />
+            <element signature="n#!!block;n#formatColour#0" expanded="false" />
+            <element signature="n#!!block;n#initMomentTimezone#0" expanded="false" />
+            <element signature="n#!!block;n#randomIntBetween#0" expanded="false" />
+            <element signature="e#206365#207384#0" expanded="false" />
+            <element signature="e#207439#207513#0" expanded="false" />
+            <element signature="n#!!block;n#shadeColor#0" expanded="false" />
+            <element signature="n#!!block;n#attachClickHandlers#0" expanded="false" />
+            <element signature="e#208071#208579#0" expanded="false" />
+            <element signature="e#208616#211334#0" expanded="false" />
+            <element signature="e#211370#214121#0" expanded="false" />
+            <element signature="e#215662#216334#0" expanded="false" />
+            <element signature="e#216370#217072#0" expanded="false" />
+            <element signature="e#217121#221704#0" expanded="false" />
+            <element signature="e#221742#223212#0" expanded="false" />
+            <element signature="e#223265#224718#0" expanded="false" />
+            <element signature="e#224757#226201#0" expanded="false" />
+            <marker date="1475672522000" expanded="true" signature="44585:44637" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="46818:46870" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="49398:49423" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="50482:50507" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="52890:52915" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="54014:54039" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="67429:67481" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="68515:68567" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="89122:89135" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="97732:97842" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="97910:97965" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="98000:98055" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="98090:98145" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="99761:99887" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="100257:100306" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="101377:101426" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="102860:102885" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="103956:103981" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="116364:116379" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/miniquote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/miniquote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="e#5124#5641#0" expanded="false" />
+            <element signature="e#5666#6772#0" expanded="false" />
+            <element signature="e#7699#8033#0" expanded="false" />
+            <element signature="e#8220#8382#0" expanded="false" />
+            <element signature="e#8639#8667#0" expanded="false" />
+            <element signature="e#8698#8758#0" expanded="false" />
+            <element signature="e#11107#11665#0" expanded="false" />
+            <element signature="e#11734#13194#0" expanded="false" />
+            <element signature="e#13279#13988#0" expanded="false" />
+            <element signature="e#14006#14181#0" expanded="false" />
+            <element signature="n#!!block;n#initCheckActive#0" expanded="false" />
+            <element signature="n#!!block;n#initSolutionInfo#0" expanded="false" />
+            <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+            <element signature="n#!!block;n#getClientName#0" expanded="false" />
+            <element signature="n#!!block;n#getCustomerKeyRequired#0" expanded="false" />
+            <element signature="n#!!block;n#initData#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveDataRequests#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveModules#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveFeatures#0" expanded="false" />
+            <element signature="n#!!block;n#updateLCID#0" expanded="false" />
+            <element signature="n#!!block;n#changeGlobalDecimalSeparator#0" expanded="false" />
+            <element signature="n#!!block;n#getServiceEngingeURL#0" expanded="false" />
+            <element signature="n#!!block;n#getProtocol#0" expanded="false" />
+            <element signature="n#!!block;n#getHost#0" expanded="false" />
+            <element signature="n#!!block;n#getNewsArticlePath#0" expanded="false" />
+            <element signature="n#!!block;n#getImagePath#0" expanded="false" />
+            <element signature="n#!!block;n#getLogoPath#0" expanded="false" />
+            <element signature="n#!!block;n#setReadingDirection#0" expanded="false" />
+            <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+            <element signature="n#!!block;n#getActiveCurrencySymbol#0" expanded="false" />
+            <element signature="n#!!block;n#requestListingFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#getExchangeCity#0" expanded="false" />
+            <element signature="n#!!block;n#setExchangeShort#0" expanded="false" />
+            <element signature="n#!!block;n#getStoryID#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDOM#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormats#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsLookupCalc#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsIRMiniquoteChart#0" expanded="false" />
+            <element signature="n#!!block;n#getUnixFromDate#0" expanded="false" />
+            <element signature="n#!!block;n#getProfilePerformanceDataForPeriod#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateFromDateArray#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartHTMLLanguages#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVNPressRelease#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenNewsFromFlag#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenPressReleaseFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#getOHLCfromTranslations#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDateTime#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithReplacedDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithFormat#0" expanded="false" />
+            <element signature="n#!!block;n#translateMonthShort#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubTSR#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipLookup#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipCalc#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartNavBarRange#0" expanded="false" />
+            <element signature="n#!!block;n#updateActiveChartNavBarRangePeriod#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartChangeListing#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChangeListing#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewHistoricalPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewIntradayPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#checkChartState#0" expanded="false" />
+            <element signature="n#!!block;n#setChartExtremes#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePrice#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePriceWithDataArray#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingTSR#0" expanded="false" />
+            <element signature="n#!!block;n#getCurrencyCrossFromStockOtherData#0" expanded="false" />
+            <element signature="n#!!block;n#getCroppedDownscaledData#0" expanded="false" />
+            <element signature="n#!!block;n#cropListToDateRange#0" expanded="false" />
+            <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+            <element signature="n#!!block;n#compareDates#0" expanded="false" />
+            <element signature="e#85787#85849#0" expanded="false" />
+            <element signature="n#!!block;n#downscaleData#0" expanded="false" />
+            <element signature="n#!!block;n#stockDateToListDate#0" expanded="false" />
+            <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+            <element signature="n#!!block;n#newsSearch#0" expanded="false" />
+            <element signature="n#!!block;n#newsFilterReset#0" expanded="false" />
+            <element signature="n#!!block;n#newsFilter#0" expanded="false" />
+            <element signature="n#!!block;n#newsAddDistinctFilter#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationCloseOpenBodyDivs#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationShowHide#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationHideAll#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventSendExtremes#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventUpdateIRChartComparisonPlotLine#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipComparisonDC#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartCurrencyConversion#0" expanded="false" />
+            <element signature="e#105289#105600#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipTechnicalAnalysisDP#0" expanded="false" />
+            <element signature="n#!!block;n#updateTechnicalAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysisToChart#0" expanded="false" />
+            <element signature="n#!!block;n#resetIRChartNavigation#0" expanded="false" />
+            <element signature="n#!!block;n#resetIRChart#0" expanded="false" />
+            <element signature="n#!!block;n#updateTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#reApplyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#initTSRUpdateInterval#0" expanded="false" />
+            <element signature="e#126269#134582#0" expanded="false" />
+            <element signature="e#131591#132005#0" expanded="false" />
+            <element signature="e#132027#132887#0" expanded="false" />
+            <element signature="e#133675#133954#0" expanded="false" />
+            <element signature="e#133971#134574#0" expanded="false" />
+            <element signature="e#134615#188149#0" expanded="false" />
+            <element signature="e#134702#135057#0" expanded="false" />
+            <element signature="e#135088#136934#0" expanded="false" />
+            <element signature="e#136979#140107#0" expanded="false" />
+            <element signature="e#140165#141131#0" expanded="false" />
+            <element signature="n#!!block;n#formatColour#0" expanded="false" />
+            <element signature="n#!!block;n#initMomentTimezone#0" expanded="false" />
+            <element signature="n#!!block;n#randomIntBetween#0" expanded="false" />
+            <element signature="e#206365#207384#0" expanded="false" />
+            <element signature="e#207439#207513#0" expanded="false" />
+            <element signature="n#!!block;n#shadeColor#0" expanded="false" />
+            <element signature="n#!!block;n#attachClickHandlers#0" expanded="false" />
+            <element signature="e#208071#208579#0" expanded="false" />
+            <element signature="e#208616#211334#0" expanded="false" />
+            <element signature="e#211370#214121#0" expanded="false" />
+            <element signature="e#215662#216334#0" expanded="false" />
+            <element signature="e#216370#217072#0" expanded="false" />
+            <element signature="e#217121#221704#0" expanded="false" />
+            <element signature="e#221742#223212#0" expanded="false" />
+            <element signature="e#223265#224718#0" expanded="false" />
+            <element signature="e#224757#226201#0" expanded="false" />
+            <marker date="1475672522000" expanded="true" signature="44585:44637" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="46818:46870" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="49398:49423" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="50482:50507" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="52890:52915" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="54014:54039" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="67429:67481" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="68515:68567" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="89122:89135" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="97732:97842" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="97910:97965" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="98000:98055" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="98090:98145" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="99761:99887" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="100257:100306" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="101377:101426" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="102860:102885" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="103956:103981" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="116364:116379" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/miniquote.aspx" />
+    <entry file="file://$PROJECT_DIR$/2270/ir.miniquote.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/css/ir.normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.feeds.js" />
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.calc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="300" column="40" selection-start-line="300" selection-start-column="23" selection-end-line="300" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!block;n#applyChartChart#0" expanded="false" />
+            <element signature="e#13276#14529#0" expanded="false" />
+            <element signature="n#!!block;n#applyChartYAxis#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/ir.client.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.tools.render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="162" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/css/ir.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#2;n#table#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/trades.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/lookup.aspx" />
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.factsheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+            <marker date="1471935122000" expanded="true" signature="29143:29195" ph="..." />
+            <marker date="1471935122000" expanded="true" signature="30443:30495" ph="..." />
+            <marker date="1471935122000" expanded="true" signature="57210:57235" ph="..." />
+            <marker date="1471935122000" expanded="true" signature="57564:57587" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/chart.aspx" />
+    <entry file="file://$PROJECT_DIR$/2270/newsheadline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6945">
+          <caret line="463" column="44" selection-start-line="463" selection-start-column="44" selection-end-line="463" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/ir.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/miniquotechart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/miniquote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="102" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.lookup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="650" column="35" selection-start-line="650" selection-start-column="35" selection-end-line="650" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+            <element signature="n#!!block;n#getParameterByName#0" expanded="false" />
+            <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+            <element signature="n#!!block;n#lookup#0" expanded="false" />
+            <element signature="n#!!block;n#initializeLookup#0" expanded="false" />
+            <element signature="n#!!block;n#compareDates#0" expanded="false" />
+            <element signature="n#!!block;n#getDaysInMonth#0" expanded="false" />
+            <element signature="n#!!block;n#populateChart#0" expanded="false" />
+            <element signature="n#!!block;n#applyChartChart#0" expanded="false" />
+            <element signature="n#!!block;n#applyChartYAxis#0" expanded="false" />
+            <element signature="n#!!block;n#cropGraph#0" expanded="false" />
+            <element signature="n#!!block;n#readFromDate#0" expanded="false" />
+            <element signature="n#!!block;n#readToDate#0" expanded="false" />
+            <element signature="n#!!block;n#setFromDateSelects#0" expanded="false" />
+            <element signature="n#!!block;n#setToDateSelects#0" expanded="false" />
+            <element signature="n#!!block;n#swapDatepickerDates#0" expanded="false" />
+            <element signature="n#!!block;n#swapSelectDates#0" expanded="false" />
+            <element signature="n#!!block;n#dateSelectChangeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#restrictSelectDates#0" expanded="false" />
+            <element signature="n#!!block;n#datePickerChangeHandler#0" expanded="false" />
+            <marker date="1474033268000" expanded="true" signature="8563:8576" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/lookup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.tool.calc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1718">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <element signature="e#672#935#0" expanded="false" />
+            <element signature="e#998#1182#0" expanded="false" />
+            <element signature="e#1251#1438#0" expanded="false" />
+            <element signature="e#3968#5053#0" expanded="false" />
+            <element signature="e#6030#6059#0" expanded="false" />
+            <element signature="e#6153#6204#0" expanded="false" />
+            <element signature="e#11109#11488#0" expanded="false" />
+            <element signature="e#11572#12673#0" expanded="false" />
+            <element signature="e#12762#12983#0" expanded="false" />
+            <element signature="e#13079#14001#0" expanded="false" />
+            <element signature="e#14060#14542#0" expanded="false" />
+            <element signature="e#16244#16332#0" expanded="false" />
+            <element signature="e#16390#16704#0" expanded="false" />
+            <element signature="e#16916#17353#0" expanded="false" />
+            <element signature="e#17422#17592#0" expanded="false" />
+            <element signature="e#17667#17808#0" expanded="false" />
+            <element signature="e#17881#18050#0" expanded="false" />
+            <element signature="e#18119#18564#0" expanded="false" />
+            <element signature="e#18631#18963#0" expanded="false" />
+            <element signature="e#19035#19346#0" expanded="false" />
+            <element signature="e#19416#19669#0" expanded="false" />
+            <element signature="e#19756#20175#0" expanded="false" />
+            <element signature="e#20243#21938#0" expanded="false" />
+            <element signature="e#22012#23573#0" expanded="false" />
+            <element signature="e#23799#24610#0" expanded="false" />
+            <element signature="e#24693#25220#0" expanded="false" />
+            <element signature="e#25807#28084#0" expanded="false" />
+            <marker date="1474442142000" expanded="true" signature="24500:24565" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.behaviour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="111" column="62" selection-start-line="111" selection-start-column="62" selection-end-line="111" selection-end-column="62" />
+          <folding>
+            <marker date="1474031303000" expanded="true" signature="32651:32704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.util.draw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23220">
+          <caret line="2203" column="20" selection-start-line="2203" selection-start-column="20" selection-end-line="2203" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!block;n#drawMiniquoteChart#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartHTMLMiniquote#0" expanded="false" />
+            <element signature="n#!!block;n#drawPlotLineToChart#0" expanded="false" />
+            <element signature="n#!!block;n#drawChartHeadlineClientName#0" expanded="false" />
+            <element signature="n#!!block;n#drawChartCurrency#0" expanded="false" />
+            <marker date="1475480063000" expanded="true" signature="50113:50223" ph="..." />
+            <marker date="1475480063000" expanded="true" signature="50291:50346" ph="..." />
+            <marker date="1475480063000" expanded="true" signature="50381:50436" ph="..." />
+            <marker date="1475480063000" expanded="true" signature="50471:50526" ph="..." />
+            <marker date="1475480063000" expanded="true" signature="55931:56016" ph="..." />
+            <marker date="1475480063000" expanded="true" signature="60604:60657" ph="..." />
+            <marker date="1475480063000" expanded="true" signature="60817:60870" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.tool.lookup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="287" column="16" selection-start-line="287" selection-start-column="16" selection-end-line="287" selection-end-column="16" />
+          <folding>
+            <marker date="1471935122000" expanded="true" signature="9117:9130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.util.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="798" column="25" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4343">
+          <caret line="1097" column="110" selection-start-line="1097" selection-start-column="104" selection-end-line="1097" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.draw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="446" column="27" selection-start-line="446" selection-start-column="27" selection-end-line="446" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#buildBenchmark#0" expanded="false" />
+            <element signature="n#!!block;n#buildNewsHeadlineTool#0" expanded="false" />
+            <element signature="n#!!block;n#buildEmailAlertTool#0" expanded="false" />
+            <element signature="n#!!block;n#buildIRChartHTMLTool#0" expanded="false" />
+            <element signature="n#!!block;n#buildQuoteTable#0" expanded="false" />
+            <element signature="n#!!block;n#buildIRProfile#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRMiniquote#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRMiniquoteChart#0" expanded="false" />
+            <element signature="n#!!block;n#buildNewsEntries#0" expanded="false" />
+            <element signature="n#!!block;n#setNewsPagination#0" expanded="false" />
+            <element signature="n#!!block;n#setNewsActivePage#0" expanded="false" />
+            <element signature="n#!!block;n#activePageSetter#0" expanded="false" />
+            <element signature="n#!!block;n#applyCssClassesForResponsive#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartCompareListNavigation#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartHTML#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartMiniHTML#0" expanded="false" />
+            <element signature="e#24452#26130#0" expanded="false" />
+            <element signature="e#24471#25119#0" expanded="false" />
+            <element signature="e#25140#25178#0" expanded="false" />
+            <element signature="e#25195#25787#0" expanded="false" />
+            <element signature="e#25805#26124#0" expanded="false" />
+            <element signature="n#!!block;n#applyMiniquoteChartYAxis#0" expanded="false" />
+            <element signature="n#!!block;n#applyMiniquoteChartChart#0" expanded="false" />
+            <element signature="n#!!block;n#drawMiniquoteChart#0" expanded="false" />
+            <element signature="e#28219#28421#0" expanded="false" />
+            <element signature="e#28499#28746#0" expanded="false" />
+            <element signature="e#28785#28815#0" expanded="false" />
+            <element signature="e#28842#29378#0" expanded="false" />
+            <element signature="n#!!block;n#redrawIRChartHTMLIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRNewsToChartHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawIRChartPressReleaseIRChartHeadlineToChartHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToChartIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#drawPlotLineToChart#0" expanded="false" />
+            <element signature="n#!!block;n#drawChartHeadlineClientName#0" expanded="false" />
+            <element signature="n#!!block;n#drawChartCurrency#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToChartMiniHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToIRMiniquoteChartHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToIRMiniquoteChartIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#drawNewsArticle#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingToChartLookupHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#updateComparison#0" expanded="false" />
+            <element signature="n#!!block;n#redrawChartInCompareMode#0" expanded="false" />
+            <element signature="n#!!block;n#drawActiveListingHistoricalToIRChartHTMLCompare#0" expanded="false" />
+            <element signature="n#!!block;n#addCompareSeriesToChart#0" expanded="false" />
+            <element signature="n#!!block;n#removeCompareSeriesFromChart#0" expanded="false" />
+            <element signature="n#!!block;n#updateActiveComparisonList#0" expanded="false" />
+            <element signature="n#!!block;n#redrawIRChartInModeTA#0" expanded="false" />
+            <marker date="1474021604000" expanded="true" signature="33213:33323" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="33391:33446" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="33481:33536" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="33571:33626" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="37682:37767" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="42319:42384" ph="..." />
+            <marker date="1474021604000" expanded="true" signature="42544:42609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/inc/core/js/ir.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="4710" column="2" selection-start-line="4710" selection-start-column="2" selection-end-line="4710" selection-end-column="2" />
+          <folding>
+            <element signature="e#5124#5641#0" expanded="false" />
+            <element signature="e#5666#6772#0" expanded="false" />
+            <element signature="e#7699#8033#0" expanded="false" />
+            <element signature="e#8220#8382#0" expanded="false" />
+            <element signature="e#8639#8667#0" expanded="false" />
+            <element signature="e#8698#8758#0" expanded="false" />
+            <element signature="e#11107#11665#0" expanded="false" />
+            <element signature="e#11734#13194#0" expanded="false" />
+            <element signature="e#13279#13988#0" expanded="false" />
+            <element signature="e#14006#14181#0" expanded="false" />
+            <element signature="n#!!block;n#initCheckActive#0" expanded="false" />
+            <element signature="n#!!block;n#initSolutionInfo#0" expanded="false" />
+            <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+            <element signature="n#!!block;n#getClientName#0" expanded="false" />
+            <element signature="n#!!block;n#getCustomerKeyRequired#0" expanded="false" />
+            <element signature="n#!!block;n#initData#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveDataRequests#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveModules#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveFeatures#0" expanded="false" />
+            <element signature="n#!!block;n#updateLCID#0" expanded="false" />
+            <element signature="n#!!block;n#changeGlobalDecimalSeparator#0" expanded="false" />
+            <element signature="n#!!block;n#getServiceEngingeURL#0" expanded="false" />
+            <element signature="n#!!block;n#getProtocol#0" expanded="false" />
+            <element signature="n#!!block;n#getHost#0" expanded="false" />
+            <element signature="n#!!block;n#getNewsArticlePath#0" expanded="false" />
+            <element signature="n#!!block;n#getImagePath#0" expanded="false" />
+            <element signature="n#!!block;n#getLogoPath#0" expanded="false" />
+            <element signature="n#!!block;n#setReadingDirection#0" expanded="false" />
+            <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+            <element signature="n#!!block;n#getActiveCurrencySymbol#0" expanded="false" />
+            <element signature="n#!!block;n#requestListingFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#getExchangeCity#0" expanded="false" />
+            <element signature="n#!!block;n#setExchangeShort#0" expanded="false" />
+            <element signature="n#!!block;n#getStoryID#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDOM#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormats#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsLookupCalc#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsIRMiniquoteChart#0" expanded="false" />
+            <element signature="n#!!block;n#getUnixFromDate#0" expanded="false" />
+            <element signature="n#!!block;n#getProfilePerformanceDataForPeriod#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateFromDateArray#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartHTMLLanguages#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVNPressRelease#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenNewsFromFlag#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenPressReleaseFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#getOHLCfromTranslations#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDateTime#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithReplacedDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithFormat#0" expanded="false" />
+            <element signature="n#!!block;n#translateMonthShort#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubTSR#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipLookup#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipCalc#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartNavBarRange#0" expanded="false" />
+            <element signature="n#!!block;n#updateActiveChartNavBarRangePeriod#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartChangeListing#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChangeListing#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewHistoricalPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewIntradayPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#checkChartState#0" expanded="false" />
+            <element signature="n#!!block;n#setChartExtremes#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePrice#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePriceWithDataArray#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingTSR#0" expanded="false" />
+            <element signature="n#!!block;n#getCurrencyCrossFromStockOtherData#0" expanded="false" />
+            <element signature="n#!!block;n#getCroppedDownscaledData#0" expanded="false" />
+            <element signature="n#!!block;n#cropListToDateRange#0" expanded="false" />
+            <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+            <element signature="n#!!block;n#compareDates#0" expanded="false" />
+            <element signature="e#85787#85849#0" expanded="false" />
+            <element signature="n#!!block;n#downscaleData#0" expanded="false" />
+            <element signature="n#!!block;n#stockDateToListDate#0" expanded="false" />
+            <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+            <element signature="n#!!block;n#newsSearch#0" expanded="false" />
+            <element signature="n#!!block;n#newsFilterReset#0" expanded="false" />
+            <element signature="n#!!block;n#newsFilter#0" expanded="false" />
+            <element signature="n#!!block;n#newsAddDistinctFilter#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationCloseOpenBodyDivs#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationShowHide#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationHideAll#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventSendExtremes#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventUpdateIRChartComparisonPlotLine#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipComparisonDC#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartCurrencyConversion#0" expanded="false" />
+            <element signature="e#105289#105600#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipTechnicalAnalysisDP#0" expanded="false" />
+            <element signature="n#!!block;n#updateTechnicalAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysisToChart#0" expanded="false" />
+            <element signature="n#!!block;n#resetIRChartNavigation#0" expanded="false" />
+            <element signature="n#!!block;n#resetIRChart#0" expanded="false" />
+            <element signature="n#!!block;n#updateTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#reApplyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#initTSRUpdateInterval#0" expanded="false" />
+            <element signature="e#126269#134582#0" expanded="false" />
+            <element signature="e#131591#132005#0" expanded="false" />
+            <element signature="e#132027#132887#0" expanded="false" />
+            <element signature="e#133675#133954#0" expanded="false" />
+            <element signature="e#133971#134574#0" expanded="false" />
+            <element signature="e#134615#188149#0" expanded="false" />
+            <element signature="e#134702#135057#0" expanded="false" />
+            <element signature="e#135088#136934#0" expanded="false" />
+            <element signature="e#136979#140107#0" expanded="false" />
+            <element signature="e#140165#141131#0" expanded="false" />
+            <element signature="n#!!block;n#formatColour#0" expanded="false" />
+            <element signature="n#!!block;n#initMomentTimezone#0" expanded="false" />
+            <element signature="n#!!block;n#randomIntBetween#0" expanded="false" />
+            <element signature="e#206365#207384#0" expanded="false" />
+            <element signature="e#207439#207513#0" expanded="false" />
+            <element signature="n#!!block;n#shadeColor#0" expanded="false" />
+            <element signature="n#!!block;n#attachClickHandlers#0" expanded="false" />
+            <element signature="e#208071#208579#0" expanded="false" />
+            <element signature="e#208616#211334#0" expanded="false" />
+            <element signature="e#211370#214121#0" expanded="false" />
+            <element signature="e#215662#216334#0" expanded="false" />
+            <element signature="e#216370#217072#0" expanded="false" />
+            <element signature="e#217121#221704#0" expanded="false" />
+            <element signature="e#221742#223212#0" expanded="false" />
+            <element signature="e#223265#224718#0" expanded="false" />
+            <element signature="e#224757#226201#0" expanded="false" />
+            <marker date="1475672522000" expanded="true" signature="44585:44637" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="46818:46870" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="49398:49423" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="50482:50507" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="52890:52915" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="54014:54039" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="67429:67481" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="68515:68567" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="89122:89135" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="97732:97842" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="97910:97965" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="98000:98055" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="98090:98145" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="99761:99887" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="100257:100306" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="101377:101426" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="102860:102885" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="103956:103981" ph="..." />
+            <marker date="1475672522000" expanded="true" signature="116364:116379" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2270/old/ir.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="1189" column="6" selection-start-line="1189" selection-start-column="6" selection-end-line="1189" selection-end-column="6" />
+          <folding>
+            <element signature="e#7151#8964#0" expanded="false" />
+            <element signature="e#9702#9744#0" expanded="false" />
+            <element signature="e#9750#9816#0" expanded="false" />
+            <element signature="e#9898#9942#0" expanded="false" />
+            <element signature="e#10032#10084#0" expanded="false" />
+            <element signature="n#!!block;n#setReadingDirection#0" expanded="false" />
+            <element signature="n#!!block;n#checkActiveDataRequests#0" expanded="false" />
+            <element signature="n#!!block;n#initSolutionInfo#0" expanded="false" />
+            <element signature="n#!!block;n#getSolutionID#0" expanded="false" />
+            <element signature="n#!!block;n#getServiceEngingeURL#0" expanded="false" />
+            <element signature="n#!!block;n#getProtocol#0" expanded="false" />
+            <element signature="n#!!block;n#getHost#0" expanded="false" />
+            <element signature="n#!!block;n#getNewsArticlePath#0" expanded="false" />
+            <element signature="n#!!block;n#getImagePath#0" expanded="false" />
+            <element signature="n#!!block;n#getActiveCurrency#0" expanded="false" />
+            <element signature="n#!!block;n#getActiveCurrencySymbol#0" expanded="false" />
+            <element signature="n#!!block;n#getActiveTAShort#0" expanded="false" />
+            <element signature="n#!!block;n#updateLCID#0" expanded="false" />
+            <element signature="n#!!block;n#updateGlobalLanguage#0" expanded="false" />
+            <element signature="n#!!block;n#initClientStyle#0" expanded="false" />
+            <element signature="n#!!block;n#checkWidthAndReduceChartHeight#0" expanded="false" />
+            <element signature="n#!!block;n#getWidth#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipCssTopInPx#0" expanded="false" />
+            <element signature="n#!!block;n#requestListingFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#initMomentTimezone#0" expanded="false" />
+            <element signature="n#!!block;n#getExchangeCity#0" expanded="false" />
+            <element signature="n#!!block;n#getExchangeShort#0" expanded="false" />
+            <element signature="n#!!block;n#setExchangeShort#0" expanded="false" />
+            <element signature="n#!!block;n#manualOverwriteActiveLanguage#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartHTMLLanguages#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDateWithData#0" expanded="false" />
+            <element signature="n#!!block;n#formatTooltipDateTime#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithReplacedDate#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubHistorical#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getTooltipStrSubTSR#0" expanded="false" />
+            <element signature="n#!!block;n#find_longest_width#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCV#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVN#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDOHLCVNPressRelease#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenNewsFromFlag#0" expanded="false" />
+            <element signature="n#!!block;n#chartOpenPressReleaseFromURL#0" expanded="false" />
+            <element signature="n#!!block;n#getOHLCfromTranslations#0" expanded="false" />
+            <element signature="n#!!block;n#getPathToSolution#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipLookup#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipCalc#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipDCV#0" expanded="false" />
+            <element signature="n#!!block;n#getIndexForMatchingDate#0" expanded="false" />
+            <element signature="n#!!block;n#updateChartNavBarRange#0" expanded="false" />
+            <element signature="n#!!block;n#updateActiveChartNavBarRangePeriod#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartChangeListing#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChangeListingEl#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChangeListing#0" expanded="false" />
+            <element signature="e#147208#148670#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewHistoricalPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#stateNewIntradayPeriodSelected#0" expanded="false" />
+            <element signature="n#!!block;n#checkChartState#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePrice#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingClosePriceWithDataArray#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingIntraday#0" expanded="false" />
+            <element signature="n#!!block;n#getClosestDateIndexForListingTSR#0" expanded="false" />
+            <element signature="n#!!block;n#formatDecimal#0" expanded="false" />
+            <element signature="n#!!block;n#formatDecimalWithCustomNumberOfDecimal#0" expanded="false" />
+            <element signature="n#!!block;n#formatDecimalNoZero#0" expanded="false" />
+            <element signature="n#!!block;n#formatDecimalFileSize#0" expanded="false" />
+            <element signature="n#!!block;n#translateWeekdayShort#0" expanded="false" />
+            <element signature="n#!!block;n#translateMonthShort#0" expanded="false" />
+            <element signature="n#!!block;n#formatDateWithFormat#0" expanded="false" />
+            <element signature="n#!!block;n#formatNumberWithLocalDelimiters#0" expanded="false" />
+            <element signature="n#!!block;n#getBrowserIEVersion#0" expanded="false" />
+            <element signature="n#!!block;n#getStoryID#0" expanded="false" />
+            <element signature="n#!!block;n#getLogoPath#0" expanded="false" />
+            <element signature="n#!!block;n#validateDateFormat#0" expanded="false" />
+            <element signature="n#!!block;n#validateDateTimeFormat#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormats#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsLookupCalc#0" expanded="false" />
+            <element signature="n#!!block;n#getChartDateTimeLabelFormatsIRMiniquoteChart#0" expanded="false" />
+            <element signature="n#!!block;n#getCurrencyCrossFromStockOtherData#0" expanded="false" />
+            <element signature="n#!!block;n#getCurrencyCrossOnlyFromStockOtherData#0" expanded="false" />
+            <element signature="n#!!block;n#getCroppedDownscaledData#0" expanded="false" />
+            <element signature="n#!!block;n#cropListToDateRange#0" expanded="false" />
+            <element signature="n#!!block;n#getIndexThatBestMatchesDate#0" expanded="false" />
+            <element signature="n#!!block;n#compareDates#0" expanded="false" />
+            <element signature="e#200384#200446#0" expanded="false" />
+            <element signature="n#!!block;n#downscaleData#0" expanded="false" />
+            <element signature="n#!!block;n#stockDateToListDate#0" expanded="false" />
+            <element signature="n#!!block;n#ajax_download#0" expanded="false" />
+            <element signature="n#!!block;n#newsFilterReset#0" expanded="false" />
+            <element signature="n#!!block;n#newsAddDistinctFilter#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationCloseOpenBodyDivs#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationShowHide#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartNavigationHideAll#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventSendExtremes#0" expanded="false" />
+            <element signature="n#!!block;n#IRChartEventUpdateIRChartComparisonPlotLine#0" expanded="false" />
+            <element signature="n#!!block;n#getUnixFromDate#0" expanded="false" />
+            <element signature="n#!!block;n#getProfilePerformanceDataForPeriod#0" expanded="false" />
+            <element signature="e#217462#218481#0" expanded="false" />
+            <element signature="n#!!block;n#getAmountOfPxFromTop#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipComparisonDC#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRChartCurrencyConversion#0" expanded="false" />
+            <element signature="n#!!block;n#loadCurrencyConversionAdjustedPrice#0" expanded="false" />
+            <element signature="n#!!block;n#applyCurrencyConversion#0" expanded="false" />
+            <element signature="n#!!block;n#updateTooltipTechnicalAnalysisDP#0" expanded="false" />
+            <element signature="n#!!block;n#updateTechnicalAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysis#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysisToChart#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysisDataSimpleMovingAverage#0" expanded="false" />
+            <element signature="n#!!block;n#applyAnalysisDataExponentialMovingAverage#0" expanded="false" />
+            <element signature="n#!!block;n#updateSettingsForEnabledTA#0" expanded="false" />
+            <element signature="n#!!block;n#resetIRChartNavigation#0" expanded="false" />
+            <element signature="n#!!block;n#updateTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSR#0" expanded="false" />
+            <element signature="n#!!block;n#applyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#shadeColor#0" expanded="false" />
+            <element signature="n#!!block;n#reApplyTSRToChart#0" expanded="false" />
+            <element signature="n#!!block;n#initTSRUpdateInterval#0" expanded="false" />
+            <element signature="e#255176#257026#0" expanded="false" />
+            <element signature="e#261475#271463#0" expanded="false" />
+            <element signature="e#271581#285017#0" expanded="false" />
+            <element signature="e#285251#287091#0" expanded="false" />
+            <element signature="n#!!block;n#errorHandling#0" expanded="false" />
+            <element signature="e#335024#335050#0" expanded="false" />
+            <element signature="n#!!block;n#updateIRDEBUG#0" expanded="false" />
+            <element signature="n#!!block;n#strD#0" expanded="false" />
+            <element signature="e#336155#336537#0" expanded="false" />
+            <element signature="e#336689#336885#0" expanded="false" />
+            <element signature="n#!!block;n#reportModuleReady#0" expanded="false" />
+            <marker date="1473257457000" expanded="true" signature="113617:113669" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="115876:115928" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="121040:121065" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="122134:122159" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="124609:124634" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="125729:125754" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="128289:128341" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="129424:129476" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="203758:203771" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="214509:214619" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="214687:214742" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="214777:214832" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="214867:214922" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="219912:219975" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="220346:220395" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="221453:221502" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="222952:222977" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="224070:224095" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="240735:240750" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="242170:242185" ph="..." />
+            <marker date="1473257457000" expanded="true" signature="243633:243648" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

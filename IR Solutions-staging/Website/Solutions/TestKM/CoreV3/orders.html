@@ -1,0 +1,169 @@
+<!-- New Header Start -->
+<!DOCTYPE html>
+<html dir="lrt">
+<head>
+    <meta charset="UTF-8">
+    <title>IR Solutions, Euroinvestor</title>
+    <!--Polyfill for html5 features in IE -->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/ir.normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/ir.style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="ir.client.css"/>
+</head>
+<body>
+<!-- New Header End -->
+<!-- Module Activation Params Start -->
+<script type="text/javascript">
+    var activeModules = ['IROrders'];
+</script>
+<!-- Module Activation Params End -->
+<!-- Module View Start -->
+<div class="IROrdersModule">
+    <div class="IRChartColour"></div>
+    <span class="ajaxLoader">Loading</span>
+</div>
+<!-- Module View End -->
+<!-- Module Templates Start-->
+<script id="IROrdersModuleTemplate" type="text/x-handlebars-template">
+    <table class="IRToolQuoteTable table-look responsive">
+        <tr>
+            <th class="Header column-first bidSize">{{headers/t_volume}}
+            </th>
+            <th class="Header bid">{{headers/t_bid}}
+            </th>
+            <th class="Header orderDepthBarLeft"></th>
+            <th class="Header orderDepthBarRight"></th>
+            <th class="Header ask column-last">{{headers/t_ask}}
+            </th>
+            <th class="Header askSize column-last">{{headers/t_volume}}
+            </th>
+        </tr>
+        {{#data}} {{#data}}
+        <tr>
+            <td class="Data column-first bidSize" data-bidsize="{{bidSize}}">{{toLocal bidSize}}</td>
+            <td class="Data bid">{{decimals bid}}</td>
+            <td class="Data orderDepthBarLeft">
+                <div class="progress">
+                    <div class="progress-bar">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </td>
+            <td class="orderDepthBarRight">
+                <div class="progress">
+                    <div class="progress-bar">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </td>
+            <td class="Data ask column-last">{{decimals ask}}</td>
+
+            <td class="Data askSize column-last" data-asksize="{{askSize}}">{{toLocal askSize}}</td>
+        </tr>
+        {{/data}} {{/data}}
+        <tr class="totalVolume">
+            <td colspan=1 class="totalVolumeBid column-first"></td>
+            <td colspan=4 class="TotalVolumeTitle">{{headers/t_total_volume}}</td>
+            <td colspan=1 class="totalVolumeAsk column-last"></td>
+        </tr>
+    </table>
+</script>
+<!-- Module Templates End-->
+
+<!--Disclaimer Part Start-->
+<div class="disclaimer disclaimer-IRCalc">
+    <span class="disclaimer-copyright">Copyright &copy; 1997-2016
+        <a href="https://www.q4euroinvestor.com/">Q4 Euroinvestor</a>
+    </span>
+    <span class="disclaimer-dataSource">and our data suppliers. </span>
+    <span class="disclaimer-delayed">Data delayed by 15-20 min.</span>
+    <span class="disclaimer-terms">
+        <a href="https://www.q4euroinvestor.com/MainDisclaimer/">See Terms of use</a>
+    </span>
+</div>
+<!--Disclaimer Part End-->
+
+<!--Libs section-->
+<script type="text/javascript" src="inc/libs/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="inc/libs/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="inc/libs/jquery-ui.min.js"></script>
+<script type="text/javascript" src="inc/libs/underscore-min.js"></script>
+<script type="text/javascript" src="inc/libs/moment.min.js"></script>
+<script type="text/javascript" src="inc/libs/moment-timezone-with-data-2010-2020.min.js"></script>
+<script type="text/javascript" src="inc/libs/highstock.js"></script>
+<script type="text/javascript" src="inc/libs/jquery.slimscroll.min.js"></script>
+<!--Core section-->
+<!--Client JS file-->
+<script type="text/javascript" src="ir.client.js"></script>
+<!--Core files-->
+<script type="text/javascript" src="inc/core/js/ir.debug.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.data.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.util.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.boot.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.helpers.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.tools.render.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.draw.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.calc.js"></script>
+</body>
+</html>
+
+<!-- Custom JS -->
+<script type="text/javascript">
+    var orderDepthBarWidth = 100;
+    var highestBidOrAskSize = 0;
+
+    ModulesReady.triggerCustomModule = {
+        IROrdersModule: function () {
+            progressBar();
+            calculateSum();
+        }
+    };
+
+    function progressBar() {
+        $('.IRToolQuoteTable tr').each(function () {
+            var bidSize = parseInt($(this).find('.bidSize').data('bidsize'));
+            var askSize = parseInt($(this).find('.askSize').data('asksize'));
+            if (parseFloat(bidSize) > parseFloat(highestBidOrAskSize)) {
+                highestBidOrAskSize = bidSize;
+
+            }
+            if (parseFloat(askSize) > parseFloat(highestBidOrAskSize)) {
+                highestBidOrAskSize = askSize;
+            }
+        });
+        var widthPerBidAsk = orderDepthBarWidth / highestBidOrAskSize;
+        $('.IRToolQuoteTable tr').each(function () {
+            var bidSize = parseInt($(this).find('.bidSize').data('bidsize'));
+            var askSize = parseInt($(this).find('.askSize').data('asksize'));
+            $(this).find('.orderDepthBarLeft div div.progress-bar').css('width', Math.ceil(bidSize * widthPerBidAsk) + '%');
+            $(this).find('.orderDepthBarRight div div.progress-bar').css('width', Math.ceil(askSize * widthPerBidAsk) + '%');
+
+        });
+    }
+
+
+    function calculateSum() {
+        var bid = 0;
+
+        $(".bidSize").each(function () {
+            var value = $(this).data('bidsize');
+            if (!isNaN(value) && value.length != 0) {
+                bid += parseFloat(value);
+            }
+        });
+        $(".totalVolumeBid").text(bid.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+        var ask = 0;
+        $(".askSize").each(function () {
+            var value = $(this).data('asksize');
+            if (!isNaN(value) && value.length != 0) {
+                ask += parseFloat(value);
+            }
+        });
+        $(".totalVolumeAsk").text(ask.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+    }
+</script>

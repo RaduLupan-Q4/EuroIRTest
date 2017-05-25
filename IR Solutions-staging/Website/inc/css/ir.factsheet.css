@@ -1,0 +1,168 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+div {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.IRFactsheetModule {
+    margin: auto;
+    width: 750px;
+    height: 830px;
+}
+
+* h2 {
+    padding: 5px;
+}
+
+.IRFactsheetAbout p {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+/*
+
+*.IRSize1 {
+    background-color: lightblue;
+}
+*.IRSize2 {
+    background-color: cornflowerblue;
+}
+*/
+
+.IRFactsheetModule {
+}
+
+
+*.IRSize1 {
+    width: 125px;
+}
+
+*.IRSize2 {
+    width: 250px;
+}
+
+*.IRSize3 {
+    width: 375px;
+}
+
+*.IRSize4 {
+    width: 500px;
+}
+
+*.IRSize5 {
+    width: 625px;
+}
+
+*.IRSize6 {
+    width: 750px;
+}
+
+*.IRFloat {
+    float: left;
+}
+
+
+.IRChartTypePieLegend {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    font-size: 11px;
+    font-weight: normal;
+    z-index: 100;
+}
+
+
+.tooltipHTML {
+    position: relative;
+    z-index: 400;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    top: 0px;
+    font-family: sans-serif;
+    height: 36px;
+    width: 100px;
+}
+
+    .tooltipHTML div {
+        display: block;
+        white-space: nowrap;
+    }
+
+        .tooltipHTML div span.subHeader {
+            display: inline-block;
+            text-align: left;
+            width: 30px;
+        }
+
+        .tooltipHTML div span.subContent {
+            text-align: left;
+        }
+
+.IRFactsheetShareDataTable {
+    margin-top: 10px;
+    width: 100%;
+}
+
+    .IRFactsheetShareDataTable th,
+    .IRFactsheetShareDataTable td {
+        text-align: left;
+        line-height: 20px;
+    }
+
+    .IRFactsheetShareDataTable td {
+        border-top: 1px solid #eee;
+    }
+
+        .IRFactsheetShareDataTable th.right,
+        .IRFactsheetShareDataTable td.right {
+            text-align: right;
+        }
+
+
+.IRFactsheetKeyFigureHighlightTable {
+    margin-top: 10px;
+    width: 100%;
+}
+
+    .IRFactsheetKeyFigureHighlightTable th, .IRFactsheetKeyFigureHighlightTable td {
+        text-align: left;
+        line-height: 20px;
+    }
+
+    .IRFactsheetKeyFigureHighlightTable td {
+        border-top: 1px solid #eee;
+    }
+
+        .IRFactsheetKeyFigureHighlightTable th.right,
+        .IRFactsheetKeyFigureHighlightTable td.right {
+            text-align: right;
+        }
+
+
+
+.IRColumnChartStackedLabels {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.IRFactsheetFinancialHighlights {
+    padding-right: 10px;
+}
+
+    .IRFactsheetFinancialHighlights td {
+        vertical-align: middle;
+    }
+
+    .IRFactsheetFinancialHighlights .rowHeader {
+        max-width: 120px;
+    }

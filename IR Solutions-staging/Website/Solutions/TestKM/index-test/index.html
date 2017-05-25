@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html dir="lrt">
+<head>
+    <meta charset="UTF-8">
+    <title>IR Solutions, Euroinvestor</title>
+    <!--Polyfill for html5 features in IE -->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/ir.normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/ir.style.css"/>
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="ir.client.css?v=3.3"/>-->
+</head>
+<body id="IRviewModule">
+
+
+</body>
+<script type="application/javascript">
+
+    (function(){
+        var hash = window.location.hash;
+        var clNm = null;
+        var clId = null;
+        var fl = null;
+        var q = {
+            a: [],
+            call: function(){},
+            called: false,
+            readyState: function(callback){
+                q.call = callback;
+            },
+            resolve: function(id){
+                q.a[id] = 'done';
+                for(var i = 0; i < q.a.length; i++ ){
+                    if(q.a.indexOf('registered') === -1 && !q.called){
+                        window.onload = q.call;
+                        q.called = true;
+                    }
+                    else break;
+                }
+            },
+            promise: function () {
+                var i = q.a.length;
+                q.a[i] = 'registered';
+                return i;
+            }
+        };
+        if(hash.length !== 0) {
+            var val = hash.split('/');
+            if (/^([a-zA-Z0-9]{1,})$/g.test(val[1])) clNm = val[1];
+            if (/^([0-9]{1,})$/g.test(val[2])) clId = val[2];
+            if (/^([a-zA-Z0-9]{1,})$/g.test(val[3])) fl = val[3];
+            if (clNm !== null && clId !== null && fl !== null) partial(clNm + "/" + clId, fl);
+            q.readyState(function () {
+                init();
+                boot();
+            });
+        }
+        function partial(location, file){
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && (this.status == 200 || this.status == 304)) {
+                    var txt = sepScriptHtml(this.responseText);
+                    require(clNm + "/" + clId + "/ir.client.css" + "?" + txt.version, "css");
+                    require(clNm + "/" + clId + "/ir.client.js" + "?" + txt.version, "js");
+                    console.log(txt.version);
+                    var g = document.createElement('script');
+                    g.text = txt.script;
+                    document.getElementsByTagName("head")[0].appendChild(g);
+                    document.getElementById("IRviewModule").innerHTML = txt.html;
+                }
+            };
+            xmlhttp.open("GET", location + "/" + file + ".html", true);
+            xmlhttp.send();
+        }
+        function require(filename, filetype){
+            var fileref = null;
+            var refPromise = q.promise();
+            if (filetype === 'js'){
+                fileref = document.createElement('script');
+                fileref.setAttribute("type","text/javascript");
+                fileref.setAttribute("src", filename);
+                fileref.onload = function () {
+                    q.resolve(refPromise);
+                }
+            } else if (filetype === 'css'){
+                fileref = document.createElement("link");
+                fileref.setAttribute("rel", "stylesheet");
+                fileref.setAttribute("type", "text/css");
+                fileref.setAttribute("href", filename);
+                fileref.onload = function () {
+                    q.resolve(refPromise);
+                }
+            }
+            if (fileref !== null) document.getElementsByTagName("head")[0].appendChild(fileref)
+
+        }
+
+        function sepScriptHtml (str) {
+            var start = str.indexOf(">", str.indexOf("<script")) + 1;
+            var end = str.indexOf('script>', start) - 2;
+            var ver = str.indexOf('<!--v=');
+            return {script: str.substring(start, end).trim(), html: str.substring(end + ('script>').length + 2).trim(), version: str.substring(ver + 4, str.indexOf('-->'))};
+        }
+        window.addEventListener("hashchange", function () {
+            location.reload();
+        });
+        console.log("Accessing", clNm, "(" + clId + ")", fl);
+    })()
+</script>
+<script type="text/javascript" src="inc/libs/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="inc/libs/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="inc/libs/jquery-ui.min.js"></script>
+<script type="text/javascript" src="inc/libs/underscore-min.js"></script>
+<script type="text/javascript" src="inc/libs/moment.min.js"></script>
+<script type="text/javascript" src="inc/libs/moment-timezone-with-data-2010-2020.min.js"></script>
+<script type="text/javascript" src="inc/libs/highstock.js"></script>
+<script type="text/javascript" src="inc/libs/jquery.slimscroll.min.js"></script>
+<!--Core section-->
+<!--Client JS file-->
+<!--<script type="text/javascript" src="ir.client.js?v=3.1"></script>-->
+<!--Core files-->
+<script type="text/javascript" src="inc/core/js/ir.debug.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.data.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.util.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.boot.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.helpers.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.tools.render.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.draw.js"></script>
+</html>

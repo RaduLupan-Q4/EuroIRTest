@@ -1,0 +1,64 @@
+/* IRNewsArticle =========================================================== */
+
+/* Note: Do not edit News Article Content. We can only edit border color, logo, BackButton and Design for Attachment list. Content should always be same as News source design - ex. NasdaqOMXNordic. */
+
+.IRNewsArticle .backBtn {
+    -webkit-appearance: none;
+    font-family: inherit;
+    float: left;
+    background: #e7dfd4;
+    border: 1px solid #cecac1;
+    color: #4c4b49;
+    width: 50px;
+    height: 23px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 50px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.IRArticleModule .IRToolArticleLogo {
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+.IRArticleModule h2 {
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.IRArticleModule .attachmentList {
+    margin-bottom: 40px;
+    float: left;
+}
+
+.IRArticleModule .attachmentIcon {
+    background-image: url('images/pdficon.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 25px;
+    float: left;
+}
+
+.IRArticleModule a {
+    text-decoration: none;
+    font-style: normal;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-family: Arial;
+    width: 100%;
+    text-align: left;
+}
+
+    .IRArticleModule a:hover {
+        text-decoration: underline;
+    }
+/* End ===================================================================== */

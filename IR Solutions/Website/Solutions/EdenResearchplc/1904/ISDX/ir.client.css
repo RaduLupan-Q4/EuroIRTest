@@ -1,0 +1,1554 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+ .chartIFrame {
+ 	width: 100%; 
+ 	height: 700px; 
+ 	border: none;
+ }
+ .calcIFrame {
+ 	width: 100%; 
+ 	height: 600px; 
+ 	border: none;
+ }
+ .lookupIFrame {
+ 	width: 100%; 
+ 	height: 600px; 
+ 	border: none;
+ }
+ .newsIFrame {
+ 	width: 100%; 
+ 	height: 800px; 
+ 	border: none;
+ }
+ .profileIFrame {
+ 	width: 100%; 
+ 	height: 700px; 
+ 	border: none;
+ }
+.table-look {
+    border-top: 2px solid #eb2e2c;
+    border-bottom: 1px solid #a8a9a3;
+}
+
+.profile-wrapper .table-look {
+    border-top: 0;
+}
+
+.table-look th, .table-look td {
+    border: 1px solid #bbc0c4;
+    border-left: none;
+    border-right: none;
+}
+
+.isdxLogo {
+    background-image: url('isdxlogo.png');
+    background-size: 100%;
+    background-position-x: right;
+    width: 100%;
+    height: 80px;
+    background-repeat: no-repeat;
+    float: left;
+    max-width: 100px;
+    float: right;
+}
+
+.table-look th {
+    background: transparent;
+    color: #585852;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.table-look td {
+    line-height: 30px;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.IRChartColour, .IRChartClientName, .IRChartCurrency {
+    color: #555;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.IRChartClientName {
+    /*background-image: url('isdxlogo.png');
+    text-indent: 50px;*/
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 10px;
+}
+
+.chartChangePeriod div.activePeriod {
+    border: 1px #eb2e2c solid;
+    border-bottom: 0px solid #fff;
+    background-color: #eb2e2c;
+    color: #fff;
+}
+
+
+
+/*
+.table-look, .table-look th, .table-look td {
+    border-bottom: 1px solid #D4D4D4;
+    border-top: 1px solid #D4D4D4;
+}
+*/
+
+
+.disclaimer {
+    position: inherit;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+    text-align: center;
+    width: 100%;
+    max-width: initial;
+}
+
+
+/****** Should also be moved to style.css file instead to make it more generic *******/
+
+.table-look-vertical th, .table-look-vertical td {
+    padding: 6px 5px 4px 5px;
+}
+
+.input-row {
+    line-height: 24px;
+}
+
+
+
+/* IRChart ================================================================= */
+
+/* Highchart doesnt resize properly in IE on window resize*/
+.highcharts-container {
+    width: 100% !important;
+}
+
+/* ================================================= */
+
+.table-look th, .table-look td {
+    text-align: left;
+}
+
+.IRQuoteModule .formatArrowNeg, .IRQuoteModule .formatArrowPos, .IRMiniQuoteQuoteModule .formatArrowNeg, .IRMiniQuoteQuoteModule .formatArrowPos {
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+#calc-form .from-label, #calc-form .to-label, label.dividend-label {
+    float: left;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.IRLookupModule .IRChartLookupPlaceholder {
+    height: 250px;
+    clear: both;
+}
+
+.IRCalcModule .IRChartCalcPlaceholder {
+    height: 250px;
+    clear: both;
+}
+
+
+.toolbar {
+    margin-top: 10px;
+}
+
+.tabs ul {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+    .tabs ul li {
+        float: left;
+        background: #ebebe7;
+        text-transform: uppercase;
+        margin: 0 1px -1px 0;
+        list-style-type: none;
+    }
+
+.tabs a {
+    display: block;
+    padding: 7px;
+    border: 1px solid #ebebe7;
+    border-bottom: 0;
+    font-weight: normal;
+    color: #000;
+}
+
+    .tabs a:hover {
+        border-color: #d7d7d7;
+    }
+
+.tabs .active {
+    margin: 0 3px -1px 0;
+}
+
+    .tabs .active a {
+        background: #fff;
+        border-color: #d7d7d7;
+        /*border-bottom: 1px solid #fff;*/
+    }
+
+        .tabs .active a:after {
+            height: 2px;
+            width: 100%;
+            display: block;
+            content: " ";
+            bottom: 0px;
+            left: 0px;
+            position: absolute;
+        }
+
+.tabs a span.clicked {
+    border-bottom: 2px solid #FFFF8D;
+}
+
+.content {
+    box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.4);
+    height: 500px;
+    padding-top: 50px;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+}
+
+.box {
+    display: none;
+    overflow: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+    .box.show {
+        display: block;
+    }
+
+input[type=submit] {
+    background-color: #eb2e2c;
+    color: #fff;
+    line-height: 32px;
+    height: 32px;
+}
+
+    input[type=submit]:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+
+section {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+/* ========================================================================= */
+
+
+
+/* Tabs ==================================================================== */
+.tabs-container .tabs a {
+    border: 1px solid #339933;
+    background-color: #90c63d;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+    .tabs-container .tabs a:hover {
+        background-color: #749E31;
+    }
+
+    .tabs-container .tabs a.current {
+        background-color: #749E31;
+        color: #eee;
+    }
+
+.tabs-container .tabs ul {
+    padding-left: 0;
+}
+
+.profile-wrapper {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #45596B;
+    font-size: 10pt;
+    width: 100%;
+}
+
+    .profile-wrapper h2 {
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 0;
+        line-height: 24px;
+    }
+
+    .profile-wrapper .IRTable {
+        border-top: none;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .profile-wrapper .IRTable tbody {
+            border: 0;
+        }
+
+        .profile-wrapper .IRTable tr {
+            border: 0;
+        }
+
+        .profile-wrapper .IRTable th, .profile-wrapper .IRTable td {
+            text-align: center;
+            background-color: #ffffff;
+            border: 1px solid #54ADC6;
+            padding: 2px;
+            line-height: 20px;
+            font-size: 10pt;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: dotted 1px #bbc0c4;
+        }
+
+    .profile-wrapper .table-wrapper {
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+    }
+
+        .profile-wrapper .table-wrapper .company-listing-data {
+            float: left;
+            width: 49%;
+            margin-right: 2%;
+        }
+
+        .profile-wrapper .table-wrapper .price-data {
+            width: 49%;
+            float: left;
+        }
+
+        .profile-wrapper .table-wrapper .IRTable {
+            width: 100%;
+        }
+
+    .profile-wrapper .IRTable {
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+        .profile-wrapper .IRTable td {
+            font-weight: normal;
+            min-width: 140px;
+            line-height: 32px;
+            height: 32px;
+        }
+
+
+            .profile-wrapper .IRTable td.column-first {
+                min-width: 140px;
+                width: 30%;
+            }
+
+
+            .profile-wrapper .IRTable td.Data {
+                float: right;
+                font-weight: 700;
+                width: 48%;
+                padding-right: 2%;
+                padding-left: 0;
+                text-align: right;
+                border-top: 1px dotted #a8a9a3;
+                word-break: normal;
+                white-space: normal;
+                word-wrap: break-word;
+            }
+
+
+            .profile-wrapper .IRTable td.column-first {
+                min-width: 120px;
+                width: 30%;
+            }
+
+    .profile-wrapper .profileWrapperTable td.Data {
+        text-align: right;
+        font-weight: 700;
+    }
+
+.profileWrapperTable.left {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+}
+
+.profileWrapperTable.right {
+    float: left;
+    width: 49%;
+}
+
+.profile-wrapper .IRTable tr {
+    float: left;
+    width: 100%;
+    line-height: 32px;
+    height: 32px;
+}
+
+.profile-wrapper .IRTable td {
+    text-align: left;
+}
+
+    .profile-wrapper .IRTable td.Header {
+        float: left;
+        font-weight: 400;
+        width: 50%;
+        text-align: left;
+        border-top: 1px dotted #a8a9a3;
+        padding-right: 0;
+    }
+
+    .profile-wrapper .IRTable td.Header, .profile-wrapper .IRTable td.Data {
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+/* ========================================================================= */
+
+
+
+/* IRNewsModule ============================================================ */
+.IRNewsModule .filter-wrapper {
+    width: 100%;
+    float: left;
+}
+
+.news-filter-wrapper {
+    width: 500px;
+    padding: 0px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    background-color: #e6e6e6;
+}
+
+.IRNewsModule h2 {
+    color: #fff;
+    background-color: #808080;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.IRNewsModule input, .IRNewsModule textarea {
+    color: #fff;
+    background-color: #eb2e2c;
+}
+
+.IRNewsModule .submitButton input.newsSubmit {
+    background-color: #eb2e2c;
+}
+
+.IRNewsModule .placeholder {
+    color: #aaa;
+}
+
+.news-filter-wrapper {
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+}
+
+.IRNewsModule .search-for-box {
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.news-filter-wrapper .news-filter-box {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+/*
+.IRNewsModule .news-filter-box .checkbox {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 31px;
+    background-image: url('images/checkbox_false.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    color: #015CAE;
+    border: none !important;
+    font-size: 12px;
+    width: 49%;
+    min-width: 200px;
+    float: left;
+    border: 0 !important;
+    background-size: 20px;
+    background-position-y: 2px;
+}
+    */
+.IRNewsModule .news-filter-box #allRNSnews {
+    font-weight: bold;
+}
+
+.IRNewsModule .news-filter-box label {
+    line-height: 26px;
+}
+
+/*
+.IRNewsModule .news-filter-box .checkbox.checked {
+    background-image: url('images/checkbox_true.png');
+}
+*/
+
+.IRNewsModule .news-filter-wrapper #select-filter {
+    padding: 0;
+    text-indent: 5px;
+}
+
+.IRNewsModule .news-filter-wrapper .filterRow {
+    width: 48%;
+    float: right;
+}
+
+.IRNewsModule .news-filter-wrapper #searchtext {
+    cursor: text;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+}
+
+table tr td.Data.download a div {
+    padding-top: 11px;
+}
+
+.IRNewsModule .news-filter-wrapper label {
+    cursor: pointer;
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {
+    background-color: transparent;
+    line-height: 22px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border: 0px solid White;
+    font-weight: bold;
+}
+
+.IRNewsModule .news-filter-wrapper .textArea {
+    float: left;
+    min-width: 80px;
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+}
+
+.IRNewsModule .search-for-box input {
+    padding-left: 5px;
+    max-width: 144px;
+}
+
+.IRNewsModule .news-range .textArea {
+    width: 100%;
+}
+
+.IRNewsModule .search-for-box .textArea {
+}
+
+.IRNewsModule .news-filter-wrapper .filterRow input {
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    border: none;
+    float: left;
+    background: none;
+}
+
+.IRNewsModule .news-filter-wrapper .radiofix {
+    position: relative;
+    margin-right: 5px !important;
+    float: left;
+    top: 7px;
+}
+
+.IRNewsModule .news-filter-wrapper .form {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.IRNewsModule .news-filter-wrapper #to-month, .IRNewsModule .news-filter-wrapper #to-year, .IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #from-month {
+    padding: 0px;
+    float: left;
+    text-indent: 5px;
+}
+
+.IRNewsModule .news-filter-wrapper #from-month, .IRNewsModule .news-filter-wrapper #to-month {
+    margin-right: 3px;
+}
+
+.IRNewsModule .news-filter-wrapper #from-month, .IRNewsModule .news-filter-wrapper #to-month {
+    width: 86px;
+}
+
+.IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #to-year {
+    width: 60px;
+}
+
+
+.IRNewsModule .datepicker {
+}
+
+.IRNewsModule .search-filter-wrapper {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {
+    width: 385px;
+    width: 48%;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from {
+    float: left;
+}
+
+.IRNewsModule .news-filter-wrapper .search-to {
+    float: right;
+}
+
+.IRNewsModule #ui-datepicker-div {
+    margin-top: 0;
+}
+
+.IRNewsModule .news-filter-wrapper input#refreshiframe {
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.IRNewsModule .datepicker input.from, .IRNewsModule .datepicker input.to, .IRNewsModule .datepicker input.from, .IRNewsModule .datepicker input.to {
+    width: 240px;
+    font-weight: normal;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.IRNewsTool {
+    border: none;
+    table-layout: fixed;
+    width: 100%;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.IRNewsModule .entriesPerPage {
+    float: right;
+}
+
+.IRNewsModule .records-per-page #entriesPerRow {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px;
+    min-width: 120px;
+    font-size: 12px;
+}
+
+.IRNewsModule .news-filter-box .textArea {
+    width: 100%;
+}
+
+.IRNewsModule .datepicker .textArea.date-range {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.IRNewsModule .news-range .submitButton {
+    margin-bottom: 10px;
+}
+
+.IRNewsModule .news-range .submitButton {
+    padding-left: 288px;
+}
+
+.IRNewsModule .submitButton {
+    text-align: right;
+    margin-top: 20px;
+}
+
+input#from.hide-background, input#to.hide-background {
+    background: none;
+}
+
+.ui-datepicker-divHide {
+    display: none;
+}
+
+input#from, input#to {
+    background-image: url(images/calendar.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+/* NewsContent ======================================================== */
+.IRNewsModule .IRNewsTool th {
+    font-weight: bold;
+}
+
+.IRNewsPagination {
+    padding-right: 3%;
+    width: 97%;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+    .IRNewsPagination .IRNewsPageNumber {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .IRNewsPagination .active {
+        background: red;
+        color: #fff;
+    }
+
+.IRNewsTool {
+    border-top: 2px solid #eb2e2c;
+    border-bottom: 1px solid #a8a9a3;
+}
+
+.IRNewsModule .IRNewsTool th, .IRNewsModule .IRNewsTool td {
+    /*
+        border-bottom: 1px solid #fff;
+    */
+    border-right: 0px;
+    border-left: 0px;
+    padding-bottom: 0;
+    cursor: pointer;
+    width: 33%;
+}
+
+    .IRNewsModule .IRNewsTool td.data {
+        color: inherit;
+        padding-left: 5px;
+        vertical-align: middle;
+        border-bottom: 1px solid #54ADC6;
+    }
+
+    .IRNewsModule .IRNewsTool td.DataHover {
+        background-color: #E5F4FB;
+        text-decoration: none;
+        color: #000;
+    }
+
+.IRNewsModule .news-table td.filterRow {
+    background-color: transparent;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border: 0px solid White;
+    color: rgb(18, 141, 185);
+    font-weight: bold;
+}
+
+.IRNewsModule .pagelabel, .IRNewsModule .pagelabelNEXT, .IRNewsModule .pagelabelPREV {
+    cursor: pointer;
+    font-size: 14px;
+    color: #3C5267;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom: 1px solid #3C5267;
+}
+
+.IRNewsModule .pagelabelNEXT {
+    margin-left: 19px;
+}
+
+.IRNewsModule .pagelabelPREV {
+    margin-right: 19px;
+}
+
+.IRNewsModule .pagelabelhidden {
+    display: none;
+}
+
+.IRNewsModule .pagelabelhover, .IRNewsModule .pagelabelclick {
+    color: #000;
+    font-size: 14px;
+}
+
+.IRNewsModule #pagecounter {
+    cursor: pointer;
+}
+
+.IRNewsModule .filesize {
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+.IRNewsModule .newsRowHidden {
+    display: none;
+}
+
+.IRNewsModule .news-filter-box .checkbox {
+    width: 43%;
+    min-width: 43%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    color: #000;
+    font-size: 14px;
+}
+
+.IRNewsTool th, .IRNewsTool td {
+    width: 33%;
+}
+
+    .IRNewsTool td.title {
+        overflow: hidden;
+    }
+
+.IRNewsModule .news-filter-wrapper td.download {
+    width: 33%;
+}
+/* ========================================================================= */
+
+
+/* IRCalcModule & Lookup =================================================== */
+.IRCalcModule .input-row {
+    position: relative;
+}
+
+.IRLookupModule .IRChartLookupPlaceholder {
+    height: 200px;
+}
+
+.IRCalcModule .input-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+}
+
+.IRCalcModule #lookup-form label.dividend-label {
+    display: block;
+    width: 36%;
+}
+
+.IRCalcModule th.left-aligned, .IRCalcModule td.left-aligned {
+    text-align: left;
+}
+
+
+.IRCalcModule .input-row #currency-symbol {
+    margin-right: 5px;
+    display: inline;
+}
+
+.IRCalcModule select, .IRLookupModule select {
+    vertical-align: top;
+    height: 24px;
+    line-height: 24px;
+}
+
+.IRLookupModule #lookup-form {
+    text-align: right;
+}
+
+.IRLookupModule .IRChartLookupPlaceholder {
+    height: 250px;
+}
+
+.IRLookupModule #lookup-form .frequency-label {
+    text-align: left;
+}
+
+.IRLookupModule #lookup-form select#format {
+    width: 77px;
+}
+
+#lookup-form .frequency-label, #calc-form .frequency-label {
+    float: left;
+    min-width: 70px;
+}
+
+#lookup-form .input-row, #calc-form .input-row {
+    line-height: 24px;
+}
+
+#lookup-form .from-label, #lookup-form .to-label, #calc-form .from-label, #calc-form .to-label {
+    float: left;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#calc-form, .IRChartLookupPlaceholder {
+    width: 100%;
+}
+/* ========================================================================= */
+
+
+
+/* IRBenchmark ============================================================= */
+td.colorize.positive {
+    color: green;
+}
+
+td.colorize.negative {
+    color: red;
+}
+
+.IRBenchmarkModule .peer-index-title {
+    background-color: whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.IRTradesModule .table-seperator {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    background: whitesmoke;
+}
+/* ========================================================================= */
+
+
+.download-button.latest-trades {
+    position: relative;
+    text-align: center;
+    top: 10px;
+    margin-bottom: 30px;
+}
+
+.decrease {
+    color: red;
+}
+
+.increase {
+    color: green;
+}
+
+.dataTables_info {
+    display: none;
+}
+
+.IRTables tbody tr {
+    width: 20% !important;
+}
+
+#scroll-table {
+    overflow: scroll !important;
+    width: 100% !important;
+}
+/* ========================================================================= */
+
+
+/* IRMiniQuoteModule ======================================================= */
+.miniquote {
+    background: #efefef;
+    float: left;
+    width: 100%;
+}
+
+    .miniquote h2 {
+        background: #F96412;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px;
+        max-width: 60px;
+        vertical-align: middle;
+        float: left;
+        line-height: 125%;
+    }
+
+    .miniquote .last {
+        padding-left: 10px;
+        min-width: 70px;
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 50px;
+        color: #54ADC6;
+    }
+
+    .miniquote .changeOuter {
+        float: left;
+        padding-top: 10px;
+    }
+
+    .miniquote .change {
+        padding-left: 10px;
+    }
+
+    .miniquote .changePct {
+        padding-left: 10px;
+    }
+
+.arrow a {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    left: 10px;
+    background-image: url('../images/small-share-arrow.png');
+    background-position: left 0px top -19px;
+    cursor: pointer;
+    float: left;
+    top: 16px;
+}
+
+.IRMiniQuoteQuoteModule th, .IRMiniQuoteQuoteModule td, .IRMiniQuoteQuoteModule.table-look {
+    border: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.arrow a:hover {
+    background-position: left 0px top 0px;
+    cursor: pointer;
+}
+
+
+.IRMiniQuoteQuoteModule td.last {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.IRMiniQuoteQuoteModule td.data {
+    font-family: 'Source Sans Pro', Verdana, Arial, Helvetica, sans-serif !important;
+    text-align: right;
+}
+/* ========================================================================= */
+
+
+
+/* DetailedSharePrice ====================================================== */
+.detailed-share-price-exchange td:first-child, .detailed-share-price-market td:first-child, .detailed-share-price-records td:first-child, .detailed-share-price-summary td:first-child {
+    padding-left: 5px;
+    text-align: left;
+}
+
+.detailedSharePriceSplit h2 {
+    margin-top: 30px;
+}
+
+.detailed-share-price-records th, .detailed-share-price-summary th, .detailed-share-price-market th, .detailed-share-price-records td, .detailed-share-price-summary td, .detailed-share-price-market td {
+    text-align: left !important;
+}
+
+table.IRDetailedSharePrice {
+    width: 100%;
+}
+
+.IRDetailedSharePrice th, .IRDetailedSharePrice td {
+    padding: 5px 10px;
+    letter-spacing: -0.5px;
+}
+
+.IRDetailedSharePrice.vertical th, .IRDetailedSharePrice.vertical td {
+    width: 40%;
+}
+
+
+/* ========================================================================= */
+
+
+
+
+/* @media only screen ====================================================== */
+@media screen and (min-width: 1250px) {
+    label.dividend-label {
+        width: 150px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    label.dividend-label {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .IRCalcModule #calc-chart .highcharts-container {
+        width: 100%;
+    }
+
+    .IRQuoteModule .horizontal th {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .IRCalcModule .amount-invested-label {
+        width: 70px;
+    }
+
+    .IRLookupResultsTable.responsive th:nth-child(9),
+    .IRLookupResultsTable.responsive td:nth-child(9) {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .profile-wrapper .IRTable.company-listing-data {
+        margin-bottom: 35px;
+    }
+
+    .profile-wrapper .table-wrapper .company-listing-data, .profile-wrapper .table-wrapper .price-data, .profileWrapperTable.left, .profileWrapperTable.right {
+        width: 100%;
+    }
+
+    .profileWrapperTable.right {
+        margin-top: -1px;
+    }
+
+    .IRLookupResultsTable.responsive th:nth-child(8),
+    .IRLookupResultsTable.responsive td:nth-child(8) {
+        display: none !important;
+    }
+
+    .profile-wrapper .company-listing-data {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 791px) {
+    .IRNewsModule .news-range.vertical, .IRNewsTool .vertical {
+        display: none;
+    }
+
+    .IRNewsModule .news-range.horizontal .submitButton {
+        padding-left: 288px;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .IRNewsModule .news-range .submitButton {
+        padding-left: 0px;
+    }
+
+    /*.IRNewsModule .news-filter-wrapper .textArea{width: 25%;}*/
+    /*.IRNewsModule .news-filter-wrapper #searchtext, .IRNewsModule .news-filter-wrapper .select-date, .IRNewsModule .news-filter-wrapper #select-filter{float: right; }*/
+    .IRNewsModule .news-range.horizontal {
+        display: none;
+    }
+
+    .IRNewsModule .news-filter-box .filterRow {
+        width: 48%;
+    }
+
+    /*.IRNewsModule .filter-wrapper {padding: 10px 30px 10px 30px;}*/
+    /*.IRNewsModule .news-filter-wrapper input, .IRNewsModule .news-filter-wrapper select{width: 60%;}*/
+    /*.IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {width: 100% !important; margin-bottom: 5px;}*/
+    .IRNewsModule .news-filter-wrapper .checkbox {
+        min-width: 200px !important;
+    }
+
+    .news-filter-wrapper .news-filter-box {
+        padding-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .labels-and-button {
+        width: 100%;
+    }
+
+    .IRLookupResultsTable.responsive th:nth-child(7),
+    .IRLookupResultsTable.responsive td:nth-child(7) {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .IRLookupResultsTable.responsive th:nth-child(6),
+    .IRLookupResultsTable.responsive td:nth-child(6) {
+        display: none !important;
+    }
+
+    .IRBenchmarkModule.responsive th:nth-child(6),
+    .IRBenchmarkModule.responsive td:nth-child(6) {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (min-width: 572px) {
+    #calc-form .from-label, #calc-form .to-label, label.dividend-label, label.invested-label, #calc-form-md .from-label, #calc-form-md .to-label, .IRCalcModule .amount-invested-label, #calc-form-md-amount .from-label, #calc-form-md-amount .to-label, #calc-form-md-share .from-label, #calc-form-md-share .to-label {
+        padding-left: 10px;
+        line-height: 20px;
+    }
+
+    #calc-form .from-label, #calc-form .to-label, label.dividend-label {
+        line-height: 24px;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: none;
+    }
+
+    .IRQuoteVerticalModule {
+        display: none;
+    }
+
+    .table-look.vertical {
+        display: none;
+    }
+
+    .labels-and-button {
+        display: block;
+        float: left;
+    }
+
+    .IRDetailedSharePrice.vertical {
+        display: none;
+    }
+
+    .time-mobile {
+        display: none;
+    }
+
+    .tdmobileview {
+        display: none;
+    }
+
+    .trmobileview {
+        display: none;
+    }
+
+    .IRDetailedSharePrice.vertical {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 571px) {
+
+
+    .IRNewsModule .search-for-box input {
+        max-width: initial;
+        width: 100%;
+        float: left;
+        height: 32px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .IRNewsTool.vertical td span {
+        font-size: 10px;
+    }
+
+    .IRNewsTool.vertical .date {
+        width: 70%;
+    }
+
+    .IRNewsModule .IRNewsTool th, .IRNewsModule .IRNewsTool td {
+        width: 100%;
+    }
+
+    .IRCalcModule .horizontal {
+        display: none;
+    }
+
+    .IRCalcModule .vertical td {
+        text-align: right;
+        padding: 5px;
+    }
+
+    .IROrdersModule .progress {
+        height: 12px !important;
+    }
+
+    .m9, .benchmark tr td:nth-child(6) {
+        display: none;
+        visibility: hidden;
+    }
+
+    .table-look th, .table-look td {
+        text-align: left;
+    }
+
+    .IRDetailedSharePrice .horizontal {
+        display: none;
+    }
+
+    .IROrdersModule.horizontal {
+        display: block !important;
+    }
+
+    .IRQuoteHorizontalModule {
+        display: none !important;
+    }
+
+    label.dividend-label {
+        width: 50px;
+    }
+
+    th.column-last, td.column-last {
+        padding-bottom: 4px;
+    }
+
+    .detailed-share-price th {
+        min-width: 90px;
+    }
+
+    .detailed-share-price td {
+        width: 65%;
+    }
+
+    .IRToolCalcResultsTable.horizontal {
+        display: none !important;
+    }
+
+    .IRQuoteVerticalModule th.column-last, .IRQuoteVerticalModule td.column-last {
+        border-bottom: 1px solid #f4f4f4;
+    }
+
+    .IRToolCalcResultsTable th.Header {
+        width: 40%;
+    }
+
+    .detailed-share-price-records th, .detailed-share-price-summary th, .detailed-share-price-market th {
+        font-weight: normal;
+        padding-left: 5px;
+    }
+
+    .IRCalcModule #calc-form {
+        height: 150px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    .IRNewsTool td.data {
+        border: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .IRLookupResultsTable.responsive th:nth-child(5),
+    .IRLookupResultsTable.responsive td:nth-child(5) {
+        display: none !important;
+    }
+
+    .IRNewsModule .news-filter-wrapper .search-to, .IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-for-box {
+        width: 100% !important;
+    }
+
+    .IRNewsModule .news-filter-wrapper .filterRow, .IRNewsModule .news-filter-wrapper .entriesPerPage {
+        width: 100%;
+        float: left;
+    }
+
+    .IRNewsModule .search-for-box #searchtext {
+        width: 100%;
+        height: 30px;
+        background: #fff url(/inc/images/search.png);
+        background-repeat: no-repeat;
+        background-position: 7px 7px;
+        padding-left: 35px;
+        font-size: 16px;
+        border: 0 !important;
+    }
+
+    .IRNewsModule .filterRow .textArea {
+        min-width: 0;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .IRNewsModule .datepicker .textArea.from-label, .IRNewsModule .datepicker .textArea.to-label, .IRNewsModule .news-filter-wrapper select {
+        width: 100%;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .IRNewsModule .search-from, .IRNewsModule .search-to {
+        height: initial;
+    }
+
+    .IRNewsModule .submitButton input.newsSubmit {
+        width: 100%;
+    }
+
+    .IRNewsModule .select-date #from-year, .IRNewsModule .select-date #to-year {
+        width: 28%;
+        float: right;
+        min-width: 60px;
+    }
+
+    .IRNewsModule .select-date #from-month, .IRNewsModule .select-date #to-month {
+        width: 70%;
+        float: left;
+    }
+}
+
+
+@media screen and (min-width: 451px) {
+    .IRNewsModule .news-range .submitButton {
+        display: inline;
+        float: left;
+    }
+
+    .IRNewsModule .records-per-page {
+        width: 49%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .IRNewsModule .news-filter-box .checkbox {
+        width: 70% !important;
+        min-width: 80% !important;
+        margin-top: 5px;
+        background-size: initial !important;
+        background-position-y: 0 !important;
+    }
+
+    .IRNewsModule .datepicker input#from, .IRNewsModule .datepicker input#to, .IRNewsModule .datepicker select {
+        width: 100%;
+    }
+
+    .IRNewsModule .datepicker input#from-vertical, .IRNewsModule .datepicker input#to-vertical {
+        width: 100%;
+    }
+
+    .IRNewsModule .search-for-box {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .IRNewsModule .datepicker .textArea.date-range {
+        width: 100%;
+    }
+
+    .IRNewsModule .select-date {
+        width: 100%;
+    }
+
+
+    .IRNewsModule .filter-wrapper {
+        padding: 0;
+    }
+
+    .news-filter-wrapper .news-filter-box {
+        padding-left: 0px;
+    }
+
+    .IRNewsModule .outerWrapper {
+        min-width: 300px;
+    }
+
+    .IRNewsModule .news-range .submitButton {
+        float: right !important;
+        padding-left: 0;
+    }
+
+    .IRNewsModule #from-month, .IRNewsModule #from-year, .IRNewsModule #to-month, .IRNewsModule #to-year {
+        width: 49%;
+    }
+
+
+    .IRNewsModule .search-for-box .textArea {
+        display: none;
+    }
+
+    .IRNewsModule .news-range .textArea {
+        width: 100%;
+    }
+
+    .IRNewsModule #pagecounter {
+        text-align: center !important;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .IRLookupResultsTable.responsive th:nth-child(4),
+    .IRLookupResultsTable.responsive td:nth-child(4) {
+        display: none !important;
+    }
+
+    .IRBenchmarkModule.responsive th:nth-child(4),
+    .IRBenchmarkModule.responsive td:nth-child(4) {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .IRBenchmarkModule.responsive th:nth-child(5),
+    .IRBenchmarkModule.responsive td:nth-child(5) {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .IRLookupResultsTable.responsive th:nth-child(3),
+    .IRLookupResultsTable.responsive td:nth-child(3) {
+        display: none !important;
+    }
+
+    .IRBenchmarkModule.responsive th:nth-child(5),
+    .IRBenchmarkModule.responsive td:nth-child(5) {
+        display: none !important;
+    }
+}
+/* ========================================================================= */
+
+
+.IRNewsModule .news-filter-wrapper input {
+    border: 0px;
+}

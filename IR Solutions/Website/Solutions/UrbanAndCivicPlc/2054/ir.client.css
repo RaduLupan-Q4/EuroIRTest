@@ -1,0 +1,408 @@
+*, body
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    font-family: 'FrutigerLTW01-45Light', arial, sans-serif;
+}
+
+.emailAlerts
+{
+    font-family: 'FrutigerLTW01-45Light', arial, sans-serif;
+}
+
+h2
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #2F5E30;
+}
+
+.table-look-horizontal
+{
+    border: 1px solid #EEEEEE;
+}
+
+    .table-look-horizontal th, .table-look-horizontal td
+    {
+        height: 20px;
+        line-height: 20px;
+        border: none;
+    }
+
+    .table-look-horizontal th
+    {
+        font-weight: bold;
+        color: #174617;
+    }
+
+    .table-look-horizontal td
+    {
+        border-bottom: 1px solid #EEEEEE;
+    }
+
+.IRChartClientName
+{
+    border-color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+    background-color: #F5F5F5;
+}
+
+.IRChartCurrency
+{
+    color: #333333;
+    top: 3px;
+    padding-right: 0;
+    z-index: 999;
+}
+
+.chartChangePeriod
+{
+    border-top: 1px solid #EEEEEE;
+}
+
+    .chartChangePeriod div
+    {
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
+        font-family: 'FrutigerLTW01-45Light', arial, sans-serif;
+        color: #000;
+    }
+        .chartChangePeriod div:hover
+        {
+            background-color: #C4D224;
+            color: #000;
+        }
+        .chartChangePeriod div.activePeriod
+        {
+            background-color: #C4D224;
+            color: #000;
+        }
+
+
+.disclaimer
+{
+    font-family: Verdana;
+    font-size: 10px;
+    color: #777;
+}
+
+    .disclaimer a:link, .disclaimer a:visited
+    {
+        font-family: Verdana;
+        font-size: 10px;
+        color: #777;
+        text-decoration: none;
+    }
+
+    .disclaimer a:hover
+    {
+        font-family: Verdana;
+        color: #000;
+    }
+
+input[type=text]
+{
+    padding: 7px 40px 7px 10px;
+    line-height: 20px;
+}
+
+
+
+.buttonStyle
+{
+    font-size: 12px;
+    background: #004712;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    float: left;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+    .buttonStyle:hover
+    {
+        color: #333;
+        background-color: #C4D224;
+        border: 0;
+    }
+
+.formUnsubscribe
+{
+    color: #333;
+    background-color: #e6e6e6;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.IRChartHTMLPlaceholder
+{
+    height: 200px;
+}
+
+.pageRegister p
+{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.emailAlerts .inputText
+{
+    max-width: 350px;
+}
+
+.inputTextTitle
+{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+input[type=text].informationInput
+{
+    line-height: 20px;
+    height: 20px;
+    padding: 2px;
+    border: 1px solid #cccccc;
+    color: #555555;
+    border-radius: 4px;
+}
+
+
+.emailAlerts h1
+{
+    font-size: 19px;
+    color: #B5985A;
+    line-height: 22px;
+    border-bottom: 1px solid #B5985A;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    font-family: 'Calvert MT W01 Light';
+    font-weight: bold;
+}
+
+
+/* IRChartModule incl MiniquoteModule ================================================================= */
+.IRChartHTMLPlaceholder .chartCurrentPriceBoxOuter .chartCurrentPriceBox
+{
+    background-color: #C4D224 !important;
+    border: #C4D224 !important;
+}
+
+.IRChartModule h1
+{
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: #B5985A;
+    line-height: 22px;
+    border-bottom: 1px solid #B5985A;
+    padding-bottom: 1px;
+}
+
+.IRChartModule .IRQuoteModule
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    .IRChartModule .IRQuoteModule th.column-left
+    {
+        width: 30%;
+    }
+
+    .IRChartModule .IRQuoteModule td.column-left
+    {
+        width: 20%;
+    }
+
+    .IRChartModule .IRQuoteModule th.column-right
+    {
+        width: 30%;
+    }
+
+    .IRChartModule .IRQuoteModule td.column-right
+    {
+        width: 20%;
+    }
+
+
+.IRQuoteModule
+{
+    font-family: 'FrutigerLTW01-45Light', arial, sans-serif;
+}
+
+    .IRQuoteModule .table-look th, .IRQuoteModule .table-look td
+    {
+        text-align: left;
+        font-size: 14px;
+        line-height: 20px;
+        font-family: 'FrutigerLTW01-45Light', arial, sans-serif;
+        background-color: transparent;
+    }
+
+        .IRQuoteModule .table-look th.column-last, .IRQuoteModule .table-look td.column-last
+        {
+            text-align: right;
+        }
+/* End ======================================================================== */
+
+
+
+/* IRChartMiniModule ================================================================= */
+
+.IRMiniquoteModule
+{
+    font-family: FrutigerLTW01-45Light, arial, sans-serif;
+    vertical-align: middle;
+    height: 50px;
+}
+
+
+
+    .IRMiniquoteModule h2
+    {
+        padding: 0px;
+        margin: 0px;
+        line-height: 29px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #B5985A;
+        margin-left: 7px;
+        margin-right: 7px;
+        font-family: 'Calvert MT W01', Arial;
+        font-size: 15px;
+        font-weight: bold;
+        color: #B5985A;
+    }
+
+.miniquoteDetailsWrapper
+{
+    margin-top: 15px;
+}
+
+    .miniquoteDetailsWrapper .price
+    {
+        font-size: 46px;
+        line-height: 41px;
+        font-family: 'Calvert MT W01 Bold', Arial;
+        color: #1B3C5D;
+        float: left;
+        width: 50%;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .miniquoteDetailsWrapper .marketCapWrapper, .miniquoteDetailsWrapper .volumeWrapper
+    {
+        width: 50%;
+        float: left;
+    }
+
+        .miniquoteDetailsWrapper .marketCapWrapper .Header, .miniquoteDetailsWrapper .volumeWrapper .Header
+        {
+            float: left;
+            padding-right: 5px;
+        }
+
+        .miniquoteDetailsWrapper .marketCapWrapper .Header, .miniquoteDetailsWrapper .volumeWrapper .Header, .miniquoteDetailsWrapper .marketCapWrapper .Data, .miniquoteDetailsWrapper .volumeWrapper .Data
+        {
+            color: #B5985A;
+            line-height: 13px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+.miniquteDetailsWrapper .volumeWrapper .volume
+{
+    float: left;
+}
+
+
+
+/* End ======================================================================== */
+
+
+
+/* @media only screen ========================================================= */
+@media only screen and (max-width: 500px)
+{
+    .column-last, .column-last
+    {
+        display: none;
+    }
+
+    .emailAlerts .inputTextTitle, .emailAlerts .inputText
+    {
+        width: 100%;
+    }
+
+    input[type=text].informationInput
+    {
+        width: 98%;
+        padding-right: 0;
+        margin: 0;
+        height: 25px;
+        line-height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 350px)
+{
+    .buttonStyle
+    {
+        width: 100%;
+        height: 42px;
+        line-height: 42px;
+        font-size: 14px;
+    }
+
+    .formUnsubscribe
+    {
+        width: 100%;
+        margin-top: 5px;
+        float: left;
+        left: 0px !important;
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .pageUnsubscribe .buttonStyle
+    {
+        top: 10px;
+    }
+
+    .pageUnsubscribe .cleanLink
+    {
+        text-align: center;
+        color: #333;
+        background-color: #e6e6e6;
+        width: 100%;
+        height: 42px;
+        line-height: 42px;
+        float: left;
+        border-radius: 4px;
+        left: 0 !important;
+        top: 5px;
+        text-decoration: none;
+    }
+
+    .formUnsubscribe:hover
+    {
+        text-decoration: none !important;
+    }
+    .pageUnsubscribe input[type=text]
+    {
+        width: 100%;
+    }
+}
+/* End ======================================================================== */

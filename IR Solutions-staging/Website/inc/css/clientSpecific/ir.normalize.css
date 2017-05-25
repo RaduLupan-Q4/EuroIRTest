@@ -1,0 +1,194 @@
+﻿/*
+    Normalize browser behaviour.
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    vertical-align: middle;
+    overflow: visible;
+}
+
+input {
+    font-family: inherit;
+    line-height: inherit;
+    font-size: inherit;
+}
+
+    /* align checkboxes, radios, text inputs with their label */
+
+    input[type="radio"] {
+        vertical-align: text-bottom;
+    }
+
+    input[type="checkbox"] {
+        vertical-align: bottom;
+        *vertical-align: baseline;
+    }
+
+    input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+        padding: 0px 0px;
+    }
+
+/* HTML5 elements will now work in older IE versions */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Aligns calender button image in left side */
+.ui-datepicker-trigger {
+    float: left;
+}
+
+
+
+/*
+    This is removed as it introduced scrollbars in older IE versions
+*/
+/*html, body {
+    min-height: 100% !important;
+    height: 100%;
+}
+body {
+    overflow: auto;
+}*/
+
+
+.basicButtonLook {
+    border-left: 5px solid #ffffff;
+}
+
+.basicButtonLook.color002395:hover { border-left: 5px solid #002395; }
+.basicButtonLook.color03C03C:hover { border-left: 5px solid #03C03C; }
+.basicButtonLook.color0F52BA:hover { border-left: 5px solid #0F52BA; }
+.basicButtonLook.color138808:hover { border-left: 5px solid #138808; }
+.basicButtonLook.color3B444B:hover { border-left: 5px solid #3B444B; }
+.basicButtonLook.color4B5320:hover { border-left: 5px solid #4B5320; }
+.basicButtonLook.color507D2A:hover { border-left: 5px solid #507D2A; }
+.basicButtonLook.color556B2F:hover { border-left: 5px solid #556B2F; }
+.basicButtonLook.colorFF0000:hover { border-left: 5px solid #FF0000; }
+.basicButtonLook.color779ECB:hover { border-left: 5px solid #779ECB; }
+.basicButtonLook.color915C83:hover { border-left: 5px solid #915C83; }
+.basicButtonLook.color91877D:hover { border-left: 5px solid #91877D; }
+.basicButtonLook.colorFF00DC:hover { border-left: 5px solid #FF00DC; }
+.basicButtonLook.color967117:hover { border-left: 5px solid #967117; }
+.basicButtonLook.color9932CC:hover { border-left: 5px solid #9932CC; }
+.basicButtonLook.color00FF90:hover { border-left: 5px solid #00FF90; }
+.basicButtonLook.colorA4C639:hover { border-left: 5px solid #A4C639; }
+.basicButtonLook.colorB2EC5D:hover { border-left: 5px solid #B2EC5D; }
+.basicButtonLook.colorCBA135:hover { border-left: 5px solid #CBA135; }
+.basicButtonLook.colorCD9575:hover { border-left: 5px solid #CD9575; }
+.basicButtonLook.color91877D:hover { border-left: 5px solid #91877D; }
+.basicButtonLook.color967117:hover { border-left: 5px solid #967117; }
+.basicButtonLook.colorFF8C00:hover { border-left: 5px solid #FF8C00; }
+.basicButtonLook.color779ECB:hover { border-left: 5px solid #779ECB; }
+.basicButtonLook.colorA4C639:hover { border-left: 5px solid #A4C639; }
+
+
+.basicButtonLook.color002395.active { border-left: 5px solid #002395; }
+.basicButtonLook.color03C03C.active { border-left: 5px solid #03C03C; }
+.basicButtonLook.color0F52BA.active { border-left: 5px solid #0F52BA; }
+.basicButtonLook.color138808.active { border-left: 5px solid #138808; }
+.basicButtonLook.color3B444B.active { border-left: 5px solid #3B444B; }
+.basicButtonLook.color4B5320.active { border-left: 5px solid #4B5320; }
+.basicButtonLook.color507D2A.active { border-left: 5px solid #507D2A; }
+.basicButtonLook.color556B2F.active { border-left: 5px solid #556B2F; }
+.basicButtonLook.colorFF0000.active { border-left: 5px solid #FF0000; }
+.basicButtonLook.color779ECB.active { border-left: 5px solid #779ECB; }
+.basicButtonLook.color915C83.active { border-left: 5px solid #915C83; }
+.basicButtonLook.color91877D.active { border-left: 5px solid #91877D; }
+.basicButtonLook.colorFF00DC.active { border-left: 5px solid #FF00DC; }
+.basicButtonLook.color967117.active { border-left: 5px solid #967117; }
+.basicButtonLook.color9932CC.active { border-left: 5px solid #9932CC; }
+.basicButtonLook.color00FF90.active { border-left: 5px solid #00FF90; }
+.basicButtonLook.colorA4C639.active { border-left: 5px solid #A4C639; }
+.basicButtonLook.colorB2EC5D.active { border-left: 5px solid #B2EC5D; }
+.basicButtonLook.colorCBA135.active { border-left: 5px solid #CBA135; }
+.basicButtonLook.colorCD9575.active { border-left: 5px solid #CD9575; }
+.basicButtonLook.color91877D.active { border-left: 5px solid #91877D; }
+.basicButtonLook.color967117.active { border-left: 5px solid #967117; }
+.basicButtonLook.colorFF8C00.active { border-left: 5px solid #FF8C00; }
+.basicButtonLook.color779ECB.active { border-left: 5px solid #779ECB; }
+.basicButtonLook.colorA4C639.active { border-left: 5px solid #A4C639; }
+
+.color002395.active span { border-left: 5px solid #002395; }
+.color03C03C.active span { border-left: 5px solid #03C03C; }
+.color0F52BA.active span { border-left: 5px solid #0F52BA; }
+.color138808.active span { border-left: 5px solid #138808; }
+.color3B444B.active span { border-left: 5px solid #3B444B; }
+.color4B5320.active span { border-left: 5px solid #4B5320; }
+.color507D2A.active span { border-left: 5px solid #507D2A; }
+.color556B2F.active span { border-left: 5px solid #556B2F; }
+.colorFF0000.active span { border-left: 5px solid #FF0000; }
+.color779ECB.active span { border-left: 5px solid #779ECB; }
+.color915C83.active span { border-left: 5px solid #915C83; }
+.color91877D.active span { border-left: 5px solid #91877D; }
+.colorFF00DC.active span { border-left: 5px solid #FF00DC; }
+.color967117.active span { border-left: 5px solid #967117; }
+.color9932CC.active span { border-left: 5px solid #9932CC; }
+.color00FF90.active span { border-left: 5px solid #00FF90; }
+.colorA4C639.active span { border-left: 5px solid #A4C639; }
+.colorB2EC5D.active span { border-left: 5px solid #B2EC5D; }
+.colorCBA135.active span { border-left: 5px solid #CBA135; }
+.colorCD9575.active span { border-left: 5px solid #CD9575; }
+.color91877D.active span { border-left: 5px solid #91877D; }
+.color967117.active span { border-left: 5px solid #967117; }
+.colorFF8C00.active span { border-left: 5px solid #FF8C00; }
+.color779ECB.active span { border-left: 5px solid #779ECB; }
+.colorA4C639.active span { border-left: 5px solid #A4C639; }
+
+.colorIndicator.active { border-left: 5px solid red; padding-right: 4px; }
+.colorIndicator.color002395.active { border-left: 5px solid #002395; padding-right: 4px; }
+.colorIndicator.color03C03C.active { border-left: 5px solid #03C03C; padding-right: 4px; }
+.colorIndicator.color0F52BA.active { border-left: 5px solid #0F52BA; padding-right: 4px; }
+.colorIndicator.color138808.active { border-left: 5px solid #138808; padding-right: 4px; }
+.colorIndicator.color3B444B.active { border-left: 5px solid #3B444B; padding-right: 4px; }
+.colorIndicator.color4B5320.active { border-left: 5px solid #4B5320; padding-right: 4px; }
+.colorIndicator.color507D2A.active { border-left: 5px solid #507D2A; padding-right: 4px; }
+.colorIndicator.color556B2F.active { border-left: 5px solid #556B2F; padding-right: 4px; }
+.colorIndicator.colorFF0000.active { border-left: 5px solid #FF0000; padding-right: 4px; }
+.colorIndicator.color779ECB.active { border-left: 5px solid #779ECB; padding-right: 4px; }
+.colorIndicator.color915C83.active { border-left: 5px solid #915C83; padding-right: 4px; }
+.colorIndicator.color91877D.active { border-left: 5px solid #91877D; padding-right: 4px; }
+.colorIndicator.colorFF00DC.active { border-left: 5px solid #FF00DC; padding-right: 4px; }
+.colorIndicator.color967117.active { border-left: 5px solid #967117; padding-right: 4px; }
+.colorIndicator.color9932CC.active { border-left: 5px solid #9932CC; padding-right: 4px; }
+.colorIndicator.color00FF90.active { border-left: 5px solid #00FF90; padding-right: 4px; }
+.colorIndicator.colorA4C639.active { border-left: 5px solid #A4C639; padding-right: 4px; }
+.colorIndicator.colorB2EC5D.active { border-left: 5px solid #B2EC5D; padding-right: 4px; }
+.colorIndicator.colorCBA135.active { border-left: 5px solid #CBA135; padding-right: 4px; }
+.colorIndicator.colorCD9575.active { border-left: 5px solid #CD9575; padding-right: 4px; }
+.colorIndicator.color91877D.active { border-left: 5px solid #91877D; padding-right: 4px; }
+.colorIndicator.color967117.active { border-left: 5px solid #967117; padding-right: 4px; }
+.colorIndicator.colorFF8C00.active { border-left: 5px solid #FF8C00; padding-right: 4px; }
+.colorIndicator.color779ECB.active { border-left: 5px solid #779ECB; padding-right: 4px; }
+.colorIndicator.colorA4C639.active { border-left: 5px solid #A4C639; padding-right: 4px; }

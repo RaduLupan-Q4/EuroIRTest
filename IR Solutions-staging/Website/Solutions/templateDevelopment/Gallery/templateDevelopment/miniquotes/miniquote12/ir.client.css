@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.IRMiniquoteModule div {
+    color: #032846;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.IRMiniquoteModule .Data.last {
+    font-size: 62px;
+    line-height: 80px;
+    height: 82px;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.IRMiniquoteModule .Data.change, .IRMiniquoteModule .Data.delayed, .IRMiniquoteModule .highLow52Week {
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 16px;
+}
+
+.formatArrowNeg, .formatArrowPos {
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.IRMiniquoteModule .highLow52Week, .IRMiniquoteModule .Data.delayed {
+    font-size: 12px;
+}
+
+.IRMiniquoteModule .Data.change, .IRMiniquoteModule .Data.delayed, .IRMiniquoteModule .highLow52Week {
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 16px;
+}
+

@@ -1,0 +1,475 @@
+﻿@font-face {
+    font-family: HelveticaNeueBold;
+    src: url(../fonts/HelveticaNeueLTStd-Bd.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeueRoman;
+    src: url(../fonts/HelveticaNeueLTStd-Roman.ttf);
+}
+
+
+body{
+     color: #666666;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}   
+
+strong {
+    font-weight: bold;
+}
+
+/*
+    show/hide elements
+*/
+.unsubscribeNextToButton {
+    display: block;
+}
+/*
+    end show/hide elements
+*/
+h1 {
+    font-size: 20px;
+    color: #262626;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.input-wrapper {
+    width: 70%;
+    float: left;
+    max-width: 400px;
+}
+
+.buttonStyle {
+    width: auto;
+    padding: 0 8px;
+    height: 30px;
+    display: block;
+    float: left;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background: #7fb6c7;
+    border: none;
+    font-size: .9em;
+    -webkit-appearance: none;
+    margin-top: 4px;
+    box-shadow: none;
+}
+
+
+.input-wrapper .buttonStyle{margin-left: 2%;}
+
+    .buttonStyle:hover {
+        color: #fff;
+        box-shadow: none;
+        border: none;
+        background: #7fb6c7;
+    }
+
+.pageRegister{padding-left: 2%;}
+
+.blockNoBorder {
+    max-width: 400px;
+    width: 70%;
+    float: left;
+}
+
+    .blockNoBorder .unsubscribeNextToButton {
+        line-height: 32px;
+        min-width: 120px;
+        width: 20%;
+        font-weight: bold;
+        line-height: 20px;
+        text-decoration: none;
+        color: #BA3E32;
+        border: 1px solid #BA3E32;
+        background-color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+        vertical-align: middle;
+        text-align: center;
+        padding: 5px 20px 5px 20px;
+    }
+
+        .blockNoBorder .unsubscribeNextToButton:hover {
+            color: #FFFFFF;
+            border: 1px solid #F26522;
+            background-color: #BA3E32;
+            padding: 6px 21px 6px 21px;
+            border: 0;
+        }
+
+    .blockNoBorder .formRegister-wrapper {
+        float: right;
+    }
+
+.empty-box-left {
+    width: 20%;
+    min-width: 120px;
+    float: left;
+    height: 20px;
+    max-width: 200px;
+}
+
+a {
+    color: #019D54;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #0ee588;
+    }
+
+h2 {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 23px;
+    margin-bottom: 22px;
+}
+
+p {
+    display: inline;
+    font-size: 14px;
+    height: auto;
+    line-height: 16px;
+    width: auto;
+}
+
+.pageVerification .block p {
+    float: left;
+}
+.pageVerification_placedAtSubmitbutton .buttonStyle{}
+
+.inputTextTitle {
+    height: 38px;
+    line-height: 38px;
+    min-width: 120px;
+    font-size: 14px;
+}
+
+.requiredField {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.disclaimerHighlight {
+    font-size: 14px;
+}
+
+input.informationInput {
+    -webkit-appearance: none;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    -webkit-writing-mode: horizontal-tb;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    color: rgb(0, 0, 0);
+    cursor: auto;
+    display: inline-block;
+    float: left;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 9px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 4px;
+    padding-bottom: 2.46666669536743px;
+    padding-left: 2.46666669536743px;
+    padding-right: 2.46666669536743px;
+    padding-top: 2.46666669536743px;
+    text-align: start;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    width: 300px;
+    word-spacing: 0px;
+    height: 23px;
+  line-height: 23px;
+}
+
+
+b {
+    font-weight: bold;
+}
+
+.divideLine {
+    margin-top: 20px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.checkboxOuter {
+    margin-bottom: 6px;
+}
+
+.checkBoxText {
+    margin-left: 0.909em;
+    line-height: 1.364em;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.blockInner {
+    margin-top: 0px;
+}
+
+.requiredField {
+    font-size: 14px;
+}
+
+
+.subPageLogin input.informationInput {
+    width: 40%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.subPageLogin input.informationInput {
+    width: 70%;
+    position: relative;
+    margin-bottom: 15px;
+    height: 23px;
+    line-height: 23px;
+}
+
+.header {
+    box-sizing: border-box;
+    color: #666;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14px;
+
+}
+
+h3.header {
+    padding: 4px 0 0 0;
+    margin: 0 0 12px 0;
+    color: #262626;
+    border-bottom: 1px solid #C2BEB3;
+    font-weight: bold;
+}
+
+.cleanLink {
+    float: left;
+    top: 50px;
+}
+
+.subPageLogin {
+    min-height: 120px;
+    width: 100%;
+    float: left;
+}
+
+.register-wrapper {
+    width: 100%;
+    float: left;
+}
+
+    .subPageLogin p, .register-wrapper p, .alert-wrapper p {
+        margin-bottom: 3px;
+        display: block;
+    }
+
+.subPageLogin span {
+    height: 29px;
+    min-width: 120px;
+    width: 20%;
+    float: left;
+    font-size: 14px;
+    line-height: 29px;
+    padding-top: 5px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.semiTransparantOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: White;
+    opacity: 0.7;
+    z-index: 900;
+}
+
+.removeHeight {
+    height: 20px;
+    line-height: 20px;
+}
+
+.pageVerification_placedAtSubmitbutton {
+    position: relative;
+}
+
+.pageVerification_bottom p, .pageVerification_top p {
+    margin-bottom: 3px;
+    display: block;
+}
+
+.pageVerification_top .goToHome {
+    color: #666;
+    border: 1px solid #666;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .pageVerification_top .goToHome:hover {
+        color: #fff;
+        background-color: #666;
+        border: 0px;
+    }
+
+.pageVerification {
+    width: 100%;
+    margin-right: 10px;
+    position: absolute;
+    border: 1px solid #ccc;
+    bottom: 0px;
+    left: 10px;
+    z-index: 1666;
+    padding: 8px;
+    background-color: white;
+    max-width: 300px;
+}
+
+.subPageLoginConfirm .pageVerification {
+    top: 0%;
+    height: 100px;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+.blockInner {
+    max-width: initial;
+}
+
+h2 {
+    color: #666;
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+/* @media only screen =========================================================*/
+@media only screen and (max-width: 500px) {
+    .subPageLogin .input-wrapper .enterInformationLoginEmail {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        height: 23px;
+        line-height: 23px;
+    }
+
+    .input-wrapper .buttonStyle {
+        float: right;
+        width: 30%;
+    }
+
+    .pageRegister .input-wrapper {
+        width: 95%;
+        max-width: initial;
+    }
+
+    .blockOuter {
+        width: 95%;
+    }
+
+    .inputText {
+        width: 100%;
+        max-width: initial;
+    }
+
+    .blockNoBorder {
+        width: 70%;
+        float: right;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+
+        .blockNoBorder .buttonStyle {
+            position: initial;
+            float: right;
+            width: 135px;
+        }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .blockNoBorder .unsubscribeNextToButton {
+        min-width: 100px;
+        float: left;
+        padding: 5px 5px 5px 5px;
+    }
+
+        .blockNoBorder .unsubscribeNextToButton:hover {
+            padding: 6px 6px 6px 6px;
+            width: auto;
+        }
+
+    .blockNoBorder {
+        width: 70%;
+    }
+
+        .blockNoBorder .buttonStyle {
+            position: initial;
+            float: right;
+            width: 135px;
+        }
+}
+
+@media only screen and (max-width: 400px) {
+    .subPageLogin span {
+        width: 100%;
+    }
+
+    .subPageLogin input.informationInput {
+        width: 70%;
+        margin-right: 20px;
+    }
+
+    .subPageLogin .buttonStyle {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .blockNoBorder .unsubscribeNextToButton {
+        min-width: 90px;
+    }
+
+    .blockNoBorder .buttonStyle {
+        width: 120px;
+    }
+}
+/* End ========================================================================*/

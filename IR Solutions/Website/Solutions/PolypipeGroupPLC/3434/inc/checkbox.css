@@ -1,0 +1,55 @@
+﻿.checkbox {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 31px;
+    background-image: url('inc/checkbox_false.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    min-width: 145px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #015CAE;
+    font-size: 14px;
+}
+
+    .checkbox.checked {
+        background-image: url('inc/checkbox_true.png');
+    }
+
+.subGroup {
+    width: 100%;
+    /*border-top: 1px solid #E7E7E7;*/
+    padding-bottom: 20px;
+}
+
+    .subGroup.first {
+        border-top: none;
+    }
+
+.checkbox {
+    width: 28%;
+    float: left;
+    margin-left: 10px;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+
+@media screen and (max-width: 806px) {
+    .checkbox  {
+        width: 42%;
+        min-width: 42%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .checkbox  {
+        width: 70%;
+        min-width: 80%;
+    }
+    .outerWrapper {
+        min-width: 300px;
+    }
+}

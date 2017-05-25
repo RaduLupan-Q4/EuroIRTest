@@ -1,0 +1,270 @@
+<!-- header -->
+
+<base href="http://ir.euroinvestor.com/solutions/DSV/2474/lookup.aspx" target="_blank">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635960691510356812" />
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=636035058565257347" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fira+Sans:400,500,700,300"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/libs/jquery-ui1-11-1_smoothness.css?v=635810169525468128" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/DSV/2474/ir.client.css"  />
+</head>
+<body>
+
+<!-- header end -->
+
+ <script type="text/javascript">
+        var activeModules = ["IRLookup"];
+    </script>
+
+    <div class="IRLookupModule">
+        <div class="IRChartColour"></div>
+        <span class="ajaxLoader">Loading</span>
+    </div>
+
+
+
+    <script id="IRLookupTemplate" type="text/x-handlebars-template">
+        <div class="IRChartLookupPlaceholder" style="display:none"></div>
+		
+		<form id="lookup-table-form">
+			<div>
+				<label>From</label>
+				<input class="js-from" value="2015-07-13" id="datepicker-from" type="text" style="">
+			</div>
+			<div>
+				<label>To</label>
+				<input class="js-to" value="2016-07-13" id="datepicker-to" type="text">
+			</div>
+			<div class="lookupSubmitButtonWrapper">
+			<div id="lookup-button">Search</div>
+                
+                
+			</div>
+		</form>
+		<iframe src="about:blank" class="lookup-table" id="lookupIframe"></iframe>
+        <div class="downloadHistoricalData IRDownloadHistoricalDataAsExcel buttonLook" value="Excel">Download data as Excel file</div>
+
+       
+
+    </script>
+
+    <script id="IRLookupTableTemplate" type="text/x-handlebars-template">
+        <table class="IRLookupResultsTable table-look horizontal responsive">
+            <tr>
+                <th class="Header column-first date">{{headers/t_date}}</th>
+                <th class="Header open">{{headers/t_open}}</th>
+                <th class="Header high">{{headers/t_high}}</th>
+                <th class="Header low">{{headers/t_low}}</th>
+                <th class="Header">{{headers/t_close}}</th>
+                <th class="Header column-last volume">{{headers/t_volume}}</th>
+            </tr>
+            {{#each closePrices}}
+            <tr>
+                <td class="Data column-first date">{{date}}</td>
+                <td class="Data price">{{decimal openPrice 2}}</td>
+                <td class="Data high">{{decimal high 2}}</td>
+                <td class="Data low">{{decimal low 2}}</td>
+                <td class="Data">{{decimal closePrice 2}}</td>
+                <td class="Data column-last volume">{{volume}}</td>
+            </tr>
+            {{/each}}
+        </table>
+</script>
+
+<!-- footer -->
+
+<div class="disclaimer disclaimer-IRLookup">
+<span class="disclaimer-copyright">Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a> </span><span class="disclaimer-dataSource">and our data suppliers. </span><span class="disclaimer-delayed">Data delayed by 15-20 min.</span><span class="disclaimer-terms"> <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a></span></div>
+<script type="text/javascript" src="/includes/js/libs/jquery1-8-3.min.js?v=635810177706204834"></script>
+<script type="text/javascript" src="ir.client.js?v=636016913021022454"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=636038531330798541"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635979478298352876"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635979478298523004"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635979478297302170"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=636035758083067935"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=636035065599684865"></script>
+<script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=635808478220057902"></script>
+<script type="text/javascript" src="/inc/scripts/jsv.js?v=635979478298102718"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"/></script>
+<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.tool.lookup.js?v=635957097258323486"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=636035746958400797"></script>
+</body>
+</html>
+
+<!-- footer end -->
+
+<script type="text/javascript" src="inc/iframeResizer.contentWindow.min.js"></script>
+
+
+ <script type="text/javascript">
+		function updateTimeframe(){
+            var graphUrlTemplate = "lookup.aspx?mode=list&from=__FROM__&to=__TO__&frequency=Daily&listing=0";
+			var fromSplitted = $("input.js-from").val().split('-');
+			var toSplitted = $("input.js-to").val().split('-');
+
+			console.log('$("input.js-from").val(): ' + $("input.js-from").val());
+			console.log('$("input.js-to").val(): ' + $("input.js-to").val());
+
+			var graphUrl = graphUrlTemplate.replace(/__FROM__/, (fromSplitted[0]+'-'+fromSplitted[1]+'-'+fromSplitted[2])).replace(/__TO__/, (toSplitted[0]+'-'+toSplitted[1]+'-'+toSplitted[2]));
+			$('#lookupIframe').attr('src',graphUrl);
+		}
+		function initializeLookupCustom(){
+				$('#lookup-table-form #lookup-button').click(function(){
+					updateTimeframe();
+				});
+				if (getParameterByName("mode") === "list") {
+					$('body').css('overflow-y','scroll');
+					$('.disclaimer-IRLookup').css('display','none');
+				} else{
+					updateTimeframe();
+				}
+		}
+        $(function() {
+			var initiatedLookup=false;
+			setInterval(function(){
+				if(initiatedLookup==false){
+					try{
+						if($('.IRChartLookupPlaceholder').html().length>10 && initiatedLookup==false){ //If main Lookup handlebars loaded
+							initializeLookupCustom();
+							initiatedLookup=true;
+							
+							$("#datepicker-from").datepicker({
+								dateFormat: "yy-mm-dd"
+							});
+							$("#datepicker-to").datepicker({
+								dateFormat: "yy-mm-dd"
+							});
+							$('.downloadHistoricalDataHTML').on('click', function () {
+							    console.log('download clicked');
+
+
+							    var startDate = new moment(globalChartFromDate, 'YYYY-MM-DD');
+							    var endDate = new moment(globalChartToDate, 'YYYY-MM-DD');
+
+							    requestClosePriceListingData.done(function (closePrices) {
+
+							        var url = window.location.href;
+							        url += (url.indexOf("?") === -1) ? "?" : "&";
+							        url += "mode=list&from=" + startDate.format("YYYY-MM-DD") + "&to=" + endDate.format("YYYY-MM-DD") + "&frequency=daily";
+							        url += "&listing=" + globalActiveListingIndex;
+							        window.open(url.replace("chart.aspx", "lookup.aspx"), "_blank", "height=400,location=no,toolbars=no,resizable=yes,scrollbars=yes");
+
+							    });
+
+							});
+
+							$('.IRDownloadHistoricalDataAsExcel').off().on('click', function () {
+
+							    var fromSplitted = $("input.js-from").val().split('-');
+							    var toSplitted = $("input.js-to").val().split('-');
+
+
+							    console.log("NICE: "  + fromSplitted[2] + '-' + fromSplitted[1] + '-' + fromSplitted[0]);
+							    console.log(toSplitted[2] + '-' + toSplitted[1] + '-' + toSplitted[0]);
+
+
+							    var fromDate = new moment(fromSplitted[0] + '-' + fromSplitted[1] + '-' + fromSplitted[2], 'YYYY-MM-DD').format("YYYY-MM-DD");
+							    var toDate = new moment(toSplitted[0] + '-' + toSplitted[1] + '-' + toSplitted[2], 'YYYY-MM-DD').format("YYYY-MM-DD");
+
+							    var startDate = new moment(fromSplitted[0] + '-' + fromSplitted[1] + '-' + fromSplitted[2], 'YYYY-MM-DD')._d;
+							    var endDate = new moment(toSplitted[0] + '-' + toSplitted[1] + '-' + toSplitted[2], 'YYYY-MM-DD')._d;
+                                
+							    requestClosePriceListingData.done(function (closePrices) {
+							        
+							        var downscaledData = getCroppedDownscaledData(closePrices.data[globalActiveListingIndex].data, startDate, endDate, 'daily');
+							        var stringified = JSV.stringify(downscaledData); // Using JSV because service engine expects that.
+							        console.log(downscaledData);
+							        console.log(downscaledData[0]);
+							        console.log(downscaledData[1]);
+							        var tableHeader = {
+							            t_date: translations.t_date,
+							            t_open: translations.t_open,
+							            t_high: translations.t_high,
+							            t_low: translations.t_low,
+							            t_close: translations.t_close,
+							            t_volume: translations.t_volume
+							        };
+
+							        var preHeader = eval(clientStyle.lookup_excelPreHeader);
+							        ajax_download(getServiceEngingeURL() + "RequestClosePriceFileFromData", {
+							            data: stringified,
+							            headers: JSON.stringify(tableHeader),
+							            preHeader: JSON.stringify(preHeader),
+							            tableStyle: JSON.stringify(clientStyle.lookup_excelTableStyle),
+							            apiVersion: clientApiVersion,
+							            fileName: clientCustomerKeyRequired + '_historical.xlsx',
+							            solutionID: clientSolutionID,
+							            lcid: clientLCID,
+							            customerKey: clientCustomerKeyRequired,
+							            ContentType: "application/vnd.ms-excel"
+							        });
+							    });
+							});
+
+						}
+					} catch(err){
+					}
+					try{
+						if($('.IRLookupResultsTable').html().length>200){//If main LookupList handlebars loaded
+							initializeLookupCustom();
+							initiatedLookup=true;
+						}
+					} 
+					catch(err){
+					}
+				}
+			},200);
+			setInterval(function(){
+				$('iframe').each(function(){
+				
+					if($(this).attr('scrolling')=='no') {
+						$(this).attr('scrolling','yes');
+						$(this).attr("src", $(this).attr("src"));
+					}
+				});
+			},2000);
+			/**/
+        });
+        function submittable() {
+            console.log("submittable()");
+            var data = $('table.lookup-table').first(); //Only one table
+            var csvData = [];
+            var tmpArr = [];
+            var tmpStr = '';
+            data.find("tr").each(function () {
+                if ($(this).find("th").length) {
+                    $(this).find("th").each(function () {
+                        tmpStr = $(this).text().replace(/"/g, '""');
+                        tmpArr.push(tmpStr);
+                    });
+                    csvData.push(tmpArr);
+                } else {
+                    tmpArr = [];
+                    $(this).find("td").each(function () {
+                        if ($(this).text().match(/^-{0,1}\d*\.{0,1}\d+$/)) {
+                            tmpArr.push(parseFloat($(this).text()));
+                        } else {
+                            tmpStr = $(this).text().replace(/"/g, '""');
+                            tmpArr.push(tmpStr);
+                        }
+                    });
+                    csvData.push(tmpArr.join(','));
+                }
+            });
+            var output = csvData.join('\n');
+            $('#CsvData').val(output);
+            $('#excelform').submit();
+        }
+        
+</script>
+<script src="inc/customLookup.js"></script>

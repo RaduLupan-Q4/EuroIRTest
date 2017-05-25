@@ -1,0 +1,1 @@
+﻿debugStep("ir.tool.calc.js loaded");

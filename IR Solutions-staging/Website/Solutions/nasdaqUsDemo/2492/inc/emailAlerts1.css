@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('../fonts/Helvetica-Light.ttf') format('truetype'),
+     url('../fonts/Helvetica-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../fonts/Helvetica-Bold.ttf') format('truetype'),
+     url('../fonts/Helvetica-Bold.woff') format('woff');
+     font-weight: 700;
+}
+
+.inputText input {
+    padding: 5px;
+}
+
+.formLoginConfirm.buttonStyle.clearInput {
+    width: 40%;
+}
+
+.fullwidth {
+    width: 100%;
+    height: 50px;
+}
+
+.subPageLogin {
+    height: 200px;
+}
+.header {
+    margin-top: 15px;
+}
+
+.subGroup #allRNSnews{font-weight: 400;}
+.checkbox {
+    height: 22px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 31px;
+    background-image: url('checkbox_false.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    min-width: 145px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-size: 22px;
+    background-position: center left;
+    width: 45%;
+    float: left;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.subGroup{float: left;}
+
+.checkbox.checked {
+    background-image: url('checkbox_true.png');
+}
+
+.pageRegister p {
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .subPageLogin {
+        height: 300px;
+    }
+
+    .fullwidth {
+        height: 80px;
+    }
+    .subGroup .checkbox{width: 100%;}
+}
+
+@media only screen and (max-width: 470px) {
+    /*div {
+        width: 95% !important;
+    }*/
+
+    input {
+        width: 100% !important;
+    }
+
+        input.checkboxRelease {
+            width: 13px !important;
+        }
+
+    .formLogin.clearInput {
+        margin-top: 10px;
+    }
+}

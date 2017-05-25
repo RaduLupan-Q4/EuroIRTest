@@ -1,0 +1,480 @@
+/*   reset   */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+ul { list-style: none }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table-look td.formatColorNeg, .table-look td.formatColourNeg { color: red }
+.table-look td.formatColorPos, .table-look td.formatColourPos { color: green }
+iframe.ferrariExample { border: 0 }
+input, select {
+    margin: 0;
+    outline: none;
+}
+a { text-decoration: none }
+strong, b, strong *, b * { font-weight: bold !important }
+em, i, em *, i * { font-style: italic !important }
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-size: .75em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #353535;
+}
+.clear { clear: both }
+h2 { font-weight: 400 }
+.formatColourPos { color: #1BA71B }
+.IRNewsEntries .tab-container { display: none }
+.IRQuoteHorizontalModule span.formatArrowPos { margin-top: 6px }
+input[type=text] { border: 1px solid #ccc }
+label {
+    color: #585852;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.divideLine {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+input, select {
+    padding: 0px;
+    line-height: 25px;
+    height: 25px;
+}
+input[type=number] {
+    background: #fff;
+    height: 29px;
+    line-height: 29px;
+}
+input[type=submit], input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit {
+    color: #fff;
+    font-weight: 400;
+    background: #FFC734;
+    padding: 0 50px;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    -webkit-appearance: none;
+}
+input[type=submit]:hover, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:hover {
+    border: 0;
+    color: #fff;
+    box-shadow: none;
+}
+input[type=submit]:focus, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:focus {
+    outline: none;
+    border: 0;
+    color: #fff;
+}
+.IRQuoteModule {
+    font-size: 15px;
+    border-top: 2px solid #eb2e2c;
+    margin-bottom: 20px;
+}
+.table-look {
+    border: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+.table-look th, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    border: 0;
+    font-weight: 700;
+    border-top: 0;
+    border-bottom: 1px solid #434343;
+    font-size: 16px;
+}
+.table-look td, .IRNewsModule .IRNewsTool .IRDataGroup div.IRData { border-bottom: 1px solid #a8a9a3 }
+.table-look th, .table-look td, .IRNewsModule .IRNewsTool .IRDataGroup div.IRData, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+}
+.table-look th, .table-look td {
+    border-bottom: 1px solid #cccccc;
+    text-align: right;
+}
+.table-look {
+    border-top: 2px solid #eb2e2c;
+    border-bottom: 1px solid #a8a9a3;
+}
+.stockQuote.table-wrapper .table-look, .globalSales.table-look { border-top: 0 }
+.stockQuote.table-wrapper .table-look th, .stockQuote.table-wrapper .table-look td, .globalSales.table-look th, .globalSales.table-look td { text-align: left }
+.table-look th {
+    color: #585852;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #eb2e2c;
+    padding: 0;
+}
+.table-look th:first-child { border-radius: 3px 0 0 3px }
+.table-look th:last-child { border-radius: 0 3px 3px 0 }
+.table-look td {
+    border-left: none;
+    border-right: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #585852;
+    padding: 0;
+}
+/* IRChart Tabs design =================================================== */
+/* IRChart =============================================================== */
+#chartiFrame, #chartAdvancediFrame {
+    width: 100%;
+    height: 1150px;
+    margin-top: 20px;
+}
+.tabs-container #container { text-align: center }
+.tabs-container ul {
+    float: left;
+    background: #FFF;
+    border-bottom: 1px solid #acacac;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 15px 0;
+    border-top: 1px solid #acacac;
+}
+.tabs-container ul li a {
+    list-style: none;
+    border: 0;
+    background-color: #808080;
+    width: 22%;
+    padding: 10px;
+    float: left;
+    padding-left: 2px;
+    margin: 0;
+    padding: 0px;
+    color: #fff;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    max-width: 140px;
+    font-size: 14px;
+    margin-right: 1px;
+    min-width: 100px;
+}
+.tabs-container ul li a#tab-1 { margin-right: 1px }
+.tabs-container ul li a:hover { background: #000 }
+.tabs-container ul li a.current {
+    border: 0px #eb2e2c solid;
+    border-bottom: 0px solid #fff;
+    background-color: #eb2e2c;
+    font-weight: 400;
+    color: #fff;
+}
+/* End =================================================================== */
+/* IRCalcModule =============================================================== */
+.IRCalcModule { font-size: 14px }
+.IRToolCalcResultsTable.table-look {
+    border-top: 0;
+    border-collapse: inherit;
+}
+.IRToolCalcResultsTable.table-look th {
+    font-weight: 400;
+    text-align: left;
+    border-bottom: dotted 1px #bbc0c4;
+    font-size: 14px;
+}
+.IRToolCalcResultsTable.table-look td {
+    font-weight: 700;
+    text-align: left;
+    border-bottom: dotted 1px #bbc0c4;
+    font-size: 14px;
+}
+.IRToolCalcResultsTable.table-look .column-last { text-align: right }
+.highcharts-markers.highcharts-tracker path { fill: #db4a07 }
+.IRChartCalcPlaceholder { height: 250px }
+.IRCalcModule #calc-form, .IRCalcModule #calculate-button { margin-top: 30px }
+.IRCalcModule #amount-invested { margin-bottom: 10px }
+.IRCalcModule input[type=number] {
+    padding-left: 0;
+    text-indent: 10px;
+}
+/* End ======================================================================== */
+/* IRLookupModule =============================================================== */
+.IRChartLookupPlaceholder {
+    margin-bottom: 10px;
+    height: 250px;
+}
+.IRLookupModule select { font-size: 14px }
+.lookup-table {
+    width: 100%;
+    height: 400px;
+    overflow-x: scroll;
+}
+#lookup-table-form .submit {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background: #c60d18;
+    border: none;
+    outline: none;
+    float: left;
+    border-radius: 3px;
+    line-height: 20px;
+}
+#lookup-table-form div {
+    float: left;
+    margin-right: 10px;
+}
+#lookup-table-form div label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+#lookup-table-form div input {
+    height: 30px;
+    border-radius: 3px;
+}
+/* End ======================================================================== */
+/* Calc and Lookup ============================================================ */
+.formDivider .input-row label { line-height: 25px }
+.radio label {
+    position: relative;
+    top: -3px;
+}
+.IRDetailedSharePrice.vertical, h3.vertical-header { display: none }
+/* End ======================================================================== */
+.IRCalcModule .IRChartCalcPlaceholder { display: none }
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look { border-top: 0 }
+.IRCalcModule .customCalcModuleWrapper #calc-form {
+    width: 49%;
+    float: left;
+    height: 400px;
+    margin-top: 0;
+    padding: 20px 30px;
+}
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical tr {
+    float: left;
+    width: 100%;
+}
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical th {
+    float: left;
+    text-align: left;
+}
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical td { float: left }
+#result-section {
+    float: right;
+    width: 49%;
+    display: block;
+    padding: 20px 30px;
+    height: 400px;
+}
+.customCalcModuleWrapper #result-section .title, .IRCalcModule .customCalcModuleWrapper #calc-form .title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #353535;
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #FFC734;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.IRToolCalcResultsTable.table-look.vertical tr, .IRToolCalcResultsTable.table-look.vertical tr:nth-child(2n) { background: transparent }
+.IRToolCalcResultsTable.table-look.vertical { display: block }
+.IRToolCalcResultsTable.table-look.vertical th {
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 0;
+    color: #353535;
+    background: none;
+    border: 0;
+    font-weight: 400;
+}
+.IRToolCalcResultsTable.table-look.vertical td {
+    width: 50%;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 0;
+    font-weight: 700;
+}
+.IRToolCalcResultsTable.table-look.vertical th, .IRToolCalcResultsTable.table-look.vertical td { border-bottom: 1px solid #3D9DB8 }
+.IRToolCalcResultsTable.table-look.vertical tr:last-child td, .IRToolCalcResultsTable.table-look.vertical tr:last-child th { border: 0 }
+.IRToolCalcResultsTable.table-look.vertical { border-bottom: 0 }
+.divideLine { display: none }
+label {
+    font-size: 14px;
+    color: #585852;
+}
+.formDivider .input-row input[type="radio"], .formDivider .input-row .radio label {
+    vertical-align: middle;
+    top: 0;
+}
+.formDivider .input-row .radio label { margin-right: 30px }
+.formDivider .input-row .radio label:last-child { margin-right: 0 }
+.formDivider .input-row { margin-bottom: 20px }
+.formDivider .input-row label.input-label {
+    width: 160px;
+    line-height: 29px;
+}
+.wide-input {
+    width: 175px;
+    text-indent: 10px;
+}
+.wide-input.radio { width: auto }
+select#from-year, select#to-year { width: 65px }
+.calculateButton input[type=submit] {
+    color: #ffffff;
+    background-color: #F6A704;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 0;
+    padding: 0 15px;
+    width: auto;
+}
+input[type=submit]:hover, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:hover {
+    color: #fff;
+    background: #3D9DB8;
+}
+.Data.yield-cell, .Data.change-amount-cell { }
+
+/* @media only screen =========================================================*/
+@media only screen and (max-width: 860px) {
+    #result-section, .IRCalcModule .customCalcModuleWrapper #calc-form {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    tbody {
+        width: 100%;
+        display: block;
+    }
+    .formDivider .input-row label.input-label, .IRCalcModule #amount-invested {
+        width: 100%;
+        float: left;
+    }
+    .input-wrapper {float: right;}
+
+    .formDivider {
+        width: 100%;
+        float: left;
+        padding: 0px;
+
+    }
+}
+@media only screen and (max-width: 700px) {
+    .shareholders-table-content .body {
+        max-height: initial;
+        overflow: inherit;
+    }
+    .shareholders-table-content .header thead { width: 100% }
+    .shareholders-table-content .header thead th:last-child { border-right: 0 }
+}
+@media only screen and (max-width: 571px) {
+    .IRCalcModule .customCalcModuleWrapper .vertical tr td, .IRCalcModule .customCalcModuleWrapper .vertical tr th { background: transparent }
+}
+
+@media only screen and (max-width: 600px) {
+    .tabs-container ul li a {
+        width: 100%;
+        margin-bottom: 5px;
+        max-width: initial;
+    }
+    .table-look td, .IRNewsModule .IRNewsTool .IRDataGroup div.IRData { border-bottom: 0px solid #EBEBEB }
+    .table-look th, .table-look td, .IRNewsModule .IRNewsTool .IRDataGroup div.IRData, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+        height: 36px;
+        text-align: left;
+        line-height: 36px;
+    }
+    .table-look td.totalVolumeAsk { text-align: right }
+}
+@media only screen and (min-width: 572px) {
+    .IRQuoteVerticalModule { display: none }
+    .IRCalcModule .vertical { display: none }
+    .divideLine.vertical { display: none }
+}
+@media only screen and (max-width: 571px) {
+    .table-look th, .table-look td {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    input[type=submit] {
+        height: 40px;
+        line-height: 40px;
+    }
+    .IRCalcModule .horizontal { display: none }
+    .IRCalcModule .vertical {
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .IRCalcModule .vertical th {
+        line-height: 30px;
+        height: 30px;
+        font-weight: bold;
+        background: none;
+        color: #333;
+        font-weight: 400;
+        text-indent: 10px;
+    }
+    .IRCalcModule .vertical td {
+        font-weight: normal;
+        border-bottom: 0;
+        width: 10%;
+        text-align: center;
+    }
+    .IRCalcModule .vertical tr td, .IRCalcModule .vertical tr th {
+        background: #fff;
+        border-bottom: dotted 1px #bbc0c4;
+        line-height: 30px;
+        height: 30px;
+        width: 50%;
+        float: left;
+    }
+    .IRCalcModule .vertical tr td {
+        font-weight: 700;
+        text-align: right;
+        padding-right: 10px;
+    }
+    .IRToolCalcResultsTable tbody, .IRToolCalcResultsTable tr {
+        float: left;
+        width: 100%;
+    }
+    .IRCalcModule .calculateButton, .IRCalcModule #calculate-button {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .input-wrapper.lookupButton { width: 100% }
+    #lookup-table-form div {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #lookup-table-form div input { width: 100% }
+    #lookup-table-form .submit { width: 100% }
+    #lookup-table-form div label {
+        margin-bottom: 5px;
+        display: block;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .input-wrapper {
+        position: static;
+    }
+}

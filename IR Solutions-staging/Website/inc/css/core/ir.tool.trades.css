@@ -1,0 +1,100 @@
+﻿table.IRTradesModule td.sum {
+    font-weight: bold;
+}
+
+table.IRTradesModule td.column-last, table.IRTradesModule th.column-last {
+    text-align: right;
+}
+
+table.IRTradesModule td.highlight {
+    background-color: #eee;
+}
+
+.tdIRTradesModule {
+    display: inline;
+}
+
+.IRTradesModule img, .IROrdersModule img {
+    height: 10px;
+    padding-left: 5px;
+}
+
+.dataTables_scrollHeadInner .IRTradesModule th, .dataTables_scrollHeadInner .IRTradesModule td {
+    width: 15% !important;
+}
+
+.IRTradesModule {
+    border-bottom: 1px solid #eee;
+}
+
+    .IRTradesModule .no-border-bottom {
+        border-bottom: none;
+    }
+
+    .IRTradesModule .table-seperator {
+        text-align: center;
+        font-weight: bold;
+        color: #555;
+        background: whitesmoke;
+    }
+
+    .IRTradesModule .dataTables_info {
+        display: none;
+    }
+
+    .IRTradesModule .dataTables_filter {
+        display: none;
+    }
+
+    .IRTradesModule table#scroll-table.no-footer thead {
+        display: none;
+    }
+
+    .IRTradesModule .dataTables_scrollHead, .IRTradesModule .dataTables_scrollHeadInner {
+        width: 100% !important;
+    }
+
+.dataTables_scrollHeadInner .table-look {
+    width: 100% !important;
+}
+
+
+.dataTables_scrollBody .table-look td {
+    width: 15% !important;
+}
+
+.dataTables_scrollHeadInner .IRTradesModule th, .dataTables_scrollHeadInner .IRTradesModule td {
+    width: 15% !important;
+}
+
+.dataTables_scrollHead {
+    padding-right: 17px;
+}
+
+.dataTables_scrollHead, .dataTables_scrollHeadInner {
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 571px) {
+    .formatColourPos .formatArrowPos, .formatColourNeg .formatArrowNeg {
+        display: none;
+        background-repeat: no-repeat;
+    }
+
+    .dataTables_scrollHeadInner img {
+        display: none;
+    }
+
+    .IRTradesModule th.buy-sell, .IRTradesModule td.buy-sell {
+        display: none;
+    }
+
+
+    .dataTables_scrollBody .table-look td {
+        width: 20% !important;
+    }
+
+    .dataTables_scrollHeadInner .IRTradesModule th {
+        width: 20% !important;
+    }
+}

@@ -1,0 +1,174 @@
+<!-- New Header Start -->
+<!DOCTYPE html>
+<html dir="lrt">
+<head>
+    <meta charset="UTF-8">
+    <title>IR Solutions, Euroinvestor</title>
+    <!--Polyfill for html5 features in IE -->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/ir.normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="inc/core/css/ir.style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="ir.client.css"/>
+</head>
+<body>
+<!-- New Header End -->
+
+<!-- Module Activation Params Start -->
+<script type="text/javascript">
+    var activeModules = ['IRProfile'];
+</script>
+<!-- Module Activation Params End -->
+<!-- Module View Start -->
+<div class="IRProfileModule">
+    <div class="IRChartColour"></div>
+    <span class="ajaxLoader">Loading</span>
+</div>
+<!-- Module View End -->
+<!-- Module Templates Start-->
+<script id="IRProfileModuleTemplate" type="text/x-handlebars-template">
+    <div class="profile-wrapper">
+        <h2>{{stocks/name}} ({{stocks/symbol}})</h2>
+        <div class="table-wrapper">
+            <div class="company-listing-data">
+                <h2>Delayed data</h2>
+                <table class="IRTable table-look responsive">
+                    <tr>
+                        <td class="Header epic top">{{headers/t_last}}</td>
+                        <td class="Data epic top">€ {{stocks/last}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header sector">% {{headers/t_change}}</td>
+                        <td class="Data sector formatColour">{{stocks/change}}%</td>
+                    </tr>
+                    <tr>
+                        <td class="Header sedol">{{headers/t_open}}</td>
+                        <td class="Data sedol">€ {{stocks/open}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header isin">{{headers/t_low}}/{{headers/t_high}}</td>
+                        <td class="Data isin">€ {{stocks/low}} / € {{stocks/high}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header market-sector">{{headers/t_no_of_trades_today}}</td>
+                        <td class="Data market-sector">{{toLocal stocks/tradeCount}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header market-segment">{{headers/t_market_cap}} (B €)</td>
+                        <td class="Data market-segment">{{showMarketCapM stocks/marketCap}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header country">{{headers/t_shares_outstanding}}</td>
+                        <td class="Data country">{{toLocal stocks/shareMillions}}m</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="price-data">
+                <h2>Market data</h2>
+                <table class="IRTable table-look responsive">
+                    <tbody>
+                    <tr>
+                        <td class="Header currency top">{{headers/t_symbol}}</td>
+                        <td class="Data currency top">{{stocks/symbol}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header price">{{headers/t_volume}}</td>
+                        <td class="Data price">{{toLocal stocks/volume}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header change">{{headers/t_last_month_performance}}</td>
+                        <td class="Data change formatColour">{{decimals performance/m1}} %</td>
+                    </tr>
+                    <tr>
+                        <td class="Header volume">{{headers/t_last_3_months_performance}}</td>
+                        <td class="Data volume formatColour">{{decimals performance/m3}} %</td>
+                    </tr>
+                    <tr>
+                        <td class="Header prev-close">{{headers/t_last_year_performance}} </td>
+                        <td class="Data prev-close formatColour">{{decimals performance/y1}} %</td>
+                    </tr>
+                    <tr>
+                        <td class="Header shares-issued">Last month average volume</td>
+                        <td class="Data shares-issued">{{decimals stocks/shareMillions}}m</td>
+                    </tr>
+                    <tr>
+                        <td class="Header market-cap">{{headers/t_year_low_high}}</td>
+                        <td class="Data market-cap">€ {{decimals stocks/highYear}} / € {{decimals stocks/lowYear}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="profileCompanyInformationWrapper">
+            <div class="company-listing-data">
+                <table class="IRTable table-look responsive">
+                    <tr>
+                        <td class="Header">{{headers/t_exchange}}:</td>
+                        <td class="Data">{{stocks/exchangeName}}</td>
+                    </tr>
+                    <tr>
+                        <td class="Header">{{headers/t_isin}}:</td>
+                        <td class="Data">NL0011585146</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="price-data">
+                <table class="IRTable table-look responsive">
+                    <tr>
+                        <td class="Header">{{headers/t_sector}}:</td>
+                        <td class="Data">Automobiles & Parts</td>
+                    </tr>
+                    <tr>
+                        <td class="Header">Market segment:</td>
+                        <td class="Data">MTA</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</script>
+<!-- New Footer Start -->
+
+<!--Disclaimer Part Start-->
+<div class="disclaimer disclaimer-IRCalc">
+    <span class="disclaimer-copyright">Copyright &copy; 1997-2016
+        <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a>
+    </span>
+    <span class="disclaimer-dataSource">and our data suppliers. </span>
+    <span class="disclaimer-delayed">Data delayed by 15-20 min.</span>
+    <span class="disclaimer-terms">
+        <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a>
+    </span>
+</div>
+<!--Disclaimer Part End-->
+
+<!--Libs section-->
+<script type="text/javascript" src="inc/libs/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="inc/libs/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="inc/libs/underscore-min.js"></script>
+<script type="text/javascript" src="inc/libs/moment.min.js"></script>
+<script type="text/javascript" src="inc/libs/moment-timezone-with-data-2010-2020.min.js"></script>
+<script type="text/javascript" src="inc/libs/highstock.js"></script>
+<!--Core section-->
+<!--Client JS file-->
+<script type="text/javascript" src="ir.client.js?v=636016912976421132"></script>
+<!--Core files-->
+<script type="text/javascript" src="inc/core/js/ir.debug.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.data.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.util.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.boot.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.helpers.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.tools.render.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.draw.js"></script>
+<script type="text/javascript" src="inc/core/js/ir.calc.js"></script>
+<!--Custom JS file for tool-->
+<script type="text/javascript" src="ir.miniquote.ctrl.js"></script>
+</body>
+</html>
+
+

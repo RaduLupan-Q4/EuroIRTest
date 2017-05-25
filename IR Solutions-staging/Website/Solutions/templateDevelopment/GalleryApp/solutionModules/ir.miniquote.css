@@ -1,0 +1,557 @@
+/*<%Miniquote2*/
+
+.IRMiniquoteModule .miniquoteDetailsWrapper {
+    line-height: 24px;
+}
+.IRMiniquoteModule .data-price {
+    vertical-align: middle;
+    text-align: -webkit-center;
+}
+.IRMiniquoteModule .top-div {
+    border-bottom: 2px solid #1abc9c;
+    width: 70%;
+}
+.IRMiniquoteModule .header {
+    font-weight: bold;
+}
+
+/*Miniquote2%>*/
+
+/*<%Miniquote3*/
+
+.IRMiniquoteModule .miniquoteImage svg path,
+.IRMiniquoteModule .miniquoteImage svg rect {
+    fill: #EFBE40;
+    stroke-width: 0;
+}
+.IRMiniquoteModule .miniquoteDetailsWrapper {
+    text-align: center;
+    line-height: 24px;
+}
+.IRMiniquoteModule .lastPrice,
+.IRMiniquoteModule .changePercent {
+    font-weight: bold;
+}
+
+/*Miniquote3%>*/
+
+/*<%Miniquote4*/
+
+.IRMiniquoteModule .miniquoteDetailsWrapper {
+    line-height: 24px;
+}
+
+.IRMiniquoteModule .last {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.IRMiniquoteModule .currency {
+    display: inline-block;
+    font-weight: bold;
+    color: #1abc9c;
+}
+
+.IRMiniquoteModule .updated {
+    line-height: 24px;
+    color: #aaa;
+}
+/*Miniquote4%>*/
+
+/*<%Miniquote5*/
+.IRMiniquoteModule {
+    background: #2c3e50;
+    color: #fff;
+}
+.IRMiniquoteModule .miniquoteDetailsWrapper {
+    line-height: 24px;
+}
+
+.IRMiniquoteModule .data-price {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.IRMiniquoteModule .Latest {
+    font-size: 14px;
+    color: #c8d7de;
+}
+.IRMiniquoteModule .Data {
+    font-size: 22px;
+}
+/*Miniquote5%>*/
+
+/*<%Miniquote6*/
+.IRMiniquoteModule .miniquoteDetailsWrapper {
+    line-height: 24px;
+}
+.IRMiniquoteModule .share-price {
+    color: #2c3e50;
+}
+.IRMiniquoteModule .last {
+    font-weight: bold;
+    color: #EFBE40;
+    font-size: 18px;
+}
+/*Miniquote6%>*/
+
+/*<%Miniquote7*/
+
+.IRMiniquoteModule .miniquoteDetailsWrapper {
+    line-height: 24px;
+}
+
+.IRMiniquoteModule {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+}
+.IRMiniquoteModule .header {
+    padding: 0;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.IRMiniquoteModule .IRMiniquoteModule .Data.last {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.IRMiniquoteModule .Data.change {
+    font-size: 14px;
+    display: inline-block;
+    line-height: 18px;
+}
+.IRMiniquoteModule .arrow-image {
+    background: url("images/arrow.png") no-repeat center;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 25px;
+    background-size: 40px;
+}
+.IRMiniquoteModule .chart-image {
+    background: url("images/chart.png") no-repeat center;
+    width: 100%;
+    height: 100px;
+}
+.IRMiniquoteModule .bottom-div {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    padding: 20px;
+    font-size: 11px;
+}
+.IRMiniquoteModule a {
+    color: #fff;
+}
+
+.IRMiniquoteModule .disclaimer {
+    display: none;
+}
+
+/*Miniquote7%>*/
+
+/*<%Miniquote8*/
+
+.IRMiniquoteModule .Data.last {
+    width: 100px;
+    height: 100px;
+    background: #1abc9c;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.IRMiniquoteModule .last-span {
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.IRMiniquoteModule .Data.change {
+    display: inline-block;
+    padding: 0 10px;
+    border-bottom: 2px solid #1abc9c;
+}
+.IRMiniquoteModule .Data.closeDate {
+    font-size: 11px;
+    color: #aaa;
+}
+
+/*Miniquote8%>*/
+
+/*<%Miniquote9*/
+
+.IRMiniquoteModule .data-price {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+    padding: 5px;
+}
+.IRMiniquoteModule .Latest, .IRMiniquoteModule .Data {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+}
+.IRMiniquoteModule .Change {
+    text-align: center;
+}
+.IRMiniquoteModule .Data {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*Minquote9%>*/
+
+/*<%Minquote10*/
+
+.IRMiniquoteModule {
+    margin: 12px 0 0 9px;
+}
+
+.IRMiniquoteModule .currency {
+    color: #5b5377;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.IRMiniquoteModule .last {
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+/*Minquote10%>*/
+
+/*<%Miniquote11*/
+.IRMiniquoteModule .containerData {
+    font-size: 14px;
+    color: #666666;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.IRMiniquoteModule .miniquoteDetailsWrapper .containerData .currency {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #a6192e;
+    display: inline-block;
+}
+
+.IRMiniquoteModule .containerData .Data.change {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.IRMiniQuoteQuoteModule .formatArrowNeg, .IRMiniQuoteQuoteModule .formatArrowPos {
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+
+.IRMiniquoteModule .containerData>.Data {
+    display: inline-block;
+}
+
+.IRMiniquoteModule .txtBold {
+    font-weight: bold;
+}
+
+.IRMiniquoteModule .txtRight {
+    margin-left: 4px;
+}
+
+.IRMiniquoteModule .txt {
+    font-weight: 100;
+}
+/*Miniquote11%>*/
+
+/*<%Miniquote12*/
+
+.IRMiniquoteModule div {
+    color: #032846;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.IRMiniquoteModule .Data.last {
+    font-size: 62px;
+    line-height: 80px;
+    height: 82px;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.IRMiniquoteModule .Data.change, .IRMiniquoteModule .Data.delayed, .IRMiniquoteModule .highLow52Week {
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 16px;
+}
+
+.IRMiniquoteModule .formatArrowNeg, .IRMiniquoteModule .formatArrowPos {
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.IRMiniquoteModule .highLow52Week, .IRMiniquoteModule .Data.delayed {
+    font-size: 12px;
+}
+
+.IRMiniquoteModule .Data.change, .IRMiniquoteModule .Data.delayed, .IRMiniquoteModule .highLow52Week {
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 16px;
+}
+
+/*Miniquote12%>*/
+
+/*<%Miniquote13*/
+
+.IRMiniquoteModule .IRQuoteModule {
+    font-size: 15px;
+    border-top: 2px solid #7fc0d4;
+    margin-bottom: 20px;
+}
+
+.IRMiniquoteModule .companyInfoWrapper {
+    color: #003e5c;
+    font-size: 20px;
+    line-height: 60px;
+    height: 60px;
+}
+
+.IRMiniquoteModule .IRQuoteModule .companyInfoWrapper .chartName {
+    width: 58%;
+    float: left;
+}
+
+.IRMiniquoteModule .companyInfoWrapper .updated {
+    float: right;
+    width: 42%;
+    text-align: right;
+}
+
+.IRMiniquoteModule .table-look {
+    border-top: 2px solid #7fc0d4;
+    border-bottom: 1px solid #a8a9a3;
+}
+
+.IRMiniquoteModule .table-look th:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.IRMiniquoteModule .table-look th.column-first,
+.IRMiniquoteModule .table-look td.column-first {
+    text-align: left;
+}
+
+.IRMiniquoteModule .table-look th,
+.IRMiniquoteModule .table-look td {
+    border-bottom: 1px solid #cccccc;
+    text-align: right;
+}
+
+.IRMiniquoteModule .table-look th, .
+.IRMiniquoteModule table-look td {
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.IRMiniquoteModule .chartLast {
+    font-size: 74px;
+    font-weight: 300;
+    width: 25%;
+    min-width: 260px;
+}
+
+
+.IRMiniquoteModule td.chartLast.Data.symbol.column-first {
+    vertical-align: middle;
+}
+
+.IRMiniquoteModule .table-look td.Data.change {
+    color: #2bc4b6;
+}
+
+/*Miniquote13%>*/
+
+/*<%Miniquote14*/
+
+.IRMiniquoteModule .table-look {
+    border: 0;
+    font-size: 12px;
+}
+
+.IRMiniquoteModule .table-look td.column-first,
+.IRMiniquoteModule .table-look th.column-first {
+    text-align: center;
+    border-left: 0;
+}
+
+.IRMiniquoteModule .table-look th {
+    background-color: #c9e9ff;
+}
+
+.IRMiniquoteModule .table-look th, .IRMiniquoteModule .table-look td {
+    padding: 5px 3px;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    white-space: normal;
+    text-align: center;
+}
+
+.IRMiniquoteModule .table-look td.column-last,
+.IRMiniquoteModule .table-look th.column-last {
+    text-align: center;
+    border-right: 0;
+}
+
+.IRMiniquoteModule td#chartLast.Data.symbol.column-first {
+    vertical-align: middle;
+}
+
+.IRMiniquoteModule .table-look td.column-first {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.IRMiniquoteModule .table-look td.column-first,
+.IRMiniquoteModule .table-look th.column-first {
+    text-align: center;
+    border-left: 0;
+}
+
+/*Miniquote14%>*/
+
+/*<%Miniquote15*/
+
+.IRMiniquoteModule {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #EEEFEF;
+}
+
+.IRMiniquoteModule .miniquote-name {
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5F5F5F;
+    text-transform: uppercase;
+}
+
+.IRMiniquoteModule .IRMiniquoteModule .table-look {
+    border: 0px solid #ffffff;
+    border-collapse: collapse;
+}
+
+.IRMiniquoteModule .Data.miniquote-last {
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.IRMiniquoteModule .Data.change.miniquote-change-today {
+    padding-bottom: 10px;
+}
+
+/*Miniquote15%>*/
+
+/*<%Miniquote16*/
+
+.IRMiniquoteModule {
+    font-weight: 400;
+    font-size: 14px;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.IRMiniquoteModule h2 {
+    text-align: left;
+    line-height: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0;
+    color: #0a008b;
+    display: none;
+}
+
+.IRMiniQuoteQuoteModule.table-look.responsive {
+    border-bottom: 0;
+}
+
+.IRMiniQuoteQuoteModule.table-look.responsive {
+    width: 100%;
+}
+
+.IRMiniQuoteQuoteModule .table-look {
+    border: 0;
+}
+
+.IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    width: 100%;
+    float: left;
+    background-color: #007d79;
+    color: #fff;
+    padding: 10px;
+    height: 190px;
+}
+
+.IRMiniQuoteQuoteModule .last {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0px 0 10px 0;
+}
+
+.IRMiniQuoteQuoteModule .currency {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-left: 0px;
+    display: none;
+    color: #fff;
+}
+
+.IRMiniQuoteQuoteModule .change {
+    margin-top: 12px;
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #42A09F;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.IRMiniQuoteQuoteModule .delayed {
+    margin-bottom: 0px;
+    margin-top: 12px;
+    margin-left: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 10px;
+}
+
+/*Miniquote16%>*/

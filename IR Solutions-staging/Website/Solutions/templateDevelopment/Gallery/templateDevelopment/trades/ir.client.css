@@ -1,0 +1,32 @@
+.IRTradesModule .Header {
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+}
+
+.IRTradesModule.table-look td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    height: 20px;
+    line-height: 20px;
+}
+.IRTradesModule .table-look th.column-first, .IRTradesModule .table-look td.column-first {
+    padding-left: 10px;
+}
+.IRTradesModule .table-look th.column-last, .IRTradesModule .table-look td.column-last {
+    padding-right: 10px;
+}
+
+.IRTradesModule tr:hover {
+    background: #f9f9f9;
+}
+
+@media screen and (max-width: 340px) {
+
+    .IRTradesModule .volume {
+        display: none;
+    }
+
+}

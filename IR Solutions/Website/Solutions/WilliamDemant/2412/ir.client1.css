@@ -1,0 +1,682 @@
+/*   reset   */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+body {
+    line-height: initial;
+}
+
+
+.disclaimer-IRChart, .disclaimer-IRCalc2 {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    margin: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong, b, strong *, b * {
+    font-weight: bold !important;
+}
+
+em, i, em *, i * {
+    font-style: italic !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .75em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #353535;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.disclaimer {
+    top: 0;
+    padding-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.formatColourPos {
+    color: #1BA71B;
+}
+
+.IRNewsEntries .tab-container {
+    display: none;
+}
+
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+label {
+    color: #353535;
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.divideLine {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+input, select {
+    padding: 0px 7px;
+    line-height: 25px;
+    height: 25px;
+}
+
+select {
+    /*for firefox*/
+    -moz-appearance: none;
+    /*for chrome*/
+    -webkit-appearance: none;
+}
+
+    /*for IE10*/
+    select::-ms-expand {
+        display: none;
+    }
+
+.wide-input {
+    width: 195px;
+}
+
+input[type=number] {
+    background: #fff;
+    height: 29px;
+    line-height: 29px;
+}
+
+input[type=submit], input[type=button]{
+    color: #fff;
+    font-weight: 400;
+    background: #79b6d6;
+    padding: 0 50px;
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    -webkit-appearance: none;
+}
+
+input[type=submit]:hover, input[type=button] {
+    background-color: #59acd7;
+    border: 0;
+    color: #fff;
+    box-shadow: none;
+}
+
+input[type=submit]:focus, input[type=button] {
+    outline: none;
+    background: #59acd7;
+    border: 0;
+    color: #fff;
+}
+
+.IRQuoteModule {
+    font-size: 15px;
+    border-top: 2px solid #7fc0d4;
+    margin-bottom: 20px;
+}
+
+.table-look {
+    border: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+.table-look th, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    border: 0;
+    font-weight: 700;
+    border-top: 0;
+    border-bottom: 1px solid #434343;
+    font-size: 16px;
+}
+
+.table-look td, .IRNewsModule .IRNewsTool .IRDataGroup div.IRData {
+    border-bottom: 1px solid #a8a9a3;
+}
+
+.table-look th, .table-look td, .IRNewsModule .IRNewsTool .IRDataGroup div.IRData, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.table-look th, .table-look td {
+    border-bottom: 1px solid #cccccc;
+    text-align: right;
+}
+
+.table-look {
+    border-top: 2px solid #7fc0d4;
+    border-bottom: 1px solid #a8a9a3;
+}
+
+.stockQuote.table-wrapper .table-look, .globalSales.table-look {
+    border-top: 0;
+}
+
+.stockQuote.table-wrapper .table-look th, .stockQuote.table-wrapper .table-look td, .globalSales.table-look th, .globalSales.table-look td {
+    text-align: left;
+}
+
+
+.table-look th {
+    color: #585852;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #a8a9a3;
+    padding: 0;
+}
+
+.table-look th:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.table-look th:last-child {
+    border-radius: 0 3px 3px 0;
+}
+
+.table-look td {
+    border-left: none;
+    border-right: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #585852;
+    padding: 0;
+}
+
+.search-filter-wrapper, .select-filter, .textArea, .datepicker .search-from, #to-month, .submitButton {
+    display: none;
+}
+
+/* IRLookupModule =============================================================== */
+.IRLookupModule select {
+    font-size: 14px;
+}
+
+.lookup-table {
+    width: 100%;
+    height: 400px;
+    overflow-x: scroll;
+    border-top: 2px solid #3D9DB8;
+}
+
+#lookup-table-form .submit {
+    border: none;
+    outline: none;
+}
+
+#lookup-table-form div {
+    float: left;
+    margin-right: 10px;
+}
+
+#lookup-table-form div label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#lookup-table-form div input {
+}
+
+#lookup-table-form div::after {
+	content:none;
+}
+
+/* End ======================================================================== */
+
+
+/* Calc and Lookup ============================================================ */
+
+.formDivider .input-row label {
+    line-height: 25px;
+}
+
+.radio label {
+    position: relative;
+    top: -3px;
+}
+
+
+/* Custom Css==========================================================*/
+
+
+#lookup-table-form div label {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+input, button {
+    height: 43px !important;
+    width: 140px;
+}
+
+input, button, label {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+input[type=text] {
+    border: 0;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 1px solid #353535;
+}
+
+.js-from, .js-to {
+    background-image: url('images/l_calendar.png');
+    background-repeat: no-repeat;
+    background-position: 140px 12px;
+    width: 170px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#lookup-table-form .submit {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+}
+
+#lookup-table-form .submit {
+    color: #ffffff;
+    background-color: #F6A704;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 0;
+    padding: 0 15px;
+    width: auto;
+}
+
+#lookup-table-form .submit:hover {
+    color: #fff;
+    background: #3D9DB8;
+}
+
+
+
+#lookup-table-form div.excelButtonWrapper {
+    text-align: right;
+    float: right;
+    
+}
+
+#lookup-table-form div.downloadHistoricalData {
+    color: #ffffff;
+    background-color: #F6A704;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+    padding: 0 15px;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+}
+
+#lookup-table-form div.downloadHistoricalData:hover {
+    color: #fff;
+    background: #3D9DB8;
+}
+
+a:-webkit-any-link {
+    color: #585852;
+}
+
+#excel {
+    font-family: 'Fira Sans', sans-serif;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #585852;
+}
+
+    #excel:before {
+        position: relative;
+        content: "";
+        background: url("images/dl_arrow.png") no-repeat;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        margin-right: 5px;
+        top: 10px;
+    }
+
+.table-look th, .table-look td, label {
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+}
+
+.table-look th, .table-look td {
+    padding: 0;
+}
+
+.table-look th {
+    height: 40px;
+    line-height: 40px;
+}
+
+.table-look td {
+    line-height: 30px;
+    height: auto;
+}
+
+.table-look th {
+    font-size: 18px;
+    font-weight: 500;
+    border-top: 1px solid #a8a9a3;
+    border-bottom: 1px solid #a8a9a3;
+    margin-bottom: 10px;
+}
+
+.ui-widget {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 10px #a8a9a3;
+}
+
+.ui-widget-header {
+    background: none;
+    color: #585852;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #c2c2c2;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.ui-datepicker-calendar thead tr th {
+    font-weight: 500;
+    color: #585852;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #c2c2c2;
+    border: 0;
+    background: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    border: 0px solid transparent;
+}
+
+    .ui-datepicker .ui-datepicker-next span {
+        background: url(images/arrow-right.png) center center no-repeat;
+    }
+
+    .ui-datepicker .ui-datepicker-next.ui-state-hover {
+        top: 2px;
+        right: 2px;
+        border: 0;
+        background: none;
+    }
+
+.ui-datepicker .ui-datepicker-prev.ui-state-hover {
+    top: 2px;
+    left: 2px;
+    border: 0;
+    background: none;
+}
+
+.ui-datepicker .ui-datepicker-next.ui-datepicker-next-hover.ui-state-hover span {
+    background: url(images/arrow-right-hover.png) center center no-repeat;
+}
+
+.ui-datepicker .ui-datepicker-prev span {
+    background: url(images/arrow-left.png) center center no-repeat;
+}
+
+.ui-datepicker .ui-datepicker-prev.ui-datepicker-prev-hover.ui-state-hover span {
+    background: url(images/arrow-left-hover.png) center center no-repeat;
+}
+
+.ui-state-default:hover, .ui-widget-content .ui-state-default:hover {
+    color: #585852;
+    background: #deded8;
+}
+
+.ui-state-default.ui-state-active {
+    color: #ffffff;
+    background: #F6A704;
+}
+
+.ui-state-default:active, .ui-widget-content .ui-state-default:active {
+    color: #ffffff;
+    background: #F6A704;
+}
+
+.table-look2 td.Data.change.formatColourPos, .table-look2 td.Data.change.formatColourDef {
+    color: #F6A704;
+}
+
+.table-look2 td.Data.change.formatColourNeg {
+    color: #e34a27;
+}
+
+.table-look2 .formatColourPos {
+    color: #F6A704;
+}
+
+.table-look2 .formatColourNeg {
+    color: #e34a27;
+}
+
+
+/* @media only screen =========================================================*/
+@media (max-width: 950px) {
+
+    .horizontal.customResponsive .IRElement9 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .formDivider {
+        width: 100%;
+        float: left;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 740px) {
+    #lookup-table-form div.excelButtonWrapper {
+        width: 100%;
+        float: left;
+    }
+
+    #lookup-table-form div.downloadHistoricalData {
+        margin-top: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 670px) {
+    #lookup-table-form .submit, #lookup-table-form .lookupSubmitButtonWrapper {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+        .horizontal.customResponsive .IRElement4, .horizontal.customResponsive .IRElement8 {
+        display: none;
+    }
+
+    .companyInfoWrapper {
+        font-size: 16px;
+    }
+    #lookup-table-form div::after {
+        content: none;
+    }
+
+    input, button, label {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    #excel {
+        display: none;
+    }
+
+    input[type=text] {
+        text-align: left;
+    }
+
+    .lookup-table {
+        margin-top: 10px;
+    }
+
+        .lookup-table.table-only {
+            margin-top: 0;
+        }
+}
+
+@media only screen and (max-width: 571px) {
+    .table-look th, .table-look td {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .IRLookupModule #lookup-button {
+        width: 100%;
+    }
+
+    .divideLine.horizontal {
+        display: none;
+    }
+
+    .input-wrapper.lookupButton {
+        width: 100%;
+    }
+
+    #lookup-table-form div {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+        #lookup-table-form div input {
+            width: 100%;
+            margin-right: 0;
+        }
+
+    #lookup-table-form .submit {
+        width: 100%;
+    }
+
+    #lookup-table-form div label {
+        margin-bottom: 5px;
+        display: block;
+    }
+
+        input, button {
+        width: 100%;
+    }
+
+    .js-from, .js-to {
+        background-image: none;
+    }
+
+    #lookup-table-form div.downloadHistoricalData, #lookup-table-form div.excelButtonWrapper {
+        margin-bottom: 0;
+    }
+
+    #lookup-table-form .submit {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    #simpleLookupiFrame {
+        margin-top: 20px;
+    }
+
+    .horizontal.customResponsive .IRElement3, .horizontal.customResponsive .IRElement7 {
+        display: none;
+    }
+
+    .companyInfoWrapper {
+        font-size: 14px;
+    }
+
+    #chartLast {
+        min-width: 200px;
+    }
+
+    .horizontal.customResponsive .IRElement2, .horizontal.customResponsive .IRElement6 {
+        display: none;
+    }
+
+    .horizontal.customResponsive .IRElement1, .horizontal.customResponsive .IRElement5 {
+        text-align: right;
+    }
+}

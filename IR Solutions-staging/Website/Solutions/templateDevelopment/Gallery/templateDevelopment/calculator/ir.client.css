@@ -1,0 +1,420 @@
+/*-----------------------------------Calculator-1-------------------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.IRChartColour {
+   stroke: #1abc9c ; /* Chart color*/
+   fill: #1abc9c ; /* Chart volume bars color*/
+   color: #F4EFEB ; /* Chart plot background*/
+   background-color: #fff ; /* Chart background color*/
+   border-color: #E9E9E9 ; /* Chart Border color */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.input-wrapper input {
+    width: 187px;
+    height: 30px;
+    line-height: 30px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    min-width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-image: url(images/arrowdown.svg);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 8px;
+}
+
+select:before {
+    content: '\25bc';
+    float: right;
+}
+
+select.form-control {
+    text-overflow: ellipsis;
+    width: 187px;
+    padding-right: 20px;
+}
+select.dividend {
+    width: 187px;
+}
+input, select {
+    padding: 0px 7px;
+}
+
+.input-row {
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.radio label {
+    padding-right: 25px;
+}
+
+.radioBtn {
+    margin: 0px 23px 0 0;
+}
+
+.calculateButton input[type=submit] {
+    color: #ffffff;
+    background-color: #ffae19;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.radioBtn.checked:before {
+    background: #1abc9c;
+}
+
+.IRToolCalcResultsTable tbody tr th:first-child, .IRToolCalcResultsTable tbody tr td:first-child {
+    padding-left: 0;
+}
+
+.table-look {
+    margin-top: 20px;
+}
+
+.table-look th.column-first, .table-look td.column-first {
+    border-left: none;
+}
+
+.formDivider {
+    margin-bottom: 10px;
+}
+
+.table-look th {
+    padding-left: 8px;
+    color: #585852;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+    font-weight: 400;
+    border-bottom: 1px solid #bbc0c4;;
+    border-left: 1px solid #bbc0c4;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.table-look td {
+    border: 0;
+    font-weight: 700;
+    padding-left: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    text-align: left;
+    color: #003755;
+    border-left: 1px solid #d0d4d6;
+}
+
+.table-look td, .table-look th {
+    height: 25px;
+    height: 30px;
+    line-height: 30px;
+    line-height: 30px;
+}
+
+.Data.yield-cell, .Data.change-amount-cell {
+    color: #2bc4b6;
+}
+span.title {
+    display: none;
+}
+
+.customCalcModuleWrapper .calc-form .formDivider .input-row:last-child 
+    .table-look td, .table-look th {
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 830px) {
+    
+    .IRToolCalcResultsTable.table-look.horizontal.responsive-flip {
+        display: none;
+    }
+    
+    .IRToolCalcResultsTable.vertical {
+        display: inline-block;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 571px) {
+    
+     .IRToolCalcResultsTable.vertical {
+        display: none;
+    }
+    
+    .IRToolCalcResultsTable.vertical {
+        display: inline-block;
+    }
+
+    .table-look th {
+        padding-left: 0;
+    }
+    .IRToolCalcResultsTable.vertical td,
+    .IRToolCalcResultsTable.vertical th {
+        border-left: none;
+        line-height: 20px;
+        height: 20px;
+    }
+    .IRToolCalcResultsTable.vertical td {
+        border-bottom: 1px solid #d0d4d6;
+    }
+    
+    .IRToolCalcResultsTable.table-look.vertical th {
+    height: 30px;
+    font-size: 14px;
+    color: #585852;
+    background: none;
+    border: 0;
+    font-weight: 400;
+    line-height: 30px;
+}
+    
+    .IRToolCalcResultsTable.table-look.vertical th, .IRToolCalcResultsTable.table-look.vertical td {
+    border-bottom: 1px solid #bbc0c4;
+}
+    
+}
+
+@media screen and (max-width: 310px) {
+    select {
+        min-width: 51px;
+        padding: 0 3px;
+    }
+    .radio label {
+        padding-right: 15px;
+    }
+    .radioBtn {
+        margin: 0 19px 0 0;
+    }
+    .input-wrapper input,
+    select.dividend,
+    select.form-control
+     {
+        width: 160px;
+    }
+    .input-wrapper {
+        width: 100%;
+        text-align: right;
+    }
+    .calculateButton input[type=submit] {
+        width: 100%;
+    }
+}
+
+/*-----------------------------------Calculator-1 End-------------------------------*/
+/*-----------------------------------Calculator-2 -------------------------------*/
+.IRCalcModule .IRChartCalcPlaceholder.horizontalLayout {
+    display: none;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look {
+    border-top: 0;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .calc-form {
+    width: 49%;
+    float: left;
+    margin-top: 0;
+    padding: 0px 20px 0 0;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .result-section {
+    display: none;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout #calc-form {
+    width: 49%;
+    float: left;
+    padding: 20px 30px;
+    height: 400px;
+    margin-top: 0;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical tr {
+    float: left;
+    width: 100%;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical th {
+    float: left;
+    text-align: left;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical td {
+    float: left;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look {
+    display: none;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout #result-section {
+    float: right;
+    width: 49%;
+    display: block;
+    padding: 0px 0px 0 20px;
+    margin-top: 0;
+    
+}
+
+.radioBtn.checked:before {
+    background: #1abc9c;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout #result-section .title, 
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .calc-form .title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #585852;
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #1abc9c;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical tr, 
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical tr:nth-child(2n) {
+    background: transparent;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical {
+    display: block;
+}
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical th {
+        width: 50%;
+        height: 30px;
+        font-size: 14px;
+        color: #585852;
+        background: none;
+        border: 0;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical td {
+        width: 50%;
+        text-align: right;
+        height: 30px;
+        font-size: 14px;
+        border: 0;
+        font-weight: 700;
+        line-height: 20px;
+    }
+ .IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical th, .IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical td{
+        border-bottom: 1px solid #bbc0c4;
+}
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical tr:last-child td, 
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical tr:last-child th {
+        border: 0;
+    }
+
+.IRCalcModule .customCalcModuleWrapper.horizontalLayout .IRToolCalcResultsTable.table-look.vertical {
+    border-bottom: 0;
+}
+
+.formDivider .input-row input[type="radio"], .formDivider .input-row .radio label {
+    vertical-align: middle;
+    top: 0;
+    width: 25px;
+}
+
+.formDivider .input-row .radio label {
+    display: inline;
+}
+
+    .formDivider .input-row .radio label:last-child {
+        margin-right: 0;
+    }
+
+    .formDivider .input-row label.input-label {
+        width: 160px;
+        line-height: 29px;
+    }
+
+.input-wrapper input {
+    width: 187px;
+    height: 30px;
+    line-height: 30px;
+}
+ 
+.calculateButton input[type=submit] {
+    color: #ffffff;
+    background-color: #ffae19;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.Data.yield-cell, .Data.change-amount-cell {
+    color: #2bc4b6;
+}
+
+@media only screen and (max-width: 800px) {
+    .IRCalcModule .customCalcModuleWrapper.horizontalLayout .calc-form,
+    .IRCalcModule .customCalcModuleWrapper.horizontalLayout #result-section{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .IRCalcModule .customCalcModuleWrapper.horizontalLayout .calc-form {width: 100%; padding: 0;}
+    .IRCalcModule .customCalcModuleWrapper.horizontalLayout #result-section {width: 100%; padding: 0}
+}
+
+
+
+@media screen and (max-width: 310px) {
+    select {
+        min-width: 51px;
+        padding: 0 3px;
+    }
+
+    .input-wrapper input {
+        width: 160px;
+    }
+    .input-wrapper {
+        width: 100%;
+        text-align: right;
+    }
+    .calculateButton input[type=submit] {
+        width: 100%;
+    }
+}
+/*-----------------------------------Calculator-2 End-------------------------------*/

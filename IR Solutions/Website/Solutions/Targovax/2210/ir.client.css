@@ -1,0 +1,379 @@
+﻿@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    /*src: url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.eot);*/
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    font-family: 'OpenSans', arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+h2 {
+    color: #666;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    -webkit-appearance: none;
+}
+
+#calc-form, #lookup-form {
+    font-size: 13px;
+}
+
+/*select{min-width: 50px;}*/
+
+input[type=submit] {
+    font-family: arial;
+    background: #00A6D5;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.miniquoteDisclaimer .disclaimer {
+    text-align: left;
+    padding: 5px;
+    float: left;
+}
+
+.IRChartColour {
+    /*color: #00A6D5;*/
+    color: rgb(0, 166, 213);
+}
+
+.updated {
+    text-align: right;
+    font-size: 11px;
+}
+
+.updatedText {
+    font-weight: bold;
+}
+
+/*.IRChartNavigation div.IRChartNavigationInner {
+    display: none;
+}*/
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    background-color: #00A6D5;
+    color: #fff;
+}
+
+.table-look {
+    border: none;
+}
+
+    .table-look th, .table-look td {
+        font-weight: 400;
+        font-style: normal;
+        line-height: 20px;
+        border: none;
+        text-align: left;
+    }
+
+    .table-look th {
+        padding: 3px;
+        color: #666;
+        line-height: 20px;
+        font-weight: bold;
+        border-bottom: 2px solid #ddd;
+        font-size: 13px;
+    }
+
+    .table-look td {
+        padding: 3px;
+        font-size: 13px;
+        background: #ffffff;
+    }
+
+.chartDisclaimer, .performanceDisclaimer, .calcDisclaimer, .lookupDisclaimer {
+    display: none;
+}
+
+/* IRMiniquoteModule ===================================================== */
+.IRMiniquoteModule {
+    /*max-width: 270px;*/
+    font-size: 14px;
+    text-align: center;
+    /*height: 280px;*/
+}
+
+    .IRMiniquoteModule .table-look th, .IRMiniquoteModule .table-look td {
+        border: 0;
+    }
+
+    .IRMiniquoteModule h2 {
+        font-size: 25px;
+        margin: 5px 0 10px 0;
+        font-weight: normal;
+    }
+
+.IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    padding-top: 12px;
+    padding: 5px;
+}
+
+.IRMiniQuoteQuoteModule .last {
+    font-size: 48px;
+    line-height: 62px;
+    height: 74px;
+    float: left;
+    margin-left: 0px;
+    background-color: #00A6D5;
+    color: #fff;
+    width: 100%;
+}
+
+.IRMiniQuoteQuoteModule .currency {
+    color: #00A6D5;
+    font-size: 18px;
+    /*float: left;*/
+    margin-top: 18px;
+    padding-left: 5px;
+}
+
+.IRMiniQuoteQuoteModule .closeDate, .IRMiniQuoteQuoteModule .change, .IRMiniQuoteQuoteModule .delayed {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.IRMiniQuoteQuoteModule .change {
+    margin-top: 15px;
+}
+
+.IRMiniQuoteQuoteModule .divideLine {
+    margin-bottom: 28px;
+    margin-top: 35px;
+    border-bottom: 2px solid #cacaca;
+    width: 84%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.IRMiniQuoteQuoteModule.table-look {
+    width: initial;
+}
+
+.IRMiniQuoteQuoteModule .arrow {
+    font-size: 20px;
+    color: #42c7b6;
+    font-weight: bold;
+    float: left;
+    margin-left: 45px;
+    margin-right: 10px;
+    /*background-image: url(../2210/images/arrow.png);*/
+    width: 11px;
+    height: 16px;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLink a {
+    color: #00c8d7;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLinkWrapper {
+}
+
+/* IRLookuModule ================================ */
+
+.IRLookupModule .IRLookupResultsTable.horizontal th,
+.IRLookupModule .IRLookupResultsTable.horizontal td {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    border: none;
+    color: #666;
+}
+
+
+.IRLookupModule .IRLookupResultsTable.horizontal th {
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+.IRPerformanceModule .Header {
+    text-align: right;
+}
+
+.formatArrowNeg, .formatArrowPos {
+    width: 11px;
+    /*height: 22px;*/
+    display: inline-block;
+    background-position: center center;
+    margin-right: 3px;
+}
+
+.formatArrowPos {
+    /*background-image: url(../images/arrow_up.png);*/
+    background-repeat: no-repeat;
+    color: #91c453;
+}
+
+.formatArrowNeg {
+    /*background-image: url(../images/arrow_down.png);*/
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.IRToolCalcResultsTable.horizontal {
+    display: table;
+}
+
+.IRToolCalcResultsTable.vertical {
+    display: none;
+}
+
+.IRCalcModule .input-wrapper, .IRLookupModule .input-wrapper {
+    text-align: right;
+}
+
+.IRLookupModule label {
+    float: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+.IRCalcModule label, .IRCalcModule input[type="radio"] {
+    float: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal th {
+}
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal td {
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical th {
+    text-align: left;
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical td {
+    text-align: right;
+    border-bottom: 2px solid #DDD;
+}
+
+
+/* IRQuoteDualModule ======================================= */
+.IRQuoteDualModule.table-look th, .IRQuoteDualModule.table-look td {
+    font-size: 10px;
+}
+
+.IRQuoteDualModule.table-look th {
+    line-height: 13px;
+    font-size: 10px;
+    background-color: #CED2E5;
+    color: #00348B;
+    text-align: center;
+    font-weight: normal;
+    border-collapse: collapse;
+    padding: 5px;
+    border: 2px solid #FFFFFF;
+}
+
+.IRQuoteDualModule.table-look td {
+    line-height: 13px;
+    background-color: #E5E7F1;
+    color: #00348B;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid #FFFFFF;
+    vertical-align: middle;
+}
+
+.IRQuoteDualModule .exchange {
+    width: 108px;
+}
+
+.IRQuoteDualModule.table-look .column-first {
+    text-align: left;
+}
+
+.IRQuoteDualModule th.column-first, .IRQuoteDualModule th.column-last {
+    visibility: hidden;
+}
+
+.IRQuoteDualModule .column-last {
+    width: 60px;
+}
+/* End ===================================================== */
+
+.IRCalcModule select {
+    min-width: 50px;
+}
+
+
+/* Media Queries =========================================== */
+
+
+
+@media screen and (max-width: 600px) {
+    .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: table;
+    }
+
+    iframe.calc {
+        height: 500px !important;
+    }
+
+    .horizontal.customResponsive .IRElement8 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .horizontal.customResponsive .IRElement7 {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .horizontal.customResponsive .IRElement5, .horizontal.customResponsive .IRElement6 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .formatArrowNeg, .formatArrowPos {
+        width: 9px;
+        height: 9px;
+    }
+
+    .horizontal.customResponsive .IRElement3, .horizontal.customResponsive .IRElement4 {
+        display: none;
+    }
+
+    .IRQuoteModule th.change, .IRQuoteModule td.change {
+        text-align: right;
+    }
+}
+
+
+
+
+/* End ===================================================== */

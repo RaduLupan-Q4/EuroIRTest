@@ -1,0 +1,207 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+/*
+    Normalize browser behaviour.
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    vertical-align: middle;
+    overflow: visible;
+}
+
+input {
+    font-family: inherit;
+    line-height: inherit;
+    font-size: inherit;
+}
+
+/* align checkboxes, radios, text inputs with their label */
+
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+    padding: 0;
+}
+
+/* HTML5 elements will now work in older IE versions */
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+.ui-datepicker-trigger {
+    float: left;
+}
+
+div.highcharts-axis-labels span .dummyWhiteBox {
+    z-index: 10;
+    background-color: white;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 50px;
+    height: 40px;
+
+}
+
+div.highcharts-axis-labels span div {
+    position: relative;
+    background-color: white;
+    z-index: 100;
+}
+
+.basicButtonLook {
+    border-left: 5px solid #eeeeee;
+}
+
+.basicButtonLook.color1A237E:hover { border-left: 5px solid #1A237E; }
+.basicButtonLook.color8BC34A:hover { border-left: 5px solid #8BC34A; }
+.basicButtonLook.color2962FF:hover { border-left: 5px solid #2962FF; }
+.basicButtonLook.color009688:hover { border-left: 5px solid #009688; }
+.basicButtonLook.color607D8B:hover { border-left: 5px solid #607D8B; }
+.basicButtonLook.color795548:hover { border-left: 5px solid #795548; }
+.basicButtonLook.color1B5E20:hover { border-left: 5px solid #1B5E20; }
+.basicButtonLook.color827717:hover { border-left: 5px solid #827717; }
+.basicButtonLook.colorF44336:hover { border-left: 5px solid #F44336; }
+.basicButtonLook.color673AB7:hover { border-left: 5px solid #673AB7; }
+.basicButtonLook.colorAB47BC:hover { border-left: 5px solid #AB47BC; }
+.basicButtonLook.color00BCD4:hover { border-left: 5px solid #00BCD4; }
+.basicButtonLook.colorE91E63:hover { border-left: 5px solid #E91E63; }
+.basicButtonLook.colorFF9800:hover { border-left: 5px solid #FF9800; }
+.basicButtonLook.colorFF5722:hover { border-left: 5px solid #FF5722; }
+.basicButtonLook.color8BC34A:hover { border-left: 5px solid #8BC34A; }
+.basicButtonLook.colorCDDC39:hover { border-left: 5px solid #CDDC39; }
+.basicButtonLook.colorFFEB3B:hover { border-left: 5px solid #FFEB3B; }
+.basicButtonLook.color9E9E9E:hover { border-left: 5px solid #9E9E9E; }
+.basicButtonLook.color5D4037:hover { border-left: 5px solid #5D4037; }
+.basicButtonLook.color455A64:hover { border-left: 5px solid #455A64; }
+.basicButtonLook.colorE64A19:hover { border-left: 5px solid #E64A19; }
+.basicButtonLook.color3F51B5:hover { border-left: 5px solid #3F51B5; }
+.basicButtonLook.colorC2185B:hover { border-left: 5px solid #C2185B; }
+.basicButtonLook.color0097A7:hover { border-left: 5px solid #0097A7; }
+.basicButtonLook.colorBlack:hover { border-left: 5px solid #0C090A; }
+
+.basicButtonLook.color1A237E.active { border-left: 5px solid #1A237E; }
+.basicButtonLook.color8BC34A.active { border-left: 5px solid #8BC34A; }
+.basicButtonLook.color2962FF.active { border-left: 5px solid #2962FF; }
+.basicButtonLook.color009688.active { border-left: 5px solid #009688; }
+.basicButtonLook.color607D8B.active { border-left: 5px solid #607D8B; }
+.basicButtonLook.color795548.active { border-left: 5px solid #795548; }
+.basicButtonLook.color1B5E20.active { border-left: 5px solid #1B5E20; }
+.basicButtonLook.color827717.active { border-left: 5px solid #827717; }
+.basicButtonLook.colorF44336.active { border-left: 5px solid #F44336; }
+.basicButtonLook.color673AB7.active { border-left: 5px solid #673AB7; }
+.basicButtonLook.colorAB47BC.active { border-left: 5px solid #AB47BC; }
+.basicButtonLook.color00BCD4.active { border-left: 5px solid #00BCD4; }
+.basicButtonLook.colorE91E63.active { border-left: 5px solid #E91E63; }
+.basicButtonLook.colorFF9800.active { border-left: 5px solid #FF9800; }
+.basicButtonLook.colorFF5722.active { border-left: 5px solid #FF5722; }
+.basicButtonLook.color8BC34A.active { border-left: 5px solid #8BC34A; }
+.basicButtonLook.colorCDDC39.active { border-left: 5px solid #CDDC39; }
+.basicButtonLook.colorFFEB3B.active { border-left: 5px solid #FFEB3B; }
+.basicButtonLook.color9E9E9E.active { border-left: 5px solid #9E9E9E; }
+.basicButtonLook.color5D4037.active { border-left: 5px solid #5D4037; }
+.basicButtonLook.color455A64.active { border-left: 5px solid #455A64; }
+.basicButtonLook.colorE64A19.active { border-left: 5px solid #E64A19; }
+.basicButtonLook.color3F51B5.active { border-left: 5px solid #3F51B5; }
+.basicButtonLook.colorC2185B.active { border-left: 5px solid #C2185B; }
+.basicButtonLook.color0097A7.active { border-left: 5px solid #0097A7; }
+.basicButtonLook.colorBlack.active { border-left: 5px solid #0C090A; }
+
+.color1A237E.active span { border-left: 5px solid #1A237E; }
+.color8BC34A.active span { border-left: 5px solid #8BC34A; }
+.color2962FF.active span { border-left: 5px solid #2962FF; }
+.color009688.active span { border-left: 5px solid #009688; }
+.color607D8B.active span { border-left: 5px solid #607D8B; }
+.color795548.active span { border-left: 5px solid #795548; }
+.color1B5E20.active span { border-left: 5px solid #1B5E20; }
+.color827717.active span { border-left: 5px solid #827717; }
+.colorF44336.active span { border-left: 5px solid #F44336; }
+.color673AB7.active span { border-left: 5px solid #673AB7; }
+.colorAB47BC.active span { border-left: 5px solid #AB47BC; }
+.color00BCD4.active span { border-left: 5px solid #00BCD4; }
+.colorE91E63.active span { border-left: 5px solid #E91E63; }
+.colorFF9800.active span { border-left: 5px solid #FF9800; }
+.colorFF5722.active span { border-left: 5px solid #FF5722; }
+.color8BC34A.active span { border-left: 5px solid #8BC34A; }
+.colorCDDC39.active span { border-left: 5px solid #CDDC39; }
+.colorFFEB3B.active span { border-left: 5px solid #FFEB3B; }
+.color9E9E9E.active span { border-left: 5px solid #9E9E9E; }
+.color5D4037.active span { border-left: 5px solid #5D4037; }
+.color455A64.active span { border-left: 5px solid #455A64; }
+.colorE64A19.active span { border-left: 5px solid #E64A19; }
+.color3F51B5.active span { border-left: 5px solid #3F51B5; }
+.colorC2185B.active span { border-left: 5px solid #C2185B; }
+.color0097A7.active span { border-left: 5px solid #0097A7; }
+.colorBlack.active span { border-left: 5px solid #0C090A; }
+
+.colorIndicator.active { border-left: 5px solid #D32F2F; padding-right: 4px; }
+.colorIndicator.color1A237E.active { border-left: 5px solid #1A237E; padding-right: 4px; }
+.colorIndicator.color8BC34A.active { border-left: 5px solid #8BC34A; padding-right: 4px; }
+.colorIndicator.color2962FF.active { border-left: 5px solid #2962FF; padding-right: 4px; }
+.colorIndicator.color009688.active { border-left: 5px solid #009688; padding-right: 4px; }
+.colorIndicator.color607D8B.active { border-left: 5px solid #607D8B; padding-right: 4px; }
+.colorIndicator.color795548.active { border-left: 5px solid #795548; padding-right: 4px; }
+.colorIndicator.color1B5E20.active { border-left: 5px solid #1B5E20; padding-right: 4px; }
+.colorIndicator.color827717.active { border-left: 5px solid #827717; padding-right: 4px; }
+.colorIndicator.colorF44336.active { border-left: 5px solid #F44336; padding-right: 4px; }
+.colorIndicator.color673AB7.active { border-left: 5px solid #673AB7; padding-right: 4px; }
+.colorIndicator.colorAB47BC.active { border-left: 5px solid #AB47BC; padding-right: 4px; }
+.colorIndicator.color00BCD4.active { border-left: 5px solid #00BCD4; padding-right: 4px; }
+.colorIndicator.colorE91E63.active { border-left: 5px solid #E91E63; padding-right: 4px; }
+.colorIndicator.colorFF9800.active { border-left: 5px solid #FF9800; padding-right: 4px; }
+.colorIndicator.colorFF5722.active { border-left: 5px solid #FF5722; padding-right: 4px; }
+.colorIndicator.color8BC34A.active { border-left: 5px solid #8BC34A; padding-right: 4px; }
+.colorIndicator.colorCDDC39.active { border-left: 5px solid #CDDC39; padding-right: 4px; }
+.colorIndicator.colorFFEB3B.active { border-left: 5px solid #FFEB3B; padding-right: 4px; }
+.colorIndicator.color9E9E9E.active { border-left: 5px solid #9E9E9E; padding-right: 4px; }
+.colorIndicator.color5D4037.active { border-left: 5px solid #5D4037; padding-right: 4px; }
+.colorIndicator.color455A64.active { border-left: 5px solid #455A64; padding-right: 4px; }
+.colorIndicator.colorE64A19.active { border-left: 5px solid #E64A19; padding-right: 4px; }
+.colorIndicator.color3F51B5.active { border-left: 5px solid #3F51B5; padding-right: 4px; }
+.colorIndicator.colorC2185B.active { border-left: 5px solid #C2185B; padding-right: 4px; }
+.colorIndicator.color0097A7.active { border-left: 5px solid #0097A7; padding-right: 4px; }
+.colorIndicator.colorBlack.active { border-left: 5px solid #0C090A; }
+

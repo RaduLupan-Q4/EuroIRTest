@@ -1,0 +1,28 @@
+.IROrdersModule .Header {
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+}
+
+.IROrdersModule td {
+    border-bottom: 1px solid #eee;
+    height: 20px;
+    line-height: 20px;
+}
+
+.IROrdersModule .table-look th.column-first, .IROrdersModule .table-look td.column-first {
+    padding-left: 10px;
+}
+.IROrdersModule .table-look th.column-last, .IROrdersModule .table-look td.column-last {
+    padding-right: 10px;
+}
+
+.IROrdersModule .orderDepthBarLeft .progress-bar {
+    background-color: #ffae19;
+}
+
+.IROrdersModule .orderDepthBarRight .progress-bar {
+    background-color: #2c3e50;
+}

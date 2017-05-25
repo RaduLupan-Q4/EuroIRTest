@@ -1,0 +1,14 @@
+﻿.table-look-horizontal {
+    border: 1px solid #0082B4;
+}
+
+    .table-look-horizontal th, .table-look-horizontal td {
+        border: 1px solid #0082B4;
+    }
+
+    .table-look-horizontal th {
+        background-color: #0082B4;
+        color: #ffffff;
+    }
+
+    /*test*/

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="galleryApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Modules Gallery</title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css?v=0.1483714448268"/>
+</head>
+
+<body ng-controller="indexController" ng-cloak>
+
+<header class="toolbar-wrapper">
+    <div class="burger-menu">
+        <span class="burgerSpan"></span>
+    </div>
+    <div class="toolbar-title">
+        {{msg}}
+    </div>
+    <div class="export-btn animate-click">
+        <i class="icon icon-export"></i>
+    </div>
+</header>
+
+<nav class="main-menu" ng-class="{'burgerActive expanded': clikedBurger}">
+    <ul>
+        <li class="logo-box">
+                <i class="icon icon-logo"></i>
+        </li>
+        <li class="animate-click" ng-repeat="menuItem in mainMenuList"  ng-class="{'active': menuItem.use}">
+            <a ng-href="{{menuItem.link}}">
+                <i class="icon" ng-class="menuItem.icon"></i>
+                <span class="nav-text">{{menuItem.name}}</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<main class="main-gallery">
+    <div class="scroll-wrapper">
+        <div class="alert-wrapper" ng-include="alertUrl"></div>
+        <div class="module-wrapper" ng-view></div>
+        <div class="edit-wrapper">
+            <pre>{{fileContent}}</pre>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</main>
+
+</body>
+<script type="text/javascript" src="js/libs.js?v=0.1483714448271"></script>
+<script type="text/javascript" src="js/script.js?v=0.1483714448271"></script>
+<script type="text/javascript" src="js/controllers.js?v=0.1483714448271"></script>
+</html>
+
+

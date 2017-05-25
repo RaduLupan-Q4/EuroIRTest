@@ -1,0 +1,65 @@
+<base href="http://ir.euroinvestor.com/solutions/InnovadermaPlc/2630/miniquote.aspx" target="_blank">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635808478203031177" />
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=635888065011828445" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/InnovadermaPlc/2630/ir.client.css" />
+<link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<script type="text/javascript">
+    var activeModules = ['IRMiniquote'];
+</script>
+
+<div class="IRMiniquoteModule"><span class="ajaxLoader">Loading</span></div>
+
+<script id="IRMiniquoteModuleTemplate" type="text/x-handlebars-template">
+    <div class="IRMiniQuoteQuoteModule">
+        <div class="miniquoteDetailsWrapper">
+            <table class="mQuoteTable">
+                <td class="first-col">{{headers/t_last_share_price}}</td>
+                <tr>
+                    <td class="last" colspan="2"><p>&euro; </p>{{decimals stocks/last}}</td>
+                </tr>
+                <tr class="change-tr">
+                    <td class="first-col">{{stocks/currency}}: {{decimals stocks/change}}  <span class="procent">Procent ({{decimals stocks/changePercent}}%)</span><span class="{{showArrow stocks/change}}"></span></td>
+                </tr>
+            </table>
+            <table class="mQuoteTable bottom-table">
+                <tr>
+                    <td class="first-col"><strong>{{headers/t_volume}}:</strong> {{toLocal stocks/volume}}</td>
+                </tr>
+                <tr>
+                    <td class="first-col"><strong>{{headers/t_symbol}}:</strong> {{stocks/symbol}}</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="delayed">Delayed ~15 minutes - <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See terms</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</script>
+
+<!--
+<div class="disclaimer disclaimer-IRDetailedSharePrice">
+<span class="disclaimer-copyright">Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a> </span><span class="disclaimer-dataSource">and our data suppliers. </span><span class="disclaimer-delayed">Data delayed by 15-20 min.</span><span class="disclaimer-terms"> <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a></span></div>
+-->
+<script type="text/javascript" src="/includes/js/libs/jquery2-1-4.min.js?v=635808478220682775"></script>
+<script type="text/javascript" src="http://localhost/solutions/InnovadermaPlc/2630/ir.client.js"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=635889825208297564"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635793031199586841"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635793031199506909"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635793031198936378"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=635889809206474823"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=635888936510309995"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=635888936486174890"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body style="overflow-x: hidden; width:100%; height: 100%; margin: 0 auto">
+<div id="container"></div>
+</body>
+<script src="../js/jquerymin.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script>
+    $(function () {
+        $.ajax({
+            url: "http://ir.euroinvestor.com/ServiceEngine/api/json/reply/RequestClosePriceBundle_OHLC?apiVersion=1&lcid=2057&solutionID=2626&customerKey=demoOMXC20&numberOfYears=1&instrumentTypes=Index",
+            success: function (results) {
+                var data = results.data;
+                data.forEach(function (item) {
+
+                    var id = item.instrumentID;
+                    var arr = [];
+                    var sixMonths = new Date();
+                    sixMonths.setMonth(sixMonths.getMonth() - 5);
+                    sixMonths.setHours(0, 0, 0);
+                    item.data.forEach(function (nb) {
+                        var dd = new Date(nb.date);
+                        if (dd.getTime() >= sixMonths.getTime()) {
+                            arr.push([dd.getTime(), nb.closePrice]);
+                        }
+                    });
+                    $('#container').highcharts({
+
+                        chart: {
+                            zoomType: 'x'
+                        },
+
+                        title: {
+                            text: 'OMX C20'
+                        },
+                        xAxis: {
+                            type: 'datetime',
+                            showFirstLabel: true,
+                            startOnTick: true,
+                            labels: {
+                                format: '{value:%b}'
+                            }
+                        },
+                        yAxis: {
+                            title: {
+                                text: 'Close Price'
+                            }
+                        },
+                        legend: {
+                            enabled: false
+                        },
+                        exporting: {
+                            enabled: false
+                        },
+                        credits: {
+                            enabled: false
+                        },
+                        plotOptions: {
+                            area: {
+                                fillColor: {
+                                    linearGradient: {
+                                        x1: 0,
+                                        y1: 0,
+                                        x2: 0,
+                                        y2: 1
+                                    },
+                                    stops: [
+                                        [0, '#3D9DB8'],
+                                        [1, '#fff']
+                                    ]
+                                },
+                                marker: {
+                                    radius: 2
+                                },
+                                lineWidth: 1,
+                                states: {
+                                    hover: {
+                                        lineWidth: 1,
+                                        enabled: true
+                                    }
+                                },
+                                threshold: null
+                            }
+                        },
+
+                        series: [{
+                            type: 'area',
+                            name: 'Close Price',
+                            data: arr
+                        }]
+                    });
+                });
+
+            }
+        })
+    });
+</script>
+</html>

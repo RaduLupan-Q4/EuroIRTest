@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.IRMiniquoteModule {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #EEEFEF;
+}
+
+.miniquote-name {
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5F5F5F;
+    text-transform: uppercase;
+}
+
+.table-look {
+    border: 0px solid #ffffff;
+    border-collapse: collapse;
+}
+
+.Data.miniquote-last {
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Data.change.miniquote-change-today {
+    padding-bottom: 10px;
+}
+
+.formatArrowNeg {
+    /* height: 10px; */
+    margin-right: 5px;
+    background: no-repeat;
+    background-size: 10px;
+    background-image: url(http://ir.euroinvestor.com/Solutionsstaging/SparekassenSjaelland/images/medium-down.gif);
+    background-position: center center;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+}
+
+#yearToDate {
+    margin-left: 30px;
+}
+
+.formatArrowPos {
+    margin-right: 5px;
+    background: no-repeat;
+    background-size: 10px;
+    background-image: url(http://ir.euroinvestor.com/Solutionsstaging/SparekassenSjaelland/images/medium-up.gif);
+    background-position: center center;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+}

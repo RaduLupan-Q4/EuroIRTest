@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>StagingSolutions</id>
+        <version>$version$</version>
+        <authors>Q4 Inc</authors>
+        <description>IRSolutions-Staging</description>
+        <language>en-US</language>
+        <projectUrl>http://github.com/q4mobile/Devops</projectUrl>
+        <licenseUrl>http://github.com/q4mobile/Devops</licenseUrl>
+    </metadata>
+    <files>
+		<file src="Website\Solutions\**" target=".\Solutions\" />	
+    </files>
+</package>

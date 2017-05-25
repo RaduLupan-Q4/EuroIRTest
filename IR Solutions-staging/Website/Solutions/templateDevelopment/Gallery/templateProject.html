@@ -1,0 +1,537 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <META charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Project</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css?v=3.8" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="containerMain">
+        <div class="overlay"></div>
+        <div class="burger-menu">
+            <span class="burgerSpan"></span>
+        </div>
+
+        <nav class="main-menu-burger" style="display: none">
+
+            <li class="menuActive">
+                <a href="" data-related="chart-div" class="active">
+                    <i class="icon chart"></i>
+                    <span class="nav-text">Interactive Chart</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="calc-div">
+                    <i class="icon calc"></i>
+                    <span class="nav-text">Calculator</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="lookup-div">
+                    <i class="icon lookup"></i>
+                    <span class="nav-text">Lookup</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="miniquote-div">
+                    <i class="icon miniquote"></i>
+                    <span class="nav-text">Miniquote</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="profile-div">
+                    <i class="icon profile"></i>
+                    <span class="nav-text">Profile</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="news-div">
+                    <i class="icon news"></i>
+                    <span class="nav-text">News</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="trades-div">
+                    <i class="icon trades"></i>
+                    <span class="nav-text">Trades</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="orders-div">
+                    <i class="icon orders"></i>
+                    <span class="nav-text">Orders</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="email-div">
+                    <i class="icon emailAlerts"></i>
+                    <span class="nav-text">Email Alerts</span>
+                </a>
+            </li>
+
+        </nav>
+
+        <nav class="main-menu">
+
+            <li class="menuActive">
+                <a href="" data-related="chart-div" class="active">
+                    <i class="icon chart"></i>
+                    <span class="nav-text">Interactive Chart</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="calc-div">
+                    <i class="icon calc"></i>
+                    <span class="nav-text">Calculator</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="lookup-div">
+                    <i class="icon lookup"></i>
+                    <span class="nav-text">Lookup</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="miniquote-div">
+                    <i class="icon miniquote"></i>
+                    <span class="nav-text">Miniquote</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="profile-div">
+                    <i class="icon profile"></i>
+                    <span class="nav-text">Profile</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="news-div">
+                    <i class="icon news"></i>
+                    <span class="nav-text">News</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="trades-div">
+                    <i class="icon trades"></i>
+                    <span class="nav-text">Trades</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="orders-div">
+                    <i class="icon orders"></i>
+                    <span class="nav-text">Orders</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="" data-related="email-div">
+                    <i class="icon emailAlerts"></i>
+                    <span class="nav-text">Email Alerts</span>
+                </a>
+            </li>
+        </nav>
+
+        <!--        <span class="header">CHART</span>-->
+
+        <div class="main-gallery">
+
+
+            <div id="chart-div" class="tool-div">
+                <div>
+                    <span class="features">Chart features</span>
+                    <div class="container-labelsMain">
+                        <div class="container-labels">
+                            <label class="chartLabel"><input class="checkboxRelease inTable" type="checkbox" name="" data-class="table-look">Table</label>
+                            <label class="chartLabel"><input class="checkboxRelease inNews" type="checkbox" name="">News</label>
+                            <label class="chartLabel"><input class="checkboxRelease inCurrency" type="checkbox" name="">Currency</label>
+
+                        </div>
+                        <div class="container-labels">
+                            <label class="chartLabel"><input class="checkboxRelease inDividend" type="checkbox" name="vehicle">Dividend</label>
+                            <label class="chartLabel"><input class="checkboxRelease inTech" type="checkbox" name="vehicle">Technical Analysis</label>
+                            <label class="chartLabel"><input class="checkboxRelease inCompar" type="checkbox" name="vehicle">Comparison</label>
+                        </div>
+                        <div class="container-labels">
+                            <label class="chartLabel"><input class="checkboxRelease inSettings" type="checkbox" name="vehicle">Settings</label>
+                            <label class="chartLabel"><input class="checkboxRelease inFullScreen" type="checkbox" name="vehicle">Full Screen</label>
+                        </div>
+                    </div>
+
+                    <div class="dropdown" data-control="checkbox-dropdown">
+                        <label class="dropdown-label">Select</label>
+
+                        <div class="dropdown-list">
+
+                            <label class="dropdown-option chartLabel">
+                              <input class="checkboxRelease inTable" type="checkbox" name="vehicle" data-class="table-look">Table
+                            </label>
+
+                            <label class="dropdown-option chartLabel">
+                              <input class="checkboxRelease inNews" type="checkbox" name="vehicle">News
+                            </label>
+
+                            <label class="dropdown-option chartLabel">
+                              <input class="checkboxRelease inCurrency" type="checkbox" name="vehicle">Currency
+                            </label>
+
+                            <label class="dropdown-option chartLabel">
+                              <input class="checkboxRelease inDividend" type="checkbox" name="vehicle">Dividend
+                            </label>
+
+                            <label class="dropdown-option chartLabel">
+                              <input class="checkboxRelease inTech" type="checkbox" name="vehicle">Technical Analysis
+                            </label>
+                            <label class="dropdown-option chartLabel">
+                              <input class="checkboxRelease inCompar" type="checkbox" name="vehicle">Comparison
+                            </label>
+                            <label class="dropdown-option chartLabel">
+                              <input class="checkboxRelease inSettings" type="checkbox" name="vehicle">Settings
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-iframe">
+                    <iframe allowfullscreen id="chartNew" src="templateDevelopment/InteractiveChart/newCoreChart/chart.html"></iframe>
+                </div>
+            </div>
+
+            <div id="calc-div" class="tool-div">
+                <div class="features">
+                    <div class="calcBtn calcBtn-1 activeBtn">Calculator 1</div>
+                    <div class="calcBtn calcBtn-2">Calculator 2</div>
+                </div>
+                <div>
+                    <label><input class="checkboxRelease inList" type="checkbox" name="">Listings</label>
+                    <label><input class="checkboxRelease inDividend" type="checkbox" name="">Dividend</label>
+                </div>
+                <div class="calc-iframe">
+                    <iframe id="calculator" class="calc-iframe-1" src="templateDevelopment/calculator/calc.html"></iframe>
+                </div>
+            </div>
+
+            <div id="lookup-div" class="tool-div">
+                <div class="features">
+                    <div class="lookupBtn lookupBtn-1 activeBtn">Lookup 1</div>
+                    <div class="lookupBtn lookupBtn-2">Lookup 2</div>
+                </div>
+                <label><input class="checkboxRelease inChartCheckbox" type="checkbox" name="">Chart</label>
+                <label><input class="checkboxRelease inListCheckbox" type="checkbox" name="">Listings</label>
+
+                <div class="lookup-iframe-1">
+                    <iframe id="lookup" class="lookup-iframe" src="templateDevelopment/lookup/lookup.html"></iframe>
+                </div>
+            </div>
+
+            <div id="miniquote-div" class="tool-div grid">
+                <span class="features">Miniquote</span>
+
+                <div class="forMiniquote">
+                    <div id="filters">
+                        <label><input  data-filter="small" class="checkboxRelease inSmall" type="checkbox" name="">Small</label>
+                        <label><input data-filter="medium" class="checkboxRelease inMedium" type="checkbox" name="" >Medium</label>
+                        <label><input data-filter="large" class="checkboxRelease inLarge" type="checkbox" name="" >Large</label>
+                    </div>
+                </div>
+
+                <div class="miniquote-table">
+                    <div class="zoomImageBoxOverflow"></div>
+                    <ul class="miniquoteCont">
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 1</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote4.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote4.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 2</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote9.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote9.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 3</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote15.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote15.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                             <div class="imgBox">
+                                <span class="miniquoteName">No. 4</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote3.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote3.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 5</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote13.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote13.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteSmall">
+                            <div class="imgBox small-1">
+                                <span class="miniquoteName">No. 6</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote14.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote14.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 7</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote11.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote11.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteSmall">
+                            <div class="imgBox small-2">
+                                <span class="miniquoteName">No. 8</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote10.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote10.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteSmall">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 9</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote12.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote12.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 10</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote5.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote5.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 11</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote8.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote8.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteMedium">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 12</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote7.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote7.png" alt="miniquote">
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul class="miniquoteCont largeCont">
+                        <li class="box miniquoteLarge">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 13</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote2.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote2.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteLarge">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 14</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote1.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote1.png" alt="miniquote">
+                            </div>
+                        </li>
+                        <li class="box miniquoteLarge">
+                            <div class="imgBox">
+                                <span class="miniquoteName">No. 15</span>
+                                <img src="templateDevelopment/miniquotes/images/miniquote6.png" alt="miniquote">
+                            </div>
+                            <div class="zoomImageBox">
+                                <div class="close-button-zoom"></div>
+                                <img src="templateDevelopment/miniquotes/images/miniquote6.png" alt="miniquote">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        
+
+        <div id="profile-div" class="tool-div">
+            <iframe src=""></iframe>
+        </div>
+
+        <div id="news-div" class="tool-div">
+            <div>
+                <span class="features">News features</span>
+                <div>
+                    <div class="container-labels">
+                        <label class="chartLabel"><input class="checkboxRelease inCat" type="checkbox" name="">Categories</label>
+                        <label class="chartLabel"><input class="checkboxRelease inSearch" type="checkbox" name="">Search</label>
+                        <label class="chartLabel"><input class="checkboxRelease inDatePicker" type="checkbox" name="">Date Picker</label>
+                        <label class="chartLabel"><input class="checkboxRelease inPdf" type="checkbox" name="">PDF Download</label>
+
+                    </div>
+                </div>
+            </div>
+            <div class="news-iframe">
+                <iframe allowfullscreen id="news" src="templateDevelopment/news/news.html"></iframe>
+            </div>
+
+        </div>
+        <div id="trades-div" class="tool-div">
+               <span class="features">Trades features</span>
+               <div class="container-labelsMain">
+                        <div class="container-labels">
+                            <label class="chartLabel"><input data-action="Data" class="checkboxRelease inTrades" type="checkbox" name="" data-class="table-look">Trades</label>
+                            <label class="chartLabel"><input data-action="" class="checkboxRelease inTime" type="checkbox" >Time</label>
+                            <label class="chartLabel"><input class="checkboxRelease inPrice" type="checkbox">Price</label>
+                        </div>
+                        <div class="container-labels">
+                           <label class="chartLabel"><input class="checkboxRelease inVolume" type="checkbox">Volume</label>
+                            <label class="chartLabel"><input class="checkboxRelease inBid" type="checkbox">Bid</label>
+                            <label class="chartLabel"><input class="checkboxRelease inAsk" type="checkbox">Ask</label>
+                        </div>
+                        <div class="container-labels">
+                           <label class="chartLabel"><input class="checkboxRelease inChange" type="checkbox">Change</label>
+                            <label class="chartLabel"><input class="checkboxRelease inChangePerc" type="checkbox">Change %</label>
+                            <label class="chartLabel"><input class="checkboxRelease inValue" type="checkbox">Value</label>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown" data-control="checkbox-dropdown">
+                          <label class="dropdown-label">Select</label>
+
+                          <div class="dropdown-list">
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inTrades" type="checkbox">Trades
+                                </label>
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inTime" type="checkbox">Time
+                                </label>
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inPrice" type="checkbox">Price
+                                </label>
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inVolume" type="checkbox">Volume
+                                </label>
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inBid" type="checkbox">Bid
+                                </label>
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inAsk" type="checkbox">Ask
+                                </label>
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inChange" type="checkbox">Change
+                                </label>  
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inChangePerc" type="checkbox">Change %
+                                </label>  
+                                <label class="dropdown-option chartLabel">
+                                  <input class="checkboxRelease inValue" type="checkbox">Value
+                                </label>           
+                          </div>
+                      </div>
+                <iframe class="trades-iframe" src="templateDevelopment/trades/trades.html"></iframe>
+            </div>
+
+        <div id="orders-div" class="tool-div">
+            <iframe class="orders-iframe" src="templateDevelopment/orders/orders.html"></iframe>
+        </div>
+
+        <div id="email-div" class="tool-div">
+            <iframe src=""></iframe>
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script src="js/main.js?v=3.8"></script>
+    <script src="js/freewall.js"></script>
+
+
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $('.tool-div').each(function() {
+        $(this).hide();
+        if ($(this).attr('id') == 'chart-div') {
+            $(this).show();
+        }
+    });
+
+
+    $('a').on("click", function(e) {
+        e.preventDefault();
+        var id = $(this).attr('data-related');
+        $(".tool-div").each(function() {
+            $(this).hide();
+            if ($(this).attr('id') == id) {
+                $(this).show();
+            }
+        });
+    });
+</script>

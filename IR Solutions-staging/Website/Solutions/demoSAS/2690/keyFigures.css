@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Fira Sans', sans-serif;
+    background: #006484;
+}
+
+h2, h3 {
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+    height: 30px
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #bfe0e9;
+}
+
+.figures-table {
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    border-collapse: collapse;
+    max-width: 470px;
+    border-spacing: 0;
+}
+
+.figures-table tr:first-child {
+    border-bottom: 0;
+}
+
+.figures-table tr {
+    border-bottom: 1px solid #ffffff;
+}
+
+.figures-table tr:last-child {
+    border-bottom: 0;
+}
+
+.figures-table th, .figures-table td {
+    line-height: 19px;
+    padding: 8px 0px;
+}
+
+.figures-table th {
+    font-weight: 300;
+    text-align: left;
+    width: 165px;
+}
+
+.figures-table td {
+    text-align: right;
+    font-weight: 400;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.btn {
+    height: 43px;
+    width: 140px;
+    color: #ffffff;
+    background-color: #2bc4b6;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 0;
+    cursor: pointer;
+    border: 0;
+    margin-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.disclaimer {
+    color: #fff;
+}
+
+span.columnPrewPos {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: rgba(104, 234, 104, 0.21);
+    bottom: 0;
+}
+
+span.columnPrewNeg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: rgba(234, 131, 104, 0.21);
+    top: 0;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 421px) {
+    h2 {
+        line-height: 30px;
+    }
+
+    .figures-table tr {
+        display: block;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    .figures-table th {
+        display: table-caption;
+        white-space: initial;
+        width: auto;
+        padding-top: 5px;
+    }
+
+    .figures-table td {
+        width: 100px;
+        text-align: left;
+    }
+
+    .figures-table td.blankTD {
+        display: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

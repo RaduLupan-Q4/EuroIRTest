@@ -1,0 +1,64 @@
+<base href="http://ir.euroinvestor.com/solutions/InvisioCommunicationsAB/2400/miniquote.aspx" target="_blank">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635793031194669922" />
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=635890532135184019" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/InvisioCommunicationsAB/2400/ir.client.css"/>
+</head>
+<body>
+
+
+<script type="text/javascript">
+    var activeModules = ['IRMiniquote'];
+</script>
+
+<div class="IRMiniquoteModule"><span class="ajaxLoader">Loading</span></div>
+
+<script id="IRMiniquoteModuleTemplate" type="text/x-handlebars-template">
+    <div class="IRMiniQuoteQuoteModule table-look responsive">
+        <div class="miniquoteDetailsWrapper"> 
+            <div class="miniquoteDetailsWrapper main-data">
+                <div>
+                    <div class="Data change latest">Latest</div>
+                <div class="Data last">{{decimals stocks/last}}</div>
+                <div class="Data change percentage">
+                    {{headers/t_change}}(%)
+                </div>
+                     <div id="Data-color">{{decimals stocks/change}} {{decimals stocks/changePercent}}%</div>
+                <div class="Data change">Data as of {{ showDate stocks/timestamp}} {{ showTime time}}</div>
+                </div>
+                <ul class="Data-list">
+                    <li><div class="name">{{headers/t_volume}}</div><div class="value">{{stocks/volume}}</div></li>
+                    <li><div class="name">{{headers/t_open}}</div><div class="value">{{stocks/open}}</div></li>
+                    <li><div class="name">{{headers/t_prev_close}}</div><div class="value">{{stocks/prevClose}}</div></li>
+                    <li><div class="name">Day {{headers/t_high}}</div><div class="value">{{stocks/high}}</div></li>
+                    <li><div class="name">Day {{headers/t_low}}</div><div class="value">{{stocks/low}}</div></li>
+                    <li><div class="name">{{headers/t_52w_high}}</div><div class="value">{{stocks/high52Week}}</div></li>
+                    <li><div class="name">{{headers/t_52w_low}}</div><div class="value">{{stocks/low52Week}}</div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</script>
+
+<div class="disclaimer disclaimer-IRMiniquote">
+    </div>
+<script type="text/javascript" src="/includes/js/libs/jquery2-1-4.min.js?v=635808478220682775"></script>
+<script type="text/javascript" src="http://localhost/solutions/InvisioCommunicationsAB/2400/ir.client.js"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=635893185104017734"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635793031199586841"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635793031199506909"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635793031198936378"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=635889809206474823"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=635890565104310821"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=635890548722757094"></script>
+</body>
+</html>

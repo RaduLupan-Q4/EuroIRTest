@@ -1,0 +1,28 @@
+﻿* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.data-price {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+    padding: 5px;
+}
+.Latest, .Data {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+}
+.Change {
+    text-align: center;
+}
+.Data {
+    font-weight: bold;
+    font-size: 18px;
+}

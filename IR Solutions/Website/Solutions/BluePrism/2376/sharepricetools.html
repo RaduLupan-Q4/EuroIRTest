@@ -1,0 +1,67 @@
+<base href="http://ir.euroinvestor.com/solutions/BluePrism/2376/sharepricetools.aspx" target="_blank">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+    <title>IR Solutions, Euroinvestor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635793031194669922"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=635890532135184019"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/BluePrism/2376/ir.client.css"/>
+</head>
+<body>
+
+
+
+
+    <div class="tabs-container">
+
+        <div id="container" class="tabs">
+            <ul class="tabs-list">
+                <li class="tabitem"><a href="#tab-1">Share Price Chart</a></li>
+                <li class="tabitem"><a href="#tab-2">Invested Calculator</a></li>
+                <li class="tabitem"><a href="#tab-3">Historical Lookup</a></li>
+                <li class="tabitem"><a href="#tab-4">RNS News</a></li>
+                <li class="tabitem"><a href="#tab-5">Profile</a></li>
+            </ul>
+
+            <div id="tab-1">
+                <iframe src="http://localhost/solutions/BluePrism/2376/chart.html" style="width: 100%; height: 2000px; border: none;"></iframe>
+            </div>
+            <div id="tab-2">
+                <iframe src="http://localhost/solutions/BluePrism/2376/calc.html" style="width: 100%; height: 2000px; border: none;"></iframe>
+            </div>
+            <div id="tab-3">
+                <iframe src="http://localhost/solutions/BluePrism/2376/lookup.html" style="width: 100%; height: 2000px; border: none;"></iframe>
+            </div>
+            <div id="tab-4">
+                <iframe src="http://localhost/solutions/BluePrism/2376/news.html" style="width: 100%; height: 2000px; border: none;"></iframe>
+            </div>
+            <div id="tab-5">
+                <iframe src="http://localhost/solutions/BluePrism/2376/profile.html" style="width: 100%; height: 2000px; border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/includes/js/libs/jquery2-1-4.min.js?v=635808478220682775"></script>
+    <script type="text/javascript" src="http://localhost/solutions/BluePrism/2376/ir.client.js"></script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=635907976798118114"></script>
+    <script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635793031199586841"></script>
+    <script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+    <script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+    <script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+    <script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+    <script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635793031199506909"></script>
+    <script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635793031198936378"></script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=635889809206474823"></script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=635908032435221786"></script>
+    <script type="text/javascript" src="/inc/scripts/jquery/jquery.minitabs.js?v=635840521282428136"></script>
+    <script type="text/javascript">$(document).ready(function (){$("#container").minitabs();});</script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=635890548722757094"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#container").minitabs();
+    });
+</script>

@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'FuturaBTBookRegular';
+    src: url('fonts/futubw__-webfont.eot');
+    src: url('fonts/futubw__-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/futubw__-webfont.woff') format('woff'), url('fonts/futubw__-webfont.ttf') format('truetype'), url('fonts/futubw__-webfont.svg#FuturaBTBookRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaBTHeavyRegular';
+    src: url('fonts/futubh__-webfont.eot');
+    src: url('fonts/futubh__-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/futubh__-webfont.woff') format('woff'), url('fonts/futubh__-webfont.ttf') format('truetype'), url('fonts/futubh__-webfont.svg#FuturaBTHeavyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #525252;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'FuturaBTBookRegular', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+h2.allTools {
+    color: #009A78;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'FuturaBTHeavyRegular', 'Comic Sans MS', Arial, sans-serif;
+}
+
+.tools-container .right {
+    display: inline-block;
+    width: 58%;
+    float: right;
+}
+
+.tools-container .left {
+    display: inline-block;
+    width: 40%;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+}
+
+    iframe.miniquote {
+        height: 125px;
+    }
+
+    iframe.chart {
+        height: 675px;
+    }
+
+    iframe.orders {
+        height: 370px;
+    }
+
+    iframe.profile {
+        height: 260px;
+    }
+
+    iframe.trades {
+        height: 690px;
+    }
+
+    iframe.calc {
+        height: 620px;
+        margin-bottom: 50px;
+    }
+
+    iframe.lookup {
+        height: 550px;
+    }
+
+.clear {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.disclaimer {
+    text-align: center;
+}
+.disclaimer-IROrders, .disclaimer-IRTrades, .disclaimer-IRQuote, .disclaimer-IRCalc{display: none;}
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+.IRQuoteModule {
+    font-size: 14px;
+}
+
+    .IRQuoteModule span.arrow {
+        margin-right: 3px;
+    }
+
+    .IRQuoteModule .name {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .IRQuoteModule .updated {
+        text-align: right;
+        margin-bottom: 15px;
+        font-size: 14px;
+
+        color: #999;
+    }
+
+.table-look {
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.IRMiniquoteModule .table-look {
+    border-bottom: 0;
+}
+
+.table-look tr {
+}
+
+.table-look td, .table-look th {
+    line-height: 25px;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+
+.table-look tr:nth-child(odd) td {
+    background: #dadada;
+}
+
+
+.table-look th, .table-look td {
+    height: 40px;
+    line-height: 40px;
+}
+
+.table-look th {
+    font-weight: bold;
+    background-color: #009A78;
+    color: #C8F000;
+}
+
+.table-look td {
+    background: #e4e4e4;
+}
+
+table > tbody > tr:nth-child(odd) {
+    background-color: #dadada;
+}
+
+.table-look td.formatColourPos, *.formatColourPos {
+    color: green;
+}
+
+.table-look td.formatColourNeg, *.formatColourNeg {
+    color: red;
+}
+
+.table-look th.column-first, .table-look td.column-first {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.timestamp {
+    text-align: center;
+}
+
+/* IRMiniquoteModule ===================================================== */
+.disclaimer-IRMiniquote {
+    display: none;
+}
+
+.IRMiniquoteModule {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+        .IRMiniquoteModule .table-look td.updated {
+            text-align: right;
+            font-weight: normal;
+            color: inherit;
+        }
+
+    .IRMiniquoteModule .table-look .Data {
+    }
+
+    .IRMiniquoteModule .table-look .Header {
+        font-weight: bold;
+    }
+
+    .IRMiniquoteModule .table-look .Data.last {
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 4px;
+        color: #0063ac;
+    }
+
+    .IRMiniquoteModule .table-look .exchange {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .IRMiniquoteModule .table-look .Header {
+        border-right: 0;
+    }
+
+.IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    font-size: 14px;
+    padding-bottom: 28px;
+}
+
+table.miniquoteChartTable {
+    width: 100%;
+    font-size: 12px;
+}
+
+.miniquoteChartTable td {
+    max-width: 100px;
+}
+
+    .miniquoteChartTable td.lastColumn {
+        text-align: right;
+        width: 90px;
+    }
+
+.miniquoteChartTable .Symbol {
+    vertical-align: middle;
+    font-size: 16px;
+    width: 40%;
+}
+
+.IRMiniQuoteQuoteModule h3 {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.IRMiniQuoteQuoteModule .updated {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.IRMiniQuoteQuoteModule .last {
+    font-size: 48px;
+    line-height: 48px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.IRMiniQuoteQuoteModule .currency {
+    font-size: 22px;
+    display: inline-block;
+    font-weight: 300;
+    margin-left: -12px;
+}
+
+.IRMiniQuoteQuoteModule .change {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+    .IRMiniQuoteQuoteModule .change .decimals {
+        display: inline-block;
+        margin-right: 13px;
+    }
+
+}
+
+.IRMiniQuoteQuoteModule .closeDate, .IRMiniQuoteQuoteModule .change, .IRMiniQuoteQuoteModule .delayed {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-weight: 400;
+}
+
+.IRMiniQuoteQuoteModule .closeDate {
+    font-weight: 300;
+    display: none;
+}
+
+.IRMiniQuoteQuoteModule .delayed {
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.IRMiniQuoteQuoteModule .bottom-link {
+    border-top: 1px solid #cccccc;
+    padding-top: 14px;
+}
+
+    .IRMiniQuoteQuoteModule .bottom-link a {
+        color: inherit;
+        font-size: 15px;
+        padding-left: 12px;
+        text-decoration: none;
+        position: relative;
+        font-weight: 300;
+    }
+
+        .IRMiniQuoteQuoteModule .bottom-link a:hover {
+            text-decoration: underline;
+        }
+
+        .IRMiniQuoteQuoteModule .bottom-link a:before {
+            content: "\f2fb";
+            text-decoration: none;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            ;
+        }
+
+.IRMiniQuoteQuoteModule .arrow {
+    width: auto;
+    height: auto;
+}
+
+    .IRMiniQuoteQuoteModule .arrow.formatArrowPos {
+        background-image: none;
+    }
+
+.IRMiniQuoteQuoteModule *:before {
+    color: inherit;
+    font-size: inherit;
+    position: relative;
+    font-family: 'Material-Design-Iconic-Font';
+}
+
+.IRMiniQuoteQuoteModule .arrow.formatArrowPos:before, .IRMiniQuoteQuoteModule .arrow.formatArrowNeg:before {
+    margin-right: 4px;
+}
+
+.IRMiniQuoteQuoteModule .arrow.formatArrowPos:before {
+    content: '\f303';
+}
+
+.IRMiniQuoteQuoteModule .arrow.formatArrowNeg {
+    background-image: none;
+}
+
+    .IRMiniQuoteQuoteModule .arrow.formatArrowNeg:before {
+        content: "f2fe";
+    }
+
+.IRMiniQuoteQuoteModule .sharePriceLink a {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 19px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    float: left;
+    background-image: url('images/arrowRight.png');
+    background-repeat: no-repeat;
+    background-position: 13% center;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLinkWrapper {
+}
+
+.miniquoteChartWrapper div {
+    line-height: 18px;
+    text-indent: 5px;
+}
+
+    .miniquoteChartWrapper div.Header {
+        font-weight: 700;
+    }
+
+    .miniquoteChartWrapper div.Data {
+        padding-bottom: 3px;
+    }
+
+    .miniquoteChartWrapper div.formatColourNeg {
+        color: red;
+    }
+
+    .miniquoteChartWrapper div.formatColourPos {
+        color: green;
+    }
+
+/* End =================================================================== */
+
+
+
+/* @media only screen =========================================================*/
+
+
+@media only screen and (max-width: 571px) {
+
+    .IRMiniquoteModule .table-look .date {
+        display: none;
+    }
+
+
+    .table-look th.column-first, .table-look td.column-first {
+    }
+
+    .table-look .vertical th {
+        border: 1px;
+    }
+
+    .table-look.vertical tbody {
+        display: table;
+        width: 100%;
+    }
+
+   
+}
+
+
+
+
+/* End ======================================================================== */

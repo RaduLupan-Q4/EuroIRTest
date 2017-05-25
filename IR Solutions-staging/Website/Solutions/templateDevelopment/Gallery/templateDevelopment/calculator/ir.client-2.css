@@ -1,0 +1,205 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    min-width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-image: url(images/arrowdown.svg);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 8px;
+}
+input, select {
+    padding: 0px 7px;
+}
+
+.IRCalcModule .IRChartCalcPlaceholder {
+    display: none;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look {
+    border-top: 0;
+}
+
+.calc-form {
+    width: 49%;
+    float: left;
+    margin-top: 0;
+    padding: 0px 20px 0 0;
+}
+
+.result-section {
+    display: none;
+}
+
+.IRCalcModule .customCalcModuleWrapper #calc-form {
+    width: 49%;
+    float: left;
+    padding: 20px 30px;
+    height: 400px;
+    margin-top: 0;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical th {
+    text-align: left;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look {
+    display: none;
+}
+
+.IRCalcModule #result-section {
+    float: right;
+    width: 49%;
+    display: block;
+    padding: 0px 0px 0 20px;
+    margin-top: 0;
+    
+}
+
+.radioBtn.checked:before {
+    background: #1abc9c;
+}
+
+.customCalcModuleWrapper #result-section .title, .IRCalcModule .customCalcModuleWrapper .calc-form .title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #585852;
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #1abc9c;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.IRToolCalcResultsTable.table-look.vertical tr, .IRToolCalcResultsTable.table-look.vertical tr:nth-child(2n) {
+    background: transparent;
+}
+
+.IRToolCalcResultsTable.table-look.vertical {
+    display: inline-table;
+    width: 100%;
+    margin: 0;
+}
+
+    .IRToolCalcResultsTable.table-look.vertical th {
+        font-size: 14px;
+        color: #585852;
+        background: none;
+        border: 0;
+        font-weight: 400;
+    }
+
+    .IRToolCalcResultsTable.table-look.vertical td {
+        text-align: right;
+        font-size: 14px;
+        border: 0;
+        font-weight: 700;
+    }
+    .IRToolCalcResultsTable.table-look.vertical th, .IRToolCalcResultsTable.table-look.vertical td{
+        border-bottom: 1px solid #bbc0c4;
+}
+    .IRToolCalcResultsTable.table-look.vertical tr:last-child td, .IRToolCalcResultsTable.table-look.vertical tr:last-child th {
+        border: 0;
+    }
+
+.IRToolCalcResultsTable.table-look.vertical {
+    border-bottom: 0;
+}
+
+.formDivider .input-row input[type="radio"], .formDivider .input-row .radio label {
+    vertical-align: middle;
+    top: 0;
+    width: 25px;
+}
+
+.formDivider .input-row .radio label {
+    display: inline;
+}
+
+    .formDivider .input-row .radio label:last-child {
+        margin-right: 0;
+    }
+
+
+
+    .formDivider .input-row label.input-label {
+        width: 160px;
+        line-height: 29px;
+    }
+
+.input-wrapper input {
+    width: 187px;
+    height: 30px;
+    line-height: 30px;
+}
+ 
+.calculateButton input[type=submit] {
+    color: #ffffff;
+    background-color: #ffae19;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.Data.yield-cell, .Data.change-amount-cell {
+    color: #2bc4b6;
+}
+
+.table-look.vertical tbody {
+    display: table;
+    width: 100%;
+}
+
+@media only screen and (max-width: 710px) {
+    .calc-form {width: 100%; padding: 0;}
+    .IRCalcModule #result-section {width: 100%; padding: 0}
+}
+
+@media only screen and (max-width: 800px) {
+    #result-section, .IRCalcModule .customCalcModuleWrapper #calc-form {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    select {
+        min-width: 51px;
+        padding: 0 3px;
+    }
+
+    .input-wrapper input {
+        width: 160px;
+    }
+    .input-wrapper {
+        width: 100%;
+        text-align: right;
+    }
+    .calculateButton input[type=submit] {
+        width: 100%;
+    }
+}
+
+

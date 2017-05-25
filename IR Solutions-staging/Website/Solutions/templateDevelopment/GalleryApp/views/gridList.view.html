@@ -1,0 +1,36 @@
+<div class="feature-box">
+    <div class="feature-list card">
+        <div class="features">{{title}}</div>
+        <div class="fold-divider"></div>
+        <label ng-repeat="item in filterList" class="label-wrap checkBox animate-click" ng-class="{'checked': item.use, 'inactive': !item.use}">
+            <input class="checkboxRelease" type="checkbox" ng-model="item.use" ng-change="filterListAction($index)"/>
+            {{item.name}}
+        </label>
+    </div>
+
+    <div grid class="grid-card">
+        <div class="miniquote-table">
+            <ul class="miniquoteCont">
+                <li ng-repeat="mini in miniList track by $index" class="box" ng-show="mini.show" ng-class="mini.class">
+                    <div class="imgBox">
+                        <span class="miniquoteName">{{mini.name}}</span>
+
+                        <div class="iconSet">
+                            <div class="addModule iconBtn" ng-click="addThisModule($index)" ng-show="!mini.use">
+                                <i class="icon icon-plus"></i></div>
+                            <div class="removeModule iconBtn active" ng-click="removeThisModule()" ng-show="mini.use">
+                                <i class="icon icon-check"></i></div>
+                        </div>
+
+                        <img ng-src="{{mini.img}}" alt="miniquote">
+                    </div>
+                    <div class="zoomImageBox">
+                        <div class="close-button-zoom"></div>
+                        <img ng-src="{{mini.img}}" alt="miniquote">
+                    </div>
+                </li>
+            </ul>
+            <div class="zoomImageBoxOverflow"></div>
+        </div>
+    </div>
+</div>

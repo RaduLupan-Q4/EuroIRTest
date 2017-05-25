@@ -1,0 +1,29 @@
+<div class="feature-box">
+    <div class="feature-list card">
+        <div class="features">{{title}}</div>
+        <div class="iconSet">
+            <div class="changeModule iconBtn" ng-click="changeModuleRes('phone')" ng-class="{'active': activeResPh}">
+                <i class="icon icon-dev-phone"></i></div>
+            <div class="changeModule iconBtn" ng-click="changeModuleRes('tablet')" ng-class="{'active': activeResTab}">
+                <i class="icon icon-dev-tablet"></i></div>
+            <div class="changeModule iconBtn" ng-click="changeModuleRes('desktop')" ng-class="{'active': activeResDesk}">
+                <i class="icon icon-dev-desktop"></i></div>
+
+            <div class="addModule iconBtn" ng-click="addThisModule()" ng-show="!moduleAdded">
+                <i class="icon icon-plus"></i></div>
+            <div class="removeModule iconBtn active" ng-click="removeThisModule()" ng-show="moduleAdded">
+                <i class="icon icon-check"></i></div>
+        </div>
+
+        <div class="fold-divider"></div>
+        <label ng-repeat="item in featuresList" class="label-wrap">
+            <input class="checkboxRelease" type="checkbox" ng-model="item.use" ng-change="changeAction(item)"/>
+            {{item.name}}
+        </label>
+    </div>
+    <div adapt resizable rCenteredX="true" r-directions="['left', 'right']" class="iframe-card card">
+        <iframe resize allowfullscreen="allowfullscreen" allowtransparency="true" scrolling="no" frameborder="0"
+                ng-src="{{iframeUrl}}"></iframe>
+        <div class="iframe-overlay" ng-if="iframeOverlay"></div>
+    </div>
+</div>

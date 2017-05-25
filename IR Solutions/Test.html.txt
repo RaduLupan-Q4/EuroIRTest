@@ -1,0 +1,2 @@
+Jeg kunne have været en litauer :-P
+TEST At commit i staging ikke trigger MAIN branchen.
