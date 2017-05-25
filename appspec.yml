@@ -1,7 +1,5 @@
 version: 0.0
 os: windows
 files:
-  - source: \index.html
-    destination: D:\http
-  - source: \Solutions\
-    destination: D:\http
+    - source: \Solutions\
+    destination: D:\http\ir.euroinvestor.com\Solutions
