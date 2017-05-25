@@ -1,0 +1,213 @@
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15.4px;
+    color: #333;
+    overflow-x: hidden;
+}
+/*
+.table-look th.column-last, .table-look td.column-last {
+    padding-right: 2%;
+}*/
+
+/* IRChart =============================================================== */
+
+.IRQuoteModule .updated {
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.IRChartColour {
+    color: #172F67;
+}
+
+.IRQuoteModule th.Header {
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    font-weight: normal;
+}
+
+.IRQuoteModule td.Data {
+    height: 32px;
+    line-height: 34px;
+}
+
+
+.IRChartPlaceholderArea .IRChartPlaceholder {
+    box-sizing: initial;
+}
+
+
+.IRChartPlaceholderArea .IRChartChangePeriod div {
+    width: 40px;
+    border: 1px solid #adadad;
+    border-right: 0;
+    font-size: 12px;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(238,238,238,0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(238,238,238,0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(238,238,238,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6eeeeee',GradientType=0 );
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+        -webkit-box-shadow: inset 0px 0px 8px 2px rgba(171,168,171,0.82);
+        -moz-box-shadow: inset 0px 0px 8px 2px rgba(171,168,171,0.82);
+        box-shadow: inset 0px 0px 8px 2px rgba(171,168,171,0.82);
+    }
+
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+        text-transform: uppercase;
+        color: #fff;
+        background: #172F67; }
+
+        .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover, .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+            background: #172F67;
+            box-shadow: none;
+        }
+
+.IRChartNavigation .IRChartTA .pop-submit {
+    color: #fff;
+    background: #172F67; 
+    border: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+    .IRChartNavigation .IRChartTA .pop-submit:hover {
+        color: #fff;
+    }
+
+.IRChartPlaceholderArea .IRChartChangePeriod {
+    height: 22px;
+    line-height: 22px;
+    /* width: 400px; */
+
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+.IRChartMiniHTMLPlaceholder .IRChartHTMLPlaceholder {
+    height: 200px;
+}
+
+.tooltipHTML {
+    border: 0;
+    -moz-box-shadow: 0px 0px 2px 2px #d2d2d2;
+    -webkit-box-shadow: 0px 0px 2px 2px #d2d2d2;
+    box-shadow: 0px 0px 2px 2px #d2d2d2;
+    font-size: 12px;
+    width: 120px;
+    padding: 5px;
+}
+
+    .tooltipHTML .IRChartTooltipDate {
+        font-size: 12px;
+        font-weight: 700;
+        border-bottom: 1px solid #a8a9a3;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+.highcharts-tooltip span {
+    color: #172F67;
+}
+
+.tooltipHTML .IRChartTooltipDate, .tooltipHTML div.IRChartTooltipVolume span {
+    color: #333;
+}
+
+.IRChartCompanyName {
+    color: #333;
+}
+
+.IRChartCurrency {
+    color: #333;
+    font-size: 12px;
+}
+
+.highcharts-xaxis-labels text, .highcharts-yaxis-labels {
+    font-size: 10px !important;
+}
+
+table.IRQuoteModule.table-look.vertical.customResponsiveVertical {
+    display: none;
+}
+
+.highcharts-background {
+    fill: #fff;
+}
+
+.disclaimer {
+    display: none;
+}
+
+.icon-enlarge:before {
+    content: "\e989";
+}
+
+.companyInfoWrapper .updated {
+    float: right;
+    width: 42%;
+    text-align: right;
+}
+
+.IRChartNavigation {
+    border-bottom: 1px solid #eee;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(238,238,238,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(238,238,238,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(238,238,238,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6eeeeee',GradientType=0 ); /* IE6-9 */
+}
+
+    .IRChartNavigation .IRChartView, .IRChartNavigation .IRChartTA, .IRChartNavigation .IRChartComparison, .IRChartNavigation .IRChartTSR, .IRChartNavigation .IRChartCC, .IRChartNavigation .IRChartFullscreen, .IRChartNavigation .IRChartSettings, .IRChartNavigation .IRChartListings, .IRChartNavigation .IRChartMenuTrigger {
+        background-color: transparent;
+        color: #000;
+        font-size: 11px;
+    }
+
+        .IRChartNavigation .IRChartFullscreen .IRChartFullscreenBody div, .IRChartNavigation .IRChartComparison .IRChartComparisonBody div, .IRChartNavigation .IRChartTSR .IRChartTSRBody div, .IRChartNavigation .IRChartSettings .IRChartSettingsBody div, .IRChartNavigation .IRChartNavigationInner .IRChartMenuTriggerBody div, .IRChartNavigation .IRChartTA .IRChartTABody div, .IRChartNavigation .IRChartCC .IRChartCCBody div {
+            font-size: 10px;
+            font-weight: 400;
+            color: #555;
+        }
+
+            .IRChartNavigation .IRChartTA .IRChartTABody div.IRChartTABodyListHeader, .IRChartNavigation .IRChartComparison .IRChartComparisonBody div.IRChartComparisonBodyListHeader, .IRChartNavigation .IRChartSettings .IRChartSettingsBody .IRChartSettingsBodyListHeader {
+                color: #000;
+                font-weight: 700;
+                font-size: 11px;
+            }
+
+.IRChartPlaceholderArea .IRChartChangePeriod div#Max {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #adadad;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div#d1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.IRChartNavigation .IRChartView:hover, .IRChartNavigation .IRChartTA:hover, .IRChartNavigation .IRChartCC:hover, .IRChartNavigation .IRChartComparison:hover, .IRChartNavigation .IRChartTSR:hover, .IRChartNavigation .IRChartSettings:hover, .IRChartNavigation .IRChartFullscreen:hover, .IRChartNavigation .IRChartListings:hover {
+    background-color: #d2d2d2;
+    color: #fff;
+}
+
+.IRChartNavigation .IRChartCompanyName {
+    font-weight: bold;
+    font-size: 12px;
+}
+/*
+.highcharts-series rect{
+    fill: #ff0000 !important;
+}*/
+
+/* End ====================================================================== */

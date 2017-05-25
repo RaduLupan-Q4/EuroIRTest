@@ -1,0 +1,28 @@
+﻿* {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.IRChartColour {
+    color: #00948e;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    background-color: #00948e;
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+        background-color: #00948e;
+    }
+
+.tooltipHTML {
+    background-color: #fff;
+}
+
+.IRChartClientName {
+    color: #666;
+}
+
+.IRChartCurrency {
+    color: #666;
+}
