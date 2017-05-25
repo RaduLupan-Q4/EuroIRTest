@@ -1,0 +1,776 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #333;
+    font-size: 18px;
+}
+
+.clear {
+    clear: both;
+}
+
+input {
+    background-color: #fdfdfd;  
+    width: 200px;  
+    height: 25px;
+    padding: 0px 7px;
+    padding-left: 30px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+select {
+    background-color: #fdfdfd;
+    width: 200px;   
+    height: 25px;     
+    padding: 0px 7px;
+    cursor: pointer;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    line-height: 25px;
+    -webkit-appearance: none;
+    border-radius: 3px;
+}
+
+.wide-input {
+    width: 195px;
+}
+
+input[type=number] {
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5%;
+}
+
+input[type=text] {
+    border: 1px solid #eaeaea;
+}
+
+strong {
+    float: left;
+    max-width: 700px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.formatColourPos {
+    color: #1BA71B;
+}
+
+.formatArrowNeg, .formatArrowPos {
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 25px;
+    vertical-align: middle;
+}
+
+.formatArrowPos, .formatArrowNeg {
+    background-size: 16px;
+    height: 17px;
+}
+
+.formatArrowPos {
+    background-image: url(images/arrow-up.png);
+}
+
+.formatArrowNeg {
+    background-image: url(images/arrow-down.png);
+}
+
+.disclaimer {
+    top: 0;
+    padding-top: 10px;
+}
+
+.disclaimer-IRLookup {
+    display:none;
+}
+.IRChangeListing select {
+    width: 290px;
+}
+
+/*======================= table ======================= */
+
+.table-look {
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+}
+.table-look td {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 42px;
+    border: 1px solid #eaeaea;
+}
+
+.table-look th {
+    vertical-align: middle;
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.table-look th.column-first, .table-look td.column-first {
+    text-align: left;
+    padding-left: 10px;
+    border-left-width: 1px;
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    text-align: right;
+    padding-right: 10px;
+    border-right-width: 1px;
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    padding-right: 2%;
+}
+
+.table-look.horizontal th, .table-look.horizontal td {
+    border-left: 0;
+    border-right: 0;
+}
+
+.timestamp {
+    text-align: center;
+}
+
+/*============================*/
+
+/* IRChart =============================================================== */
+
+.highcharts-xaxis-labels text, .highcharts-yaxis-labels {
+    font-size: 12px !important;
+    color: #000 !important;
+    fill: #000 !important;
+}
+
+.IRChartColour {
+    color: #DE076E;
+}
+
+/* End ====================================================================== */
+
+
+/* IRLookupModule and IRCalcModule =============================================================== */
+
+.IRLookupModule select {
+    min-width: 60px;
+    width: 28%; 
+    height: 36px;
+    padding: 6px 12px;       
+    border-radius: 2px;
+    border: 1px solid #eaeaea;    
+    cursor: pointer;
+/*    background-image: url(images/arrowdown.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 6px;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 14px;
+}
+
+    .IRLookupModule select:focus {
+        border: 1px solid #aaa;
+        outline: none;
+    }
+.IRLookupModule .input-row {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.formDivider .input-row label {
+    line-height: 38px;
+}
+
+.IRChartLookupPlaceholder {
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+.chartDisclaimer, .performanceDisclaimer, .calcDisclaimer, .lookupDisclaimer {
+    display: none;
+}
+
+.disclaimer-IRLookup {
+    text-align: left;
+    float: left;
+}
+
+.lookup-form-full {
+    max-width: 100%;
+}
+
+.lookup-form-little {
+    max-width: 400px;
+}
+
+.IRLookupModule .input-wrapper {
+    text-align: right;
+    -webkit-appearance: none;
+}
+
+.IRLookupModule label {
+    float: left;
+    line-height: 30px;
+    height: 24px;
+}
+
+.IRCalcModule {
+    line-height: 24px;
+}
+
+    .IRCalcModule h2 {
+        font-size: 24px;
+        margin-top: 22px;
+        margin-bottom: 11px;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .IRCalcModule select {
+        min-width: 60px;
+        width: 28%;
+        height: 36px;
+        padding: 6px 12px;
+        border-radius: 2px;
+        border: 1px solid #eaeaea;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        font-size: 14px;
+    }
+
+.IRCalcModule .showLookupValue {
+    line-height: 45px;
+    margin-bottom: 22px;
+    border: 1px solid #DE076E;
+}
+
+.ui-datepicker-trigge {
+    display: none;
+}
+
+ul.tabs li {
+    background-color: #FAFAFA;
+    display: inline-block;
+    margin: 0 3px -1px 0;
+    color: #647783;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 29px;
+    line-height: 29px;
+    font-size: 18px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+}
+
+ul.tabs li a:link {
+    text-decoration: none;
+}
+
+ul.tabs li a:visited {
+    text-decoration: none;
+}
+
+ul.tabs li a:hover {
+    text-decoration: none;
+}
+
+ul.tabs li a:active {
+    text-decoration: none;
+}
+
+ul.tabs {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 20px;
+}
+
+#historical-share-date-section select#currencyConversion {
+    width: 130px;
+    margin-right: 25px;
+    float: right;
+    margin-top: 15px;
+}
+
+.share-price-download-wrapper select#currencyConversionDL {
+    width: 125px;
+    margin-right: 50px;
+    float: right;
+    margin-top: 15px;
+}
+
+.lookupActive {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+#result-section {
+    height: 160px;
+    padding: 30px;
+}
+
+.result-wrapper {
+    border: 1px solid #eaeaea;
+    padding-bottom: 5px;
+}
+
+.result-box {
+    border: 1px solid gray;
+    height: 140px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.yearlyStackedChart-text {
+    padding-top: 20px;
+}
+
+.yearlyStackedChart-wrapper {
+    margin-top: 45px;
+    border-top: 1px solid #eaeaea;
+}
+
+#yearlyStackedChart {
+    margin: 50px 50px 30px 50px;
+    border: 1px solid #eaeaea;
+    height: 200px;
+}
+
+.page-font-style {
+    margin: 0 auto;
+}
+
+td.single-result-values {
+    padding-left: 25px;
+}
+
+.single-result-date-text, .single-result-close-price-text {
+    text-align: center;
+}
+
+#currencyLabel {
+    line-height: 50px;
+}
+
+span.currencyLabel {
+    line-height: 55px;
+}
+
+.IRLookupResultsTable.table-look th {
+    border: 0;
+    padding-left: 10px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 0 0 10px;
+    background: #f2f3f3;
+}
+
+.IRLookupResultsTable.table-look td {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.IRLookupResultsTable.table-look tr:nth-child(odd) {
+    background: #f2f3f3;
+}
+
+.periodDataValuesWrapper {
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+table.periodValuesTable {
+    width: 100%;
+}
+
+.periodValuesTable tr {
+    height: 20px;
+    line-height: 21px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+td.period-header {
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+td.period-data, td.period-date {
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.date-time-selection {
+    height: 100px;
+}
+
+.selection-right {
+    width: 215px;
+    float: left;
+}
+
+.selection-left {
+    width: 250px;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+
+.right-selection, .left-selection {
+    width: 240px;
+    float: left;
+    line-height: 25px;
+}
+
+    .right-selection .input-wrapper {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    .left-selection.from {
+        width: 180px;
+        line-height: 25px;
+    }
+.right-selection select#from-day, .right-selection select#from-month, .right-selection select#from-year,
+.right-selection select#to-day, .right-selection select#to-month, .right-selection select#to-year {
+    width: 50px;
+}
+#lookup-form {
+    height: 225px;
+}
+
+.lookupButton {
+    clear: both;
+    text-align: center;
+}
+
+.lookup-result-wrapper {
+    border: 1px solid gray;
+}
+
+label.input-label.to-label {
+    padding-right: 25px;
+}
+
+/*#HistoricalSharePriceButton, #showSharePriceButton {
+    float: right;
+    color: #fff;
+    background-color: #DE076E;
+    text-transform: none;
+    border-radius: 0;
+    margin-right: 15px;
+    height: 30px;
+    box-shadow: none !important;
+    border: none;
+    padding: 3px 20px 1px !important;
+    cursor: pointer;
+    font-size: 18px;
+}*/
+
+.IRChartLookupPlaceholder {
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.lookup-table {
+    width: 100%;
+    height: 400px;
+    overflow-x: scroll;
+}
+
+#lookup-table-form div {
+    float: left;
+    margin-right: 10px;
+}
+
+    #lookup-table-form div label {
+        margin-right: 10px;
+    }
+
+    #lookup-table-form div input {
+        height: 26px;
+        border-radius: 3px;
+    }
+
+.IRLookupSection .floatBox {
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.IRLookupSection .floatBox.right {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+}
+
+.IRLookupSection .floatBoxOuter {
+    width: 100%;
+    max-width: 600px; 
+    height:80px;       
+    display: block;
+    float: none;
+    margin: auto;
+}
+
+#lookup-button {
+    width: 200px;      
+    line-height: 30px;
+    background-color: #DE076E;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+select.form-control {
+    width: 100%;
+}
+select#frequency, select#format {
+    float: right;
+}
+.single-share-left, .single-share-right {
+    width: 49%;
+    line-height: 20px;
+}
+
+.single-share-left {
+    float: left;
+    border-right: 1px solid #eaeaea;
+}
+
+.single-share-right {
+    float: right;
+}
+.js-from, .js-to {
+    background-image: url('http://localhost/inc/images/icons/calendar.png');
+    background-repeat: no-repeat;
+    background-position: 140px 50%;
+    width: 170px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.IRLookupModule .downloadHistoricalData.buttonLook {
+    background-image: url("images/excel.png");
+    background-repeat: no-repeat;
+    height: 29px;
+    line-height: 29px;
+    cursor: pointer;
+    text-align: right;
+    background-position: right center;
+    padding-right: 25px;
+    background-size: 18px 18px;
+    margin-top: 5px;
+    color: #000;
+    margin-right: 20px;
+}
+.lookup-table {
+    border-bottom: 1px solid #a8a9a3;
+}
+
+#excel {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    color: #585852;
+}
+
+    #excel:before {
+        position: relative;
+        content: "";
+        background: url("images/dl_arrow.png") no-repeat;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        margin-right: 5px;
+        top: 10px;
+    }
+
+/*calendar*/
+
+.ui-widget {
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 10px #a8a9a3;
+}
+.ui-widget-header {
+    background: none;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #c2c2c2;
+    border: 0;
+    background: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+}
+.ui-datepicker .ui-datepicker-next {
+    border: 0px solid transparent;
+}
+    .ui-datepicker .ui-datepicker-next span {
+        background: url(images/arrow-right.png) center center no-repeat;
+    }
+    .ui-datepicker .ui-datepicker-next.ui-state-hover {
+        top: 2px;
+        right: 2px;
+        border: 0;
+        background: none;
+    }
+.ui-datepicker .ui-datepicker-prev.ui-state-hover {
+    top: 2px;
+    left: 2px;
+    border: 0;
+    background: none;
+}
+.ui-datepicker .ui-datepicker-next.ui-datepicker-next-hover.ui-state-hover span {
+    background: url(images/arrow-right-hover.png) center center no-repeat;
+}
+.ui-datepicker .ui-datepicker-prev span {
+    background: url(images/arrow-left.png) center center no-repeat;
+}
+.ui-datepicker .ui-datepicker-prev.ui-datepicker-prev-hover.ui-state-hover span {
+    background: url(images/arrow-left-hover.png) center center no-repeat;
+}
+.ui-state-default:hover, .ui-widget-content .ui-state-default:hover {
+    color: #fff;
+    background: #DE076E;
+}
+.ui-state-default.ui-state-active {
+    color: #ffffff;
+    background: #DE076E;
+}
+.ui-state-default:active, .ui-widget-content .ui-state-default:active {
+    color: #ffffff;
+    background: #DE076E;
+}
+/*end*/
+/* @media only screen =========================================================*/
+
+@media only screen and (max-width: 600px) {
+   
+    .table-look th, .table-look td {
+        height: 36px;
+        text-align: left;
+        line-height: 36px;
+    }
+        .table-look td.totalVolumeAsk {
+            text-align: right;
+        }
+}
+
+@media only screen and (max-width: 571px) {
+
+    .table-look th, .table-look td {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .table-look th.IRElement4, .table-look td.IRElement4, .table-look th.IRElement8, .table-look td.IRElement8 {
+        display: none;
+    }
+
+    .table-look th.IRElement3, .table-look td.IRElement3, .table-look th.IRElement7, .table-look td.IRElement7 {
+        text-align: right;
+    }
+
+    .tabs-container .tabs a.current {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .table-look th.column-first, .table-look td.column-first {
+    }
+
+    .table-look .vertical th {
+        border: 1px;
+    }
+
+    .table-look.vertical tbody {
+        display: table;
+        width: 100%;
+    }
+
+    .IRLookupModule #lookup-button {
+        width: 100%;
+    }
+
+    .input-wrapper.lookupButton {
+        width: 100%;
+    }
+
+    .disclaimer.disclaimer-IRLookup {
+        margin-top: 180px;
+    }
+
+    .IRLookupModule #lookup-button {
+        width: 100%;
+    }
+
+    #lookup-table-form div {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+        #lookup-table-form div input {
+            width: 100%;
+            margin-right: 0;
+        }
+
+    #lookup-table-form .submit {
+        width: 100%;
+    }
+
+    #lookup-table-form div label {
+        margin-bottom: 5px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    div.floatBox.left {
+        height:20px;
+    }
+    div.floatBox.right {
+        width:100%;
+        height:20px;      
+    }
+}

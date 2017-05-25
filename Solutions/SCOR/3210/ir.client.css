@@ -1,0 +1,3208 @@
+
+@font-face {
+    font-family: 'AvenirMedium';
+    src: url('fonts/Avenir-Medium.woff2') format('woff2'); /* Pretty Modern Browsers */
+}
+
+body {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+    font-family: "AvenirMedium", Arial, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+*.DataHover {
+    background-color: transparent !important;
+}
+/*.formatColourPos::before{content:"+";}*/
+
+.divideLine {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+input, select {
+    padding: 0px 7px;
+    line-height: 30px;
+    height: auto;
+    height: 30px;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.wide-input {
+    width: 195px;
+}
+
+input[type=number] {
+    background: #fff;
+    height: 29px;
+    line-height: 29px;
+}
+
+input[type=submit], input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit {
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 12px;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 2px 30px;
+    height: auto;
+    line-height: normal;
+    width: 195px;
+    background: #000;
+    color: #fff;
+    line-height: 23px;
+}
+
+    input[type=submit]:hover, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:hover {
+        color: #fff;
+    }
+
+    input[type=submit]:focus, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:focus {
+    }
+
+.IRQuoteModule {
+    font-size: 14px;
+}
+
+    .IRQuoteModule .name {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .IRQuoteModule .updated {
+        text-align: right;
+        margin-bottom: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+.table-look {
+    margin-bottom: 10px;
+    table-layout: fixed;
+    border: 0;
+}
+
+.IRMiniquoteModule .table-look {
+    border-bottom: 0;
+}
+
+.table-look tr {
+}
+
+.table-look td, .table-look th {
+    line-height: 25px;
+    padding: 0;
+    border: 0;
+    font-size: 13px;
+}
+
+/*
+.table-look td:after, .table-look th:after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 34px;
+    box-sizing: border-box;
+    background-color: #d5d4d0;
+    display: inline-block;
+    top: 8px;
+    left: 0px;
+}
+
+.table-look td:first-child:after, .table-look th:first-child:after{
+    content: "";
+    display: none;
+}
+*/
+
+
+.table-look tr:nth-child(odd) {
+}
+
+
+.IRNewsModule .IRNewsTool .IRDataGroup div.IRData, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    padding: 0 0 0 0;
+}
+
+.table-look th {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-look td {
+}
+
+    .table-look td.formatColourPos, *.formatColourPos {
+        color: green;
+    }
+
+.IRPerformanceModule.table-look td.formatColourPos:before {
+    content: "+";
+}
+
+.table-look td.formatColourNeg, *.formatColourNeg {
+    color: red;
+}
+
+.table-look th.column-first, .table-look td.column-first {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.table-look th.column-first {
+}
+
+.IRPerformanceModule .table-look th.column-first, .IRPerformanceModule .table-look td.column-first {
+    text-align: left;
+    padding-left: 0px;
+    width: 210px;
+    white-space: normal;
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.table-look th.column-last {
+}
+
+.timestamp {
+    text-align: center;
+}
+
+/* IRMiniquoteModule ===================================================== */
+.disclaimer-IRMiniquote {
+    display: none;
+}
+
+#chartLast {
+    font-size: 45px;
+    width: 25%;
+    min-width: 260px;
+    font-weight: 300;
+}
+/*.IRMiniquoteModule {
+    color: #fff;
+}*/
+
+.IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    font-size: 14px;
+    padding-bottom: 28px;
+}
+
+table.miniquoteChartTable {
+    width: 100%;
+    font-size: 12px;
+}
+
+.miniquoteChartTable td {
+    max-width: 100px;
+}
+
+    .miniquoteChartTable td.lastColumn {
+        text-align: right;
+        width: 90px;
+    }
+
+.miniquoteChartTable .Symbol {
+    vertical-align: middle;
+    font-size: 16px;
+    width: 40%;
+}
+
+.IRMiniQuoteQuoteModule h3 {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.IRMiniQuoteQuoteModule .updated {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.IRMiniQuoteQuoteModule .last {
+    font-size: 48px;
+    line-height: 48px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.IRMiniQuoteQuoteModule .currency {
+    font-size: 22px;
+    display: inline-block;
+    font-weight: 300;
+    margin-left: -12px;
+}
+
+.IRMiniQuoteQuoteModule .change {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+    .IRMiniQuoteQuoteModule .change .decimals {
+        display: inline-block;
+        margin-right: 13px;
+    }
+
+}
+
+.IRMiniQuoteQuoteModule .closeDate, .IRMiniQuoteQuoteModule .change, .IRMiniQuoteQuoteModule .delayed {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-weight: 400;
+}
+
+.IRMiniQuoteQuoteModule .closeDate {
+    font-weight: 300;
+    display: none;
+}
+
+.IRMiniQuoteQuoteModule .delayed {
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.IRMiniQuoteQuoteModule .bottom-link {
+    border-top: 1px solid #cccccc;
+    padding-top: 14px;
+}
+
+    .IRMiniQuoteQuoteModule .bottom-link a {
+        color: inherit;
+        font-size: 15px;
+        padding-left: 12px;
+        text-decoration: none;
+        position: relative;
+        font-weight: 300;
+    }
+
+        .IRMiniQuoteQuoteModule .bottom-link a:hover {
+            text-decoration: underline;
+        }
+
+        .IRMiniQuoteQuoteModule .bottom-link a:before {
+            content: "\f2fb";
+            text-decoration: none;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            ;
+        }
+
+.IRMiniQuoteQuoteModule .arrow {
+    width: auto;
+    height: auto;
+}
+
+    .IRMiniQuoteQuoteModule .arrow.formatArrowPos {
+        background-image: none;
+    }
+
+.IRMiniQuoteQuoteModule *:before {
+    color: inherit;
+    font-size: inherit;
+    position: relative;
+    font-family: "AvenirMedium", Arial, sans-serif;
+}
+
+.IRMiniQuoteQuoteModule .arrow.formatArrowPos:before, .IRMiniQuoteQuoteModule .arrow.formatArrowNeg:before {
+    margin-right: 4px;
+}
+
+.IRMiniQuoteQuoteModule .arrow.formatArrowPos:before {
+    content: '\f303';
+}
+
+.IRMiniQuoteQuoteModule .arrow.formatArrowNeg {
+    background-image: none;
+}
+
+    .IRMiniQuoteQuoteModule .arrow.formatArrowNeg:before {
+        content: "f2fe";
+    }
+
+.IRMiniQuoteQuoteModule .sharePriceLink a {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 19px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    float: left;
+    background-image: url('images/arrowRight.png');
+    background-repeat: no-repeat;
+    background-position: 13% center;
+}
+
+.IRMiniQuoteQuoteModule .sharePriceLinkWrapper {
+}
+
+.miniquoteChartWrapper div {
+    line-height: 18px;
+    text-indent: 5px;
+}
+
+    .miniquoteChartWrapper div.Header {
+        font-weight: 700;
+    }
+
+    .miniquoteChartWrapper div.Data {
+        padding-bottom: 3px;
+    }
+
+    .miniquoteChartWrapper div.formatColourNeg {
+        color: red;
+    }
+
+    .miniquoteChartWrapper div.formatColourPos {
+        color: green;
+    }
+
+.IRMiniquoteModule {
+    overflow: hidden;
+}
+
+.miniquoteDetailsWrapper span.Data.symbol {
+    color: rgb(0, 107, 140);
+    font-size: 20px;
+}
+
+.miniquoteDetailsWrapper span.Data.timestamp {
+    font-size: 10px;
+    line-height: 25px;
+}
+
+.miniquoteDetailsWrapper span.Data.last {
+    color: rgb(0, 107, 140);
+    font-size: 25px;
+}
+
+.miniquoteDetailsWrapper span.Data.changePct {
+    line-height: 20px;
+}
+
+
+/* End =================================================================== */
+
+
+/* IRChart =============================================================== */
+
+table.IRQuoteModule.table-look.horizontal.indicies {
+    border-top: 1px solid#ccc;
+}
+
+/*IRChartPlaceholderArea{width: 99%;}*/
+
+.IRChartPlaceholderArea .IRChartPlaceholder {
+    /* width: 99% <--- iPhone 6+ fix to stop iFrame expanding. */
+}
+
+.IRChartHTMLPlaceholder {
+    height: 200px;
+    min-width: 250px;
+    clear: both;
+}
+
+.IRChartColour {
+    color: #007992;
+}
+
+.chartChangePeriod {
+    width: 450px;
+}
+
+    .chartChangePeriod div {
+        font-size: 10px;
+        height: 18px;
+        line-height: 18px;
+        background: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 0.25em 0 0;
+    }
+
+        .chartChangePeriod div#max {
+            border-right: 0;
+        }
+
+div.highcharts-axis-labels.highcharts-xaxis-labels {
+    top: -5px !important;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod,
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+    background: rgb(0, 107, 140);
+    color: #fff;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div {
+    border: 1px solid rgb(0, 107, 140);
+    margin-right: -1px;
+    background: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 25px;
+    line-height: 25px;
+    font-weight: normal;
+    background: transparent;
+    color: rgb(0, 107, 140);
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+        color: #fff;
+        background: #006b8c;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+        background: transparent;
+        color: #006b8c;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div:first-child {
+    }
+
+.IRChartPlaceholderArea .IRChartChangePeriod {
+    width: 480px;
+}
+
+.IRChartHTMLPlaceholder {
+}
+
+.tooltipHTML {
+    background-color: #fff;
+}
+
+.IRChartClientName {
+    color: #666;
+}
+
+.IRChartCurrency {
+    color: #666;
+}
+
+.highcharts-xaxis-labels text, .highcharts-yaxis-labels {
+    font-size: 12px !important;
+    fill: #000 !important;
+    font-weight: normal;
+}
+
+.chartNavBarRange {
+    margin-top: 5px;
+}
+
+
+.IRChartNavigation .updated {
+    float: right;
+    padding-right: 10px;
+}
+
+.IRChartNavigation {
+    border-bottom: 1px solid #eee;
+}
+
+    .IRChartNavigation .IRChartCompanyName {
+        position: absolute;
+        left: 0px;
+        float: left;
+        text-indent: -9999px;
+        white-space: nowrap;
+        overflow: hidden;
+        background-image: url(../logo.png);
+        background-repeat: no-repeat;
+        background-size: 125px 72px;
+        background-position: 0px -15px;
+        min-width: 130px;
+    }
+
+
+/* End ====================================================================== */
+
+
+/* IRDetailedSharePrice ===================================================== */
+
+.IRDetailedSharePrice.first {
+    table-layout: auto;
+}
+
+.IRQuoteHorizontalModule .quote {
+    width: 100%;
+    height: 133px;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    margin-bottom: 37px;
+}
+
+    .IRQuoteHorizontalModule .quote .current, .IRQuoteHorizontalModule .quote .change {
+        margin: 20px;
+        margin-left: 0;
+        width: 200px;
+        float: left;
+    }
+
+    .IRQuoteHorizontalModule .quote .current {
+        color: #164172;
+        font-size: 30px;
+        float: left;
+        margin: 0;
+        margin-top: 45px;
+    }
+
+    .IRQuoteHorizontalModule .quote .change {
+        float: left;
+        color: #616161;
+        font-size: 16px;
+        margin-top: 45px;
+    }
+
+        .IRQuoteHorizontalModule .quote .change div {
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+
+.IRDetailedSharePrice.table-look th, .IRDetailedSharePrice.table-look td {
+}
+
+.IRDetailedSharePrice.table-look td {
+}
+
+.IRDetailedSharePrice.table-look tr {
+}
+
+table.IRDetailedSharePrice {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    table.IRDetailedSharePrice tr.last {
+        border-bottom: 1px solid #C2BEB3;
+    }
+
+.IRQuoteHorizontalModule h1 {
+    font-size: 19.7px;
+    padding-bottom: 16px;
+    font-weight: normal;
+    display: block;
+    position: relative;
+}
+
+.IRQuoteHorizontalModule h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.IRQuoteHorizontalModule h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #db0028;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+    .IRQuoteHorizontalModule h3 .currency {
+        text-transform: none;
+    }
+
+.IRDetailedSharePrice.table-look th {
+}
+
+.IRDetailedSharePrice td {
+}
+
+.IRDetailedSharePrice .formatColourPos {
+    color: #1BA71B;
+}
+
+/* End ======================================================================== */
+
+
+/* IRNewsModule ============================================================ */
+.IRNewsModule {
+    font-size: 14px;
+    background: transparent;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+    .IRNewsModule .filter-wrapper {
+        width: 100%;
+        float: left;
+    }
+
+        .IRNewsModule .filter-wrapper .datepicker {
+            float: right;
+            width: 55%;
+        }
+
+.news-filter-wrapper {
+    width: 100%;
+    padding: 0px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    float: left;
+}
+
+.IRNewsModule h2 {
+    font-size: 24px;
+    color: #262626;
+    padding-bottom: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 0;
+    display: none;
+}
+
+.IRNewsModule input, .IRNewsModule textarea {
+    color: #666666;
+}
+
+.IRNewsModule .placeholder {
+    color: #aaa;
+}
+
+.news-filter-wrapper {
+    /*overflow: hidden;*/
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.IRNewsModule .date-wrapper {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #4c4c4c;
+    line-height: normal;
+    margin-bottom: 8px;
+    display: none;
+}
+
+    .IRNewsModule .date-wrapper .date-selector {
+        float: left;
+        height: 49px;
+        line-height: 49px;
+        background: #ececec;
+        font-size: 16px;
+        padding: 0 20px;
+        color: inherit;
+        text-decoration: none;
+        border-radius: 6px 6px 0 0;
+        font-weight: 500;
+        margin-right: 5px;
+    }
+
+.date-wrapper .date-selector.active {
+    background: #4c4c4c;
+    color: #fff;
+}
+
+.IRNewsModule .search-for-box {
+    width: 46%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.news-filter-wrapper .news-filter-box {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.IRNewsModule .news-filter-box #allRNSnews {
+    font-weight: bold;
+}
+
+.IRNewsModule .news-filter-box label {
+    line-height: 26px;
+}
+
+/*
+.IRNewsModule .news-filter-box .checkbox.checked {
+    background-image: url('images/checkbox_true.png');
+}
+*/
+.IRNewsModule .news-filter-wrapper select {
+    background-image: url(../2382/images/selectDown.png);
+}
+
+.IRNewsModule .news-filter-wrapper #select-filter {
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px solid #bdbdbd;
+    width: 183px;
+}
+
+.IRNewsModule .news-filter-wrapper .filterRow {
+    width: 48%;
+    float: left;
+    display: none;
+}
+
+.IRNewsModule .news-filter-wrapper .searchText {
+    cursor: text;
+    padding-left: 5px;
+    line-height: 30px;
+    height: 30px;
+    width: 220px;
+}
+
+
+.IRNewsModule .news-filter-wrapper label {
+    cursor: pointer;
+    line-height: 30px;
+    height: 30px;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {
+    background-color: transparent;
+    line-height: 22px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border: 0px solid White;
+    font-weight: bold;
+}
+
+.IRNewsModule .news-filter-wrapper .textArea {
+    min-width: 140px;
+    line-height: 30px;
+    height: 30px;
+}
+
+.IRNewsModule .search-for-box input {
+}
+
+.IRNewsModule .news-range .textArea {
+    width: 100%;
+}
+
+.IRNewsModule .search-for-box .textArea {
+}
+
+.IRNewsModule .news-filter-wrapper .filterRow input {
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    border: none;
+    float: left;
+    background: none;
+    font-size: 14px;
+}
+
+.IRNewsModule .news-filter-wrapper .radiofix {
+    position: relative;
+    margin-right: 5px !important;
+    float: left;
+    top: 7px;
+}
+
+.IRNewsModule .news-filter-wrapper .form {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.IRNewsModule .news-filter-wrapper #to-month, .IRNewsModule .news-filter-wrapper #to-year, .IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #from-month {
+    padding: 0px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.IRNewsModule .news-filter-wrapper #from-month, .IRNewsModule .news-filter-wrapper #to-month {
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 8px;
+    padding-left: 12px;
+}
+
+.IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #to-year {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+    text-align: center;
+}
+
+
+.IRNewsModule .news-filter-wrapper #to-year {
+}
+
+.IRNewsModule .search-filter-wrapper {
+    width: 40%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {
+}
+
+.IRNewsModule .news-filter-wrapper .search-from {
+    float: left;
+}
+
+.IRNewsModule .news-filter-wrapper .search-to {
+    float: left;
+}
+
+.IRNewsModule #ui-datepicker-div {
+    margin-top: 0;
+}
+
+.IRNewsModule .news-filter-wrapper input#refreshiframe {
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.IRNewsModule .datepicker input.from, .IRNewsModule .datepicker input.to, .IRNewsModule .datepicker input.from, .IRNewsModule .datepicker input.to {
+    width: 240px;
+    font-weight: normal;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.IRNewsTool {
+    border: none;
+    table-layout: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+    .IRNewsTool .IRDataGroup div {
+        border-bottom: 0;
+    }
+
+.IRNewsModule .entriesPerPage {
+    float: right;
+}
+
+.IRNewsModule .records-per-page #entriesPerRow {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px;
+    min-width: 120px;
+    font-size: 12px;
+}
+
+.IRNewsModule .news-filter-box .textArea {
+    width: 100%;
+}
+
+.IRNewsModule .datepicker .textArea.date-range {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.IRNewsModule .news-range .submitButton {
+    margin-bottom: 10px;
+}
+
+.IRNewsModule .filter-wrapper .submitButton {
+    margin-left: 46%;
+}
+
+.IRNewsModule .submitButton {
+    margin-top: 20px;
+}
+
+input#from.hide-background, input#to.hide-background {
+    background: none;
+}
+
+.ui-datepicker-divHide {
+}
+
+input#from, input#to {
+    background-image: url(2382/images/calendar.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.IRNewsModule .newsSubmit {
+    /*margin-right: 63px;*/
+}
+
+.IRNewsModule .heading {
+    font-size: 2.333em;
+    color: #003772;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E6E6E6;
+    width: 100%;
+    clear: both;
+    display: inline-block;
+    margin-top: 15px;
+    line-height: normal;
+    font-weight: 700;
+}
+
+/* NewsContent ======================================================== */
+div.IRNewsTool .IRDataGroup {
+    padding: 10px 0px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    transition: all 0.3s;
+}
+
+    div.IRNewsTool .IRDataGroup:hover {
+        cursor: pointer;
+        background: #e9ebed;
+    }
+
+div.IRNewsTool .IRHeaderGroup {
+    display: none;
+}
+
+.IRNewsModule .NewsDataGroupWrapper {
+    float: left;
+    width: 100%;
+}
+
+DIV.IRNewsTool .IRHeaderGroup DIV.IRTitle.IRHeader, DIV.IRNewsTool .IRDataGroup DIV.IRTitle.IRData {
+    width: auto;
+    color: #333;
+    display: block;
+    font-weight: 500;
+    /*
+    padding-right: 12px;
+    background: url(images/arrow-link.png) no-repeat right center;
+*/
+    white-space: normal;
+}
+
+.IRNewsTool .IRDataGroup div {
+}
+
+.IRNewsModule .IRNewsTool .IRDataGroup div.IRData {
+    font-size: 12px;
+    padding: 0;
+    border: 0;
+    height: auto;
+    line-height: 1.5;
+}
+
+div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDate, div.IRNewsTool .IRDataGroup div.IRData.IRDate {
+    width: 100%;
+    color: #999;
+    font-style: italic;
+}
+
+div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDownload, div.IRNewsTool .IRDataGroup div.IRData.IRDownload {
+    width: 16%;
+    float: right;
+}
+
+.IRNewsModule .news-filter-wrapper .newsSubmit {
+    width: 126px;
+}
+
+    .IRNewsModule .news-filter-wrapper .newsSubmit:hover {
+    }
+
+.IRNewsModule .IRNewsTool .IRHeader, .IRNewsModule .IRNewsTool .IRData {
+    border-right: 0px;
+    border-left: 0px;
+    cursor: pointer;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+}
+
+.IRNewsModule p {
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 11px;
+}
+
+.IRNewsModule .IRNewsTool .IRDate {
+    width: 23%;
+    color: #666666;
+}
+
+.IRNewsModule .IRNewsTool .IRData.file-type {
+    width: 24%;
+    font-weight: bold;
+}
+
+.IRNewsModule .IRNewsTool .IRData.IRTitle {
+}
+
+
+.IRNewsModule .IRNewsTool .IRHeader.IRTitle, .IRNewsModule .IRNewsTool IRData.IRTitle {
+    width: 55%;
+    text-align: left;
+}
+
+.IRNewsModule .IRNewsTool .IRHeader.file-type {
+    width: 17%;
+}
+
+.IRNewsModule .IRNewsTool .IRHeader.pagination {
+    width: 40%;
+    margin: 0;
+    padding: 3px;
+    border-radius: 0;
+}
+
+div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF {
+    /*width: initial;*/
+    width: 20px;
+}
+    /* JR: removed width: initial;*/
+    div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF .iconPDF {
+        background-image: url('images/pdf-icon.png');
+        float: left;
+        margin-top: 0px;
+        height: 17px;
+        width: 20px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        top: 0;
+    }
+
+.IRNewsPagination {
+    max-width: none;
+    padding: 0;
+}
+
+
+    .IRNewsPagination .IRNewsPaginationPagePrev {
+        background-image: url('../2382/images/prev.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .IRNewsPagination .IRNewsPaginationPageNext {
+        background-image: url('../2382/images/next.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+.IRNewsTableFooter {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.IRNewsPaginationPageNew {
+    width: auto;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 11px;
+    font-size: 13px;
+    color: #b0013a;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+    .IRNewsPaginationPageNew:hover {
+        color: #333;
+    }
+
+.IRNewsTableFooter .IRNewsPagination {
+    text-transform: capitalize;
+    max-width: initial;
+    text-align: center;
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+}
+
+.IRNewsPagination .IRNewsPageNumber {
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+    .IRNewsPagination .IRNewsPageNumber.active {
+        color: #757575;
+    }
+
+.IRNewsModule .IRNewsTool IRData.IRTitle {
+    color: #333;
+    text-align: left;
+}
+
+.IRNewsModule .IRNewsTool .IRData.IRDate {
+    color: inherit;
+    vertical-align: middle;
+}
+
+.IRNewsModule .news-table td.filterRow {
+    background-color: transparent;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border: 0px solid White;
+    color: rgb(18, 141, 185);
+    font-weight: bold;
+}
+
+div.IRNewsTool .IRHeaderGroup div, .IRNewsTool .IRDataGroup div {
+}
+
+
+.IRNewsModule .pagelabel, .IRNewsModule .pagelabelNEXT, .IRNewsModule .pagelabelPREV {
+    cursor: pointer;
+    font-size: 14px;
+    color: #3C5267;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom: 1px solid #3C5267;
+}
+
+.IRNewsModule .pagelabelNEXT {
+    margin-left: 19px;
+}
+
+.IRNewsModule .pagelabelPREV {
+    margin-right: 19px;
+}
+
+.IRNewsModule .pagelabelhidden {
+    display: none;
+}
+
+.IRNewsModule .pagelabelhover, .IRNewsModule .pagelabelclick {
+    color: #000;
+    font-size: 14px;
+}
+
+.IRNewsModule #pagecounter {
+    cursor: pointer;
+}
+
+.IRNewsModule .filesize {
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+.IRNewsModule .newsRowHidden {
+    display: none;
+}
+
+.IRNewsModule .news-filter-box .checkbox {
+    width: 43%;
+    min-width: 43%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    color: #000;
+}
+
+.IRNewsTool IRData.IRTitle {
+    overflow: hidden;
+}
+
+.IRNewsModule .news-filter-wrapper .IRData.download {
+    width: 33%;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from {
+}
+
+/*
+::selection {
+    background: #000;
+    color: #fff;
+    
+}
+::-moz-selection {
+    background: #000;
+    color: #fff;
+}
+*/
+
+/* ============================================================================ */
+
+
+/* IRCalcModule =============================================================== */
+
+.IRCalcModule {
+    font-size: 14px;
+}
+
+.IRChartCalcPlaceholder {
+    height: 250px;
+}
+
+.IRCalcModule #calc-form, .IRCalcModule #calculate-button {
+    margin-top: 10px;
+}
+
+.IRCalcModule #amount-invested {
+    margin-bottom: 10px;
+}
+
+.IRCalcModule input[type=number] {
+    padding-left: 0;
+    text-indent: 10px;
+}
+
+.IRToolCalcResultsTable .Data.yield-cell, .IRToolCalcResultsTable .Data.yield-change-cell {
+    color: #e21f26;
+}
+
+
+/* End ======================================================================== */
+
+
+/* IRLookupModule =============================================================== */
+
+.IRChartLookupPlaceholder {
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+
+.IRLookupModule select:focus {
+    border: 1px solid #22A8DA;
+    outline: none;
+}
+
+.input-row {
+    height: 45px;
+}
+
+table.IRLookupResultsTable th {
+    /*
+    font-size: 14px;
+*/
+}
+
+/* End ======================================================================== */
+
+
+/* Calc and Lookup ============================================================ */
+
+.formDivider {
+    /*width: 40%;
+    float: left;
+    margin: 0 5%;*/
+}
+
+    .formDivider .input-row label {
+        line-height: 38px;
+    }
+
+.radio label {
+    position: relative;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 800px) {
+    .formDivider {
+        width: 100%;
+        float: left;
+        padding: 0px;
+    }
+}
+
+/* Email Alerts Module ======================================================== */
+
+.emailAlerts p, .checkBoxText {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+.emailAlerts h2 {
+    color: #3684c3;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+
+input[type=email] {
+    line-height: 31px;
+    height: 31px;
+}
+
+.emailAlerts input[type=email] {
+    width: 68%;
+    margin-right: 2%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.emailAlerts .loginField {
+    width: 99%;
+    float: left;
+    max-width: 400px;
+}
+
+.emailAlerts .buttonStyle {
+    width: 28%;
+}
+
+.inputTextTitle {
+    font-size: 14px;
+    font-weight: 400;
+    float: left;
+    min-width: 140px;
+    line-height: 31px;
+    height: 31px;
+}
+
+.emailAlerts .divideLine {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 37px;
+    margin-top: 37px;
+}
+
+.checkboxRelease {
+    float: left;
+    margin-right: 10px;
+    line-height: 23px;
+}
+
+.emailAlerts .blockOuter {
+    margin-top: 20px;
+}
+
+.pageVerification_placedAtSubmitbutton .buttonStyle {
+    margin-top: 30px;
+}
+
+/* End ======================================================================== */
+
+
+/* Trades module ============================================================== */
+th.Header.colum-first.trade.sorting_disabled, .IRTradesModule tr td:first-child {
+    text-align: left;
+}
+
+.tabs-container iframe#ordersiFrame {
+    height: 280px;
+}
+
+.IRTradesModule .table-look td.volume, th.Header.volume.sorting_disabled, .table-seperator {
+    text-align: center !important;
+}
+
+.IRTradesModule .table-look {
+    width: 100% !important;
+    display: table;
+}
+
+    .IRTradesModule .table-look .column-last {
+    }
+
+    .IRTradesModule .table-look th.column-last {
+    }
+
+.IRTradesModule .hidden {
+    display: none;
+}
+
+.IRTradesModule .table-seperator {
+    background: none;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+table.IRTradesModule td.strong {
+    font-weight: bold;
+}
+
+.IRTradesModule h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+
+.IRTradesModule .table-look th {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    background-color: #036a89;
+    border: 1px solid #489cb1;
+}
+
+.IRTradesModule .table-look td {
+    font-weight: 300;
+}
+
+.IRTradesModule .table-look th, .IRTradesModule .table-look td {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    text-align: center !important;
+    vertical-align: middle;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: pre-line;
+    line-height: 20px;
+}
+
+.IRTradesModule th.changePercentage, .IRTradesModule td.changePercentage, .IRTradesModule th.change, .IRTradesModule td.change {
+    text-align: right;
+}
+
+.IRTradesModule th {
+}
+
+.IRTradesModule .table-look td,
+.IROrdersModule .table-look td,
+.IRPerformanceModule .table-look td {
+    border-left: 1px solid #eee;
+}
+
+.IRTradesModule .table-look tr:nth-child(odd) td,
+.IROrdersModule .table-look tr:nth-child(odd) td,
+.IRPerformanceModule .table-look tr:nth-child(odd) td,
+.IRLookupResultsTable .table-look tr:nth-child(odd) td {
+    background: #eef8ff;
+}
+
+.IRTradesModule .table-look td.formatColourPos {
+}
+
+.IRTradesModule .table-look td.formatColourNeg {
+}
+
+.IRTradesModule .table-look th.price, .IRTradesModule .table-look td.price {
+    text-align: left;
+}
+
+.IRTradesModule .table-look th.volume, .IRTradesModule .table-look td.volume, .IRTradesModule .table-look th.value, .IRTradesModule .table-look td.value {
+    text-align: right;
+}
+
+/*.IRTradesModule .table-look .formatArrowDef {
+        background-image: url(../1984/images/formatArrowDefSimple.png);
+        width: 9px;
+        height: 9px;
+        display: inline-block;
+
+    }*/
+
+.table-seperator tr {
+}
+
+.IRTradesModule .table-look td.table-seperator {
+}
+
+.table-seperator div {
+    padding: 0px 5px;
+    font-weight: bold;
+    left: 50%;
+    top: 5px;
+    background: #F0F0F0;
+    height: 25px;
+    line-height: 25px;
+}
+
+.table-seperator hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #bdc1c9 !important;
+    border-width: 1px;
+    border-top: 1px solid #cacaca;
+}
+
+.IRTradesDisclaimer {
+    display: none;
+}
+
+/* End ======================================================================== */
+
+
+/* MiniquoteChart ======================================================================== */
+
+.IRMiniquoteChartModule .IRMiniQuoteQuoteModule .change {
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+    width: auto;
+}
+
+.IRMiniquoteChartModule .IRMiniQuoteQuoteModule .last {
+    display: inline-block;
+}
+
+.IRMiniquoteChartModule .IRMiniQuoteQuoteModule .currency, .IRMiniquoteChartModule .IRMiniQuoteQuoteModule .last {
+}
+
+.IRMiniquoteChartModule .IRMiniQuoteQuoteModule .miniquoteDetailsWrapper {
+    height: auto;
+}
+
+.IRMiniquoteChartModule .IRMiniquoteChartPlaceholder {
+    height: 120px;
+}
+
+.IRMiniquoteChartModule .IRMiniQuoteQuoteModule .symbol {
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.IRMiniquoteChartModule .disclaimerRKD {
+    width: 100%;
+    border: 0px;
+    font-size: 11px;
+    color: #888888;
+    text-align: center;
+}
+
+    .IRMiniquoteChartModule .disclaimerRKD a {
+        color: inherit;
+    }
+
+.IRMiniquoteChartModule h1 {
+    position: static;
+    color: inherit;
+    display: block;
+    /*font-size: initial;*/
+}
+/* End ======================================================================== */
+
+/*Performance*/
+
+.IRPerformanceModule .Header {
+    vertical-align: middle;
+    word-wrap: normal;
+    overflow: hidden;
+    white-space: normal;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    background-color: #036a89;
+    border: 1px solid #489cb1;
+    height: 50px;
+    line-height: 20px;
+}
+
+
+/* News headline tool */
+.IRNewsHeadlineTool {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.IRNewsHeadlineTool {
+}
+
+    .IRNewsHeadlineTool .Data.dataWrapper {
+        border-bottom: 1px solid #b0c5e0;
+        padding: 7px;
+    }
+    /*.IRNewsHeadlineTool .Data.dataWrapper:hover{background: #e6e6e6;}*/
+    .IRNewsHeadlineTool .Data .date {
+        display: block;
+        font-weight: 400;
+        color: #b0c5e0;
+        font-style: italic;
+    }
+
+    .IRNewsHeadlineTool .Data .title {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 400;
+        color: #fff;
+    }
+
+        .IRNewsHeadlineTool .Data .title:hover {
+            cursor: pointer;
+        }
+
+/* orders */
+
+.IROrdersModule .orderDepthBarLeft .progress-bar {
+    background-color: #007992;
+}
+
+.IROrdersModule .orderDepthBarRight .progress-bar {
+    background-color: #959595;
+}
+
+.IROrdersModule .totalVolumeBid {
+    text-align: left;
+    font-weight: bold;
+}
+
+.IROrdersModule .totalVolumeAsk {
+    text-align: right;
+    font-weight: bold;
+}
+
+.IROrdersModule .Header.ask.column-last {
+    border-right: none;
+}
+/*.IROrdersModule .Header.column-first, .IROrdersModule .Data.column-first, .IROrdersModule tr.totalVolume{
+    text-indent: 5px;
+}*/
+
+/* Share Price Tools - Tabs ............... */
+.tabs-container #miniquoteChart {
+    height: 150px;
+    width: 100%;
+}
+
+.tabs ul li {
+    float: left;
+    list-style-type: none;
+    border-top: 2px solid #e5e5e5;
+}
+
+.tabs-container .tabsWrapper {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tabs-container .tabs a {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    float: left;
+    color: #666;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    padding: 0px 10px;
+    margin: -1px;
+    border-top: 1px solid #ccc;
+    width: 100px;
+}
+
+    .tabs-container .tabs a.current {
+        border-bottom: 1px solid #fff;
+        background-color: #fff;
+        color: #000;
+        font-weight: bold;
+    }
+
+.tabs-container iframe {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+.tabs-container #chartIframe {
+    height: 600px;
+}
+
+/*calc-new*/
+
+/*body {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+.disclaimer {
+    text-align: center;
+}
+
+.disclaimer-IROrders, .disclaimer-IRTrades, .disclaimer-IRQuote, .disclaimer-IRCalc {
+    display: none;
+}
+
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+*.DataHover {
+    background-color: transparent !important;
+}
+
+.divideLine {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+input, select {
+    padding: 0px 7px;
+    line-height: 40px;
+    height: auto;
+    height: 40px;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.wide-input {
+    width: 195px;
+}
+
+input[type=number] {
+    background: #fff;
+    height: 29px;
+    line-height: 29px;
+}
+
+input[type=submit], input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit {
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: none;
+    -webkit-appearance: none;
+    padding: 4px 30px;
+    height: auto;
+    line-height: normal;
+    width: 195px;
+    color: #fff;
+    border: 1px solid #006b8c;
+    background-color: #006b8c;
+}
+
+    input[type=submit]:hover, input[type=button]:hover {
+        color: #006b8c;
+        background: #fff;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        box-shadow: none;
+    }
+
+    input[type=submit]:focus, input[type=button], .IRNewsModule .news-filter-wrapper .newsSubmit:focus {
+    }
+
+.IRQuoteModule {
+    font-size: 14px;
+}
+
+    .IRQuoteModule span.arrow {
+        margin-right: 3px;
+    }
+
+    .IRQuoteModule .name {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .IRQuoteModule .updated {
+        text-align: right;
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #999;
+    }
+
+.table-look {
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.IRMiniquoteModule .table-look {
+    border-bottom: 0;
+}
+
+.table-look tr {
+}
+
+.table-look td, .table-look th {
+    line-height: 25px;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    border-top: 0;
+}
+
+.table-look tr:nth-child(odd) td {
+}
+
+.IRNewsModule .IRNewsTool .IRDataGroup div.IRData, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    padding: 0 0 0 0;
+}
+
+.table-look th, .table-look td {
+    height: 30px;
+    line-height: 30px;
+}
+
+.table-look th {
+    color: rgb(3, 106, 137);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    background-color: #036a89;
+    border: 1px solid #489cb1;
+    height: 50px;
+    line-height: 50px;
+}
+
+.IRToolCalcResultsTable.table-look th {
+    white-space: normal;
+    line-height: 20px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.table-look td {
+    border-bottom: none;
+}
+
+table > tbody > tr:nth-child(odd) {
+}
+
+.table-look td.formatColourPos, *.formatColourPos {
+    color: green;
+}
+
+.table-look td.formatColourNeg, *.formatColourNeg {
+    color: red;
+}
+
+.table-look th.column-first, .table-look td.column-first {
+    /* text-align: right; */
+    padding-left: 0px;
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    text-align: right;
+    padding-right: 5px;
+}
+
+
+
+table.IRLookupResultsTable.historical-data th {
+    height: 50px;
+    line-height: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: normal;
+}
+
+table.IRLookupResultsTable.historical-data tr:nth-child(odd) {
+    background-color: #eef8ff;
+}
+
+
+.timestamp {
+    text-align: center;
+}
+
+table.IRLookupResultsTable.historical-data {
+    border-collapse: collapse;
+}
+
+    table.IRLookupResultsTable.historical-data tr:nth-child(n + 7) {
+        display: none;
+    }
+
+
+/* IRCalcModule =============================================================== */
+
+.IRCalcModule {
+    font-size: 14px;
+}
+
+.IRChartCalcPlaceholder {
+    height: 250px;
+}
+
+.IRCalcModule #calc-form, .IRCalcModule #calculate-button {
+    margin-top: 10px;
+}
+
+.IRCalcModule #amount-invested {
+    margin-bottom: 10px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.IRCalcModule input[type=number] {
+    padding-left: 0;
+    text-indent: 10px;
+}
+
+.radioBtn {
+    top: -15px;
+    margin: 0 28px 0 0;
+    cursor: pointer;
+}
+
+    .radioBtn:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #ccc;
+        opacity: .8;
+        top: 50%;
+        margin-top: -8px;
+    }
+
+    .radioBtn.checked:before {
+        background: #e21f26;
+    }
+
+:focus {
+    outline: none;
+}
+/* End ======================================================================== */
+
+
+/* SHARE INFO ==================================================================*/
+th.IRToolQuoteTableItem.Header {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    background-color: #036a89;
+    border: 1px solid #489cb1;
+}
+
+td.IRToolQuoteTableItem.Data {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    color: #575756;
+    border: 1px solid #d9eaf3;
+    /*background-color: #eff8fe;*/
+}
+
+/* IRLookupModule =============================================================== */
+
+.IRChartLookupPlaceholder {
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.IRLookupModule #lookup-form label {
+    line-height: 40px;
+}
+
+.input-row {
+    height: 45px;
+}
+
+select#from-day, select#from-month, select#from-year, select#to-day, select#to-month, select#to-year {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-width: 62px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-image: url(images/arrowdown.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 8px;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select#frequency, select#format {
+    width: 128px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-image: url(images/arrowdown.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #3a3a3a;
+    background-size: 8px;
+}
+/* End ======================================================================== */
+.highcharts-series-group:hover path.highcharts-tracker {
+    stroke: #009ba4;
+    stroke-width: 2px;
+}
+
+path.highcharts-tracker:focus {
+    stroke: #242424;
+    stroke-width: 3px;
+}
+
+.highcharts-markers.highcharts-tracker path {
+    fill: #009ba4;
+    stroke: #009ba4;
+}
+
+.highcharts-xaxis-labels text:first-child {
+    display: none;
+}
+
+rect.highcharts-background {
+    stroke: transparent;
+}
+
+.chartLastPriceTime {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.chartLastPrice {
+    font-weight: normal;
+    font-size: 12px;
+}
+/* Calc and Lookup ============================================================ */
+
+.formDivider .input-row label {
+    line-height: 40px;
+    font-size: inherit;
+    padding-right: 10px;
+}
+
+.radio label {
+    position: relative;
+    vertical-align: bottom;
+}
+
+
+
+/* profile */
+
+table.IRTable.table-look .Header {
+    text-align: left;
+    padding-left: 10px;
+}
+
+table.IRTable.table-look .Data {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/*emailAlerts*/
+.inputTextTitle {
+    padding-top: 10px;
+    line-height: 20px;
+    float: none;
+    color: #242424;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+
+.inputText {
+    color: #808080;
+    width: 100%;
+}
+
+input.inputTextField.unsubscribeEmail {
+    margin-bottom: 40px;
+}
+
+.pageRegister input[type=text], input.inputTextField.unsubscribeEmail {
+    padding: 10px;
+    line-height: 20px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.pageRegister h2, .pageUnsubscribe h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pageRegister p, .pageUnsubscribe p {
+    font-size: 14px;
+    color: hsl(0, 0%, 44%);
+}
+
+a.cleanLink.formUnsubscribe.unsubscribeNextToButton, a.cleanLink.goToHome {
+    font-size: 14px;
+}
+
+.buttonStyle:hover {
+    opacity: 0.65;
+    background: #e21f26;
+    color: #fff;
+}
+
+input.inputTextField.unsubscribeEmail {
+    width: 100%;
+}
+
+@media only screen and (max-width: 505px) {
+
+    .pageRegister input[type=text] {
+        width: 100%;
+    }
+
+    input.inputTextField.unsubscribeEmail {
+        width: 100%;
+    }
+}
+
+.pageRegister .blockInner:first-child, .pageUnsubscribe .blockInner:first-child {
+    margin-top: 0;
+}
+
+.pageUnsubscribe .blockNoBorder {
+    display: inline-block;
+    width: 100%;
+}
+
+/*end*/
+/* @media only screen =========================================================*/
+@media only screen and (max-width: 800px) {
+    .formDivider {
+        width: 100%;
+        float: left;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .tools-container .left, .tools-container .right {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+}
+
+@media only screen and (min-width: 572px) {
+
+    .IRDetailedSharePrice.vertical {
+        display: none !important;
+    }
+
+    .IRQuoteVerticalModule {
+        display: none;
+    }
+
+    .IRDetailedSharePrice.vertical {
+        display: none;
+    }
+
+    h3.vertical-header {
+        display: none;
+    }
+
+    .IRCalcModule .vertical {
+        display: none;
+    }
+
+    .divideLine.vertical {
+        display: none;
+    }
+
+    .table-look {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+
+    .table-look th.column-first, .table-look td.column-first {
+    }
+
+    .table-look.vertical td.Data.column-first {
+        text-align: right;
+    }
+
+    .table-look .vertical th {
+        border: 1px;
+    }
+
+    .table-look.vertical tbody {
+        display: table;
+        width: 100%;
+    }
+
+    h3.horizontal-header {
+        display: none;
+    }
+
+    .IRCalcModule .horizontal {
+        display: none;
+    }
+
+    .IRCalcModule .vertical {
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+        .IRCalcModule .vertical th {
+            text-align: left;
+            border: none;
+            /* color: inherit; */
+        }
+
+        .IRCalcModule .vertical td {
+            font-weight: normal;
+            text-align: center;
+            border-right: 0;
+            border-left: 0;
+            width: 50%;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        .IRCalcModule .vertical tr:nth-child(2n) {
+        }
+
+    .IRCalcModule .calculateButton, .IRCalcModule #calculate-button {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .input-wrapper.lookupButton {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tabs ul li, .tabs-container .tabs a {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* End ======================================================================== */
+
+
+
+
+
+/*end*/
+
+
+
+
+@media screen and (max-width: 500px) {
+    .tabs ul li, .tabs-container .tabs a {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+/* @media only screen =========================================================*/
+.IRToolQuoteTable.table-look.table-look.horizontal {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .profile-wrapper .IRTable.company-listing-data {
+        margin-bottom: 35px;
+    }
+
+    .profile-wrapper .table-wrapper .company-listing-data, .profile-wrapper .table-wrapper .price-data {
+        width: 100% !important;
+    }
+
+    .IRToolQuoteTable.table-look.table-look.vertical {
+        display: none;
+    }
+
+    .IRToolQuoteTable.table-look.table-look.horizontal {
+        display: table;
+    }
+
+        .IRToolQuoteTable.table-look.table-look.horizontal th, .IRToolQuoteTable.table-look.table-look.horizontal td {
+            text-align: center;
+            white-space: normal;
+        }
+}
+
+.IRNewsModule .filter-wrapper .submitButton {
+    margin-left: 0;
+}
+
+.IRNewsModule .search-for-box input {
+    width: 53%;
+}
+
+.IRNewsModule .search-for-box, .IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {
+    width: 50%;
+}
+
+    .IRNewsModule .news-filter-wrapper .filterRow .textArea, .IRNewsModule .news-filter-wrapper .search-to .textArea {
+        min-width: 70px;
+    }
+
+.IRNewsModule .news-filter-wrapper #select-filter {
+    width: 183px !important;
+}
+
+
+@media only screen and (min-width: 572px) {
+
+    .IRDetailedSharePrice.vertical {
+        display: none !important;
+    }
+
+    .IRQuoteVerticalModule {
+        display: none;
+    }
+
+    .IRDetailedSharePrice.vertical {
+        display: none;
+    }
+
+    h3.vertical-header {
+        display: none;
+    }
+
+    .IRCalcModule .vertical {
+        display: none;
+    }
+
+    .divideLine.vertical {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .tabs-container iframe#sharedataiFrame {
+        height: 770px;
+    }
+
+    .IRNewsModule .news-filter-box .checkbox, .IRNewsModule .search-for-box {
+        width: 100%;
+    }
+
+        .IRNewsModule .search-for-box .textArea {
+            display: block;
+        }
+
+    .IRNewsModule .news-filter-wrapper .newsSubmit {
+        width: 100%;
+    }
+
+    .IRNewsModule .news-filter-wrapper .searchText, .IRNewsModule .search-filter-wrapper {
+        width: 100%;
+    }
+
+    .IRNewsModule .filter-wrapper .datepicker {
+        width: 100%;
+    }
+
+    div.IRNewsTool .IRDataGroup div.IRData.IRDownload {
+        float: left;
+        width: 100%;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .IRNewsModule .date-wrapper .date-selector {
+        padding: 0px 12px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    .IRQuoteHorizontalModule h3 {
+        line-height: 1;
+    }
+
+    .IRDetailedSharePrice.table-look tr {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .IRDetailedSharePrice.table-look tr, .IRDetailedSharePrice.table-look td {
+        border-left: 0;
+    }
+
+    .table-look th.column-first, .table-look td.column-first {
+    }
+
+
+    .table-look .vertical th {
+        border: 1px;
+    }
+
+    .table-look.vertical tbody {
+        display: table;
+        width: 100%;
+    }
+
+    .IRChartNavigation, .IRChartPlaceholderArea, .IRChartPlaceholder, .IRChartPlaceholderArea .IRChartChangePeriodOuter, .IRChartPlaceholderArea .IRChartChangePeriod {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    input[type=submit] {
+    }
+
+    .IRDetailedSharePrice.table-look th {
+        padding-left: 10px;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+        text-transform: none;
+        background: transparent;
+    }
+
+    .IRDetailedSharePrice.vertical td {
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+        font-weight: normal;
+        font-size: 14px;
+        height: initial;
+        line-height: initial;
+        white-space: initial;
+        text-align: right;
+    }
+
+    .IRDetailedSharePrice.table-look th {
+        width: 45%;
+        text-align: left;
+    }
+
+    .IRDetailedSharePrice.horizontal {
+        display: none !important;
+    }
+
+    .IRDetailedSharePrice.horizontal {
+        display: none;
+    }
+
+    h3.horizontal-header {
+        display: none;
+    }
+
+    .IRCalcModule .horizontal {
+        display: none;
+    }
+
+    .IRCalcModule .vertical {
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+        .IRCalcModule .vertical th {
+            line-height: 25px;
+            height: 25px;
+            width: 50%;
+            background: transparent;
+            color: inherit;
+            border: 0;
+            text-align: left;
+        }
+
+        .IRCalcModule .vertical td {
+            font-weight: normal;
+            text-align: center;
+            border-right: 0;
+            border-left: 0;
+            width: 50%;
+            text-align: right;
+            border: none;
+        }
+
+    .IRCalcModule .table-look tr:nth-child(odd) td,
+    .IRCalcModule .table-look tr:nth-child(odd) th {
+        background: #eef8ff;
+    }
+    /*
+    .IRCalcModule .vertical tr {
+        background: #fff;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+*/
+    .IRCalcModule .vertical tr:nth-child(2n) {
+    }
+
+    .divideLine.horizontal {
+        display: none;
+    }
+
+    .IRTradesModule .formatArrowPos, .IRTradesModule .formatArrowNeg {
+        display: inline-block;
+    }
+
+
+
+    .input-wrapper.lookupButton {
+        width: 100%;
+    }
+
+    .disclaimer.disclaimer-IRLookup {
+        margin-top: 180px;
+    }
+
+    .disclaimer-IRChart, .chartDisclaimer {
+        display: none;
+    }
+
+    .IRQuoteHorizontalModule h3 {
+        padding-left: 10px;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriod {
+        width: 100%;
+        text-align: center;
+    }
+
+        .IRChartPlaceholderArea .IRChartChangePeriod div {
+            float: none;
+            display: inline-block;
+        }
+}
+
+@media (max-width: 500px) {
+    .chartChangePeriod {
+        width: 400px;
+    }
+
+    .IRTradesModule th.change, .IRTradesModule td.change {
+        display: none;
+    }
+
+    .IRTradesModule .updated img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDate, div.IRNewsTool .IRDataGroup div.IRData.IRDate {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .IRTradesModule th.changePercentage, .IRTradesModule td.changePercentage {
+        display: none;
+    }
+
+    .IRNewsModule .news-filter-wrapper #from-month, .IRNewsModule .news-filter-wrapper #to-month {
+        margin-right: 2%;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div#y2 {
+        display: none;
+    }
+
+    .IROrdersModule .table-look th {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    /*.IRElement11 {
+        display: none;
+    }*/
+}
+
+table.IRQuoteModule.table-look.vertical {
+    display: none;
+}
+
+.table-look.vertical tbody {
+    width: 100%;
+    display: table;
+}
+
+@media only screen and (min-width: 641px) {
+    .IRChartComparison {
+        border-left: 2px solid #eee !important;
+        border-right: 1px solid #eee !important;
+        border-top: 2px solid #eee;
+        border-bottom: 2px solid #eee;
+        margin-top: -3px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    table.IRQuoteModule.table-look.horizontal {
+        display: none;
+    }
+
+    table.IRQuoteModule.table-look.vertical {
+        display: block;
+    }
+
+
+    .IRElement10 {
+        display: none;
+    }
+
+    .horizontal.customResponsive .yearHigh, .horizontal.customResponsive .yearLow {
+        display: none;
+    }
+
+    .horizontal.customResponsive .high, .horizontal.customResponsive .low {
+        text-align: right;
+    }
+
+    .IRQuoteModule td.Header {
+        color: rgb(3, 106, 137);
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: normal;
+        background-color: #036a89;
+        border: 1px solid #489cb1;
+        height: 30px;
+        line-height: 30px;
+        /*text-align: center;*/
+    }
+
+    .IRQuoteModule td.Data {
+        font-weight: normal;
+        font-size: 14px;
+        color: #575756;
+        /*text-align: center;*/
+        border: 1px solid #d9eaf3;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .IRElement10 {
+        display: none;
+    }
+
+    .horizontal.customResponsive .high, .horizontal.customResponsive .low, .horizontal.customResponsive .open, .horizontal.customResponsive .prevClose {
+        display: none;
+    }
+
+    .horizontal.customResponsive .change, .horizontal.customResponsive .volume {
+        text-align: right;
+        width: 33%;
+    }
+}
+
+
+
+
+
+
+
+.basicButtonLook {
+    border-left: 5px solid #ffffff;
+}
+
+    .basicButtonLook.color002395:hover {
+        border-left: 5px solid #002395;
+    }
+
+    .basicButtonLook.color03C03C:hover {
+        border-left: 5px solid #03C03C;
+    }
+
+    .basicButtonLook.color7FBB0F:hover {
+        border-left: 5px solid #7FBB0F;
+    }
+
+    .basicButtonLook.color138808:hover {
+        border-left: 5px solid #138808;
+    }
+
+    .basicButtonLook.color3B444B:hover {
+        border-left: 5px solid #3B444B;
+    }
+
+    .basicButtonLook.colorf17a54:hover {
+        border-left: 5px solid #f17a54;
+    }
+
+    .basicButtonLook.colordfdb36:hover {
+        border-left: 5px solid #dfdb36;
+    }
+
+    .basicButtonLook.color779ECB:hover {
+        border-left: 5px solid #779ECB;
+    }
+
+    .basicButtonLook.colorFF0000:hover {
+        border-left: 5px solid #FF0000;
+    }
+
+    .basicButtonLook.color779ECB:hover {
+        border-left: 5px solid #779ECB;
+    }
+
+    .basicButtonLook.color915C83:hover {
+        border-left: 5px solid #915C83;
+    }
+
+    .basicButtonLook.color91877D:hover {
+        border-left: 5px solid #91877D;
+    }
+
+    .basicButtonLook.colorFF00DC:hover {
+        border-left: 5px solid #FF00DC;
+    }
+
+    .basicButtonLook.color967117:hover {
+        border-left: 5px solid #967117;
+    }
+
+    .basicButtonLook.color9932CC:hover {
+        border-left: 5px solid #9932CC;
+    }
+
+    .basicButtonLook.color00FF90:hover {
+        border-left: 5px solid #00FF90;
+    }
+
+    .basicButtonLook.colorA4C639:hover {
+        border-left: 5px solid #A4C639;
+    }
+
+    .basicButtonLook.colorB2EC5D:hover {
+        border-left: 5px solid #B2EC5D;
+    }
+
+    .basicButtonLook.colorCBA135:hover {
+        border-left: 5px solid #CBA135;
+    }
+
+    .basicButtonLook.colorCD9575:hover {
+        border-left: 5px solid #CD9575;
+    }
+
+    .basicButtonLook.color91877D:hover {
+        border-left: 5px solid #91877D;
+    }
+
+    .basicButtonLook.color967117:hover {
+        border-left: 5px solid #967117;
+    }
+
+    .basicButtonLook.colorFF8C00:hover {
+        border-left: 5px solid #FF8C00;
+    }
+
+    .basicButtonLook.color779ECB:hover {
+        border-left: 5px solid #779ECB;
+    }
+
+    .basicButtonLook.colorA4C639:hover {
+        border-left: 5px solid #A4C639;
+    }
+
+
+    .basicButtonLook.color002395.active {
+        border-left: 5px solid #002395;
+    }
+
+    .basicButtonLook.color03C03C.active {
+        border-left: 5px solid #03C03C;
+    }
+
+    .basicButtonLook.color7FBB0F.active {
+        border-left: 5px solid #7FBB0F;
+    }
+
+    .basicButtonLook.color138808.active {
+        border-left: 5px solid #138808;
+    }
+
+    .basicButtonLook.color3B444B.active {
+        border-left: 5px solid #3B444B;
+    }
+
+    .basicButtonLook.colorf17a54.active {
+        border-left: 5px solid #f17a54;
+    }
+
+    .basicButtonLook.colordfdb36.active {
+        border-left: 5px solid #dfdb36;
+    }
+
+    .basicButtonLook.color779ECB.active {
+        border-left: 5px solid #779ECB;
+    }
+
+    .basicButtonLook.colorFF0000.active {
+        border-left: 5px solid #FF0000;
+    }
+
+    .basicButtonLook.color779ECB.active {
+        border-left: 5px solid #779ECB;
+    }
+
+    .basicButtonLook.color915C83.active {
+        border-left: 5px solid #915C83;
+    }
+
+    .basicButtonLook.color91877D.active {
+        border-left: 5px solid #91877D;
+    }
+
+    .basicButtonLook.colorFF00DC.active {
+        border-left: 5px solid #FF00DC;
+    }
+
+    .basicButtonLook.color967117.active {
+        border-left: 5px solid #967117;
+    }
+
+    .basicButtonLook.color9932CC.active {
+        border-left: 5px solid #9932CC;
+    }
+
+    .basicButtonLook.color00FF90.active {
+        border-left: 5px solid #00FF90;
+    }
+
+    .basicButtonLook.colorA4C639.active {
+        border-left: 5px solid #A4C639;
+    }
+
+    .basicButtonLook.colorB2EC5D.active {
+        border-left: 5px solid #B2EC5D;
+    }
+
+    .basicButtonLook.colorCBA135.active {
+        border-left: 5px solid #CBA135;
+    }
+
+    .basicButtonLook.colorCD9575.active {
+        border-left: 5px solid #CD9575;
+    }
+
+    .basicButtonLook.color91877D.active {
+        border-left: 5px solid #91877D;
+    }
+
+    .basicButtonLook.color967117.active {
+        border-left: 5px solid #967117;
+    }
+
+    .basicButtonLook.colorFF8C00.active {
+        border-left: 5px solid #FF8C00;
+    }
+
+    .basicButtonLook.color779ECB.active {
+        border-left: 5px solid #779ECB;
+    }
+
+    .basicButtonLook.colorA4C639.active {
+        border-left: 5px solid #A4C639;
+    }
+
+.color002395.active span {
+    border-left: 5px solid #002395;
+}
+
+.color03C03C.active span {
+    border-left: 5px solid #03C03C;
+}
+
+.color7FBB0F.active span {
+    border-left: 5px solid #7FBB0F;
+}
+
+.color138808.active span {
+    border-left: 5px solid #138808;
+}
+
+.color3B444B.active span {
+    border-left: 5px solid #3B444B;
+}
+
+.colorf17a54.active span {
+    border-left: 5px solid #f17a54;
+}
+
+.colordfdb36.active span {
+    border-left: 5px solid #dfdb36;
+}
+
+.color779ECB.active span {
+    border-left: 5px solid #779ECB;
+}
+
+.colorFF0000.active span {
+    border-left: 5px solid #FF0000;
+}
+
+.color779ECB.active span {
+    border-left: 5px solid #779ECB;
+}
+
+.color915C83.active span {
+    border-left: 5px solid #915C83;
+}
+
+.color91877D.active span {
+    border-left: 5px solid #91877D;
+}
+
+.colorFF00DC.active span {
+    border-left: 5px solid #FF00DC;
+}
+
+.color967117.active span {
+    border-left: 5px solid #967117;
+}
+
+.color9932CC.active span {
+    border-left: 5px solid #9932CC;
+}
+
+.color00FF90.active span {
+    border-left: 5px solid #00FF90;
+}
+
+.colorA4C639.active span {
+    border-left: 5px solid #A4C639;
+}
+
+.colorB2EC5D.active span {
+    border-left: 5px solid #B2EC5D;
+}
+
+.colorCBA135.active span {
+    border-left: 5px solid #CBA135;
+}
+
+.colorCD9575.active span {
+    border-left: 5px solid #CD9575;
+}
+
+.color91877D.active span {
+    border-left: 5px solid #91877D;
+}
+
+.color967117.active span {
+    border-left: 5px solid #967117;
+}
+
+.colorFF8C00.active span {
+    border-left: 5px solid #FF8C00;
+}
+
+.color779ECB.active span {
+    border-left: 5px solid #779ECB;
+}
+
+.colorA4C639.active span {
+    border-left: 5px solid #A4C639;
+}
+
+.colorIndicator.active {
+    border-left: 5px solid red;
+    padding-right: 4px;
+}
+
+.colorIndicator.color002395.active {
+    border-left: 5px solid #002395;
+    padding-right: 4px;
+}
+
+.colorIndicator.color03C03C.active {
+    border-left: 5px solid #03C03C;
+    padding-right: 4px;
+}
+
+.colorIndicator.color7FBB0F.active {
+    border-left: 5px solid #7FBB0F;
+    padding-right: 4px;
+}
+
+.colorIndicator.color138808.active {
+    border-left: 5px solid #138808;
+    padding-right: 4px;
+}
+
+.colorIndicator.color3B444B.active {
+    border-left: 5px solid #3B444B;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorf17a54.active {
+    border-left: 5px solid #f17a54;
+    padding-right: 4px;
+}
+
+.colorIndicator.colordfdb36.active {
+    border-left: 5px solid #dfdb36;
+    padding-right: 4px;
+}
+
+.colorIndicator.color779ECB.active {
+    border-left: 5px solid #779ECB;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorFF0000.active {
+    border-left: 5px solid #FF0000;
+    padding-right: 4px;
+}
+
+.colorIndicator.color779ECB.active {
+    border-left: 5px solid #779ECB;
+    padding-right: 4px;
+}
+
+.colorIndicator.color915C83.active {
+    border-left: 5px solid #915C83;
+    padding-right: 4px;
+}
+
+.colorIndicator.color91877D.active {
+    border-left: 5px solid #91877D;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorFF00DC.active {
+    border-left: 5px solid #FF00DC;
+    padding-right: 4px;
+}
+
+.colorIndicator.color967117.active {
+    border-left: 5px solid #967117;
+    padding-right: 4px;
+}
+
+.colorIndicator.color9932CC.active {
+    border-left: 5px solid #9932CC;
+    padding-right: 4px;
+}
+
+.colorIndicator.color00FF90.active {
+    border-left: 5px solid #00FF90;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorA4C639.active {
+    border-left: 5px solid #A4C639;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorB2EC5D.active {
+    border-left: 5px solid #B2EC5D;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorCBA135.active {
+    border-left: 5px solid #CBA135;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorCD9575.active {
+    border-left: 5px solid #CD9575;
+    padding-right: 4px;
+}
+
+.colorIndicator.color91877D.active {
+    border-left: 5px solid #91877D;
+    padding-right: 4px;
+}
+
+.colorIndicator.color967117.active {
+    border-left: 5px solid #967117;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorFF8C00.active {
+    border-left: 5px solid #FF8C00;
+    padding-right: 4px;
+}
+
+.colorIndicator.color779ECB.active {
+    border-left: 5px solid #779ECB;
+    padding-right: 4px;
+}
+
+.colorIndicator.colorA4C639.active {
+    border-left: 5px solid #A4C639;
+    padding-right: 4px;
+}
+/* End ======================================================================== */

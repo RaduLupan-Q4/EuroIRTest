@@ -1,0 +1,93 @@
+﻿.table-look th, .table-look td {
+    border: 1px solid #54ADC6;
+}
+
+.table-look th {
+    background: #54ADC6;
+    color: #fff;
+}
+
+.table-look td {
+}
+
+.disclaimer {
+    position: inherit;
+}
+
+
+/* IRMiniQuoteModule ======================================================= */
+.miniquote {
+    background: #efefef;
+    float: left;
+    width: 100%;
+}
+
+    .miniquote h2 {
+        background: #F96412;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px;
+        max-width: 60px;
+        vertical-align: middle;
+        float: left;
+        line-height: 125%;
+    }
+
+    .miniquote .last {
+        padding-left: 10px;
+        min-width: 70px;
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 50px;
+        color: #54ADC6;
+    }
+
+    .miniquote .changeOuter {
+        float: left;
+        padding-top: 10px;
+    }
+
+    .miniquote .change {
+        padding-left: 10px;
+    }
+
+    .miniquote .changePct {
+        padding-left: 10px;
+    }
+
+.arrow a {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    left: 10px;
+    background-image: url('../images/small-share-arrow.png');
+    background-position: left 0px top -19px;
+    cursor: pointer;
+    float: left;
+    top: 16px;
+}
+
+.IRMiniQuoteQuoteModule th, .IRMiniQuoteQuoteModule td, .IRMiniQuoteQuoteModule.table-look {
+    border: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.arrow a:hover {
+    background-position: left 0px top 0px;
+    cursor: pointer;
+}
+
+
+.IRMiniQuoteQuoteModule td.last {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.IRMiniQuoteQuoteModule td.data {
+    font-family: 'Source Sans Pro', Verdana, Arial, Helvetica, sans-serif !important;
+    text-align: right;
+}
+/* ========================================================================= */
+

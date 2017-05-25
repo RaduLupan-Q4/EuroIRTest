@@ -1,0 +1,66 @@
+<base href="http://ir.euroinvestor.com/solutions/PTSG/2366/miniquotechart.aspx" target="_blank">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+
+<head>
+    <title>IR Solutions, Euroinvestor</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635793031194669922" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=635890532135184019" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900|Oswald:400,300,700" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700" />
+    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/PTSG/2366/ir.client.css" />
+</head>
+
+<body>
+
+
+
+    <script type="text/javascript">
+        var activeModules = ["IRMiniquoteChart"];
+    </script>
+
+
+
+    <script id="IRMiniquoteChartModuleTemplate" type="text/x-handlebars-template">
+        <div class="IRMiniQuoteQuoteModule table-look responsive">
+            <div class="miniquoteDetailsWrapper">
+                <div>
+                    <div class="Data last">{{decimals stocks/last}}</div>
+                    <div class="Data change">{{decimals stocks/change}} ({{decimals stocks/changePercent}}%)</div>
+                    <div class="Data symbol">{{stocks/symbol}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="IRMiniquoteChartPlaceholder"></div>
+
+
+    </script>
+    <div class="IRMiniquoteChartModule">
+        <span class="ajaxLoader">Loading</span>
+    </div>
+
+
+
+    <div class="disclaimer disclaimer-IRMiniquoteChart">
+        <span class="disclaimer-copyright">Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a> </span>
+        <span class="disclaimer-dataSource">and our data suppliers. </span>
+        <span class="disclaimer-delayed">Data delayed by 15-20 min.</span>
+        <span class="disclaimer-terms"> <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a></span>
+    </div>
+    <script type="text/javascript" src="/includes/js/libs/jquery2-1-4.min.js?v=635808478220682775"></script>
+    <script type="text/javascript" src="http://localhost/solutions/PTSG/2366/ir.client.js"></script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=635894044963739346"></script>
+    <script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635793031199586841"></script>
+    <script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+    <script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+    <script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+    <script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+    <script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635793031199506909"></script>
+    <script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635793031198936378"></script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=635889809206474823"></script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=635890565104310821"></script>
+    <script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=635808478220057902"></script>
+    <script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=635890548722757094"></script>
+</body>
+
+</html>

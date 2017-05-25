@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'DINComp-Bold';
+    src: url('fonts/DINWeb-Bold.eot');
+    src: url('fonts/DINWeb-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DINWeb-Bold.woff') format('woff'),
+         url('fonts/DINBold.ttf') format('truetype'),
+         url('fonts/DINBold.svg#DinBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DINComp';
+    src: url('fonts/DINWeb.eot');
+    src: url('fonts/DINWeb.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DINWeb.woff') format('woff'),
+         url('fonts/DinRegular.ttf') format('truetype'),
+         url('fonts/DinRegular.svg#DinRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

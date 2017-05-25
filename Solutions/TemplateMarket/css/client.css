@@ -1,0 +1,78 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	color: #333333;	
+}
+:focus {
+	outline: none;
+}
+
+/* table ==================================*/
+.tablesaw td.red-change {
+	color: red;
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 0;
+}
+.tablesaw td.green_change {
+	color: #00bd57;
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 0;
+}
+.title a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: 700;
+}
+	.title a:hover {
+		color: #000000;
+}
+tr {
+	background-color: hsl(0, 0%, 98%);
+}
+	tr:hover {
+		background-color: #FFFFFF;
+	}
+.docs-main table thead tr {
+	background-color: #3D9DB8;
+}
+.docs-main table thead th {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.tablesaw-toolbar label {
+	display: none;
+}
+.tablesaw-advance-dots li i {
+	background-color: #3D9DB8;
+}
+.tablesaw-sortable th.tablesaw-sortable-head button {
+	cursor: pointer;
+}
+.tablesaw-swipe .tablesaw-cell-persist {
+	box-shadow: none;
+}
+.tablesaw td, .tablesaw tbody th {
+	font-size: 16px;
+	line-height: 24px;
+}
+.tablesaw tbody tr {
+    border-bottom: 1px solid #3D9DB8;
+}
+.tablesaw thead tr:first-child th, .tablesaw-swipe .tablesaw-cell-persist {
+	border: none;
+}
+.tablesaw-sortable th.tablesaw-sortable-head.align-right button  {
+	text-align: right;
+}
+.tablesaw-sortable .tablesaw-sortable-head button {
+	min-width: 80%;
+}
+
+/*span.dynamicsparkline {
+    padding: 10%;
+}*/
+
+/* end =======================================*/

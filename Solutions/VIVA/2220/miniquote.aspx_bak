@@ -1,0 +1,68 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" %>
+
+<%@ Import Namespace="IRMotor" %>
+<% 
+    IRSite site = new IRSite();
+    site.appendCustomCSSFont = @"<link rel=""stylesheet"" href=""//fonts.googleapis.com/css?family=Open+Sans"" type=""text/css"" />";
+    //site.appendCustomCSSFont += @"<link rel=""stylesheet"" href=""//fonts.googleapis.com/css?family=Droid+Serif"" type=""text/css"" />";
+%>
+<%= site.newHeader("IRMiniquote") %>
+
+<script type="text/javascript">
+    var activeModules = ['IRMiniquote'];
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="style/ie7.css" media="screen" />
+
+<div class="IRMiniquoteModule"><span class="ajaxLoader">Loading</span></div>
+
+<script id="IRMiniquoteModuleTemplate" type="text/x-handlebars-template">
+    <%--<h2>{{headers/t_share_price}}</h2>--%>
+    <div class="IRMiniQuoteQuoteModule table-look responsive">
+        <div class="miniquoteContentWrapper">
+            <div class="miniquoteDetailsWrapper">
+                <div class="Data last"><span class="symbolLabel">{{headers/t_last}}({{stocks/currency}})</span> <span class="latestPrice">{{decimals stocks/last}}</span></div>
+                <%--<div class="currency">{{stocks/currency}}</div>--%>
+                <div class="Data change"><span class="latestChangeLabel">% {{headers/t_change}}:</span> <span class="latestChange">{{decimals stocks/changePercent}} <span class="{{showArrow stocks/change}}"></span></span></div>
+            </div>
+            <div class="Data lastUpdated">{{headers/t_last_updated}}: <span>{{showDateTime timestamp}}</span> </div>
+        </div>
+    </div>
+
+    <div class="IRMiniQuoteQuoteModule openHighLow table-look responsive">
+        <div>
+            <div class="Header openPrice">{{headers/t_open}}</div>
+            <div class="Data openPrice">{{stocks/open}}</div>
+        </div>
+        <div>
+            <div class="Header dayHigh">{{headers/t_high}}</div>
+            <div class="Data dayHigh">{{stocks/high}}</div>
+        </div>
+        <div>
+            <div class="Header dayLow">{{headers/t_low}}</div>
+            <div class="Data dayLow">{{stocks/low}}</div>
+        </div>
+    </div>
+
+
+    <div class="IRMiniQuoteQuoteModule volumeSharesMarketCap table-look responsive">
+        <div>
+            <div class="Header volume">{{headers/t_volume}}</div>
+            <div class="Data volume">{{toLocal stocks/volume}}</div>
+        </div>
+        <div>
+            <div class="Header numberOfShares">{{headers/t_share_info}}</div>
+            <div class="Data numberOfShares">{{toLocal stocks/shareMillions}}</div>
+        </div>
+        <div
+            <div class="Header marketCap">{{headers/t_market_cap}}</div>
+            <div class="Data marketCap">{{showMarketCapM stocks/marketCap}}</div>
+        </div>
+    </div>
+</script>
+<div class="RKDDisclaimer">
+    Quote data provided by © Thomson Reuters Limited. <a target="_Blank" href="//media.corporate-ir.net/media_files/irol/17/176279/Terms_Conditions.html">See Terms of use</a>
+</div>
+<%= site.newFooter("IRMiniquote") %>
+

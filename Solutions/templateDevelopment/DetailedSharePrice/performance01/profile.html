@@ -1,0 +1,141 @@
+<!-- header -->
+
+<base href="http://ir.euroinvestor.com/solutions/AutinsGroup/2554/profile.aspx" target="_blank">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635960691510356812" />
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=636035058565257347" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700"/>
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/solutions/AutinsGroup/2554/ir.client.css" />
+</head>
+<body>
+<!-- header end -->
+
+
+<script type="text/javascript">
+    var activeModules = ['IRQuote'];
+</script>
+
+<div class="IRQuoteModule"></div>
+
+<script id="IRQuoteTableTemplate" type="text/x-handlebars-template">
+
+    <!-- Profile -->
+    <div class="profile-wrapper">
+
+        <h2>{{stocks/name}} ({{stocks/symbol}})</h2>
+        <div class="miniquoteModule">
+            <b>Sector: </b>Support Services<br>
+            <b>{{headers/t_share}} {{headers/t_price}}: </b> {{decimals stocks/last}}p<br>
+            <b>{{headers/t_change}} {{headers/t_today}}: </b><span class="{{formatColour stocks/change}}">{{decimals stocks/change}}</span><span class="{{showArrow stocks/change}}"></span>
+            <br>
+            <b>{{headers/t_market_cap}}: </b> &pound;{{showLondonMarketCapM stocks/marketCap}}m<br>
+        </div>
+       
+        <div class="table-wrapper">
+            <div class="company-listing-data">
+                <h2>Company Listing Data</h2>
+                <table class="IRTable table-look responsive">
+                    <tr>
+                        <td class="Header epic top">EPIC</td>
+                        <td class="Data epic top"><b>{{stocks/symbol}}</b></td>
+                    </tr>
+                    <tr>
+                        <td class="Header sector">{{t_sector}}</td>
+                        <td class="Data sector">Support Services</td>
+                    </tr>
+                    <tr>
+                        <td class="Header sedol">SEDOL</td>
+                        <td class="Data sedol">B6TG6Y6</td>
+                    </tr>
+                    <tr>
+                        <td class="Header isin">{{t_isin}}</td>
+                        <td class="Data isin">GB00B6TG6Y69</td>
+                    </tr>
+                    <tr>
+                        <td class="Header market-sector">Market Sector</td>
+                        <td class="Data market-sector">AIM</td>
+                    </tr>
+                    <tr>
+                        <td class="Header market-segment">Market Segment</td>
+                        <td class="Data market-segment">AIM</td>
+                    </tr>
+                    <tr>
+                        <td class="Header country">Country of register</td>
+                        <td class="Data country">UK</td>
+                    </tr>
+                    <tr>
+                        <td class="Header currency">{{headers/t_currency}}</td>
+                        <td class="Data currency">British Pounds</td>
+                    </tr>
+                    <tr>
+                        <td class="Header nms">NMS</td>
+                        <td class="Data nms">15000</td>
+                    </tr>
+                    <tr>
+                        <td class="Header date-listed">Date Listed</td>
+                        <td class="Data date-listed">04/02/2003</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="price-data">
+                <h2>{{headers/t_price}} Data</h2>
+                <table class="IRTable table-look responsive">
+                    <tbody>
+                        <tr>
+                            <td class="Header currency top">{{headers/t_currency}}</td>
+                            <td class="Data currency top">{{stocks/currency}}</td>
+                        </tr>
+                        <tr>
+                            <td class="Header price">{{headers/t_last}} {{headers/t_price}}</td>
+                            <td class="Data price">{{decimals stocks/last}}p <span class="{{showArrow stocks/change}}"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="Header change">{{headers/t_change}} {{headers/t_today}}</td>
+                            <td class="Data change {{formatColour stocks/change}}">{{decimals stocks/change}}</td>
+                        </tr>
+                        <tr>
+                            <td class="Header volume">{{headers/t_volume}}</td>
+                            <td class="Data volume">{{toLocal stocks/volume}}</td>
+                        </tr>
+                        <tr>
+                            <td class="Header prev-close">{{headers/t_prev_close}} </td>
+                            <td class="Data prev-close">{{decimals stocks/prevClose}}p</td>
+                        </tr>
+                        <tr>
+                            <td class="Header shares-issued">Shares Issued</td>
+                            <td class="Data shares-issued">{{decimals stocks/shareMillions}}m</td>
+                        </tr>
+                        <tr>
+                            <td class="Header market-cap">{{headers/t_market_cap}}</td>
+                            <td class="Data market-cap">£{{showLondonMarketCapM stocks/marketCap}}m</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</script>
+
+<!-- footer -->
+<div class="disclaimer disclaimer-IRQuote">
+<span class="disclaimer-copyright">Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a> </span><span class="disclaimer-dataSource">and our data suppliers. </span><span class="disclaimer-delayed">Data delayed by 15-20 min.</span><span class="disclaimer-terms"> <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a></span></div>
+<script type="text/javascript" src="/includes/js/libs/jquery1-8-3.min.js?v=635810177706204834"></script>
+<script type="text/javascript" src="ir.client.js?v=636016912988482142"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=636038377889932745"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635979478298352876"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635979478298523004"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635979478297302170"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=636035758083067935"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=636035065599684865"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=636035746958400797"></script>
+</body>
+</html>
+<!-- footer end  -->

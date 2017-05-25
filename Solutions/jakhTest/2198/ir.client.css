@@ -1,0 +1,138 @@
+﻿* {
+    font-family: 'Proxima N W01 Reg', sans-serif;
+}
+
+body {
+    font-family: 'Proxima N W01 Reg' sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type=submit] {
+    box-shadow: none;
+    color: inherit;
+    background: #7AA637;
+    line-height: 20px;
+    height: 24px;
+    border: 1px solid transparent;
+    padding: 0 15px 0 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.12),0 1px 3px rgba(0,0,0,.12);
+}
+
+.formatArrowNeg, .formatArrowPos {
+    width: 11px;
+    height: 13px;
+    display: inline-block;
+    background-position: center center;
+    margin-right: 3px;
+}
+
+.formatArrowPos {
+    background-image: url(../images/arrow_up.png);
+    color: #91c453;
+}
+
+.formatArrowNeg {
+    background-image: url(../images/arrow_down.png);
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.IRChartModule {
+    overflow: hidden;
+}
+
+.IRChartColour {
+    color: #7AA637 !important;
+}
+
+
+.table-look th {
+    background-color: #ffffff;
+    border: 0px solid #FFFFFF;
+}
+
+.table-look-horizontal th, .table-look-horizontal td {
+    border-bottom: 1px solid #7AA637;
+    color: #333;
+    line-height: 20px;
+}
+
+.table-look-horizontal th {
+    font-weight: normal;
+}
+
+.table-look td {
+    white-space: nowrap;
+    text-align: right;
+    padding: 6px 5px 4px 5px;
+    background-color: #ffffff;
+    border: 0px solid #eeeeee;
+}
+
+.table-look-horizontal td {
+    border-bottom: 2px solid #7AA637;
+}
+
+/*Performance chart*/
+th.Header {
+    background-color: #10486B;
+    color: #fff;
+    text-align: right;
+}
+
+.table-look {
+    border: 0px solid #ffffff;
+}
+
+.IRToolCalcResultsTable.horizontal {
+    display: table;
+}
+
+.IRToolCalcResultsTable.vertical {
+    display: none;
+}
+
+.input-row {
+    position: relative;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.IRPerformanceModule .Header {
+    text-align: right;
+}
+
+.chartDisclaimer, .performanceDisclaimer, .calcDisclaimer, .lookupDisclaimer {
+    display: none;
+}
+
+.IRCalcModule select {
+    min-width: 50px;
+}
+
+/* Media Queries =========================================== */
+@media screen and (max-width: 600px) {
+    .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: table;
+    }
+
+    iframe.calc {
+        height: 500px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .formatArrowNeg, .formatArrowPos {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+
+/* End ===================================================== */
+

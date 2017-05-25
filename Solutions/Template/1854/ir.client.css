@@ -1,0 +1,74 @@
+﻿/* IROrdersModule ========================================= */
+
+
+.IROrdersModule .orderDepthBarLeft {
+    padding-right: 1px;
+    width: 15%;
+    border-right: none;
+    border-left: none;
+}
+
+.IROrdersModule .orderDepthBarRight {
+    padding-left: 1px;
+    width: 15%;
+    border-right: none;
+    border-left: none;
+}
+
+.IROrdersModule .orderDepthBarLeft .progress-bar {
+    background-color: #7CB5EC;
+    width: 0%;
+    float: right;
+    display: block;
+}
+
+.IROrdersModule .orderDepthBarRight .progress-bar {
+    background-color: #434348;
+    width: 0%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media screen and (max-width: 571px) {
+    .IROrdersModule .orderDepthBarRight .progress, .IROrdersModule .orderDepthBarLeft .progress {
+        height: 12px;
+    }
+    .IROrdersModule th.bidAskLevel, .IROrdersModule td.bidAskLevel, .IROrdersModule td.askCount, .IROrdersModule th.askCount, .IROrdersModule td.bidCount, .IROrdersModule th.bidCount {
+        display: none;
+    }
+}
+
+/* ======================================================= */
+
+/* Trades module */
+.IRTradesModule .table-seperator {background: none; position:relative; padding-top: 10px; padding-bottom: 5px;}
+.table-seperator tr{
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+
+}
+.table-seperator div{
+  background-color: #fff;
+  padding: 0px 5px;
+  color: #bdc1c9 !important;
+  position: absolute;
+  font-family: helvetica;
+  font-weight: normal;
+  left: 50%;
+  width: 100px;
+  top: 5px;
+  margin-left: -50px;
+  background: #fff;
+}
+
+
+.table-seperator hr { 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #bdc1c9 !important;
+    border-width: 1px;
+}

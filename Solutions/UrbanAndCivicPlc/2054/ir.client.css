@@ -1,0 +1,610 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=ee97d804-7017-4b87-aab7-e84665abe42c");
+@font-face {
+    font-family: "Bebas Neue W01_n4";
+    src: url("Fonts/3d9ec9a9-76a2-4cfe-b376-76e7340c3b50.eot?#iefix") format("eot")
+}
+
+@font-face {
+    font-family: "Bebas Neue W01";
+    src: url("Fonts/3d9ec9a9-76a2-4cfe-b376-76e7340c3b50.eot?#iefix");
+    src: url("Fonts/3d9ec9a9-76a2-4cfe-b376-76e7340c3b50.eot?#iefix") format("eot"), url("Fonts/e0d6f852-5401-4bbf-9672-47a50c5c87c6.woff2") format("woff2"), url("Fonts/7fedd582-6ae3-4850-be2f-4acae2e74fa5.woff") format("woff"), url("Fonts/d6e08ef3-40db-4ac3-82df-f062f55a72f5.ttf") format("truetype"), url("Fonts/849e0009-7435-46a3-b88d-c41c3ff639d4.svg#849e0009-7435-46a3-b88d-c41c3ff639d4") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Myriad W01_n3";
+    src: url("Fonts/b3e9f984-f8ca-4650-90c3-d6f0aca0a27d.eot?#iefix") format("eot")
+}
+
+@font-face {
+    font-family: "Myriad W01";
+    src: url("Fonts/b3e9f984-f8ca-4650-90c3-d6f0aca0a27d.eot?#iefix");
+    src: url("Fonts/b3e9f984-f8ca-4650-90c3-d6f0aca0a27d.eot?#iefix") format("eot"), url("Fonts/e7e30ff2-3a95-49b0-bbf9-024f40ead426.woff2") format("woff2"), url("Fonts/b984f4e8-e37d-4502-bead-ffd991e64d1f.woff") format("woff"), url("Fonts/82d18baa-8811-4aa8-9338-9bafa08350d0.ttf") format("truetype"), url("Fonts/20e14bb9-6aec-47a9-8ef8-5613bf1d6eae.svg#20e14bb9-6aec-47a9-8ef8-5613bf1d6eae") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Myriad W01_n4";
+    src: url("Fonts/2bd106a4-3872-4193-8627-d7af96dd4f7e.eot?#iefix") format("eot")
+}
+
+@font-face {
+    font-family: "Myriad W01";
+    src: url("Fonts/2bd106a4-3872-4193-8627-d7af96dd4f7e.eot?#iefix");
+    src: url("Fonts/2bd106a4-3872-4193-8627-d7af96dd4f7e.eot?#iefix") format("eot"), url("Fonts/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"), url("Fonts/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff"), url("Fonts/ba1ff8f6-0c27-4e7b-8be5-818b6c3dd801.ttf") format("truetype"), url("Fonts/a379413e-a0b8-44dc-b250-1e000e4092a4.svg#a379413e-a0b8-44dc-b250-1e000e4092a4") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Myriad W01_n7";
+    src: url("Fonts/4f2af761-c017-4801-9aa5-5d30643373ce.eot?#iefix") format("eot")
+}
+
+@font-face {
+    font-family: "Myriad W01";
+    src: url("Fonts/4f2af761-c017-4801-9aa5-5d30643373ce.eot?#iefix");
+    src: url("Fonts/4f2af761-c017-4801-9aa5-5d30643373ce.eot?#iefix") format("eot"), url("Fonts/eba438b3-9ab9-48ba-b1c5-610f83b38303.woff2") format("woff2"), url("Fonts/acfb7490-30f6-4bf4-a1b8-70ff9172d209.woff") format("woff"), url("Fonts/5bf402e3-ba96-414e-bc7e-cb6689fe32c1.ttf") format("truetype"), url("Fonts/c5dceae7-427a-4765-b06b-ea2eecca3434.svg#c5dceae7-427a-4765-b06b-ea2eecca3434") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Domaine';
+    src: url('fonts/DomaineTextWeb-Light.eot');
+    src: url('fonts/DomaineTextWeb-Light.eot?#iefix') format('embedded-opentype'), url('fonts/DomaineTextWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Domaine';
+    src: url('fonts/DomaineTextWeb-Medium.eot');
+    src: url('fonts/DomaineTextWeb-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/DomaineTextWeb-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Domaine';
+    src: url('fonts/DomaineTextWeb-Black.eot');
+    src: url('fonts/DomaineTextWeb-Black.eot?#iefix') format('embedded-opentype'), url('fonts/DomaineTextWeb-Black.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+body {
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    font-family: 'Myriad W01', arial, sans-serif;
+}
+
+.emailAlerts {
+    font-family: 'FrutigerLTW01-45Light', arial, sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #2F5E30;
+}
+
+.table-look-horizontal {
+    border: 1px solid #EEEEEE;
+}
+
+.table-look-horizontal th,
+.table-look-horizontal td {
+    height: 20px;
+    line-height: 20px;
+    border: none;
+}
+
+.table-look-horizontal th {
+    font-weight: bold;
+    color: #174617;
+}
+
+.table-look-horizontal td {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.IRChartClientName {
+    border-color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+    background-color: #F5F5F5;
+}
+
+.IRChartCurrency {
+    color: #333333;
+    top: 3px;
+    padding-right: 0;
+    z-index: 999;
+}
+
+.chartChangePeriod div {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    color: #000;
+}
+
+.chartChangePeriod div:hover {
+    background-color: #C4D224;
+    color: #000;
+}
+
+.chartChangePeriod div.activePeriod {
+    background-color: #C4D224;
+    color: #000;
+}
+
+.IRChartOuter .IRChartCurrency {
+    width: 57px;
+}
+
+.disclaimer {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #777;
+}
+
+.disclaimer a:link,
+.disclaimer a:visited {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #777;
+    text-decoration: none;
+}
+
+.disclaimer a:hover {
+    font-family: Verdana;
+    color: #000;
+}
+
+input[type=text] {
+    padding: 7px 40px 7px 10px;
+    line-height: 20px;
+}
+
+.buttonStyle {
+    font-size: 12px;
+    background: #004712;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    float: left;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.buttonStyle:hover {
+    color: #fff;
+    background-color: #004712;
+    border: 0;
+}
+
+.formUnsubscribe {
+    color: #333;
+    background-color: #e6e6e6;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.IRChartHTMLPlaceholder {
+    height: 200px;
+}
+
+.pageRegister p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.emailAlerts .inputText {
+    max-width: 350px;
+}
+
+.inputTextTitle {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+input[type=text].informationInput {
+    line-height: 20px;
+    height: 20px;
+    padding: 2px;
+    border: 1px solid #cccccc;
+    color: #555555;
+    border-radius: 4px;
+}
+
+.emailAlerts h1 {
+    font-size: 19px;
+    color: #B5985A;
+    line-height: 22px;
+    border-bottom: 1px solid #B5985A;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    font-family: 'Calvert MT W01 Light';
+    font-weight: bold;
+}
+
+.tooltipHtmlComparison, .tooltipHtmlTA, .tooltipHTML {
+    font-family: 'Myriad W01';
+    color: #004712;
+    min-width: 125px;
+}
+
+.tooltipHtmlComparison div, .tooltipHtmlTA div, .tooltipHTML div {
+    font-size: 14px;
+}
+
+.tooltipHTML div span:nth-child(1) {
+    font-family: 'Myriad W01';
+    font-weight: 400;
+    color: #004712;
+}
+
+.IRChartTooltipDate {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: left;
+    color: #004712;
+    font-size: 16px;
+    font-family: 'Domaine';
+    font-weight: 400;
+}
+
+.tooltipHTML {
+    background-color: #fff;
+    border: 0;
+    -moz-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.09), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.09), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.09), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+    font-size: 14px;
+    width: 145px;
+    padding: 23px;
+}
+
+.tooltipHtmlComparison div span.subContent, .tooltipHtmlTA div span.subContent, .tooltipHTML div span.subContent {
+    padding-right: 21px;
+}
+
+
+
+/* IRChartModule incl MiniquoteModule ================================================================= */
+
+.IRChartHTMLPlaceholder .chartCurrentPriceBoxOuter .chartCurrentPriceBox {
+    background-color: #C4D224 !important;
+    border: #C4D224 !important;
+}
+
+
+.IRChartModule h1 {
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: #B5985A;
+    line-height: 22px;
+    border-bottom: 1px solid #B5985A;
+    padding-bottom: 1px;
+}
+
+.IRChartModule .IRQuoteModule {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.IRChartModule .IRQuoteModule th.column-left {
+    width: 30%;
+}
+
+.IRChartModule .IRQuoteModule td.column-left {
+    width: 20%;
+}
+
+.IRChartModule .IRQuoteModule th.column-right {
+    width: 30%;
+}
+
+.IRChartModule .IRQuoteModule td.column-right {
+    width: 20%;
+}
+
+.IRQuoteModule {
+    font-family: 'FrutigerLTW01-45Light', arial, sans-serif;
+}
+
+.IRQuoteModule .table-look th {
+    text-align: left;
+    color: #004712;
+    font-size: 16px;
+    font-family: 'Domaine';
+    font-weight: 400;
+    background: #F0F0F0;
+    padding: 5px 10px;
+    line-height: 26px;
+}
+
+.IRQuoteModule .table-look td {
+    text-align: left;
+    font-family: 'Myriad W01';
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px 10px;
+    line-height: 26px;
+}
+
+.table-look-horizontal {
+    border: none;
+    border-bottom: 3px solid #F0F0F0;
+}
+
+.IRQuoteModule .table-look th.column-last,
+.IRQuoteModule .table-look td.column-last {
+    text-align: right;
+}
+
+
+/* End ======================================================================== */
+
+
+/* IRChartMiniModule ================================================================= */
+
+.IRMiniquoteModule {
+    font-family: FrutigerLTW01-45Light, arial, sans-serif;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.IRMiniquoteModule h2 {
+    padding: 0px;
+    margin: 0px;
+    line-height: 29px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #B5985A;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-family: 'Calvert MT W01', Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #B5985A;
+}
+
+.miniquoteDetailsWrapper {
+    margin-top: 15px;
+}
+
+.miniquoteDetailsWrapper .price {
+    font-size: 46px;
+    line-height: 41px;
+    font-family: 'Calvert MT W01 Bold', Arial;
+    color: #1B3C5D;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.miniquoteDetailsWrapper .marketCapWrapper,
+.miniquoteDetailsWrapper .volumeWrapper {
+    width: 50%;
+    float: left;
+}
+
+.miniquoteDetailsWrapper .marketCapWrapper .Header,
+.miniquoteDetailsWrapper .volumeWrapper .Header {
+    float: left;
+    padding-right: 5px;
+}
+
+.miniquoteDetailsWrapper .marketCapWrapper .Header,
+.miniquoteDetailsWrapper .volumeWrapper .Header,
+.miniquoteDetailsWrapper .marketCapWrapper .Data,
+.miniquoteDetailsWrapper .volumeWrapper .Data {
+    color: #B5985A;
+    line-height: 13px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.miniquteDetailsWrapper .volumeWrapper .volume {
+    float: left;
+}
+
+.currencyDataChangeContainer .currency,
+.currencyDataChangeContainer .rightCont {
+    display: inline-block;
+}
+
+.currencyDataChangeContainer .currency span {
+    color: #004712;
+    float: left;
+    font-size: 34px;
+    line-height: 1;
+    margin-right: 7px;
+    font-family: 'Myriad W01';
+    font-weight: 300;
+}
+
+.currencyDataChangeContainer .rightCont div,
+.currencyDataChangeContainer .rightCont div span {
+    font-size: 12px;
+    line-height: 18px;
+    color: #262626;
+    font-family: 'Myriad W01';
+    font-weight: 300;
+    margin: 0;
+}
+
+.currencyDataChangeContainer .rightCont div {
+    margin-bottom: 2px
+}
+
+.currencyDataChangeContainer .rightCont .Data.change {
+    position: absolute;
+    top: 0;
+}
+
+.currencyDataChangeContainer .rightCont .Data.date {
+    position: absolute;
+    top: 18px;
+}
+
+.IRMiniquoteModule {
+    background: transparent;
+}
+
+.disclaimer.disclaimer-IRMiniquote {
+    display: none;
+}
+
+.IRMiniquoteModule .table-look {
+    border: none;
+}
+
+.miniquoteDetailsWrapper {
+    margin-top: 0;
+}
+
+
+/* End ======================================================================== */
+
+
+/* Profile ======================================================================== */
+
+.IRQuoteModule.profile .profile-wrapper .table-look td {
+    padding: 5px 10px;
+}
+
+.IRQuoteModule.profile .profile-wrapper .table-look .Header {
+    color: #004712;
+    font-size: 16px;
+    font-family: 'Domaine';
+    font-weight: 400;
+}
+
+.IRQuoteModule.profile .profile-wrapper .table-look tr:nth-child(odd) {
+    background: #F0F0F0;
+}
+
+.IRQuoteModule.profile .profile-wrapper .table-look td {
+    border: none;
+}
+
+.IRQuoteModule.profile .profile-wrapper .table-look td:nth-child(2) {
+    /*    border-right: 1px solid #ffffff;*/
+}
+
+.IRQuoteModule.profile .profile-wrapper .table-look td:nth-child(2),
+.IRQuoteModule.profile .profile-wrapper .table-look td:nth-child(4) {
+    font-family: 'Myriad W01';
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.IRQuoteModule .table-look th,
+.IRQuoteModule .table-look td {
+    line-height: 24px;
+}
+
+.IRTable.table-look.horisontal.responsive {
+    display: none;
+}
+
+.profile-wrapper .table-look {
+    border-bottom: 3px solid #F0F0F0;
+}
+
+.disclaimer.disclaimer-IRChart {
+    display: none;
+}
+
+
+/* Profile End ======================================================================== */
+
+
+/* @media only screen ========================================================= */
+
+@media only screen and (max-width: 500px) {
+    .column-last,
+    .column-last {
+        display: none;
+    }
+    .emailAlerts .inputTextTitle,
+    .emailAlerts .inputText {
+        width: 100%;
+    }
+    input[type=text].informationInput {
+        width: 98%;
+        padding-right: 0;
+        margin: 0;
+        height: 25px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .IRTable.table-look.responsive {
+        display: none;
+    }
+    .IRTable.table-look.horisontal.responsive {
+        display: inline-table;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .buttonStyle {
+        width: 100%;
+        height: 42px;
+        line-height: 42px;
+        font-size: 14px;
+    }
+    .formUnsubscribe {
+        width: 100%;
+        margin-top: 5px;
+        float: left;
+        left: 0px !important;
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .pageUnsubscribe .buttonStyle {
+        top: 10px;
+    }
+    .pageUnsubscribe .cleanLink {
+        text-align: center;
+        color: #333;
+        background-color: #e6e6e6;
+        width: 100%;
+        height: 42px;
+        line-height: 42px;
+        float: left;
+        border-radius: 4px;
+        left: 0 !important;
+        top: 5px;
+        text-decoration: none;
+    }
+    .formUnsubscribe:hover {
+        text-decoration: none !important;
+    }
+    .pageUnsubscribe input[type=text] {
+        width: 100%;
+    }
+}
+
+
+/* End ======================================================================== */

@@ -1,0 +1,454 @@
+﻿
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=1c69b929-5dac-4f78-a4f4-de5368adf7a3");
+
+@font-face {
+    font-family: "Neue Helvetica W02_n3";
+    src: url("Fonts/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Neue Helvetica W02";
+    src: url("Fonts/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix");
+    src: url("Fonts/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix") format("eot"), url("Fonts/7732d6de-bd05-4c17-ae43-99e9a02edf31.woff2") format("woff2"), url("Fonts/9a2e4855-380f-477f-950e-d98e8db54eac.woff") format("woff"), url("Fonts/fa82d0ee-4fbd-4cc9-bf9f-226ad1fcbae2.ttf") format("truetype"), url("Fonts/48d599a6-92b5-4d43-a4ac-8959f6971853.svg#48d599a6-92b5-4d43-a4ac-8959f6971853") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Helvetica W02_n4";
+    src: url("Fonts/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Neue Helvetica W02";
+    src: url("Fonts/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?#iefix");
+    src: url("Fonts/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?#iefix") format("eot"),url("Fonts/b4cd926c-1a31-4785-b261-1db1a68c521e.woff2") format("woff2"),url("Fonts/d5af76d8-a90b-4527-b3a3-182207cc3250.woff") format("woff"),url("Fonts/1d238354-d156-4dde-89ea-4770ef04b9f9.ttf") format("truetype"),url("Fonts/b68875cb-14a9-472e-8177-0247605124d7.svg#b68875cb-14a9-472e-8177-0247605124d7") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Helvetica W02_n7";
+    src: url("Fonts/db853e0e-929b-4272-b420-c946c954cf3a.eot?#iefix") format("eot");
+}
+
+@font-face {
+    font-family: "Neue Helvetica W02";
+    src: url("Fonts/db853e0e-929b-4272-b420-c946c954cf3a.eot?#iefix");
+    src: url("Fonts/db853e0e-929b-4272-b420-c946c954cf3a.eot?#iefix") format("eot"),url("Fonts/2a5cf81d-ffbe-4c76-8982-270592fb36b0.woff2") format("woff2"),url("Fonts/4a9c62ab-b359-4081-8383-a0d1cdebd111.woff") format("woff"),url("Fonts/db5f9ba6-05a4-433a-9461-0a6f257a0c3a.ttf") format("truetype"),url("Fonts/25e09910-ffc3-4fc4-b0d1-db9a95dface8.svg#25e09910-ffc3-4fc4-b0d1-db9a95dface8") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Neue Helvetica W02";
+    src: url("Fonts/0041ab1b-3cca-4f61-841a-75a18048adb8.eot?#iefix");
+    src: url("Fonts/0041ab1b-3cca-4f61-841a-75a18048adb8.eot?#iefix") format("eot"),url("Fonts/3300436b-e38a-49bf-a0bd-aa2238b0da25.woff2") format("woff2"),url("Fonts/03a07450-478d-4c93-89ae-68cafdbc0332.woff") format("woff"),url("Fonts/b96bc8f7-2a71-4500-8c8d-646fc0a13306.ttf") format("truetype"),url("Fonts/ae236757-b3b9-4cfa-906d-bce3e20a9397.svg#ae236757-b3b9-4cfa-906d-bce3e20a9397") format("svg");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Uni Sans W01";
+    src: url("Fonts/1b2649bd-0b11-46a7-8837-a7e72ab4f778.eot?#iefix");
+    src: url("Fonts/1b2649bd-0b11-46a7-8837-a7e72ab4f778.eot?#iefix") format("eot"),url("Fonts/519eb438-7941-4592-b12e-71ff2ce3914b.woff2") format("woff2"),url("Fonts/53c917a7-e691-407b-92cf-8292e06ad44b.woff") format("woff"),url("Fonts/72111b9d-0681-44d9-999b-36aa404b5bc7.ttf") format("truetype"),url("Fonts/5c920864-62f5-4c3f-a612-369509fae9ba.svg#5c920864-62f5-4c3f-a612-369509fae9ba") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Uni Sans W03";
+    src: url("Fonts/99f82118-e1aa-45a7-82cc-d604b0e14951.eot?#iefix");
+    src: url("Fonts/99f82118-e1aa-45a7-82cc-d604b0e14951.eot?#iefix") format("eot"),url("Fonts/4322ff11-7138-4450-857c-90fc5582818c.woff2") format("woff2"),url("Fonts/4f6647f8-f734-44c5-98dc-d529ac6550d2.woff") format("woff"),url("Fonts/9d973897-7938-484c-b039-3b3e1884a3c1.ttf") format("truetype"),url("Fonts/4cfb5dec-6ac6-49b2-ae44-eb3f42e25700.svg#4cfb5dec-6ac6-49b2-ae44-eb3f42e25700") format("svg");
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Uni Sans W03";
+    src: url("Fonts/23448502-4237-4ec8-89e1-f0a9ce771d68.eot?#iefix");
+    src: url("Fonts/23448502-4237-4ec8-89e1-f0a9ce771d68.eot?#iefix") format("eot"),url("Fonts/5d102475-9fba-4abb-89ef-a027cdfc5610.woff2") format("woff2"),url("Fonts/4247abb7-1451-44fd-ad95-dfb6a42094d5.woff") format("woff"),url("Fonts/157b41ff-910c-4687-9222-50b8511b4bbf.ttf") format("truetype"),url("Fonts/0626d3ba-b28c-4d5c-9c08-af6f43cc8a2b.svg#0626d3ba-b28c-4d5c-9c08-af6f43cc8a2b") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Uni Sans W03";
+    src: url("Fonts/8ae2fdcf-9549-4887-9988-afc96bf95a01.eot?#iefix");
+    src: url("Fonts/8ae2fdcf-9549-4887-9988-afc96bf95a01.eot?#iefix") format("eot"),url("Fonts/74ae1caf-7246-4ffa-b626-67922a4f686e.woff2") format("woff2"),url("Fonts/7bb7af3a-ab70-4a95-ba41-a4e241ee6b47.woff") format("woff"),url("Fonts/297c7000-c1dd-4437-b828-012b067f601d.ttf") format("truetype"),url("Fonts/ec538521-a18b-4fea-af98-502d8f9c2a13.svg#ec538521-a18b-4fea-af98-502d8f9c2a13") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Uni Sans W03";
+    src: url("Fonts/fee57e2c-9e60-4265-9f2b-8ad01d5e1706.eot?#iefix");
+    src: url("Fonts/fee57e2c-9e60-4265-9f2b-8ad01d5e1706.eot?#iefix") format("eot"),url("Fonts/8590c299-57f3-4800-8c27-9689a43ca820.woff2") format("woff2"),url("Fonts/c546e489-2e71-42b3-9529-2a63c08d1889.woff") format("woff"),url("Fonts/c4e969f4-c45a-4d5f-b0a8-4b1bc82c0557.ttf") format("truetype"),url("Fonts/5b848383-f9a4-4c98-a939-88e014ab132c.svg#5b848383-f9a4-4c98-a939-88e014ab132c") format("svg");
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+*, body {
+    font-family: "Neue Helvetica W02", Helvetica, serif;
+    font-size: 14px;
+    color: #58595b;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #58595b;
+}
+
+.IRChartComparisonHeader, .basicButtonLook, .IRChartCompanyName {
+    color: #58595b;
+}
+
+.IRChartColour {
+    color: #00AE53;
+}
+
+.IRQuoteModule {
+    border: none;
+}
+
+    .IRQuoteModule th, .IRQuoteModule td {
+        height: 20px;
+        line-height: 20px;
+        border: none;
+    }
+
+    .IRQuoteModule th {
+        border-bottom: 1px solid #00AE53;
+        font-weight: bold;
+        color: #00AE53;
+        font-size: 16px;
+    }
+
+    .IRQuoteModule td {
+        /*border-bottom: 2px solid #5D87A1;*/
+        color: #58595B;
+    }
+
+.IRChartClientName {
+    border-color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+.IRChartCurrency {
+    color: #58595b;
+}
+
+.chartCurrentPriceBox .chartLastPrice {
+    color: #ffffff;
+}
+
+.chartChangePeriod {
+    border-top: 1px solid #EEEEEE;
+}
+
+    .chartChangePeriod div {
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
+    }
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    background: #00AE53;
+    color: #fff;
+    font-weight: bold;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+    background: #00AE53;
+    color: #fff;
+    font-weight: bold;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div {
+    color: #58595B;
+    font-weight: bold;
+}
+
+.IRMiniquoteModule {
+    color: #58595B;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+    .IRMiniquoteModule .last {
+        font-family: "Uni Sans W03", Helvetica, sans-serif;
+        color: #333333;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    .IRMiniquoteModule .Data.change {
+        font-size: 20px;
+        color: #58595B;
+        font-family: "Uni Sans W03", Helvetica, sans-serif;
+    }
+
+    .IRMiniquoteModule .currency {
+        font-size: 23px;
+        font-weight: normal;
+        font-family: "Uni Sans W03", Helvetica, sans-serif;
+    }
+
+.disclaimer {
+    font-family: 'Museo Sans W01', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #777;
+}
+
+    .disclaimer a:link, .disclaimer a:visited {
+        font-family: 'Museo Sans W01', Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #777;
+        text-decoration: none;
+    }
+
+    .disclaimer a:hover {
+        font-family: 'Museo Sans W01', Arial, Helvetica, sans-serif;
+        color: #000;
+    }
+
+.inputTextTitle {
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+input[type=text] {
+    padding: 10px;
+    line-height: 20px;
+}
+
+input[type=email] {
+    height: 28px;
+}
+
+
+.buttonStyle {
+    font-size: 14px;
+    background: #00AE53;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    border: 1px solid #00AE53;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    line-height: 28px;
+    /*color: #FFF;
+    height: 38px;
+    
+    background-color: #5985A6;
+    padding: 7px 10px 7px 10px;*/
+}
+
+    .buttonStyle:hover {
+        background: #E5E5E5;
+        color: #58595B;
+        border: 0;
+        /*color: #FFF;
+        height: 38px;
+         border: 1px solid #5985A6;
+        background-color: #5985A6;*/
+    }
+
+
+.IRChartHTMLPlaceholder {
+    height: 200px;
+}
+
+
+/* IRDetailedSharePrice ===================================================== */
+.IRQuoteHorizontalModule .quote {
+    width: 100%;
+    height: 133px;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    margin-bottom: 37px;
+}
+
+    .IRQuoteHorizontalModule .quote .current, .IRQuoteHorizontalModule .quote .change {
+        margin: 20px;
+        margin-left: 0;
+        width: 200px;
+        float: left;
+    }
+
+    .IRQuoteHorizontalModule .quote .current {
+        color: #164172;
+        font-size: 30px;
+        float: left;
+        margin: 0;
+        margin-top: 45px;
+    }
+
+    .IRQuoteHorizontalModule .quote .change {
+        float: left;
+        color: #616161;
+        font-size: 16px;
+        margin-top: 45px;
+    }
+
+        .IRQuoteHorizontalModule .quote .change div {
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+
+.IRDetailedSharePrice.table-look th, .IRDetailedSharePrice.table-look td {
+}
+
+.IRDetailedSharePrice.table-look td {
+}
+
+table.IRDetailedSharePrice {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+    table.IRDetailedSharePrice tr.last {
+        border-bottom: 1px solid #C2BEB3;
+    }
+
+.IRQuoteHorizontalModule h1 {
+    font-size: 19.7px;
+    color: #262626;
+    padding-bottom: 16px;
+    font-weight: normal;
+    display: block;
+    position: relative;
+}
+
+.IRQuoteHorizontalModule h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.IRQuoteHorizontalModule h3 {
+    text-align: left;
+    font-size: 24px;
+    float: left;
+    width: 100%;
+    color: #3684c3;
+    line-height: 22px;
+    color: #005186;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: "Neue Helvetica W02", Arial, sans-serif;
+}
+
+.IRDetailedSharePrice.table-look th {
+    color: #58595B;
+    font-family: "Neue Helvetica W02", Helvetica, serif;
+    font-weight: 700;
+}
+
+.IRDetailedSharePrice th, .IRDetailedSharePrice td {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 39px;
+    line-height: 39px;
+    text-align: left;
+    font-size: 16px;
+}
+
+    .IRDetailedSharePrice td.Data {
+        font-weight: 300;
+        border-top: 2px solid #ddd;
+    }
+
+.IRDetailedSharePrice .formatColourPos {
+    color: #1BA71B;
+}
+/* End ======================================================================== */
+
+
+
+/* @media only screen =========================================================*/
+
+
+
+@media only screen and (min-width: 572px) {
+    .vertical-header {
+        display: none;
+    }
+
+    .IRDetailedSharePrice.vertical {
+        display: none;
+    }
+
+    .divideLine.vertical {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 571px) {
+
+    .horizontal-header {
+        display: none;
+    }
+
+    .IRDetailedSharePrice.horizontal {
+        display: none !important;
+    }
+
+    .IRDetailedSharePrice.horizontal {
+        display: none;
+    }
+
+    .IRDetailedSharePrice td.Data {
+        border-top: 0;
+        text-align: right;
+    }
+
+    .IRDetailedSharePrice.vertical tr {
+        border-bottom: 2px solid #ddd;
+    }
+
+    table.IRDetailedSharePrice {
+        margin-bottom: 33px;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .column-last, .column-last {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .IRQuoteHorizontalModule h3 {
+        font-size: 20px;
+    }
+
+    .IRDetailedSharePrice th, .IRDetailedSharePrice td {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+
+/* End ======================================================================== */

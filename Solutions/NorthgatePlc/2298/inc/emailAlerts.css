@@ -1,0 +1,46 @@
+﻿.inputText input {
+    padding: 5px;
+}
+
+.formLoginConfirm.buttonStyle.clearInput {
+    width: 40%;
+}
+
+.fullwidth {
+    width: 100%;
+    height: 50px;
+}
+
+.subPageLogin {
+    height: 200px;
+}
+.header {
+    margin-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .subPageLogin {
+        height: 300px;
+    }
+
+    .fullwidth {
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    div {
+        width: 95% !important;
+    }
+
+    input {
+        width: 100% !important;
+    }
+
+        input.checkboxRelease {
+            width: 13px !important;
+        }
+
+    .formLogin.clearInput {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,597 @@
+
+
+* {
+    color: #777;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+body {
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/*
+    show/hide elements
+*/
+
+.unsubscribeNextToButton {
+    display: block;
+}
+
+/*
+    end show/hide elements
+*/
+
+h1 {
+    display: block;
+    position: initial;
+    font-weight: 900;
+    color: #282425;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.pageRegister .input-wrapper {
+    width: 70%;
+    float: left;
+    max-width: 400px;
+}
+
+.buttonStyle {
+    background: #0096c6;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    display: block;
+    font-weight: normal;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    min-width: 156px;
+    padding: 10px 15px;
+}
+
+    .buttonStyle:hover {
+        background: #0096c6;
+        color: #fff;
+        border: none;
+    }
+
+.pageVerification.pageVerification_bottom .blockNoBorder {
+    width: 100%;
+}
+
+.closeBox {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #282425;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.dialogueBox, .subPageLoginConfirm, .pageVerification {
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    z-index: 1000;
+    position: absolute;
+    left: 30px;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 10px 4px rgba(204, 204, 204, 1);
+}
+
+    .dialogueBox p {
+        line-height: 20px;
+    }
+
+    .dialogueBox h3 {
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+    }
+
+.emailToConfirm {
+    width: 100%;
+    float: left;
+}
+
+#dialogueBox_register {
+    bottom: 40px;
+    line-height: 22px;
+    padding-left: 20px;
+}
+
+#dialogueBox_unsubscribe {
+    top: 0px;
+}
+
+.blockNoBorder {
+    max-width: 400px;
+    width: 70%;
+    float: left;
+}
+
+    .blockNoBorder .unsubscribeNextToButton {
+        line-height: 32px;
+        min-width: 95px;
+        width: 20%;
+        /* font-weight: bold; */
+        line-height: 20px;
+        text-decoration: none;
+        margin-left: 15px;
+        height: 39px;
+        line-height: 50px;
+        color: #777777;
+        border-bottom: 1px solid #777777;
+        background-color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+        vertical-align: middle;
+        text-align: center;
+        /* padding: 5px 20px 5px 20px; */
+    }
+
+        /*.blockNoBorder .unsubscribeNextToButton:hover {
+            color: #FFFFFF;
+            border: 1px solid #F26522;
+            background-color: #BA3E32;
+            padding: 6px 21px 6px 21px;
+            border: 0;
+        }*/
+
+    .blockNoBorder .formRegister-wrapper {
+        float: right;
+    }
+
+.empty-box-left {
+    width: 20%;
+    min-width: 120px;
+    float: left;
+    height: 20px;
+    max-width: 200px;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #777777;
+    }
+
+p {
+    display: inline;
+    font-size: 14px;
+    height: auto;
+    line-height: 16px;
+    width: auto;
+}
+
+.pageVerification .block p {
+    float: left;
+}
+
+.inputTextTitle {
+    /*font-weight: bold;*/
+    height: 29px;
+    line-height: 40px;
+    min-width: 120px;
+    font-size: 14px;
+    color: #777;
+}
+
+.requiredField {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.disclaimerHighlight {
+    font-size: 14px;
+}
+
+input.informationInput {
+    -webkit-appearance: none;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    -webkit-writing-mode: horizontal-tb;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #282425;
+    cursor: auto;
+    display: inline-block;
+    float: left;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 4px;
+    padding-bottom: 2.40000009536743px;
+    padding-left: 0px;
+    padding-right: 2.40000009536743px;
+    padding-top: 2.40000009536743px;
+    text-align: start;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    width: 300px;
+    word-spacing: 0px;
+    height: 29px;
+    line-height: 29px;
+}
+
+b {
+    font-weight: bold;
+}
+
+.pageRegister {
+}
+
+.divideLine {
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(40, 36, 37);
+}
+
+.checkboxOuter {
+    margin-bottom: 6px;
+}
+
+.checkBoxText {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blockInner {
+    margin-top: 0px;
+}
+
+.requiredField {
+    font-size: 13px;
+}
+
+.subPageLogin input.informationInput {
+    width: 100%;
+    position: relative;
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+}
+
+.header {
+    box-sizing: border-box;
+    color: #282425;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+h2.header {
+    /* font-weight: bold; */
+    font-size: 31px;
+    margin: 0;
+    color: #0e0e0e;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* text-transform: uppercase; */
+}
+
+.cleanLink {
+    float: left;
+    top: 30px;
+}
+
+.subPageLogin {
+    min-height: 140px;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.register-wrapper {
+    width: 100%;
+    float: left;
+}
+
+    .subPageLogin p, .register-wrapper p, .alert-wrapper p {
+        font-size: 14px;
+        margin-bottom: 3px;
+        display: block;
+        line-height: initial;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+.subPageLogin span {
+    height: 37px;
+    line-height: 38px;
+    min-width: 120px;
+    color: #777;
+    font-size: 14px;
+    width: 20%;
+    float: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.semiTransparantOverlay, .transparantOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.7;
+    z-index: 900;
+}
+
+.registrationLightBox, .subPageLoginConfirm {
+    z-index: 999;
+    max-width: 400px;
+}
+
+.blockNoBorder.pageVerification_placedAtSubmitbutton {
+    width: 100%;
+    float: initial;
+    margin-right: 0;
+}
+
+#dialogueBox_register {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.subPageLoginConfirm, .dialogueBox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    left: 0;
+    margin-top: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 25px;
+}
+
+.registrationLightBox {
+    word-break: normal;
+    white-space: normal;
+    width: 100%;
+}
+
+.removeHeight {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.pageVerification_placedAtSubmitbutton {
+    position: relative;
+}
+
+.pageVerification {
+    width: 100%;
+    margin-right: 10px;
+    position: absolute;
+    border: 1px solid #ccc;
+    bottom: 0px;
+    left: 10px;
+    z-index: 1000;
+    padding: 8px;
+    background-color: white;
+    max-width: 300px;
+}
+
+.subPageLoginConfirm .pageVerification {
+    top: 0%;
+    height: 100px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.blockInner {
+    max-width: initial;
+}
+
+h2 {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 23px;
+    margin-bottom: 22px;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 0 0 14px;
+    font-size: 17px;
+    color: #282425;
+    padding: 0;
+    width: 100%;
+    height: 39px;
+}
+
+.pageVerification_top p, .pageVerification_bottom p {
+    font-size: 14px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.pageVerification_top .goToHome {
+    font-weight: bold;
+    line-height: 21px;
+    text-decoration: none;
+    color: #282425;
+    border: 1px solid #282425;
+    background-color: #fff;
+    font-size: 14px;
+    height: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .pageVerification_top .goToHome:hover {
+        border: 0px;
+        color: #fff;
+        background-color: #20245a;
+    }
+
+.blockOuterWrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.blockOuter label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+input[type=text] {
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+}
+/* @media only screen =========================================================*/
+
+@media only screen and (max-width: 500px) {
+    .subPageLogin .input-wrapper .enterInformationLoginEmail {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .input-wrapper .buttonStyle {
+        /*
+        float: right;*/
+        width: 100%;
+    }
+
+    .pageRegister .input-wrapper {
+        width: 100%;
+        padding-left: 0%;
+        max-width: initial;
+    }
+
+    .blockOuter {
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .inputText {
+        width: 100%;
+        max-width: initial;
+    }
+
+    .blockNoBorder .unsubscribeNextToButton {
+        width: 100%;
+        float: left;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+
+        .blockNoBorder .unsubscribeNextToButton:hover {
+            width: 100%;
+            float: left;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+    .blockNoBorder {
+        width: 100%;
+        float: right;
+        margin-right: 0;
+        margin-bottom: 10px;
+        max-width: none;
+    }
+
+        .blockNoBorder .buttonStyle, .blockNoBorder .buttonStyle:hover {
+            position: initial;
+            /*
+        float: right;
+        width: 100%;
+*/
+            margin-left: 0;
+        }
+
+    .subPageLogin {
+        margin-bottom: 0;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    .pageVerification_placedAtSubmitbutton .buttonStyle, .pageVerification_placedAtSubmitbutton .buttonStyle:hover, .formLoginConfirm.buttonStyle, .formLoginConfirm.buttonStyle:hover {
+        margin: 0;
+        margin-top: 5px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .subPageLogin span {
+        width: 100%;
+    }
+
+    .subPageLogin input.informationInput {
+        width: 70%;
+        margin-right: 20px;
+    }
+
+    .subPageLogin .buttonStyle {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .blockNoBorder .unsubscribeNextToButton {
+        min-width: 90px;
+    }
+}
+
+/* Ënd ========================================================================*/

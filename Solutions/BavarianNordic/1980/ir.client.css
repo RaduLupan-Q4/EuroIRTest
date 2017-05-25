@@ -1,0 +1,66 @@
+﻿/* General ============================================================================ */
+body{
+    font-family: 'Trebuchet MS';
+  font-size: 11px;
+  
+}
+.table-look th{
+  background-color: #B54026;
+  color: #FFFFFF;
+  padding: 2px;
+  font-weight: bold;
+}
+
+/* End ================================================================================ */
+/* IROrdersModule ===================================================================== */
+
+.IROrdersModule .progress {
+    margin-bottom: 0;
+    height: 15px;
+}
+
+.IROrdersModule .orderDepthBarLeft {
+    padding-right: 1px;
+    width: 15%;
+    border-right: none;
+    border-left: none;
+}
+
+.IROrdersModule .orderDepthBarRight {
+    padding-left: 1px;
+    width: 15%;
+    border-right: none;
+    border-left: none;
+}
+.IROrdersModule .progress{
+    border-radius: 0px; 
+   -webkit-box-shadow: none; 
+   box-shadow: none; 
+}
+
+.IROrdersModule .orderDepthBarLeft .progress-bar {
+    background-color: #B6BCC1;
+    width: 0%;
+    float: right;
+    display: block;
+}
+
+.IROrdersModule .orderDepthBarRight .progress-bar {
+    background-color: #E1E4E6;
+    width: 0%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media screen and (max-width: 571px) {
+    .IROrdersModule .orderDepthBarRight .progress, .IROrdersModule .orderDepthBarLeft .progress {
+        height: 12px;
+    }
+    .IROrdersModule th.bidAskLevel, .IROrdersModule td.bidAskLevel, .IROrdersModule td.askCount, .IROrdersModule th.askCount, .IROrdersModule td.bidCount, .IROrdersModule th.bidCount {
+        display: none;
+    }
+}
+/* End ================================================================================ */

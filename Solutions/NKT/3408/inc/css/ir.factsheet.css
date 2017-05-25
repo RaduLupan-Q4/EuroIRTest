@@ -1,0 +1,27 @@
+.IRFactsheetBanner .companyLogo {
+    border-bottom: 1px dashed #007fc5;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left: 33px;
+}
+
+.companyBannerInfo {
+    color: #fff;
+    background: #007fc5;
+    width: 100%;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+}
+
+    .companyBannerInfo li {
+        width: 33%;
+        float: left;
+        text-align: center;
+        list-style-type: none;
+    }
+
+h2 {
+    color: #007fc5;
+    margin-top: 12px;
+}

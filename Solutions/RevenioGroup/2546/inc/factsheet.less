@@ -1,0 +1,624 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+b,
+big,
+blockquote,
+body,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+u,
+ul,
+var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+select {
+    margin: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+b,
+b *,
+strong,
+strong * {
+    font-weight: bold !important;
+}
+
+em,
+em *,
+i,
+i * {
+    font-style: italic !important;
+}
+
+a {
+    color: #3d3d3d;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    position: relative;
+}
+
+html {
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    // background: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+}
+
+* h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+/*
+
+*.IRSize1 {
+    background-color: lightblue;
+}
+*.IRSize2 {
+    background-color: cornflowerblue;
+}
+*/
+
+
+.IRChartTypePieLegend {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 11px;
+    font-weight: normal;
+    z-index: 100;
+}
+
+.tooltipHTML {
+    position: relative;
+    z-index: 400;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    top: 0;
+    font-family: sans-serif;
+    height: 36px;
+    width: 100px;
+}
+
+.tooltipHTML div {
+    display: block;
+    white-space: nowrap;
+}
+
+.tooltipHTML div span.subHeader {
+    display: inline-block;
+    text-align: left;
+    width: 30px;
+}
+
+.tooltipHTML div span.subContent {
+    text-align: left;
+}
+
+.IRFactsheetShareDataTable {
+    width: 100%;
+}
+
+.IRFactsheetShareDataTable td,
+.IRFactsheetShareDataTable th {
+    text-align: left;
+    line-height: 18px;
+}
+
+.IRFactsheetShareDataTable td.right,
+.IRFactsheetShareDataTable th.right {
+    text-align: right;
+}
+
+.IRFactsheetKeyFigureHighlightTable {
+    width: 100%;
+}
+
+.IRFactsheetKeyFigureHighlightTable td,
+.IRFactsheetKeyFigureHighlightTable th {
+    text-align: left;
+    line-height: 18px;
+}
+
+.IRFactsheetKeyFigureHighlightTable td.right,
+.IRFactsheetKeyFigureHighlightTable th.right {
+    text-align: right;
+}
+
+.IRColumnChartStackedLabels {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.IRFactsheetFinancialHighlights {
+    padding-right: 10px;
+}
+
+.IRFactsheetFinancialHighlights td {
+    vertical-align: middle;
+}
+
+.IRFactsheetFinancialHighlights .rowHeader {
+    max-width: 120px;
+}
+
+header {
+    text-align: center;
+    height: 70px;
+    border-bottom: 1px solid #79abc4;
+    background: #163c4e;
+
+    span {
+        line-height: 70px;
+        font-size: 20px;
+        color: #79abc4;
+    }
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.grid {
+    margin-top: 2%;
+    background: #fff;
+    // padding: 0px 10px;
+
+    &.to-right {
+        .item {
+            width: 445px;
+
+            &:nth-child(odd) {
+                padding-left: 0;
+            }
+
+            &:nth-child(even) {
+                width: 250px;
+                padding-right: 0;
+            }
+
+            &.wide {
+                width: 700px;
+                padding-right: 0;
+            }
+        }
+    }
+
+    &.to-left {
+        .item {
+            width: 250px;
+
+            &:nth-child(even) {
+                width: 445px;
+                padding-right: 0;
+            }
+
+            &:nth-child(odd) {
+                padding-left: 0;
+            }
+
+            &.wide {
+                width: 100%;
+            }
+        }
+    }
+
+    .item {
+        width: 348px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+
+        &:nth-child(odd) {
+            margin-left: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        &.wide {
+            width: 100%;
+        }
+
+        .item-inside {
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &.boxes {
+            display: table;
+            table-layout: fixed;
+        }
+    }
+
+    &.half-box {
+        display: table;
+        padding-right: 0;
+        .item {
+            width: 485px;
+            display: table-cell;
+
+            .section {
+                margin-bottom: 40px;
+                width: 460px;
+                display: inline-block;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &.boxes {
+                    display: table;
+                    table-layout: fixed;
+                }
+
+                &.wide {
+                    width: 100%;
+                }
+            }
+
+            &:nth-child(even) {
+                width: 260px;
+                background: #FBFBFB;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+}
+
+
+.IRFactsheetKeyFigureHighlightTable th {
+    background: #6D6875;
+    font-size: 15px;
+    color: #fff;
+}
+
+.IRFactsheetFinancialHighlights tr, .IRFactsheetShareDataTable tr {
+    border-bottom: 1px solid #6D6875;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+
+.boxFact {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+    position: relative;
+    box-shadow: none;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        height: 40px;
+        background: #fff;
+        width: 100%;
+        display: block;
+    }
+
+    &:first-child {
+        border-left:0;
+    }
+
+    &:last-child {
+        border-right: 0;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+        background: #6F9091;
+        display: inline-block;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin-left: -35px;
+
+        &.share {
+            background:#6F9091 url("../images/img/share.png") center center no-repeat;
+            background-size: 30px;
+        }
+
+        &.send {
+            background:#6F9091 url("../images/img/send.png") center center no-repeat;
+            background-size: 30px;
+        }
+
+        &.chart {
+            background:#6F9091 url("../images/img/chart.png") center center no-repeat;
+            background-size: 30px;
+        }
+    }
+
+    .text {
+        padding: 40px 20px 20px 20px;
+        color: #fff;
+        border:0;
+        position: relative;
+
+        .title {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    }
+
+    .fake-bg {
+        background: #6F9091;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 40px;
+        right: 0;
+    }
+}
+
+.bigShapes-box {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    background: #6D6875;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+
+    &.small {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+
+        .bigNumberBox {
+            height: 85px;
+
+            span {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .text {
+            font-size: 12px;
+        }
+    }
+
+    &.medium {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+
+        .bigNumberBox {
+            height: 120px;
+
+            span {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .text {
+            font-size: 14px;
+        }
+    }
+
+    &.big {
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+
+        .bigNumberBox {
+            height: 155px;
+
+            span {
+                font-size: 75px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }
+
+        .text {
+            font-size: 15px;
+        }
+    }
+
+    &.huge {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+
+        .bigNumberBox {
+            height: 190px;
+
+            span {
+                font-size: 90px;
+            }
+
+            p {
+                font-size: 30px;
+            }
+        }
+
+        .text {
+            font-size: 17px;
+        }
+    }
+
+    .bigNumberBox {
+        width: 100%;
+        position: relative;
+        span {
+            position: absolute;
+            width: 100%;
+            font-weight: 600;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+
+            p {
+                font-size: 20px;
+                display: inline-block;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .text {
+        text-transform: uppercase;
+    }
+}
+
+.fact-list {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+
+    li {
+        display: table;
+        width: 100%;
+        padding: 0px 10px;
+        height: 45px;
+
+        span {
+            display: table-cell;
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
+
+    &.radius-left {
+        li {
+            border-radius: 40px 0 0 40px;
+            padding-left: 20px;
+        }
+    }
+}
+
+.circle-list {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+
+    .pie-item {
+        display: table-cell;
+        vertical-align: top;
+        text-align: center;
+
+        .pie-item-title {
+            display: inline-block;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+}

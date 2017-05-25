@@ -1,0 +1,682 @@
+@font-face {
+    font-family: 'AIASans';
+    src: url(fonts/AIASans-Condensed-500.ttf) format("truetype"), url(fonts/AIASans-Condensed-500.woff) format("woff"), url(fonts/AIASans-Condensed-500.eot);
+}
+
+body {
+    font-size: .75em;
+    font-family: 'AIASans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #343E3F;
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.disclaimer {
+    font-family: Arial;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.formatArrowPos, .formatArrowNeg {
+    background-size: 80%;
+    background-repeat: no-repeat !important;
+    width: 15px;
+}
+
+.formatArrowPos {
+    background: url('images/arrowup.png');
+}
+
+.formatArrowNeg {
+    background: url('images/arrowdown.png');
+}
+
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+.IRQuoteModule {
+    font-size: 14px;
+}
+
+.table-look {
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.table-look tbody {
+    border-bottom: 1px solid #dbdad4;
+}
+
+.IRMiniquoteModule .table-look {
+    border-bottom: 0;
+}
+
+.table-look td, .table-look th {
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+}
+
+/* CUSTOM compare button */
+.IRChartNavigationInner {
+    display: none;
+}
+
+.basicButtonLook.color596C80.active, .basicButtonLook.color596C80:hover {
+    border-left: none;
+}
+
+.checkboxImgFalse {
+    background: url('images/checkbox_false.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.checkboxImgTrue {
+    background: url('images/checkbox_true.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.basicButtonLook.color596C80 {
+    height: 28px;
+}
+
+.color596C80.active span, .basicButtonLook {
+    border-left: none !important;
+}
+
+.comparisonWrapper {
+    width: 105px;
+    float: right;
+    line-height: 30px;
+}
+
+#comparisonList_1 {
+    border-left: 5px solid #596C80;
+}
+
+/*__________END___________________*/
+
+.table-look th, .table-look td, .IRNewsModule .IRNewsTool .IRDataGroup div.IRData, .IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.table-look th {
+    /*background: #D31145;*/
+    color: #363E3F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 244px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: solid 1px #DBDAD4;
+}
+
+.customResponsiveVertical th {
+    width: 100%;
+}
+
+.table-look td {
+    font-size: 14px;
+    font-weight: normal;
+    border: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.table-look td.formatColourPos, *.formatColourPos {
+    color: green;
+}
+
+.table-look td.formatColourNeg, *.formatColourNeg {
+    color: red;
+}
+
+.table-look th.column-first, .table-look td.column-first {
+    text-align: center;
+    border-left: none;
+}
+
+.table-look td.column-first {
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    text-align: center;
+}
+
+
+
+.customResponsiveVertical {
+    display: none;
+}
+
+/* End =================================================================== */
+
+
+/* IRChart =============================================================== */
+
+.IRChartHTMLPlaceholder {
+    height: 200px;
+    min-width: 250px;
+    clear: both;
+}
+
+.IRChartColour {
+    color: #D31145;
+}
+
+.IRChartComparisonBodyListHeader {
+    border-left: 5px solid #D31145;
+}
+
+.basicButtonLook.color596C80:hover {
+    border-left: 5px solid #596C80;
+}
+
+.basicButtonLook.color596C80.active {
+    border-left: 5px solid #596C80;
+}
+
+.color596C80.active span {
+    border-left: 5px solid #596C80;
+}
+
+.colorIndicator.color596C80.active {
+    border-left: 5px solid #596C80;
+    padding-right: 4px;
+}
+
+.highcharts-series highcharts-tracker {
+}
+
+
+.IRChartNavigation .IRChartComparison, .IRChartNavigation .IRChartMenuTrigger {
+    background-color: #46D3BD;
+}
+
+.IRChartChangePeriodCustom {
+    height: 25px;
+    line-height: 25px;
+    width: 450px;
+    margin: 0px auto;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriodOuterCustom {
+    width: 100%;
+}
+
+.IRChartChangePeriodCustom div {
+    background: #fff;
+    text-transform: uppercase;
+    margin: 0 0.25em 0 0;
+}
+
+.chartChangePeriodCustom div#max {
+    border-right: 0;
+}
+
+div.highcharts-axis-labels.highcharts-xaxis-labels {
+    top: -5px !important;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriodCustom div.activePeriod, .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+    background: #596C80;
+    color: #fff;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriodCustom div {
+    color: #000;
+    padding: .4em;
+    margin: 0px 2px 2px 0px;
+    background-color: #fff;
+    border: 1px solid #596C80;
+    display: table-cell;
+    float: none;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriodCustom div:hover {
+    background-color: #596C80;
+    color: #fff;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriodCustom {
+    width: 100%;
+    border-spacing: 2px;
+    display: table;
+    table-layout: fixed;
+}
+
+.IRChartHTMLPlaceholder {
+}
+
+.tooltipHTML {
+    background-color: #fff;
+}
+
+.IRChartClientName {
+    color: #666;
+}
+
+.IRChartCurrency {
+    color: #666;
+}
+
+.highcharts-xaxis-labels text, .highcharts-yaxis-labels {
+    font-size: 12px !important;
+    color: #000 !important;
+    fill: #000 !important;
+}
+
+.IRMiniquoteChartPlaceholder .highcharts-xaxis-labels text, .IRMiniquoteChartPlaceholder .highcharts-yaxis-labels {
+    font-size: 10px !important;
+}
+
+.IRMiniquoteChartPlaceholder rect {
+    fill: #faf9f3;
+}
+
+.chartNavBarRange {
+    margin-top: 5px;
+}
+
+.IRChartNavigation .IRChartCompanyName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.IRChartNavigation .updated {
+    float: right;
+    padding-right: 10px;
+}
+
+.IRQuoteModule .updated {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+/* End ====================================================================== */
+
+
+/* IRChartNavigationBottom Design =========================================== */
+
+.buttonWrapper {
+    position: relative;
+    float: left;
+    text-align: right;
+    width: 100%;
+    top: 70px;
+}
+
+.buttonWrapper .buttonLook {
+    background: #596c80;
+    color: #fff;
+    font-size: 20px;
+    /* float: left; */
+    /* margin-left: 20px; */
+    /* float: right; */
+    padding: 0px 30px 0px 30px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    display: table;
+    margin: 0 auto;
+}
+
+.IRChartNavigationBottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /*background: #faf9f3;*/
+    background: #FFF;
+    padding: 5%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    float: left;
+    width: 90%;
+    position: relative;
+    top: 55px;
+}
+
+.IRChartNavigationBottom .navBottomRow {
+    float: left;
+    width: 25%;
+}
+
+.IRChartNavigationBottom .navBottomRow .buttonLook {
+    display: block;
+    position: relative;
+    width: 80%;
+    background-color: #de076e;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.IRChartNavigationBottom .featureCheckbox {
+    display: block;
+    padding-left: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-image: url(inc/checkbox_false.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.IRChartNavigationBottom .navBottomRow .buttonLook {
+    display: block;
+    position: relative;
+    width: 80%;
+    background-color: #de076e;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.IRChartNavigationBottom .navBottomRow h2, .legend h2 {
+    color: #647783;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'AIASans', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.legend {
+    clear: both;
+}
+
+.IRChartNavigationBottom .diagramSelect, .IRChartNavigationBottom .chartModeSelect {
+    display: block;
+    padding-left: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-image: url(inc/radio_false.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.IRChartNavigationBottom .diagramSelect, .IRChartNavigationBottom .chartModeSelect {
+    display: block;
+    padding-left: 30px;
+    height: 25px;
+    line-height: 25px;
+    background-image: url(inc/radio_false.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 20px 20px;
+}
+
+.IRChartNavigationBottom .featureCheckbox {
+    display: block;
+    padding-left: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-image: url(inc/checkbox_false.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 20px 20px;
+    -webkit-transition: opacity 0.125s linear;
+    transition: opacity 0.125s linear;
+}
+
+.IRChartNavigationBottom .diagramSelect.checked, .IRChartNavigationBottom .chartModeSelect.checked {
+    background-image: url(inc/radio_true.png);
+}
+
+.IRChartNavigationBottom .featureCheckbox.checked {
+    background-image: url(inc/checkbox_true.png);
+}
+
+/* End ====================================================================== */
+
+
+/* ============================================================================ */
+
+/* @media only screen =========================================================*/
+
+@media only screen and (max-width: 571px) {
+    .table-look th, .table-look td {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .table-look .vertical th {
+        border: 1px;
+    }
+
+    .IRChartNavigation, .IRChartPlaceholderArea, .IRChartPlaceholder, .IRChartPlaceholderArea .IRChartChangePeriodOuter, .IRChartPlaceholderArea .IRChartChangePeriod {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h3.horizontal-header {
+        display: none;
+    }
+
+    .input-wrapper.lookupButton {
+        width: 100%;
+    }
+
+    .disclaimer.disclaimer-IRLookup {
+        margin-top: 180px;
+    }
+
+    .IRQuoteHorizontalModule h3 {
+        padding-left: 10px;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriod {
+        width: 100%;
+        text-align: center;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div {
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 500px) {
+    .chartChangePeriod {
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div#y2 {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+
+
+    .buttonWrapper .buttonLook {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 10px;
+        float: left;
+        text-align: center;
+        margin-left: 0;
+    }
+
+}
+
+
+/* End ======================================================================== */
+
+
+
+/* IRChartChangePeriodCustom Media Queries ==================================== */
+
+@media (max-width: 1120px) {
+    .IRChartPlaceholderArea .IRChartChangePeriodCustom {
+        width: 100%;
+        border-spacing: 0px;
+        display: block;
+    }
+
+    #m3, #Max {
+        margin-right: 0px;
+    }
+    .IRChartNavigationBottom {
+        top: 15px;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriodCustom div {
+        color: #000;
+        padding: .4em 0;
+        margin: 0px 2px 2px 0px;
+        background-color: #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #596C80;
+        display: block;
+        float: left;
+        width: 24.5%;
+        text-align: center;
+        cursor: pointer;
+    }
+    .buttonWrapper {
+        top: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .table-look th.bid, .table-look td.bid {
+        text-align: right;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .table-look th.change, .table-look td.change {
+        text-align: right;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .IRChartPlaceholderArea .IRChartChangePeriodCustom {
+        width: 100%;
+    }
+
+    .IRChartPlaceholderArea .IRChartChangePeriodCustom div {
+        width: 11.8%;
+        font-size: 14px;
+    }
+
+    #m3, #Max {
+        margin-right: 2px;
+    }
+
+    .table-look th.last, .table-look td.last {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    #d1 span, #d5 span, #m1 span, #m3 span, #y1 span, #y2 span, #y5 span {
+        display: none;
+    }
+
+    #d1:after {
+        content: '1D';
+    }
+
+    #d5:after {
+        content: '5D';
+    }
+
+    #m1:after {
+        content: '1M';
+    }
+
+    #m3:after {
+        content: '3M';
+    }
+
+    #y1:after {
+        content: '1Y';
+    }
+
+    #y2:after {
+        content: '2Y';
+    }
+
+    #y5:after {
+        content: '5Y';
+    }
+}
+/* End ======================================================================== */
+
+@media (max-width: 600px) {
+    .IRChartNavigationBottom .navBottomRow {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .customResponsive {
+        display: none;
+    }
+
+    .customResponsiveVertical {
+        display: block;
+    }
+
+    .customResponsiveVertical th {
+        text-align: left !important;
+    }
+
+    .customResponsiveVertical td {
+        padding-right: 0px !important;
+        text-align: right !important;
+        border-bottom: solid 1px #DBDAD4;
+    }
+}

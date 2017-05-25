@@ -1,0 +1,10 @@
+﻿@font-face {
+    font-family:'ChevinProMedium';
+    src:url('font/cpm.eot');
+    src:url('font/cpm_IEFIX.eot') format('embedded-opentype'),
+        url('font/cpm.eot') format('woff'),
+        url('font/cpm.ttf') format('truetype'),
+        url('font/cpm_ChevinProMedium.svg') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}

@@ -1,0 +1,382 @@
+﻿body {
+    margin: 0px;
+    color: #666666;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, Regular;
+}
+
+.wrapper {
+    /*max-width: 60em;*/
+}
+
+/*____ ul li Tabs _____*/
+li {
+    border: 0;
+}
+a.minusIcon {
+    height: 20px;
+    margin-left: 42px;
+    cursor: default;
+}
+ul {
+    list-style-type: none;
+}
+
+.category_Investorpresentations {
+    display: none;
+}
+
+button {
+    font-family: Georgia;
+    background-color: #8F8D8A;
+    border: 1px solid #e7e7e7;
+    display: inline-block;
+    padding: 16px 5px 16px;
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+}
+
+    button:hover {
+        background-color: #A9A49F;
+    }
+
+
+
+.current button {
+    background-color: #a11a46;
+    border: 0;
+    color: #fff;
+    outline: 0;
+    /*padding: 17px 5px;*/
+}
+
+    .current button:hover {
+        background-color: #C12054;
+        border: 0;
+        color: #fff;
+        outline: 0;
+    }
+
+#tab-one {
+    display: block;
+    /*width: 200px;
+    height: 200px;*/
+}
+
+#tab-two {
+    display: none;
+    /*width: 200px;
+    height: 200px;*/
+}
+
+.li-tab {
+    width: 50%;
+}
+
+.ul-list-tabs {
+    /*display: inline-flex;*/
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin: 0px;
+    clear: both;
+}
+
+    .ul-list-tabs:after {
+        clear: both;
+        content: '';
+        display: table;
+    }
+
+    .ul-list-tabs li {
+        float: left;
+    }
+
+.list_reset {
+    /* font-size: 1em; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-list-tabs button {
+    width: 100%;
+    border: none;
+}
+
+/*_________END_______*/
+
+
+/*_____TAB CONTENT_______*/
+.tab-content {
+    padding: 20px 15px;
+}
+
+.select-style {
+    margin: 20px;
+    border: 1px solid #ccc;
+    width: 120px;
+    overflow: hidden;
+    background: #fff url("../../includes/images/select_arrow.png") no-repeat 90% 50%;
+    background-size: 10px;
+}
+
+    .select-style select {
+        padding: 8px 8px;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        background-image: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+        .select-style select:focus {
+            outline: none;
+        }
+
+select::-ms-expand {
+    display: none;
+}
+
+.pointer {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+    .pointer::after {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: solid 10px #a11a46;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+    }
+/*______END_________*/
+
+/*______Table______*/
+.table-look {
+    /*width: 100%;*/
+    /*text-align: left;*/
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+    .table-look th {
+        font-family: Georgia;
+        line-height: 17px;
+        font-size: 16px;
+        height: 36px;
+    }
+
+
+    .table-look th, .table-look td {
+        padding: 3px 5px;
+        border: 1px solid #cccccc;
+    }
+
+    .table-look td {
+        color: #000000;
+        line-height: 20px;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+.Header {
+    background: #555555;
+    color: #fff;
+    font-weight: normal;
+}
+
+table.table-look.vertical.responsive-flip {
+    border: 1px solid #ccc;
+}
+
+th.Header, td.IRData {
+    min-width: 100px;
+    width: 100%;
+    text-align: center;
+}
+td.IRData {
+    background-color: #F3F0E8;
+}
+
+td.title-vertical {
+    padding: 10px 3px;
+    border: none;
+    border-top: 1px solid #ccc;
+    background-color: #F3F0E8;
+}
+
+th.Header-vertical.title, td.Header-vertical.title {
+    border: none;
+    background: #555555;
+    color: #fff;
+    font-weight: normal;
+}
+
+td.Header-vertical, td.Data-vertical {
+    background-color: #fff;
+    border: none;
+    border-top: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.Header-vertical {
+    width: 100%;
+    text-align: left;
+}
+
+th.column-first, td.column-first {
+    white-space: nowrap;
+    text-align: left;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+tr:nth-child(even) {
+    background: rgb(243, 240, 232);
+}
+
+
+.scrollbox { /* table shadow */
+    overflow-x: auto;
+    margin: 30px auto;
+    /*background: linear-gradient(90deg, white 0%, rgba(255,255,255,0)), linear-gradient(-90deg, white 0%, rgba(255,255,255,0)) 100% 0, radial-gradient( farthest-side at 0% 50%, rgba(0,0,0,.2), rgba(0,0,0,0) ), radial-gradient( farthest-side at 100% 50%, rgba(0,0,0,.2), rgba(0,0,0,0) ) 100% 0%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 100px 100%, 100px 100%, 14px 100%, 10px 100%;
+    background-attachment: local, local, scroll, scroll;*/
+}
+
+.external-link {
+    background: url(../../includes/images/icon_external_link.png) no-repeat 0 0;
+    display: block;
+    background-size: 47%;
+    height: 20px;
+    width: 50px;
+    margin-left: 40%;
+}
+
+.pdf-link {
+    background: url(../../includes/images/icon_external_pdf.png) no-repeat 0 0;
+    background-size: 40%;
+    display: block;
+    height: 20px;
+    width: 50px;
+    margin-left: 40%;
+}
+
+.excel-link {
+    background: url(../../includes/images/icon_excel_link.png) no-repeat 0 0;
+    background-size: 40%;
+    display: block;
+    height: 20px;
+    width: 50px;
+    margin-left: 40%;
+}
+
+.plusIcon {
+    background: url(../../includes/images/plusIcon.png) no-repeat;
+    background-size: 30%;
+    line-height: 15px;
+    display: block;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.minusIcon {
+    background: url(../../includes/images/minusIcon.png) no-repeat;
+    background-size: 30%;
+    line-height: 15px;
+    display: block;
+    width: 50px;
+    margin-left: 20px;
+}
+/*____END_____*/
+
+
+/*_______PAGINATION_______*/
+
+.IRDataGroup-vertical {
+    display: none;
+}
+
+.IRDataGroup.hide {
+    display: none;
+}
+
+.IRNewsPagination .IRNewsPageNumber.active {
+    color: #666666;
+    text-decoration: underline;
+}
+
+.IRNewsPagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.IRNewsPageNumber {
+    padding: 0 10px;
+}
+
+    .IRNewsPageNumber:hover {
+        color: #058bca;
+    }
+
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 850px) {
+    .table-look {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .scrollbox {
+        display: none;
+    }
+
+    .category_Resultannouncements {
+        display: table-row;
+    }
+    a.minusIcon {
+    margin-left: 4px;
+}
+    .external-link, .pdf-link, .excel-link {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 751px) {
+    table.table-look.vertical.responsive-flip {
+        display: none;
+    }
+
+    .table-look {
+        border-collapse: collapse;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    button {
+        font-size: 13px;
+    }
+}

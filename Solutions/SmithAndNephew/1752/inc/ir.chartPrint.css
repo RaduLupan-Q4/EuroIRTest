@@ -1,0 +1,22 @@
+﻿.IRQuoteModule {
+    display: none;
+}
+.IRChartNavigation {
+    display: none;
+}
+*.IRChartComparison,
+.IRChartChangePeriodOuter,
+.IRChartChangePeriodOuterCustom,
+.showHideVolume,
+.showHidePercent,
+.toggleFullscreen,
+.IRChartTAPlaceholder,
+.IRChartComparisonPlaceholder,
+.downloadHistoricalData,
+.printChart,
+.IRChartOutsideTATrigger,
+.IRChartCurrency,
+.IRChartBottomNavigation,
+.irChartNavigationBottom {
+    display: none;
+}

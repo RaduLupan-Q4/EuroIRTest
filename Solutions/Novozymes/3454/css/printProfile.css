@@ -1,0 +1,123 @@
+.table-look {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.profile-wrapper .table-look th.topHeader,
+.profile-wrapper .table-look td.topHeader {
+    font-weight: bold;
+    background: #fff;
+    font-family: 'NovozymesBd', Arial, Helvetica, sans-serif;
+}
+
+.profile-wrapper .table-look td.Header {
+    padding-left: 8px;
+    text-transform: capitalize;
+}
+
+.IRTable.table-look td.Header {
+    text-align: left;
+}
+
+.profile-wrapper .table-look th,
+.profile-wrapper .table-look td {
+    border-top: 1px solid #f2f2f2;
+}
+
+.table-look td {
+    border-left: none;
+    border-right: none;
+    font-family: 'NovozymesRg', sans-serif;
+    font-size: 14px;
+    padding: 0;
+}
+
+.table-look th,
+.table-look td {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.table-look th,
+.table-look td,
+.IRNewsModule .IRNewsTool .IRDataGroup div.IRData,
+.IRNewsModule .IRNewsTool .IRHeaderGroup .IRHeader {
+    text-align: left;
+    line-height: 40px;
+}
+
+.profile-wrapper .table-look td.Data {
+    padding-right: 8px;
+}
+
+.profile-wrapper .table-look th,
+.profile-wrapper .table-look td {
+    border-top: 1px solid #f2f2f2;
+}
+
+.table-look th,
+.table-look td {
+    border-bottom: 1px solid #f2f2f2;
+    text-align: right;
+}
+
+.IRTable.table-look td.Header {
+    text-align: left;
+}
+
+.profile-wrapper .table-look th,
+.profile-wrapper .table-look td {
+    border-top: 1px solid #f2f2f2;
+}
+
+.table-look th,
+.table-look td {
+    border-bottom: 1px solid #f2f2f2;
+    text-align: right;
+}
+
+.printBtnProfile {
+    display: none;
+}
+
+.disclaimer {
+    top: 0;
+    padding-top: 10px;
+}
+
+.disclaimer {
+    position: relative;
+    top: 10px;
+    max-width: 320px;
+    margin: auto;
+    color: #777;
+    cursor: default;
+    text-align: center;
+    font-size: 10px;
+    clear: both;
+}
+
+.disclaimer a:link,
+.disclaimer a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.disclaimer-copyright {
+    display: inline;
+}
+
+.disclaimer-delayed {
+    display: block;
+}
+
+.disclaimer-terms {
+    display: block;
+}
+
+.disclaimer a:link,
+.disclaimer a:visited {
+    color: inherit;
+    text-decoration: none;
+}

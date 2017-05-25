@@ -1,0 +1,375 @@
+{
+  "columnHeader": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "rows": [
+    {
+      "name": "Revenue",
+      "data": [
+        11234,
+        11746,
+        12459,
+        14002,
+        14142
+      ],
+      "dec": 0
+    },
+    {
+      "name": "EBITDA",
+      "data": [
+        3448,
+        3639,
+        4400,
+        5011,
+        4960
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Operating profit / EBIT",
+      "data": [
+        2745,
+        2901,
+        3384,
+        3884,
+        3946
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Net Profit",
+      "data": [
+        2016,
+        2201,
+        2525,
+        2825,
+        3050
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Total Assets",
+      "data": [
+        15113,
+        16506,
+        18426,
+        17791,
+        18659
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Net interest-bearing debt",
+      "data": [
+        1430,
+        805,
+        -716,
+        437,
+        990
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Equity attributable to shareholders in Novozymes A/S",
+      "data": [
+        9555,
+        11054,
+        11269,
+        11580,
+        11732
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Cash Flow from operating activities",
+      "data": [
+        2758,
+        2599,
+        4525,
+        3339,
+        3840
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Net investments excluding acquisitions",
+      "data": [
+        1177,
+        783,
+        715,
+        1015,
+        1188
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Free cash flow before net acquisitions and securities",
+      "data": [
+        1581,
+        1816,
+        4229,
+        2324,
+        2652
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Free cash flow",
+      "data": [
+        849,
+        1176,
+        4215,
+        2082,
+        2491
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Earnings per share (EPS), diluted",
+      "data": [
+        6.33,
+        6.93,
+        8.02,
+        9.12,
+        10.06
+      ],
+      "dec": 2
+    },
+    {
+      "name": "(%)",
+      "data": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Revenue growth, DKK",
+      "data": [
+        7,
+        5,
+        6,
+        12,
+        1
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Revenue growth, organic",
+      "data": [
+        4,
+        7,
+        7,
+        4,
+        2
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Gross margin",
+      "data": [
+        57.2,
+        57.2,
+        57.4,
+        58.1,
+        57.5
+      ],
+      "dec": 1
+    },
+    {
+      "name": "EBITDA margin",
+      "data": [
+        30.7,
+        31.0,
+        35.3,
+        35.8,
+        35.1
+      ],
+      "dec": 1
+    },
+    {
+      "name": "EBIT margin",
+      "data": [
+        24.4,
+        24.7,
+        27.2,
+        27.7,
+        27.9
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Effective tax rate",
+      "data": [
+        22.0,
+        20.2,
+        23.0,
+        22.0,
+        21.4
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Equity ratio",
+      "data": [
+        63.3,
+        67.0,
+        61.2,
+        65.1,
+        62.9
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Debt-to-equity ratio",
+      "data": [
+        15.0,
+        7.3,
+        -6.3,
+        3.8,
+        8.4
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Return on equity",
+      "data": [
+        21.9,
+        21.3,
+        22.6,
+        24.7,
+        26.1
+      ],
+      "dec": 1
+    },
+    {
+      "name": "ROIC including goodwill",
+      "data": [
+        19.9,
+        20.0,
+        23.1,
+        25.9,
+        25.1
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Share information",
+      "data": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Shares (A + B Shares) million",
+      "data": [
+        325.0,
+        319.7,
+        319.7,
+        313.0,
+        310.0
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Nominal unit size, DKK",
+      "data": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Common stock, DKK million",
+      "data": [
+        650,
+        639,
+        639,
+        626,
+        620
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Treasury shares, million",
+      "data": [
+        12.8,
+        5.5,
+        11.5,
+        9.6,
+        12.4
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Stock options outstanding, million",
+      "data": [
+        6.8,
+        5.8,
+        7.1,
+        7.4,
+        8.4
+      ],
+      "dec": 1
+    },
+    {
+      "name": "Dividend per share, DKK",
+      "data": [
+        2.20,
+        2.50,
+        3.00,
+        3.50,
+        4.00
+      ],
+      "dec": 2
+    },
+    {
+      "name": "Payout ratio of net profit",
+      "data": [
+        34,
+        36,
+        37,
+        38,
+        "-"
+      ],
+      "symbol": "%",
+      "dec": 0
+    },
+    {
+      "name": "Share price at year-end, DKK",
+      "data": [
+        159,
+        229,
+        260,
+        331,
+        244
+      ],
+      "dec": 0
+    },
+    {
+      "name": "Book value per share, DKK",
+      "data": [
+        29.4,
+        34.6,
+        35.2,
+        37.0,
+        "-"
+      ],
+      "dec": 0
+    }
+  ]
+}
