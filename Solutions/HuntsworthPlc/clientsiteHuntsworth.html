@@ -1,0 +1,603 @@
+
+base href="www.huntsworth.com/investor-relations/share-price/interactive-chart/" />
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0" />
+    <link href="/favicon.ico" rel="icon" />
+    <title>Interactive chart | Huntsworth</title>
+    <meta name="description" content="Interactive chart" />
+    <meta name="keywords" content="Interactive chart" />
+    <meta name="author" content="" />
+
+    <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+    Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+    For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+
+    <script type="text/javascript" src="/scripts/libs/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/scripts/libs/detectizr.min.js"></script>
+
+    <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+
+    <!--IE Stylesheet less than 9 -->
+    <!--[if (lt IE 9)&(gte IE 7)]>
+        <link rel="stylesheet" href="css/ie.css" type="text/css">
+    <![endif]-->
+</head>
+<body>
+
+    <h6 class="offscreen">Huntsworth site</h6>
+    <input type="hidden" value="/search/" id="searchUrlVal" />
+    <div class="mobile-navigation">
+        <div class="logo-section">
+            <div class="header-top">
+                <ul>
+                    <li>
+                        <p>Share Price: <span class="share-price-data">40p</span></p>
+                    </li>
+                    <li>
+                        <p>Change: <span class="price-data">0&nbsp;%</span></p>
+                    </li>
+                </ul>
+            </div>
+            <a class="logo" href="/"><img src="/media/1006/logo.png" alt="Huntsworth Plc" width="121" /></a>
+            <div class="menu-icons">
+                <a href="javascript:;" class="menu-toggle"><i class="material-icons">&#xE5D2;</i></a>
+                <a href="javascript:;" class="menu-close"><i class="material-icons">&#xE5CD;</i></a>
+            </div>
+            <div class="search">
+                <a href="javascript:;" class="search-toggle"><i class="material-icons">&#xE8B6;</i></a>
+                <div class="search-dropdown">
+                    <input id="header_search_input" type="text" name="search-site" placeholder="Search" />
+                    <a id="header-search-link" href="javascript:;" class="search-btn"><i class="material-icons">&#xE8B6;</i></a>
+                    <a href="javascript:;" class="search-close"><i class="material-icons">&#xE5CD;</i></a>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <ul>
+                <li class=" children">
+                    <a href="/about-us/">About Us</a>
+                    <span class="toggler"><span class="arrow link-closed"></span></span>
+                    <ul>
+                        <li>
+                            <a href="/about-us/at-a-glance/">At a Glance</a>
+                        </li>
+                        <li>
+                            <a href="/about-us/our-strategy-objectives/">Our Strategy &amp; Objectives</a>
+                        </li>
+                        <li>
+                            <a href="/about-us/our-business-model/">Our Business Model</a>
+                        </li>
+                        <li>
+                            <a href="/about-us/responsible-business/">Responsible Business</a>
+                        </li>
+                        <li>
+                            <a href="/about-us/board-of-directors/">Board of Directors</a>
+                        </li>
+                        <li>
+                            <a href="/about-us/history/">History</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" children">
+                    <a href="/our-businesses/">Our Businesses</a>
+                    <span class="toggler"><span class="arrow link-closed"></span></span>
+                    <ul>
+                        <li>
+                            <a href="/our-businesses/our-global-reach/">Our Global Reach</a>
+                        </li>
+                        <li>
+                            <a href="/our-businesses/our-businesses/">Our Businesses</a>
+                        </li>
+                        <li>
+                            <a href="/our-businesses/huntsworth-health/">Huntsworth Health</a>
+                        </li>
+                        <li>
+                            <a href="/our-businesses/citigate/">Citigate</a>
+                        </li>
+                        <li>
+                            <a href="/our-businesses/grayling/">Grayling</a>
+                        </li>
+                        <li>
+                            <a href="/our-businesses/red/">Red</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active children">
+                    <a href="/investor-relations/">Investor Relations</a>
+                    <span class="toggler"><span class="arrow link-closed"></span></span>
+                    <ul>
+                        <li>
+                            <a href="/investor-relations/investment-case/">Investment Case</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/financial-highlights/">Financial Highlights</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/share-price/">Share Price</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/results-reports-presentations/">Results, Reports &amp; Presentations</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/financial-calendar/">Financial Calendar</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/corporate-governance/">Corporate Governance</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/shareholder-services/">Shareholder Services</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/analysts-advisors-registrars/">Analysts, Advisors &amp; Registrars</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/annual-general-meeting/">Annual General Meeting</a>
+                        </li>
+                        <li>
+                            <a href="/investor-relations/regulatory-news/">Regulatory News</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" children">
+                    <a href="/news/">News</a>
+                    <span class="toggler"><span class="arrow link-closed"></span></span>
+                    <ul>
+                        <li>
+                            <a href="/news/latest-news/">Latest News</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" children">
+                    <a href="/contact-us/">Contact Us</a>
+                    <span class="toggler"><span class="arrow link-closed"></span></span>
+                    <ul>
+                        <li>
+                            <a href="/contact-us/contact-us/">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="/contact-us/careers/">Careers</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-search">
+            <div class="search-wrap">
+                <input type="text" name="search-site-mobile" id="main-mobile-search-input" placeholder="Search" />
+                <a id="main-mobile-search-link" href="javascript:;" class="search-toggle"><i class="material-icons">&#xE8B6;</i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container" style="width: 100% !important;">
+
+        <div class="full-screen dark-blue-bg cookie-policy">
+            <div class="wrapper">
+                <p>
+                    This website uses cookies. By continuing to browse you are agreeing to our use of cookies.
+                    <a href="/cookie-policy/">Click here for more information</a>
+                </p>
+                <a href="javascript:;" class="close-cookie"><i class="material-icons">close</i></a>
+            </div>
+        </div>
+
+
+
+        <header class="header">
+            <h6 class="offscreen">Header</h6>
+            <div class="wrapper">
+                <a class="logo" href="/"><img src="/media/1006/logo.png" alt="Huntsworth Plc" /></a>
+                <div class="header-top">
+                    <ul>
+                        <li>
+                            <p>Share Price: <span class="share-price-data">40p</span></p>
+                        </li>
+                        <li>
+                            <p>Change: <span class="price-data">0&nbsp;%</span></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <a href="javascript:;" class="search-toggle"><i class="material-icons">&#xE8B6;</i></a>
+                    <div class="search-dropdown">
+                        <input type="text" name="search-site" id="main-tablet-search-input" placeholder="Search" />
+                        <a id="main-tablet-search-link" href="javascript:;" class="search-btn"><i class="material-icons">&#xE8B6;</i></a>
+                        <a href="javascript:;" class="search-close"><i class="material-icons">&#xE5CD;</i></a>
+                    </div>
+                </div>
+                <nav class="main-menu">
+                    <h6 class="offscreen">Main Navigation</h6>
+                    <ul class="clearfix">
+                        <li class=" children">
+                            <a href="/about-us/">About Us</a>
+                            <ul>
+                                <li>
+                                    <a href="/about-us/at-a-glance/">At a Glance</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us/our-strategy-objectives/">Our Strategy &amp; Objectives</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us/our-business-model/">Our Business Model</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us/responsible-business/">Responsible Business</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us/board-of-directors/">Board of Directors</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us/history/">History</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=" children">
+                            <a href="/our-businesses/">Our Businesses</a>
+                            <ul>
+                                <li>
+                                    <a href="/our-businesses/our-global-reach/">Our Global Reach</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/our-businesses/">Our Businesses</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/huntsworth-health/">Huntsworth Health</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/citigate/">Citigate</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/grayling/">Grayling</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/red/">Red</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active children">
+                            <a href="/investor-relations/">Investor Relations</a>
+                            <ul>
+                                <li>
+                                    <a href="/investor-relations/investment-case/">Investment Case</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/financial-highlights/">Financial Highlights</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/share-price/">Share Price</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/results-reports-presentations/">Results, Reports &amp; Presentations</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/financial-calendar/">Financial Calendar</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/corporate-governance/">Corporate Governance</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/shareholder-services/">Shareholder Services</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/analysts-advisors-registrars/">Analysts, Advisors &amp; Registrars</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/annual-general-meeting/">Annual General Meeting</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/regulatory-news/">Regulatory News</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=" children">
+                            <a href="/news/">News</a>
+                            <ul>
+                                <li>
+                                    <a href="/news/latest-news/">Latest News</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=" children">
+                            <a href="/contact-us/">Contact Us</a>
+                            <ul>
+                                <li>
+                                    <a href="/contact-us/contact-us/">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="/contact-us/careers/">Careers</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+
+
+        <div class="content">
+            <div class="full-screen dark-blue-bg">
+                <div class="wrapper">
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home<i class="material-icons">&#xE5CC;</i></a></li>
+                        <li><a href="/investor-relations/">Investor Relations<i class="material-icons">&#xE5CC;</i></a></li>
+                        <li><a href="/investor-relations/share-price/">Share Price<i class="material-icons">&#xE5CC;</i></a></li>
+                        <li><span>Interactive chart</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <main class="container">
+                <h6 class="offscreen">Interactive chart</h6>
+                <div class="wrapper">
+                    <!-- Template: Standard page -->
+                    <div class="row standard-page">
+
+
+                        <aside class="col-md-3 left-sidebar">
+                            <h6 class="offscreen">Sidebar</h6>
+                            <div class="in">
+                                <a href="javascript:;" class="sidebar-dropdown">Investor Relations</a>
+                                <ul class="sidebar-links">
+                                    <li>
+                                        <a href="/investor-relations/investment-case/">Investment Case</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/financial-highlights/">Financial Highlights</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/share-price/" class=selected>Share Price</a>
+                                        <ul>
+                                            <li>
+                                                <a href="/investor-relations/share-price/interactive-chart/">Interactive chart</a>
+                                            </li>
+                                            <li>
+                                                <a href="/investor-relations/share-price/latest-trades/">Latest Trades</a>
+                                            </li>
+                                            <li>
+                                                <a href="/investor-relations/share-price/historical-share-price/">Historical Share Price</a>
+                                            </li>
+                                            <li>
+                                                <a href="/investor-relations/share-price/share-calculator/">Share Calculator</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/results-reports-presentations/">Results, Reports &amp; Presentations</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/financial-calendar/">Financial Calendar</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/corporate-governance/">Corporate Governance</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/shareholder-services/">Shareholder Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/analysts-advisors-registrars/">Analysts, Advisors &amp; Registrars</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/annual-general-meeting/">Annual General Meeting</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/regulatory-news/">Regulatory News</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+                        <section class="col-md-9 rte">
+                            <h1>Interactive chart</h1>
+                            <div class="show-on-mobile">
+                                <iframe width="100%" height="700" src="http://ir.euroinvestor.com/Solutions/HuntsworthPlc/2394/chart.aspx" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="hidden-on-mobile">
+                                <iframe width="100%" height="700" src="http://ir.euroinvestor.com/Solutions/HuntsworthPlc/2394/chart.aspx" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p> </p>
+                            <p> </p>
+                        </section>
+
+                        <!-- Same content as regular sidebar - visible on tablet and mobile on the bottom of page - link .sidebar-dropdown is section title from first level nav -->
+                        <!-- Same content as regular sidebar - visible on tablet and mobile on the bottom of page - link .sidebar-dropdown is section title from first level nav -->
+                        <div class="sidebar-responsive">
+                            <div class="in">
+                                <a href="javascript:;" class="sidebar-dropdown">In this section</a>
+                                <ul class="sidebar-links">
+                                    <li>
+                                        <a href="/investor-relations/investment-case/">Investment Case</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/financial-highlights/">Financial Highlights</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/share-price/" class=selected>Share Price</a>
+                                        <ul>
+                                            <li>
+                                                <a href="/investor-relations/share-price/interactive-chart/">Interactive chart</a>
+                                            </li>
+                                            <li>
+                                                <a href="/investor-relations/share-price/latest-trades/">Latest Trades</a>
+                                            </li>
+                                            <li>
+                                                <a href="/investor-relations/share-price/historical-share-price/">Historical Share Price</a>
+                                            </li>
+                                            <li>
+                                                <a href="/investor-relations/share-price/share-calculator/">Share Calculator</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/results-reports-presentations/">Results, Reports &amp; Presentations</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/financial-calendar/">Financial Calendar</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/corporate-governance/">Corporate Governance</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/shareholder-services/">Shareholder Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/analysts-advisors-registrars/">Analysts, Advisors &amp; Registrars</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/annual-general-meeting/">Annual General Meeting</a>
+                                    </li>
+                                    <li>
+                                        <a href="/investor-relations/regulatory-news/">Regulatory News</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+
+
+
+        <footer class="footer">
+            <h6 class="offscreen">Interactive chart</h6>
+            <div class="full-screen dark-blue-bg back-to-top">
+                <a href="#" id="back-to-top" title="Back to top">Back to top</a>
+            </div>
+
+            <div class="wrapper">
+                <section class="footer-links row">
+                    <div class="col-sm-3">
+                        <div class="links-wrap">
+                            <h4>Popular Links</h4>
+                            <ul>
+                                <li>
+                                    <a href="/about-us/our-strategy-objectives/">Our Strategy &amp; Business Model</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us/history/">History</a>
+                                </li>
+                                <li>
+                                    <a href="/news/latest-news/">Latest News</a>
+                                </li>
+                                <li>
+                                    <a href="/contact-us/">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="links-wrap">
+                            <h4>Investor links</h4>
+                            <ul>
+                                <li>
+                                    <a href="/investor-relations/investment-case/">Investment Case</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/financial-highlights/">Financial Highlights</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/results-reports-presentations/">Results, Reports &amp; Presentations</a>
+                                </li>
+                                <li>
+                                    <a href="/investor-relations/regulatory-news/">Regulatory News</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="links-wrap">
+                            <h4>Our businesses</h4>
+                            <ul>
+                                <li>
+                                    <a href="/our-businesses/huntsworth-health/">Huntsworth Health</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/citigate/">Citigate</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/grayling/">Grayling</a>
+                                </li>
+                                <li>
+                                    <a href="/our-businesses/red/">Red</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="links-wrap">
+                            <h4>Stay informed</h4>
+                            <p>Sign up for email alerts from us  </p>
+                            <div id="js_subscribe_wrap" class="email-alerts" data-invalid-email-msg="Invalid email address." data-error-message="Something go wrong, please try again later.">
+                                <input id="js_subscribe_field" type="email" name="email" placeholder="email address">
+                                <a id="js_subscribe_btn" href="javascript:;" class="submit"></a>
+                                <p id="js_subscribe_msg" style="display:none;"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="copyright">
+                    <h6 class="offscreen">Sitemap</h6>
+                    <ul>
+                        <li><p>&copy; Copyright 2016 Huntsworth</p></li>
+                        <li>
+                            <a href="/cookie-policy/">Cookies</a>
+                        </li>
+                        <li>
+                            <a href="/sitemap/">Sitemap</a>
+                        </li>
+                        <li>
+                            <a href="/terms-of-use/">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="/statutory-information/">Statutory information</a>
+                        </li>
+                    </ul>
+                    <p>by <a href="http://www.emperordesign.co.uk/" target="_blank">Emperor</a></p>
+                </section>
+            </div>
+        </footer>
+
+    </div>
+    <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+    <!-- SCRIPTS -->
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75044289-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">    window.jQuery || document.write("<script src='/scripts/main/jquery-1.11.2.min.js'>\x3C/script>")</script>
+    <script type="text/javascript" src="/scripts/main/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/utility/helper.js"></script>
+    <script type="text/javascript" src="/scripts/pages/search.js"></script>
+    <script type="text/javascript" src="/scripts/main/default.js"></script>
+    <script type="text/javascript" src="/scripts/pages/cookie.js"></script>
+
+</body>
+</html>
