@@ -1,0 +1,134 @@
+﻿body {
+    background-color: #F9F9F9;
+    padding: 10px;
+}
+
+.IRChartColour {
+    color: #ff6a00;
+}
+
+
+.IRChartHTMLPlaceholder {
+}
+
+*.formatColourPos {
+    color: green;
+}
+
+.formatArrowPos {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-image: url(http://emojipedia.org/wp-content/uploads/2014/04/27a1-google-android.png);
+    background-position: center center;
+}
+
+
+
+/*.IRChartModule, .IRChartPlaceholderArea, .IRChartHTMLPlaceholder {
+    height: 321px;
+}
+
+    .IRChartPlaceholderArea .IRChartPlaceholder {
+        height: 321px;    
+    }*/
+
+
+/*
+    Chart Mini    
+*/
+.IRChartHTMLMiniPlaceholder {
+    height: 150px;
+}
+
+/*
+    IRChart    
+*/
+.IRChartPlaceholderArea .IRChartPlaceholder {
+    height: 500px;
+}
+
+.IRChartPlaceholderArea {
+    height: 500px;
+}
+
+/*
+    IRChart DOM    
+*/
+.IRChartHTMLPlaceholder {
+    height: 432px;
+}
+
+
+.IRChartScrollOnYAxis {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 70px;
+    height: 440px;
+    /*background-color: rgba(255,255,0,0.5);*/
+}
+
+
+
+
+
+/*
+    Debug Hit boxes    
+*/
+/*.IRChartScrollOnYAxis {
+    background-color: rgba(0,255,255,0.1);
+}
+.IRChartNavigation {
+    background-color: rgba(255,0,255,0.1);
+}
+
+.IRChartNavigation .IRChartCompanyName {
+    background-color: rgba(255,255,0,0.1);
+}
+
+.IRChartNavigation .IRChartView .IRChartViewHeader,
+.IRChartNavigation .IRChartTA .IRChartTAHeader,
+.IRChartNavigation .IRChartComparison .IRChartComparisonHeader,
+.IRChartNavigation .IRChartFullscreen .IRChartFullscreenHeader,
+.IRChartNavigation .IRChartListings .IRChartListingsHeader {
+    background-color: rgba(0,0,255,0.1);
+}
+
+.IRChartChangePeriodOuter {
+    background-color: rgba(255,0,0,0.1);
+}
+.IRChartChangePeriod {
+    background-color: rgba(255,255,0,0.1);
+}*/
+
+/*.IRChartTAPlaceholder, .IRChartComparisonPlaceholder {
+    background-color: rgba(0,255,255,0.1);
+}*/
+
+
+/*.table-look th, .table-look td {
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    color: inherit;
+    font-weight: normal;
+}*/
+
+
+/** {
+    direction: ltr;
+}*/
+
+
+
+.statusTable th,.statusTable td {
+    text-align: left;
+    padding: 4px;
+    border: 1px solid #aaa;
+}
+
+
+.IRMiniquoteChartModule .IRMiniquoteChartPlaceholderArea .IRMiniquoteChartPlaceholder {
+    height: 150px;
+    
+}

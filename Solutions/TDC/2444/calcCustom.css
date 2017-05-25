@@ -1,0 +1,208 @@
+.IRCalcModule .IRChartCalcPlaceholder {
+    display: none;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look {
+    border-top: 0;
+}
+
+.IRCalcModule .customCalcModuleWrapper #calc-form {
+    width: 49%;
+    float: left;
+    padding: 10px;
+    background: #f6f6f5;
+    height: 400px;
+    margin-top: 0;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical tr {
+    float: left;
+    width: 100%;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical th {
+    float: left;
+    text-align: left;
+}
+
+.customCalcModuleWrapper .IRToolCalcResultsTable.table-look.vertical td {
+    float: left;
+}
+
+#result-section {
+    float: right;
+    width: 49%;
+    display: block;
+    padding: 10px;
+    background: #f6f6f5;
+    height: 400px;
+}
+
+.customCalcModuleWrapper #result-section .title, .IRCalcModule .customCalcModuleWrapper #calc-form .title {
+    font-weight: 500;
+    color: #585852;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.IRToolCalcResultsTable.table-look.vertical tr, .IRToolCalcResultsTable.table-look.vertical tr:nth-child(2n) {
+    background: transparent;
+}
+
+.IRToolCalcResultsTable.table-look.vertical {
+    display: block;
+}
+
+    .IRToolCalcResultsTable.table-look.vertical th {
+        width: 50%;
+        height: 30px;
+        line-height: 30px;
+        color: #585852;
+        background: none;
+        border: 0;
+        border-bottom: 1px solid #a8a9a3;
+        font-weight: 400;
+    }
+
+    .IRToolCalcResultsTable.table-look.vertical td {
+        width: 50%;
+        text-align: right;
+        height: 30px;
+        line-height: 30px;
+        border: 0;
+        border-bottom: 1px solid #a8a9a3;
+        font-weight: 700;
+    }
+
+    .IRToolCalcResultsTable.table-look.vertical tr:last-child td, .IRToolCalcResultsTable.table-look.vertical tr:last-child th {
+        border: 0;
+    }
+
+.IRToolCalcResultsTable.table-look.vertical {
+    border-bottom: 0;
+}
+
+.divideLine {
+    display: none;
+}
+
+label {
+    color: #585852;
+}
+
+.formDivider .input-row input[type="radio"], .formDivider .input-row .radio label {
+    vertical-align: middle;
+    top: 0;
+}
+
+.formDivider .input-row .radio label {
+    margin-right: 30px;
+}
+
+    .formDivider .input-row .radio label:last-child {
+        margin-right: 0;
+    }
+
+.formDivider .input-row {
+    margin-bottom: 20px;
+}
+
+    .formDivider .input-row label.input-label {
+        width: 105px;
+        line-height: 29px;
+    }
+
+.input-wrapper {
+    left: 115px;
+    right: inherit;
+}
+
+.wide-input {
+    width: 190px;
+}
+
+    .wide-input.radio {
+        width: auto;
+    }
+
+.Data.yield-cell, .Data.yield-change-cell {
+    color: #2bc4b6;
+}
+
+@media only screen and (max-width: 800px) {
+    #result-section, .IRCalcModule .customCalcModuleWrapper #calc-form {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+        .IRCalcModule .customCalcModuleWrapper #calc-form .title {
+            padding-top: 20px;
+        }
+
+    #lookup-table-form .submit {
+        width: 100%;
+    }
+
+    #summaryIframe {
+        height: 810px;
+    }
+    /*.IRCalcModule .customCalcModuleWrapper #calc-form {
+        margin-bottom: 20px;
+    }*/
+
+    .formDivider .input-row {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+        .formDivider .input-row label.input-label, .IRCalcModule #amount-invested {
+            display: block;
+            width: 100%;
+        }
+
+    .input-wrapper {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .tabs-container ul li a {
+        width: 100%;
+        max-width: initial;
+        margin: 0px 0px 10px 0;
+    }
+
+    .tabs-container ul li.firstTab a {
+        margin-top: 21px;
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+
+    .tabs-container ul li.tab2 a {
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+
+
+    .tabs-container ul li.lastTab a {
+        margin-bottom: 21px;
+        background-position: 40% center;
+        text-indent: 45%;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .tabs-container ul li.firstTab a, .tabs-container ul li.tab2 a, .tabs-container ul li.lastTab a {
+        background-position: 35% center;
+    }
+}

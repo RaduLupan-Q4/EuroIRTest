@@ -1,0 +1,287 @@
+﻿body {
+    font-family: Georgia;
+    color: #404343;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0px;
+    font-weight: normal;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, Regular;
+}
+
+a, .disclaimer a:link, .disclaimer a:visited {
+    color: #058bca;
+    text-decoration: none;
+}
+
+a:hover, .disclaimer a:link:hover {
+    text-decoration: underline;
+}
+
+
+.table-look td.formatColorNeg, .table-look td.formatColourNeg {
+    color: red;
+}
+
+.table-look td.formatColorPos, .table-look td.formatColourPos {
+    color: green;
+}
+
+.IRChartColour {
+    color: #00b9ea;
+}
+
+.table-look {
+    border: none;
+}
+
+
+input[type=submit], .buttonStyle {
+    font-family: Georgia;
+    padding: 7px 10px;
+    background-color: #a11a46;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    height: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+    .buttonStyle:hover, input[type=submit]:hover, .IRNewsModule .submitButton input:hover, #lookup-button:hover, #calculate-button:hover {
+        background-color: #c12054;
+        color: #fff;
+        border: 0;
+        box-shadow: none;
+    }
+
+.table-look th, .table-look td {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    border: none;
+    text-align: left;
+    text-align: center;
+    padding: 3px 5px;
+    border: solid 1px #cccccc;
+}
+
+.table-look th {
+    color: #fff;
+    line-height: 36px;
+    font-size: 16px;
+    background: #00A5DC;
+    font-family: Georgia;
+    background: #555555;
+}
+
+.table-look td {
+    color: #000000;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.table-look tr:nth-child(even) {
+    background: #f3f0e8;
+}
+
+div.chartCurrentPriceBox, div.chartCurrentPriceBoxArrow div {
+    background-color: #a11a46 !important;
+}
+
+div.chartCurrentPriceBox {
+    border: 1px solid #a11a46 !important;
+}
+
+
+.IRChartPlaceholderArea .IRChartChangePeriod div, .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+        background-color: #a11a46;
+        color: #fff;
+    }
+
+        .IRChartPlaceholderArea .IRChartChangePeriod div:hover, .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+            background-color: #c12054;
+            color: #fff;
+        }
+
+
+.IRPerformanceModule .Header {
+    text-align: right;
+}
+
+.formatArrowNeg, .formatArrowPos {
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+
+/* IRLookupModule ========================================== */
+.IRLookupModule .IRLookupResultsTable.horizontal th,
+.IRLookupModule .IRLookupResultsTable.horizontal td {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+}
+
+.IRLookupModule label {
+    float: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+.IRLookupModule .IRLookupResultsTable.horizontal th {
+    font-weight: normal;
+    line-height: 37px;
+    font-size: 16px;
+}
+
+.IRLookupModule #lookup-button, .IRCalcModule #calculate-button {
+    min-width: 92px;
+    -webkit-appearance: none;
+}
+
+#calc-form, #lookup-form {
+    max-width: 360px;
+    float: right;
+    width: 100%;
+}
+
+.IRCalcModule .input-row, .IRLookupModule .input-row {
+    width: 100%;
+    float: left;
+}
+/* End ====================================================== */
+
+/* IRCalcModule ============================================= */
+.IRToolCalcResultsTable.horizontal {
+    display: table;
+}
+
+.IRToolCalcResultsTable.vertical {
+    display: none;
+}
+
+.IRCalcModule .input-wrapper, .IRLookupModule .input-wrapper {
+    text-align: right;
+}
+
+
+
+.IRCalcModule label, .IRCalcModule input[type="radio"] {
+    float: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal th {
+    text-align: center;
+}
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal td {
+    text-align: center;
+    background: #f3f0e8;
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical th {
+    text-align: left;
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical td {
+    text-align: right;
+    background-color: #E7E7E7;
+    min-width: 40px;
+}
+
+/* End ====================================================== */
+
+/* @media only screen ======================================= */
+
+
+@media only screen and (max-width: 720px) {
+
+    /*.IRDetailedSharePrice.horizontal, .horizontal-header{display: none;}*/
+    .IRCalcModule .amount-invested-label {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+
+    .IRCalcModule .amount-invested-wrapper .input-wrapper {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+
+        .IRCalcModule .amount-invested-wrapper .input-wrapper input {
+            width: 99%;
+            float: left;
+            text-indent: 10px;
+            padding: 0;
+        }
+
+    .IRCalcModule .input-wrapper.calculate-button, .IRCalcModule #calculate-button {
+        width: 100%;
+        text-align: center;
+        background-image: none;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .IRCalcModule #result-section {
+        margin-top: 30px;
+        float: left;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: table;
+    }
+
+    iframe.calc {
+        height: 500px !important;
+    }
+
+    
+}
+
+@media screen and (max-width: 350px) {
+    .formatArrowNeg, .formatArrowPos {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .disclaimer-copyright {
+        display: none;
+    }
+}
+
+
+/* End ====================================================== */

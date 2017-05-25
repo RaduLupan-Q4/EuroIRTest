@@ -1,0 +1,178 @@
+﻿* {
+    color: #60584D;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*
+    show/hide elements
+*/
+.unsubscribeNextToButton {
+    display: block;
+}
+/*
+    end show/hide elements
+*/
+
+
+.buttonStyle {
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 23px;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-top: 3px;
+    position: absolute;
+    text-decoration: none;
+    color: #505050;
+    border: none;
+    color: #F26522;
+    border: 1px solid #F26522;
+    background-color: #fff;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    line-height: 20px;
+    width: 125px;
+    height: 32px;
+    margin-top: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+    /**/
+    color: #F26522;
+    border: 1px solid #F26522;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+    .buttonStyle:hover {
+        border: none;
+        background-color: transparent;
+        background-color: transparent;
+        background-image: url('link.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        color: #FFFFFF;
+        border: 1px solid #F26522;
+        background-color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+        /*background: url(/inc/link.png) no-repeat;*/
+        /**/
+        color: #fff;
+        border: 0px;
+        border-radius: 0px;
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 150px;
+        margin-top: 15px;
+        background: url(link.png) no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='link.png', sizingMethod='scale');
+        -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='link.png', sizingMethod='scale');
+    }
+
+h2 {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 23px;
+    margin-bottom: 22px;
+}
+
+p {
+    display: inline;
+    font-size: 14px;
+    height: auto;
+    line-height: 16px;
+    width: auto;
+}
+
+.inputTextTitle {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    height: 25px;
+    line-height: 25px;
+    min-width: 120px;
+}
+
+.requiredField {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.disclaimerHighlight {
+    font-size: 14px;
+}
+
+input.informationInput {
+    height: 30px;
+    line-height: 32px;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    top: 4px;
+}
+
+b {
+    font-weight: bold;
+}
+
+.divideLine {
+    margin-top: 20px;
+    border-bottom: 1px solid #F26522;
+}
+
+
+.checkBoxText {
+    font-size: 14px;
+}
+
+.blockInner {
+    margin-top: 5px;
+}
+
+.requiredField {
+    font-size: 14px;
+}
+
+
+.header {
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.cleanLink {
+    position: relative;
+    top: 50px;
+}

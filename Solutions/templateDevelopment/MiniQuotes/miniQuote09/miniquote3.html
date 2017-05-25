@@ -1,0 +1,127 @@
+<!-- Header Start -->
+
+<base href="http://ir.euroinvestor.com/solutions/Mediclinic/2364/miniquote3.aspx" target="_blank">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/ir.normalize.css?v=635808478213339223" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/ir.style.css?v=635889811173517620" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:9000/Mediclinic/2364/ir.client.css?v=636016913122891600" />
+</head>
+<body>
+<!-- Header End -->
+
+<script type="text/javascript">
+    var activeModules = ['IRMiniquoteMulti', 'IRMiniquoteChart'];
+    var activeFeatures = [];
+</script>
+
+<style>
+    .shareWrapper {
+        display: none;
+    }
+    .IRQuoteModule .tabs-container {
+        width: 100%;
+    }
+</style>
+
+<div class="IRMiniquoteChartModule"></div>
+<div class="IRQuoteModule"></div>
+
+<script id="IRQuoteMultiTableTemplate" type="text/x-handlebars-template">
+
+    
+
+    <div class="shareWrapper col-sm-7">
+        <h3>Share Information</h3>
+        <div class="share LSEWrapper">
+            <h4>LSE ({{stocks.0/symbol}})</h4>
+            <p>As at {{showDateWithFormat stocks.0/timestamp 'DD MMM YYYY HH:MM'}}</p>
+            <p>
+                <span>{{decimals stocks.0/last}}</span> GBP {{decimals stocks.0/change}} <span class="{{showArrow stocks.0/change}}"></span>
+
+            </p>
+        </div>
+        <div class="divideLine"></div>
+        <div class="share JSEWrapper">
+            <h4>JSE ({{stocks.1/symbol}})</h4>
+            <p>As at {{showDateWithFormat stocks.1/tradeTimestamp 'DD MMM YYYY HH:MM'}}</p>
+            <p>
+                <span class="lastPrice">{{toLocal stocks.1/last}} </span>ZAR {{decimals stocks.1/change}} <span class="{{showArrow stocks.1/change}}"></span>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="tabs-container" >
+
+        <div id="container" class="tabs">
+            <ul class="tabsWrapper">
+                <li class="tabitem firstTab tabActive" frameURL="chartMini.aspx?listing=0"><a href="#tab-1">LSE ({{stocks.0/symbol}})</a></li>
+                <li class="tabitem lastTab" frameURL="chartMini.aspx?listing=1"><a href="#tab-2">JSE ({{stocks.1/symbol}})</a></li>
+            </ul>
+
+            <div id="mainFrame_outer">
+
+                <iframe id="mainFrame" src="chartMini.aspx?listing=0"></iframe>
+
+            </div>
+        </div>
+    </div>
+    
+    <br />
+
+    <div class="miniquoteDisclaimer2">
+        Data delayed 15-20 min. <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx" class="link-target">See Terms.</a>
+    </div>
+
+
+</script>
+<!-- Footer Start -->
+<div class="disclaimer disclaimer-IRMiniquoteChart"><span class="disclaimer-copyright">Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a> </span><span class="disclaimer-dataSource">and our data suppliers. </span><span class="disclaimer-delayed">Data delayed by 15-20 min.</span><span class="disclaimer-terms"> <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a></span></div><script type="text/javascript" src="/includes/js/libs/jquery1-8-2.min.js?v=635808478220526517"></script>
+<script type="text/javascript" src="ir.client.js?v=636027210605470000"></script>
+<script type="text/javascript" src="/includes/js/ir.util.js?v=635997756739971475"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/ir.util.behaviour.js?v=635889811047090774"></script>
+<script type="text/javascript" src="/includes/js/ir.util.data.js?v=635908025763345452"></script>
+<script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=635808478220057902"></script>
+<script type="text/javascript" src="/includes/js/ir.util.draw.js?v=635889843685028987"></script>
+</body>
+</html>
+
+<!-- Footer End -->
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+    var prepareTabsApplied = false;
+    function prepareTabs() {
+        if (!prepareTabsApplied) {
+            if (typeof ($('.JSEWrapper .lastPrice').html()) != 'undefined') {
+                
+				$('.tabitem').click(function(){
+					$('.tabitem').removeClass('tabActive');
+					$(this).addClass('tabActive');
+					$('#mainFrame').attr('src',$(this).attr('frameURL'));
+				});
+				
+				
+                prepareTabsApplied = true;
+            }
+        }
+    }
+    $(function () {
+        setInterval(function () {
+            prepareTabs();
+        }, 200);
+    });
+
+</script>

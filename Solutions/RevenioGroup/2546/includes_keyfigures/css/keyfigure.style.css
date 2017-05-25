@@ -1,0 +1,10 @@
+﻿.table-look th, .table-look td {
+    text-align: right;
+}
+
+.hide{
+    display:none;
+}
+.left {
+    text-align: left !important;
+}

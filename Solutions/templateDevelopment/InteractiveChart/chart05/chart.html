@@ -1,0 +1,383 @@
+<!-- Header Start  -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="lrt">
+<head>
+<title>IR Solutions, Euroinvestor</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.normalize.css?v=635960691510356812" />
+<link rel="stylesheet" type="text/css" media="screen" href="/inc/css/ir.style.css?v=636035058565257347" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700"/><link rel="stylesheet" type="text/css" media="print" href="inc/ir.chartPrint.css?v=636016913037634420" />
+<link rel="stylesheet" type="text/css" media="screen" href="ir.client.css?v=636016913035466368" />
+</head>
+<body>
+
+<!-- Header End -->
+
+
+<script type="text/javascript">
+    var activeModules = ['IRQuote', 'IRChart'];
+    var activeFeatures = ['IRChartCompare', 'IRChartOutsideTechnicalAnalysis', 'IRChartCustomPreventDefault', 'IRChartPressRelease'];
+</script>
+
+<div class="IRQuoteModule"></div>
+<br />
+
+<div class="IRChartModule"></div>
+
+<script id="IRQuoteTableTemplate" type="text/x-handlebars-template">
+    <table class="IRQuoteModule table-look horizontal customResponsive">
+        {{#headers}}
+            <tr>
+                <th class="Header column-first symbol">{{t_symbol}}</th>
+                <th class="Header last">{{t_last}}</th>
+                <th class="Header change">{{t_change}}</th>
+                <th class="Header bid">{{t_bid}}</th>
+                <th class="Header ask">{{t_ask}}</th>
+                <th class="Header volume">{{t_volume}}</th>
+                <th class="Header high">{{t_high}}</th>
+                <th class="Header low">{{t_low}}</th>
+            </tr>
+        {{/headers}}
+        {{#stocks}}
+            <tr>
+                <td class="Data column-first symbol">{{symbol}}</td>
+                <td class="Data last">{{decimals last}} {{showCurrency}}</td>
+                <td class="Data change"><span class="{{showArrow change}}"></span>{{decimals change}} ({{decimals changePercent}}%) </td>
+                <td class="Data bid">{{decimals bid}}</td>
+                <td class="Data ask">{{decimals ask}}</td>
+                <td class="Data volume">{{toLocal volume}}</td>
+                <td class="Data high">{{decimals high}}</td>
+                <td class="Data low">{{decimals low}}</td>
+            </tr>
+        {{/stocks}}
+    </table>
+    <table class="IRQuoteModule table-look vertical customResponsiveVertical">
+            <tr>
+                <th class="Header column-first symbol">{{headers/t_symbol}}</td>
+                <td class="Data column-first symbol">{{stocks/symbol}}</td>
+            </tr>
+            <tr>
+                <th class="Header last">{{headers/t_last}}</th>
+                <td class="Data last">{{decimals stocks/last}} {{stocks/showCurrency}}</td>
+            </tr>
+            <tr>
+                <th class="Header change">{{headers/t_change}}</th>
+                <td class="Data change"><span class="{{showArrow stocks/change}}"></span>{{decimals stocks/change}} ({{decimals stocks/changePercent}}%) </td>
+            </tr>
+            <tr>
+                <th class="Header bid">{{headers/t_bid}}</th>
+                <td class="Data bid">{{decimals stocks/bid}}</td>
+            </tr>    
+            <tr>
+                <th class="Header ask">{{headers/t_ask}}</th>
+                <td class="Data ask">{{decimals stocks/ask}}</td>
+            </tr>
+            <tr>
+                <th class="Header volume">{{headers/t_volume}}</th>
+                <td class="Data volume">{{toLocal stocks/volume}}</td>
+            </tr>
+            <tr>
+                <th class="Header high">{{headers/t_high}}</th>
+                <td class="Data high">{{decimals stocks/high}}</td>
+            </tr>
+            <tr>
+                <th class="Header low">{{headers/t_low}}</th>
+                <td class="Data low">{{decimals stocks/low}}</td>
+            </tr>
+    </table>
+    <div class="updated" style="text-align: right"><span>Updated: {{showDateTime stocks/timestamp}}</span></div>
+
+</script>
+
+<script id="IRChartModuleTemplate" type="text/x-handlebars-template">
+
+    <div class="IRChartNavigation">
+        {{{includeIRChartCompanyName}}}
+        {{{includeIRChartNavigation}}}
+    </div>
+
+    <div class="IRChartPlaceholderArea" id="IRChartModule">
+        {{{includeIRChartDomSettings}}}
+        {{{includeIRChartPlaceholder}}}
+
+        <div class="IRChartChangePeriodOuterCustom language-en">
+        {{#headers}}
+            <div class="IRChartChangePeriodCustom language-en">
+                <div id="d1" class=""><span>{{t_1_day}}</span></div>
+                <div id="d5" class=""><span>{{t_5_days}}</span></div>
+                <div id="m1" class=""><span>{{t_1_month}}</span></div>
+                <div id="m3" class=""><span>{{t_3_months}}</span></div>   
+                <div id="y1" class=" activePeriod"><span>{{t_1_year}}</span></div>
+                <div id="y2" class=""><span>{{t_2_years}}</span></div>
+                <div id="y5" class=""><span>{{t_5_years}}</span></div>
+                <div id="Max" class=""><span>All</span></div>
+            </div>
+        {{/headers}}
+        </div>
+
+    </div>
+
+
+    <div class="buttonWrapper">
+        <div class="downloadHistoricalData buttonLook">Download Excel</div><!-- missing handlebar -->
+        
+    </div>
+    <div class="IRChartNavigationBottom">
+
+        <div class="navBottomRow">
+
+            <div class="toggleFullscreen buttonLook" style="display: none;">Expand Graph</div><!-- missing handlebar -->
+
+            
+            <h2>Indicators</h2><!-- missing handlebar -->
+            
+            <div class="featureCheckbox" id="featurePeriodHighLow">Period High/Low</div><!-- missing handlebar -->
+            <div class="featureCheckbox checked" id="featureVolume">Volume</div><!-- missing handlebar -->
+
+            
+        </div>
+        <div class="navBottomRow">
+            <h2>Diagram type</h2><!-- missing handlebar -->
+            <div class="diagramSelect" id="diagramArea">Area</div><!-- missing handlebar -->
+            <div class="diagramSelect" id="diagramLine">Line</div><!-- missing handlebar -->
+            <div class="diagramSelect" id="diagramOHLC">Bar</div><!-- missing handlebar -->
+            <div class="diagramSelect" id="diagramCandlestick">Candlestick</div><!-- missing handlebar -->
+        </div>
+        <div class="navBottomRow">
+            
+            
+
+            
+        </div>
+        <div class="navBottomRow column-last">
+
+            <div class="printChart buttonLook" style="display: none;">Print</div><!-- missing handlebar -->
+
+            <h2>Moving Average</h2><!-- missing handlebar -->
+
+            <div class="chartModeSelect" id="taMA10">10 days</div><!-- missing handlebar -->
+            <div class="chartModeSelect" id="taMA20">20 days</div><!-- missing handlebar -->
+            <div class="chartModeSelect" id="taMA50">50 days</div><!-- missing handlebar -->
+            
+        </div>
+        
+        <div class="legendWrapper">
+            <div class="legend">
+                <h2>Legend</h2><!-- missing handlebar -->
+                <p>O - Open</p><!-- missing handlebar -->
+                <p>H - Highest</p><!-- missing handlebar -->
+                <p>L - Lowest</p><!-- missing handlebar -->
+                <p>C - Close</p><!-- missing handlebar -->
+                <p>V - Volume</p><!-- missing handlebar -->
+            </div>
+        </div>
+
+        <div style="clear: both"></div>
+
+    </div>
+    
+    
+    <div class="IRClearFloat"></div>
+
+
+</script>
+
+
+
+
+<div style="display: none;">
+
+<!-- Footer Start  -->
+
+    <div class="disclaimer disclaimer-IRChart">
+<span class="disclaimer-copyright">Copyright &copy; 1997-2016 <a href="http://www.euroinvestor.com/ir/">Euroinvestor</a> </span><span class="disclaimer-dataSource">and our data suppliers. </span><span class="disclaimer-delayed">Data delayed by 15-20 min.</span><span class="disclaimer-terms"> <a href="http://ir.euroinvestor.com/disclaimer/terms_conditions.aspx">See Terms of use</a></span></div>
+<script type="text/javascript" src="/includes/js/libs/jquery1-8-3.min.js?v=635810177706204834"></script>
+<script type="text/javascript" src="ir.client.js?v=636016913035456602"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=636038531330798541"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=635979478298352876"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=635808478214120447"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=635808478220995253"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=635808478211933009"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=635979478298523004"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=635979478297302170"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=636035758083067935"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=636035065599684865"></script>
+<script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=635808478220057902"></script>
+<script type="text/javascript" src="/includes/js/libs/screenfull.min.js?v=635900880957835169"></script>
+<script type="text/javascript" src="/includes/js/libs/jquery.printElement.min.js?v=635900963119873276"></script>
+<script type="text/javascript" src="/includes/js/libs/jsv.js?v=635900946166650015"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=636035746958400797"></script>
+</body>
+</html>
+
+<!-- Footer End -->
+
+</div>
+<script type="text/javascript" src="http://ir.euroinvestor.com/inc/scripts/jsv.js"></script>
+<script type="text/javascript" src="ir.custom.js?v=636016913035534730"></script>
+<script type="text/javascript">
+
+    var toolSet = false;
+
+    $(function () {
+
+        setInterval(function () {
+            prepareTool();
+        }, 100);
+
+    });
+
+    function prepareTool() {
+        if (!toolSet) {
+            if (typeof ($('.IRChartNavigation').html()) != 'undefined') {
+                setTool();
+                toolSet = true;
+            }
+        }
+    }
+
+    function setTool() {
+        $('.basicButtonLook').click(function() {
+            globalChartDom.redraw();
+        });
+
+        $('#IRChartNavigationClearComparison').click(function () {
+            var days = -1;
+            var hours = -1;
+            var e = $('.IRChartChangePeriodCustom div.activePeriod').attr('id');
+
+            switch (e) {
+                case 'd1':
+                    hours = 24;
+                    break;
+                case 'd5':
+                    hours = 24 * 5;
+                    break;
+                case 'm1':
+                    days = 30;
+                    break;
+                case 'm3':
+                    days = 90;
+                    break;
+                case 'm6':
+                    days = 180;
+                    break;
+                case 'y1':
+                    days = 360;
+                    break;
+                case 'y2':
+                    days = 360 * 2;
+                    break;
+                case 'max':
+                    days = 9999;
+                    break;
+                default:
+                    days = 360 * 5;
+                    break;
+            }
+
+            drawChart.updateActiveChartNavBarRangePeriodCustom(e);
+
+            if (days > 0) {
+                drawChart.stateNewHistoricalPeriodSelectedCustom(days);
+            }
+
+            if (hours > 0) {
+                drawChart.stateNewIntradayPeriodSelectedCustom(hours);
+            }
+        });
+
+
+
+        $('.IRChartOutsideTATrigger').off().on('click', function () {
+            var id = $(this).attr('id');
+            IRChartOutsideTechnicalAnalysis.updateIRChartOutsideTechnicalAnalysis(id);
+        });
+
+        $('.IRChartOutsideDiagramTrigger').off().on('click', function () {
+            var id = $(this).attr('id');
+            clientStyle.chart_DrawMode = id;
+
+            $('.IRChartOutsideRadioButton').removeClass('checked'); // Reset all radios
+            if ($(this).hasClass('checked')) {
+                $(this).removeClass('checked');
+            } else {
+                $(this).addClass('checked');
+            }
+
+            IRChartOutsideTechnicalAnalysis.drawIRChartHtmlCustom(id);
+        });
+
+        $('.IRChartOutsidePressReleaseTrigger').off().on('click', function () {
+            var id = $(this).attr('id');
+
+            if ($(this).hasClass('checked')) {
+                $(this).removeClass('checked');
+            } else {
+                $(this).addClass('checked');
+            }
+        });
+
+        // Moving Average
+        $('.IRChartOutsideRadioButton.MA').off().on('click', function () {
+            var id = $(this).attr('id');
+
+            $('.IRChartOutsideRadioButton.MA, .IRChartOutsideRadioButton.RSIMACD').removeClass('checked'); // Reset radios
+
+            if (id == 'MA10' || id == 'MA20' || id == 'MA50') {
+                IRChartOutsideTechnicalAnalysis.updateIRChartOutsideTechnicalAnalysis(id);
+            } else if (id == 'MACustom') {
+
+                var days = $('.IRChartOutsideTACustomDaysValue').val();
+                if (parseFloat(days) > 0 && parseFloat(days) < 100) {
+                    IRChartOutsideTechnicalAnalysis.updateIRChartOutsideTechnicalAnalysis(id);
+                }
+            }
+            IRChartOutsideTechnicalAnalysis.toggleCheckBoxes(id);
+        });
+        $('.IRChartOutsideTAMATrigger').off().on('click', function () {
+            var id = $(this).attr('id');
+            $('.IRChartOutsideRadioButton').removeClass('checked'); // Reset all radios
+            $('.IRChartOutsideRadioButton.MA.MACustom').addClass('checked');
+            IRChartOutsideTechnicalAnalysis.updateIRChartOutsideTechnicalAnalysis(id);
+        });
+
+        // RSI & MACD
+        $('.IRChartOutsideRadioButton.RSIMACD').off().on('click', function () {
+            var id = $(this).attr('id');
+            $('.IRChartOutsideRadioButton.MA, .IRChartOutsideRadioButton.RSIMACD').removeClass('checked'); // Reset radios
+            if (id == 'RSI' || id == 'MACD') {
+                IRChartOutsideTechnicalAnalysis.updateIRChartOutsideTechnicalAnalysis(id);
+            }
+            IRChartOutsideTechnicalAnalysis.toggleCheckBoxes(id);
+        });
+
+        // Volume, Percent
+        $('.IRChartOutsideCheckbox').off().on('click', function () {
+            if ($(this).hasClass('checked')) {
+                $(this).removeClass('checked');
+            } else {
+                $(this).addClass('checked');
+            }
+        });
+
+        attachShowHideVolumeClickHandler();
+        attachshowHidePercentClickHandler();
+        attachFullscreenClickHandler();
+        attachDownloadClickHandler();
+        attachPrintClickHandler();
+        prepareIRChartNews();
+        attachPressReleaseClickHandler();
+        attachPeriodHighLowClickHandler();
+
+        // Update
+        initChartBottomNavigation();
+
+        //Change default chart view
+        //$('.IRChartNavigationBottom .diagramSelect#diagramLine').click();
+        $('.IRChartNavigationBottom .diagramSelect#diagramArea').click();
+    }
+
+</script>
+

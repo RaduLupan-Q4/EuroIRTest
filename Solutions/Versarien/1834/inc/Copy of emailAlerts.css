@@ -1,0 +1,120 @@
+﻿* {
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.content {
+    width: 90%;
+    height: 145px;
+    padding: 10px;
+}
+
+.checkBoxText {
+    cursor: default;
+    text-align: left;
+    width: 100%;
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.inputTextTitle {
+    cursor: default;
+    text-align: left;
+    width: 100%;
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+.buttonStyle {
+    color: #F26522;
+    border: 1px solid #F26522;
+    background-color: #fff;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    line-height: 20px;
+    width: 150px;
+    height: 32px;
+    margin-top: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+    .buttonStyle:hover {
+        color: #F26522;
+        border: 1px solid #F26522;
+        background-color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+input[type="checkbox"] {
+    margin: 5px 0;
+    padding: 3px 5px;
+    line-height: 23px;
+}
+
+input[type=text].informationInput, input[type=text].inputTextField {
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border: 1px solid #F26522;
+    height: 32px;
+    width: 150px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+
+.requiredAndLinkText {
+    font-size: 11px;
+    color: #333;
+    font-weight: normal;
+}
+
+    .requiredAndLinkText a, .requiredAndLinkText a:visited {
+        text-decoration: none;
+    }
+
+        .requiredAndLinkText a:hover {
+            color: #000;
+            text-decoration: none;
+        }
+
+.actionRequired {
+    background-color: #E2B1B1;
+}
+
+.missing {
+    position: relative;
+    top: -2px;
+    font-size: 11px;
+    color: red;
+    padding-left: 10px;
+}
+
+.pageVerification h2, .pageVerification p {
+    color: #F26522;
+}
+
+.pageVerification .goToHome {
+    color: #666;
+    text-decoration: none;
+}
+
+    .pageVerification .goToHome:hover {
+        color: #F26522;
+    }

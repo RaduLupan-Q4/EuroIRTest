@@ -1,0 +1,1382 @@
+﻿body {
+    font-family: Georgia;
+    color: #404343;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0px;
+    font-weight: normal;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, Regular;
+}
+
+a, .disclaimer a:link, .disclaimer a:visited {
+    color: #058bca;
+    text-decoration: none;
+}
+
+    a:hover, .disclaimer a:link:hover {
+        text-decoration: underline;
+    }
+
+/* IRNewsModule ============================================================ */
+
+.IRNewsModule h1 {
+    color: #83A4B7;
+    font-size: 24px;
+    font-weight: normal;
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.IRNewsModule .filter-wrapper {
+    width: 100%;
+    float: left;
+}
+
+.IRNewsModule h2 {
+    color: #fff;
+    background-color: #23408f;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.IRNewsModule .placeholder {
+    color: #aaa;
+}
+
+.news-filter-wrapper {
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    background: #FAFAFA;
+    padding: 2%;
+    overflow: hidden;
+    width: 100%;
+    /*max-width: 500px;*/
+    clear: both;
+    float: left;
+}
+
+.IRNewsModule .search-for-box {
+    width: 48%;
+    float: left;
+    margin-bottom: 5px;
+    min-width: 240px;
+}
+
+.news-filter-wrapper .news-filter-box {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.IRNewsModule .news-filter-box #allRNSnews {
+    font-weight: bold;
+}
+
+.IRNewsModule .news-filter-box label {
+    line-height: 26px;
+}
+
+.IRNewsModule .news-filter-wrapper #select-filter {
+    padding: 0;
+}
+
+.IRNewsModule .news-filter-wrapper .filterRow {
+    width: 48%;
+    float: left;
+    min-width: 240px;
+}
+
+.IRNewsModule .news-filter-wrapper #searchtext {
+    cursor: text;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+}
+
+
+.IRNewsModule .news-filter-wrapper label {
+    cursor: pointer;
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {
+    background-color: transparent;
+    line-height: 22px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border: 0px solid White;
+    font-weight: bold;
+}
+
+.IRNewsModule .news-filter-wrapper .textArea {
+    float: left;
+    min-width: 80px;
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+}
+
+.IRNewsModule .search-for-box input {
+    padding-left: 5px;
+}
+
+.IRNewsModule .news-range .textArea {
+    width: 100%;
+}
+
+.IRNewsModule .search-for-box .textArea {
+}
+
+.IRNewsModule .news-filter-wrapper .filterRow input {
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    border: none;
+    float: left;
+    background: none;
+}
+
+.IRNewsModule .news-filter-wrapper .radiofix {
+    position: relative;
+    margin-right: 5px !important;
+    float: left;
+    top: 7px;
+}
+
+.IRNewsModule .news-filter-wrapper .form {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.IRNewsModule .news-filter-wrapper #to-month, .IRNewsModule .news-filter-wrapper #to-year, .IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #from-month {
+    padding: 0px;
+    float: left;
+}
+
+.IRNewsModule .news-filter-wrapper #from-month, .IRNewsModule .news-filter-wrapper #to-month {
+    margin-right: 3px;
+}
+
+.IRNewsModule .news-filter-wrapper #from-month, .IRNewsModule .news-filter-wrapper #to-month {
+    width: 86px;
+}
+
+.IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #to-year {
+    width: 60px;
+}
+
+
+.IRNewsModule .datepicker {
+}
+
+.IRNewsModule .search-filter-wrapper {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to {
+    width: 385px;
+    width: 48%;
+    min-width: 240px;
+    margin-bottom: 5px;
+}
+
+.IRNewsModule .news-filter-wrapper .search-from {
+    float: left;
+}
+
+.IRNewsModule .news-filter-wrapper .search-to {
+    float: left;
+}
+
+.IRNewsModule #ui-datepicker-div {
+    margin-top: 0;
+}
+
+.IRNewsModule .news-filter-wrapper input#refreshiframe {
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.IRNewsModule .datepicker input.from, .IRNewsModule .datepicker input.to, .IRNewsModule .datepicker input.from, .IRNewsModule .datepicker input.to {
+    width: 240px;
+    font-weight: normal;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.IRNewsTool {
+    border: none;
+    table-layout: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.IRNewsModule .entriesPerPage {
+    float: right;
+}
+
+
+
+.IRNewsModule .news-filter-wrapper input {
+    border: 0px;
+}
+
+.IRNewsModule .news-filter-wrapper .submitButton input {
+    font-family: Georgia;
+    padding: 7px 10px;
+    background-color: #a11a46;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    height: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    float: right;
+    /*margin-left: 48%;*/
+    width: 100px;
+    -webkit-appearance: none;
+}
+
+    .IRNewsModule .news-filter-wrapper .submitButton input:hover {
+        background-color: #c12054;
+        color: #fff;
+        border: 0;
+        box-shadow: none;
+    }
+
+
+.IRNewsModule .records-per-page #entriesPerRow {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px;
+    min-width: 120px;
+    font-size: 12px;
+}
+
+.IRNewsModule .news-filter-box .textArea {
+    width: 100%;
+}
+
+.IRNewsModule .datepicker .textArea.date-range {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.IRNewsModule .news-range .submitButton {
+    margin-bottom: 10px;
+}
+
+.IRNewsModule .news-range .submitButton {
+    padding-left: 288px;
+}
+
+.IRNewsModule .submitButton {
+    text-align: right;
+    margin-top: 20px;
+}
+
+input#from.hide-background, input#to.hide-background {
+    background: none;
+}
+
+.ui-datepicker-divHide {
+    display: none;
+}
+
+input#from, input#to {
+    background-image: url(images/calendar.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.IRNewsModule .newsSubmit {
+    min-width: 100px;
+}
+/* End ================================================================ */
+
+
+/* IRNewsHeadline ===================================================== */
+.IRNewsHeadlineTool {
+    max-width: 450px;
+}
+
+    .IRNewsHeadlineTool .date {
+        float: left;
+        text-align: center;
+        width: 23%;
+    }
+
+    .IRNewsHeadlineTool .event-listing {
+        border-bottom: 1px solid #e0ded8;
+        padding: 10px 0;
+    }
+
+    .IRNewsHeadlineTool .date .day {
+        font-size: 25px;
+        line-height: 25px;
+        width: 100%;
+        float: left;
+    }
+
+    .IRNewsHeadlineTool .date .month {
+        font-size: 10px;
+    }
+
+    .IRNewsHeadlineTool .title {
+        line-height: 25px;
+        float: left;
+        width: 77%;
+    }
+
+        .IRNewsHeadlineTool .title a {
+            float: left;
+            width: 100%;
+            line-height: 20px;
+            font-size: 12px;
+            text-decoration: none;
+            color: #404343;
+        }
+
+            .IRNewsHeadlineTool .title a:hover {
+                text-decoration: underline;
+            }
+
+.newsHeadlineDisclaimer {
+    display: none;
+}
+/* End ================================================================ */
+
+
+/* NewsContent ======================================================== */
+.IRNewsModule .IRNewsTool th {
+    font-weight: bold;
+    display: none;
+}
+
+
+.IRNewsModule .IRNewsTool th, .IRNewsModule .IRNewsTool td {
+    border-right: 0px;
+    border-left: 0px;
+    cursor: pointer;
+    width: 33%;
+    font-size: 10px;
+    color: #50508d;
+}
+
+div.IRNewsTool .IRDataGroup:nth-child(odd) {
+    background: #FAFAFA;
+}
+
+.IRNewsModule .IRNewsTool td.data {
+    color: inherit;
+    padding-left: 5px;
+    vertical-align: middle;
+    border-bottom: 1px solid #23408f;
+}
+
+.IRNewsModule .IRNewsTool td.DataHover {
+    background-color: #E5F4FB;
+    text-decoration: none;
+    color: #000;
+}
+
+.IRNewsModule .news-table td.filterRow {
+    background-color: transparent;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border: 0px solid White;
+    color: rgb(18, 141, 185);
+    font-weight: bold;
+}
+
+.IRNewsModule .pagelabel, .IRNewsModule .pagelabelNEXT, .IRNewsModule .pagelabelPREV {
+    cursor: pointer;
+    font-size: 14px;
+    color: #3C5267;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom: 1px solid #3C5267;
+}
+
+.IRNewsModule .pagelabelNEXT {
+    margin-left: 19px;
+}
+
+.IRNewsModule .pagelabelPREV {
+    margin-right: 19px;
+}
+
+.IRNewsModule .pagelabelhidden {
+    display: none;
+}
+
+.IRNewsModule .pagelabelhover, .IRNewsModule .pagelabelclick {
+    color: #000;
+    font-size: 14px;
+}
+
+.IRNewsModule #pagecounter {
+    cursor: pointer;
+}
+
+.IRNewsModule .filesize {
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+.IRNewsModule .newsRowHidden {
+    display: none;
+}
+
+.IRNewsModule .news-filter-box .checkbox {
+    width: 44%;
+    min-width: 44%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.IRNewsTool th, .IRNewsTool td {
+    width: 33%;
+}
+
+    .IRNewsTool td.title {
+        overflow: hidden;
+    }
+
+.IRNewsModule .news-filter-wrapper td.download {
+    width: 33%;
+}
+
+div.IRNewsTool .IRHeaderGroup div.IRHeader, div.IRNewsTool .IRDataGroup div.IRData {
+    border-bottom: 1px dashed #DADADA;
+    font-size: 10px;
+    color: #50508D;
+    line-height: 22px;
+    height: 22px;
+}
+
+div.IRNewsTool .IRHeaderGroup div.IRHeader {
+    display: none;
+}
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRTitle, div.IRNewsTool .IRDataGroup div.IRData.IRTitle {
+        width: 70%;
+    }
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDownload, div.IRNewsTool .IRDataGroup div.IRData.IRDownload {
+        width: 5%;
+    }
+
+        div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF .iconPDF {
+            padding-top: 5px;
+            background-image: url('images/pdficon.png');
+            height: 14px;
+            width: 15px;
+        }
+
+.IRNewsModule .select_inner .close_box {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #8f8d8a;
+    margin-left: 33%;
+    margin-top: -15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+    .IRNewsModule .select_inner .close_box:hover {
+        background-color: #a9a49f;
+    }
+
+div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF .iconPDF, .headerAttachment {
+    display: none;
+}
+
+div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF .iconPDF {
+    background-image: url('images/pdficon.png');
+    float: left;
+    margin-top: 0px;
+    width: 20px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    text-indent: 5000px;
+    overflow: hidden;
+}
+
+/* End ===================================================================== */
+
+/* IRNewsArticle =========================================================== */
+.IRNewsArticle .backBtn {
+    float: left;
+    background-color: #a11a46;
+    border: solid 0px #ffffff;
+    color: #ffffff;
+    width: 50px;
+    height: 23px;
+    cursor: pointer;
+}
+
+    .IRNewsArticle .backBtn:hover {
+        background-color: #c12054;
+    }
+
+
+.IRArticleModule .attachmentList {
+    margin-bottom: 40px;
+    float: left;
+}
+
+.IRArticleModule .attachmentIcon {
+    background-image: url('images/pdficon.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 25px;
+    float: left;
+}
+
+
+/* End ===================================================================== */
+
+/* IRNewsPagination ======================================================== */
+
+.IRNewsModule .IRNewsTool th.pagination {
+    width: 41%;
+    margin: 0;
+    padding: 3px;
+    border-radius: 0;
+}
+
+
+
+.IRNewsPagination {
+    max-width: none;
+    padding: 0;
+    padding-right: 5px;
+}
+
+
+
+    .IRNewsPagination .IRNewsPageNumber.active {
+        color: #A11A46;
+        text-decoration: underline;
+    }
+    .IRNewsPagination .IRNewsPageNumber.active:hover {
+        color: #c12054;
+    }
+
+    .IRNewsPagination .IRNewsPageNumber {
+        color: #8f8d8a;
+        font-weight: bold;
+        cursor: pointer;
+    }
+        .IRNewsPagination .IRNewsPageNumber:hover {
+            color: #a9a49f;
+        }
+.IRNewsTableFooter .IRNewsPagination {
+    line-height: 10px !important;
+}
+
+.IRNewsModule .IRNewsTool th.title, .IRNewsModule .IRNewsTool td.title {
+    width: 60%;
+    text-align: left;
+}
+
+.IRNewsModule .IRNewsTool td.data {
+    color: inherit;
+    vertical-align: middle;
+}
+
+.IRNewsModule .IRNewsTool th.data, .IRNewsModule .IRNewsTool td.data {
+    width: 30%;
+}
+
+.IRNewsModule .IRNewsTool th.download, .IRNewsModule .IRNewsTool td.download {
+    width: 20%;
+}
+
+.IRNewsModule .IRNewsTool td.DataHover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.IRNewsModule .news-filter-wrapper #select-filter {
+    padding: 0;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.IRNewsModule .news-table td.filterRow {
+    background-color: transparent;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border: 0px solid White;
+    color: rgb(18, 141, 185);
+    font-weight: bold;
+}
+
+.IRNewsModule .pagelabel, .IRNewsModule .pagelabelNEXT, .IRNewsModule .pagelabelPREV {
+    cursor: pointer;
+    font-size: 14px;
+    color: #3C5267;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom: 1px solid #3C5267;
+}
+
+.IRNewsModule .pagelabelNEXT {
+    margin-left: 19px;
+}
+
+.IRNewsModule .pagelabelPREV {
+    margin-right: 19px;
+}
+
+.IRNewsModule .pagelabelhidden {
+    display: none;
+}
+
+.IRNewsModule .pagelabelhover, .IRNewsModule .pagelabelclick {
+    color: #000;
+    font-size: 14px;
+}
+
+.IRNewsModule #pagecounter {
+    cursor: pointer;
+}
+
+.IRNewsPagination {
+    width: 300px;
+    height: 15px;
+    margin: auto;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.IRNewsPaginationPageNew {
+    float: left;
+    cursor: pointer;
+    width: 25px;
+    line-height: 16px;
+    text-align: center;
+    color: #aaa;
+    font-size: 10px;
+}
+
+.IRNewsPaginationPagePrev, .IRNewsPaginationPageNext {
+    width: 50px;
+}
+
+.IRNewsTableFooter .IRNewsPagination {
+    padding-right: 25px;
+    font-size: 1em;
+    padding: 0.65em 0em 0.65em 0.91em;
+    padding-right: 5px;
+    text-transform: capitalize;
+    max-width: initial;
+    text-align: center;
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    clear: both;
+}
+
+.hide {
+    display: none;
+}
+/* End ======================================================================== */
+
+
+/* @media only screen ======================================= */
+
+@media only screen and (max-width: 1250px) {
+    .IRNewsModule .news-filter-wrapper .search-for-box input.searchText {
+        width: 250px;
+    }
+
+    .filter-wrapper .datepicker #from-month, .filter-wrapper .datepicker #to-month {
+        width: 150px;
+        margin-right: 0;
+    }
+
+    .filter-wrapper .datepicker #from-year, .filter-wrapper .datepicker #to-year {
+        width: 88px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .IRNewsModule .news-filter-wrapper .search-for-box input.searchText, .IRNewsModule .news-filter-wrapper select {
+        width: 170px;
+    }
+
+    .filter-wrapper .datepicker #from-month, .filter-wrapper .datepicker #to-month {
+        width: 102px;
+    }
+
+    .filter-wrapper .datepicker #from-year, .filter-wrapper .datepicker #to-year {
+        width: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .search-for-box, .filterRow, .IRNewsModule .datepicker .search-from {
+        width: 48%;
+    }
+
+
+    .IRNewsModule .news-filter-wrapper .search-for-box input.searchText {
+        text-indent: 2%;
+    }
+
+    .IRNewsModule .textArea {
+        min-width: 100px;
+    }
+
+    .IRNewsModule .filterRow .textArea, .IRNewsModule .search-to .textArea {
+        min-width: 70px;
+    }
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRTitle, div.IRNewsTool .IRDataGroup div.IRData.IRTitle {
+        width: 78%;
+    }
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDate, div.IRNewsTool .IRDataGroup div.IRData.IRDate, div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDownload, div.IRNewsTool .IRDataGroup div.IRData.IRDownload {
+        width: 10%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 791px) {
+    .IRNewsModule .news-range.vertical, .IRNewsTool .vertical {
+        display: none;
+    }
+
+    .IRNewsModule .news-range.horizontal .submitButton {
+        padding-left: 288px;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .IRNewsModule .news-range .submitButton {
+        padding-left: 0px;
+    }
+    .IRNewsModule .news-range.horizontal {
+        display: none;
+    }
+
+    .IRNewsModule .news-filter-box .filterRow {
+        width: 48%;
+    }
+
+    .IRNewsModule .news-filter-wrapper .checkbox {
+        min-width: 200px !important;
+    }
+
+    .news-filter-wrapper .news-filter-box {
+        padding-left: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .IRNewsTool .IRDataGroup div .select_inner .headerAttachment, .select_wrapper ul.hasAttachments li {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .IRNewsTool.table-look {
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .IRNewsModule .select_inner .close_box {
+        margin-left: 90%;
+        text-indent: 0;
+    }
+
+    .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: table;
+    }
+
+    iframe.calc {
+        height: 500px !important;
+    }
+
+    .IRNewsModule .search-for-box .textArea, div.IRNewsTool .IRHeaderGroup {
+        display: none;
+    }
+
+    div.IRNewsTool .IRHeaderGroup {
+        border-bottom: 0;
+    }
+
+    div.IRNewsTool .IRDataGroup {
+        border-bottom: 1px solid #f0f0f0;
+        width: 100%;
+    }
+
+
+        div.IRNewsTool .IRDataGroup div.IRData.IRTitle {
+            width: 100%;
+            height: 25px;
+            line-height: 25px;
+            padding-top: 12px;
+            padding: 0;
+        }
+
+        div.IRNewsTool .IRDataGroup div.IRData.IRDate, div.IRNewsTool .IRDataGroup div.IRData.IRDownload {
+            width: 100%;
+            height: 28px;
+            line-height: 28px;
+        }
+
+    .IRNewsModule .news-filter-wrapper .search-for-box input.searchText, .IRNewsModule .news-filter-wrapper input, .IRNewsModule .news-filter-wrapper select {
+        line-height: 32px;
+        height: 32px;
+    }
+
+    .IRNewsModule .textArea, .search-for-box, .filterRow, .IRNewsModule .datepicker .search-from, .IRNewsModule .news-filter-wrapper .search-for-box input.searchText, .IRNewsModule .news-filter-wrapper select {
+        width: 100%;
+    }
+
+    .IRNewsModule .textArea {
+        font-weight: normal;
+    }
+
+    .div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF {
+        text-align: left;
+    }
+
+    .filter-wrapper .datepicker #from-month, .filter-wrapper .datepicker #to-month {
+        width: 67%;
+    }
+
+    div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF, div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadKB {
+        float: left;
+        text-align: left;
+    }
+
+    div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF {
+        width: 20px;
+    }
+
+        div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF .iconPDF {
+            top: 0;
+            padding-right: 2%;
+            background-position: left 7px;
+            height: 25px;
+            background-image: url('images/pdficon.png');
+            background-position: left center;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF .iconPDF, .headerAttachment {
+            display: none;
+        }
+
+
+    .IRNewsTool .IRDataGroup div .select_inner .headerAttachment {
+        font-weight: bold;
+        padding-left: 3%;
+        height: 50px;
+        line-height: 50px;
+        background-color: #f0f0f0;
+    }
+
+    .IRNewsPagination .IRNewsPageNumber {
+        font-size: 14px;
+        margin-left: 2px;
+        margin-right: 2px;
+        text-decoration: none;
+        color: #c5252b;
+        font-weight: normal;
+        padding: 3px 15px;
+    }
+
+    .IRNewsModule .search-filter-wrapper {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .news-filter-wrapper {
+        padding-top: 0;
+    }
+
+    .IRNewsModule .news-filter-wrapper #select-filter {
+        width: 100%;
+        line-height: 30px;
+        height: 30px;
+    }
+
+    .filter-wrapper .datepicker #from-year, .filter-wrapper .datepicker #to-year {
+        width: 28%;
+        float: right;
+        min-width: 60px;
+    }
+
+    .IRNewsModule .news-filter-wrapper input, .IRNewsModule .news-filter-wrapper select {
+        margin: 0;
+    }
+
+    .IRNewsModule .submitButton {
+        width: 96%;
+        margin-bottom: 20px;
+        margin-left: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .IRNewsModule .news-filter-wrapper .newsSubmit {
+        margin-left: 0;
+        width: 100%;
+        color: #000;
+        border: 2px solid #000;
+        background: initial;
+        background-image: none;
+        height: 40px;
+        line-height: 40px;
+        background-color: transparent;
+        text-transform: uppercase;
+        padding-top: 0;
+        text-align: center;
+    }
+
+        .IRNewsModule .news-filter-wrapper .newsSubmit:hover {
+            color: #fff;
+            background: #000;
+        }
+
+    .IRNewsModule .search-for-box input {
+        width: 100%;
+        height: 32px;
+        line-height: 32px;
+        border: 1px solid #bdbdbd;
+        padding-left: 0;
+        text-indent: 5px;
+    }
+
+    .IRNewsModule .newsSubmit {
+        margin-top: 20px;
+    }
+
+    .IRNewsModule select, .IRNewsModule input {
+        width: 100%;
+    }
+
+    .IRNewsModule .select-date #from-month, .IRNewsModule .select-date #to-month {
+        width: 70%;
+        float: left;
+    }
+
+    .IRNewsModule .select-date #from-year, .IRNewsModule .select-date #to-year {
+        width: 28%;
+        float: right;
+        min-width: 60px;
+    }
+
+    .IRNewsModule .submitButton input {
+        width: 100%;
+    }
+
+    .IRNewsTool .Data {
+        width: 100%;
+        float: left;
+    }
+
+    .IRNewsTool thead th {
+        display: none;
+    }
+
+    .IRNewsTool tbody td {
+        padding: 0;
+        text-indent: 3%;
+        border-bottom: 0;
+    }
+
+    .IRNewsTool tbody {
+        border-top: 1px dotted #ccc;
+    }
+
+    .IRNewsTool tr.Data {
+        border-bottom: 1px dotted #ccc;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .IRNewsModule td.date {
+        line-height: 35px;
+        height: 25px;
+    }
+
+    .IRNewsTool.table-look .title {
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .IRNewsModule .news-filter-wrapper .submitButton input {
+        width: 100%;
+        margin-left: initial;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+
+    .IRNewsTool.horizontal {
+        display: none;
+    }
+
+    .IRNewsTool.vertical td span {
+        font-size: 10px;
+    }
+
+    .IRNewsTool.vertical .date {
+        width: 70%;
+    }
+
+    .IRNewsModule .IRNewsTool th, .IRNewsModule .IRNewsTool td {
+        width: 100%;
+    }
+
+    .IRNewsTool {
+        border: 0;
+    }
+
+        .IRNewsTool td.data {
+            border: 0px;
+        }
+
+
+        .IRNewsTool.horizontal, table.IRNewsTool.horizontal, table.IRNewsTool, table.horizontal, table.table-look, table.responsive {
+            visibility: visible;
+            display: inline-table;
+            width: 100%;
+            table-layout: inherit;
+        }
+
+        .IRNewsTool.vertical td span {
+            font-size: 10px;
+        }
+
+        .IRNewsTool.vertical .date {
+            width: 70%;
+        }
+
+    .IRNewsModule .IRNewsTool th, .IRNewsModule .IRNewsTool td {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .IRNewsModule .news-filter-wrapper .filterRow, .IRNewsModule .news-filter-wrapper .textArea, .IRNewsModule .search-for-box input, .IRNewsModule .news-filter-wrapper #select-filter, .IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-to, .IRNewsModule .search-for-box, .IRNewsModule .news-filter-wrapper .select-date {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    .IRNewsModule .news-filter-box .checkbox {
+        margin-top: 5px;
+    }
+
+    .IRNewsModule .news-filter-wrapper #select-filter, .IRNewsModule .search-for-box input, .IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #to-year, .IRNewsModule .news-filter-wrapper .submitButton input {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .IRNewsModule .news-filter-wrapper #from-month, .IRNewsModule .news-filter-wrapper #to-month {
+        width: 49%;
+        margin-right: 1%;
+        padding-left: 0;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .IRNewsModule .news-filter-wrapper #from-year, .IRNewsModule .news-filter-wrapper #to-year {
+        width: 49%;
+        margin-left: 1%;
+    }
+
+    .IRNewsModule .filterRow .textArea, .IRNewsModule .search-for-box .textArea {
+        display: none;
+    }
+
+    .IRNewsModule .search-for-box input {
+        padding-left: 0;
+        margin-bottom: 10px;
+        text-indent: 2%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .table-look th {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .horizontal.responsive .IRElement4 {
+        display: block;
+    }
+
+    .IRNewsTool {
+        margin-top: 0;
+    }
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDate, div.IRNewsTool .IRDataGroup div.IRData.IRDate, div.IRNewsTool .IRDataGroup div.IRData.IRTitle {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRDownload, div.IRNewsTool .IRDataGroup div.IRData.IRDownload {
+        width: 100%;
+    }
+
+        div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF {
+            width: 25px;
+            float: left;
+            position: relative;
+        }
+
+    .IRNewsModule .news-filter-box .checkbox {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader.IRTitle, div.IRNewsTool .IRDataGroup div.IRData.IRTitle {
+        width: 100%;
+    }
+
+    .IRNewsModule .news-filter-wrapper .search-to, .IRNewsModule .news-filter-wrapper .search-from, .IRNewsModule .news-filter-wrapper .search-for-box {
+        width: 100% !important;
+    }
+
+    .IRNewsModule .news-filter-wrapper .filterRow, .IRNewsModule .news-filter-wrapper .entriesPerPage {
+        width: 100%;
+        float: left;
+    }
+
+    .IRNewsModule .search-for-box #searchtext {
+        width: 100%;
+        height: 30px;
+        background: #fff url(/inc/images/search.png);
+        background-repeat: no-repeat;
+        background-position: 7px 7px;
+        padding-left: 35px;
+        font-size: 16px;
+        border: 0 !important;
+    }
+
+    .IRNewsModule .filterRow .textArea, .IRNewsModule .search-for-box .textArea {
+        min-width: 0;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .IRNewsModule .datepicker .textArea.from-label, .IRNewsModule .datepicker .textArea.to-label, .IRNewsModule .news-filter-wrapper select {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .IRNewsModule .search-from, .IRNewsModule .search-to {
+        height: initial;
+    }
+
+    .IRNewsModule .select-date #from-year, .IRNewsModule .select-date #to-year {
+        width: 28%;
+        float: right;
+        min-width: 60px;
+    }
+
+    .IRNewsModule .select-date #from-month, .IRNewsModule .select-date #to-month {
+        width: 70%;
+        float: left;
+    }
+
+    .IRNewsModule .search-for-box .textArea, .IRNewsModule .news-filter-wrapper input, .IRNewsModule .news-filter-wrapper #select-filter {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    div.IRNewsTool .IRHeaderGroup div.IRHeader, div.IRNewsTool .IRDataGroup div.IRData {
+        padding-left: 3%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    div.IRNewsTool .IRDataGroup div.IRData.IRDownload .IRDownloadPDF .iconPDF {
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    .IRNewsModule .news-range .submitButton {
+        display: inline;
+        float: left;
+    }
+
+    .IRNewsModule .records-per-page {
+        width: 49%;
+        float: left;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    .IRNewsModule .news-filter-box .checkbox {
+        width: 70% !important;
+        min-width: 80% !important;
+        margin-top: 5px;
+        background-size: initial !important;
+        background-position-y: 0 !important;
+    }
+
+    .IRNewsModule .datepicker input#from, .IRNewsModule .datepicker input#to, .IRNewsModule .datepicker select {
+        width: 100%;
+    }
+
+    .IRNewsModule .datepicker input#from-vertical, .IRNewsModule .datepicker input#to-vertical {
+        width: 100%;
+    }
+
+    .IRNewsModule .search-for-box {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .IRNewsModule .datepicker .textArea.date-range {
+        width: 100%;
+    }
+
+    .IRNewsModule .select-date {
+        width: 100%;
+    }
+
+    .IRNewsModule .filter-wrapper {
+        padding: 0;
+    }
+
+    .news-filter-wrapper .news-filter-box {
+        padding-left: 0px;
+    }
+
+    .IRNewsModule .outerWrapper {
+        min-width: 300px;
+    }
+
+    .IRNewsModule .news-range .submitButton {
+        float: right !important;
+        padding-left: 0;
+    }
+
+    .IRNewsModule #from-month, .IRNewsModule #from-year, .IRNewsModule #to-month, .IRNewsModule #to-year {
+        width: 49%;
+    }
+
+
+    .IRNewsModule .search-for-box .textArea {
+        display: none;
+    }
+
+    .IRNewsModule .news-range .textArea {
+        width: 100%;
+    }
+
+    .IRNewsModule #pagecounter {
+        text-align: center !important;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    table.IRNewsTool th, table.IRNewsTool td {
+        float: left;
+        width: 100% !important;
+    }
+
+    .IRNewsModule .IRNewsTool th.column-first, .IRNewsModule .IRNewsTool td.column-first {
+        float: left;
+        width: 100% !important;
+    }
+
+    div.IRNewsModule table.IRNewsTool th.column-last, div.IRNewsModule table.IRNewsTool td.column-last, div.IRNewsModule table.IRNewsTool td.Data.column-last.download,
+    div.IRNewsModule table.IRNewsTool th.column-last, div.IRNewsModule table.IRNewsTool td.column-last, div.IRNewsModule table.IRNewsTool td.Data.column-last.download, table.IRNewsTool th.Header {
+        float: left;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .disclaimer-copyright {
+        display: none;
+    }
+}
+
+
+/* End ====================================================== */

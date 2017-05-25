@@ -1,0 +1,2246 @@
+a {
+    color: #005daa;
+    text-decoration: none;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeftBig {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInLeftBig {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@media all and (min-width: 55em) {
+    .fadeInLeftBig {
+        -webkit-animation-name: fadeInLeftBig;
+        animation-name: fadeInLeftBig;
+    }
+}
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+.grid__row {
+    display: block;
+    width: 102.27273%;
+    margin: 0 -1.13636%;
+}
+
+    .grid__row:before, .grid__row:after {
+        content: "";
+        display: table;
+    }
+
+    .grid__row:after {
+        clear: both;
+    }
+
+    .grid__row [class*='grid__col--'] {
+        display: inline;
+        float: left;
+        margin: 0 1.13636%;
+    }
+
+    .grid__row .grid__col--1 {
+        width: 6.06061%;
+    }
+
+    .grid__row .grid__col--2 {
+        width: 14.39394%;
+    }
+
+    .grid__row .grid__col--3 {
+        width: 22.72727%;
+    }
+
+    .grid__row .grid__col--4 {
+        width: 31.06061%;
+    }
+
+    .grid__row .grid__col--5 {
+        width: 39.39394%;
+    }
+
+    .grid__row .grid__col--6 {
+        width: 47.72727%;
+    }
+
+    .grid__row .grid__col--7 {
+        width: 56.06061%;
+    }
+
+    .grid__row .grid__col--8 {
+        width: 64.39394%;
+    }
+
+    .grid__row .grid__col--9 {
+        width: 72.72727%;
+    }
+
+    .grid__row .grid__col--10 {
+        width: 81.06061%;
+    }
+
+    .grid__row .grid__col--11 {
+        width: 89.39394%;
+    }
+
+    .grid__row .grid__col--12 {
+        width: 97.72727%;
+    }
+
+    .grid__row .grid__col--move-left-1 {
+        left: 8.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-2 {
+        left: 16.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-3 {
+        left: 25.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-4 {
+        left: 33.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-5 {
+        left: 41.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-6 {
+        left: 50.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-7 {
+        left: 58.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-8 {
+        left: 66.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-9 {
+        left: 75.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-10 {
+        left: 83.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-11 {
+        left: 91.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-left-12 {
+        left: 100.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-1 {
+        right: 8.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-2 {
+        right: 16.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-3 {
+        right: 25.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-4 {
+        right: 33.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-5 {
+        right: 41.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-6 {
+        right: 50.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-7 {
+        right: 58.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-8 {
+        right: 66.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-9 {
+        right: 75.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-10 {
+        right: 83.4697%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-11 {
+        right: 91.80303%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--move-right-12 {
+        right: 100.13636%;
+        position: relative;
+    }
+
+    .grid__row .grid__col--push-1 {
+        margin-left: 9.4697%;
+    }
+
+    .grid__row .grid__col--push-2 {
+        margin-left: 17.80303%;
+    }
+
+    .grid__row .grid__col--push-3 {
+        margin-left: 26.13636%;
+    }
+
+    .grid__row .grid__col--push-4 {
+        margin-left: 34.4697%;
+    }
+
+    .grid__row .grid__col--push-5 {
+        margin-left: 42.80303%;
+    }
+
+    .grid__row .grid__col--push-6 {
+        margin-left: 51.13636%;
+    }
+
+    .grid__row .grid__col--push-7 {
+        margin-left: 59.4697%;
+    }
+
+    .grid__row .grid__col--push-8 {
+        margin-left: 67.80303%;
+    }
+
+    .grid__row .grid__col--push-9 {
+        margin-left: 76.13636%;
+    }
+
+    .grid__row .grid__col--push-10 {
+        margin-left: 84.4697%;
+    }
+
+    .grid__row .grid__col--push-11 {
+        margin-left: 92.80303%;
+    }
+
+    .grid__row .grid__col--push-12 {
+        margin-left: 101.13636%;
+    }
+
+    .grid__row .grid__col--pull-1 {
+        margin-right: 9.4697%;
+    }
+
+    .grid__row .grid__col--pull-2 {
+        margin-right: 17.80303%;
+    }
+
+    .grid__row .grid__col--pull-3 {
+        margin-right: 26.13636%;
+    }
+
+    .grid__row .grid__col--pull-4 {
+        margin-right: 34.4697%;
+    }
+
+    .grid__row .grid__col--pull-5 {
+        margin-right: 42.80303%;
+    }
+
+    .grid__row .grid__col--pull-6 {
+        margin-right: 51.13636%;
+    }
+
+    .grid__row .grid__col--pull-7 {
+        margin-right: 59.4697%;
+    }
+
+    .grid__row .grid__col--pull-8 {
+        margin-right: 67.80303%;
+    }
+
+    .grid__row .grid__col--pull-9 {
+        margin-right: 76.13636%;
+    }
+
+    .grid__row .grid__col--pull-10 {
+        margin-right: 84.4697%;
+    }
+
+    .grid__row .grid__col--pull-11 {
+        margin-right: 92.80303%;
+    }
+
+    .grid__row .grid__col--pull-12 {
+        margin-right: 101.13636%;
+    }
+
+@media all and (max-width: 46.24em) {
+    .grid__row:not(.grid__row--forced) .grid__col--1 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--2 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--3 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--4 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--5 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--6 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--7 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--8 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--9 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--10 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--11 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--12 {
+        width: 97.72727%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-1 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-2 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-3 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-4 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-5 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-6 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-7 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-8 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-9 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-10 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-11 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--push-12 {
+        margin-left: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-1 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-2 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-3 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-4 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-5 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-6 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-7 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-8 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-9 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-10 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-11 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--pull-12 {
+        margin-right: 1.13636%;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-1 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-2 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-3 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-4 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-5 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-6 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-7 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-8 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-9 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-10 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-11 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-left-12 {
+        left: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-1 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-2 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-3 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-4 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-5 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-6 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-7 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-8 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-9 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-10 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-11 {
+        right: 0.13636%;
+        position: inherit;
+    }
+
+    .grid__row:not(.grid__row--forced) .grid__col--move-right-12 {
+        right: 0.13636%;
+        position: inherit;
+    }
+}
+
+@media all and (max-width: 46.24em) {
+    .grid__row.grid__row--forced-sub-cols > .grid__col--1 {
+        width: 6.06061%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--2 {
+        width: 14.39394%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--3 {
+        width: 22.72727%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--4 {
+        width: 31.06061%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--5 {
+        width: 39.39394%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--6 {
+        width: 47.72727%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--7 {
+        width: 56.06061%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--8 {
+        width: 64.39394%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--9 {
+        width: 72.72727%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--10 {
+        width: 81.06061%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--11 {
+        width: 89.39394%;
+    }
+
+    .grid__row.grid__row--forced-sub-cols > .grid__col--12 {
+        width: 97.72727%;
+    }
+}
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Helpers */
+
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+.content {
+    clear: both;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+
+    .content.push-left {
+        -webkit-transform: translate3d(-80%, 0, 0);
+        transform: translate3d(-80%, 0, 0);
+    }
+
+@media all and (min-width: 46.25em) {
+    .content.push-left {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        cursor: default;
+    }
+}
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of z-index values to be used throughout TDC.COM */
+
+
+/* Iconfont*/
+
+
+.iconfont:before, .iconfont:after {
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.icon__chair:before {
+    content: "\E001" !important;
+}
+
+.icon__document--default:before {
+    content: "\E002";
+}
+
+.icon__document--pdf:before {
+    content: "\E003" !important;
+}
+
+.icon__document--webcast:before {
+    content: "\E004" !important;
+}
+
+.icon__document--xls:before {
+    content: "\E005" !important;
+}
+
+.icon__facebook:before {
+    content: "\E006" !important;
+}
+
+.icon__favorite:before {
+    content: "\E007" !important;
+}
+
+.icon__linkedin:before {
+    content: "\E008" !important;
+}
+
+.icon__mail:before {
+    content: "\E009" !important;
+}
+
+.icon__member:before {
+    content: "\E00A" !important;
+}
+
+.icon__test:before {
+    content: "\E00B" !important;
+}
+
+.icon__twitter:before {
+    content: "\E00C" !important;
+}
+
+.icon__ui__arrow--down:before {
+    content: "\E00D" !important;
+}
+
+.icon__ui__arrow--left:before {
+    content: "\E00E" !important;
+}
+
+.icon__ui__arrow--right:before {
+    content: "\E00F" !important;
+}
+
+.icon__ui__arrow--up:before {
+    content: "\E010" !important;
+}
+
+.icon__ui__check:before {
+    content: "\E011" !important;
+}
+
+.icon__ui__close:before {
+    content: "\E012" !important;
+}
+
+.icon__ui__crosslink:before {
+    content: "\E013" !important;
+}
+
+.icon__ui__minus:before {
+    content: "\E014" !important;
+}
+
+.icon__ui__nasdaq_arrow_down:before {
+    content: "\E015" !important;
+}
+
+.icon__ui__nasdaq_arrow_up:before {
+    content: "\E016" !important;
+}
+
+.icon__ui__play:before {
+    content: "\E017" !important;
+}
+
+.icon__ui__plus:before {
+    content: "\E018" !important;
+}
+
+.icon__ui__quote:before {
+    content: "\E019" !important;
+}
+
+.icon__ui__search:before {
+    content: "\E01A" !important;
+}
+
+/* Base: typography, icons*/
+
+@-webkit-keyframes arrow-right-effect {
+    0% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(20px, 0);
+        transform: translate(20px, 0);
+    }
+}
+
+@keyframes arrow-right-effect {
+    0% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(20px, 0);
+        transform: translate(20px, 0);
+    }
+}
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #444444;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+p, h1, h2, h3, h4, h5, h6, figure, ul, ol, li, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+}
+
+q:before, q:after {
+    content: "";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #005daa;
+    text-decoration: none;
+}
+
+    a:hover, a:focus {
+        color: #036;
+    }
+
+button {
+    border: 0;
+    cursor: pointer;
+    background: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none !important;
+}
+
+::-ms-clear, ::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.noScroll {
+    overflow: hidden;
+    position: fixed;
+}
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+.rich-text h1:not([class]) {
+    font-size: 3.5em;
+    font-weight: 100;
+    line-height: 1.25em;
+    margin: 0;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+@media all and (min-width: 31.25em) {
+    .rich-text h1:not([class]) {
+        line-height: 2em;
+    }
+}
+
+@media all and (min-width: 61.25em) {
+    .rich-text h1:not([class]) {
+        font-size: 4.5em;
+        line-height: 1.25em;
+    }
+}
+
+.rich-text h2:not([class]) {
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.25em;
+    color: #005daa;
+    text-align: center;
+    margin: 0;
+    padding-top: 1.875rem;
+}
+
+@media all and (min-width: 61.25em) {
+    .rich-text h2:not([class]) {
+        font-size: 3.25em;
+    }
+}
+
+.rich-text h3:not([class]) {
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.425em;
+    margin: 0;
+    text-align: left;
+}
+
+.rich-text h4:not([class]) {
+    font-size: 2.25em;
+    font-weight: 600;
+    line-height: 1.875em;
+    margin: 0;
+    text-align: left;
+}
+
+.rich-text h5:not([class]) {
+    font-size: 1.875em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0;
+    text-align: left;
+}
+
+.rich-text h6:not([class]) {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.25em;
+    margin: 0;
+    text-align: left;
+}
+
+@media all and (min-width: 61.25em) {
+    .rich-text h6:not([class]) {
+        font-size: 1.875em;
+    }
+}
+
+.rich-text p:not([class]) {
+    font-weight: 100;
+    margin-top: 1.875rem;
+}
+
+    .rich-text p:not([class]):empty {
+        display: none;
+    }
+
+    .rich-text p:not([class]) + h3:not([class]) {
+        margin-top: 2.5rem;
+    }
+
+    .rich-text p:not([class]) + h4:not([class]) {
+        margin-top: 1.875rem;
+    }
+
+    .rich-text p:not([class]) + h5:not([class]) {
+        margin-top: 1.5625rem;
+    }
+
+    .rich-text p:not([class]) + h6:not([class]) {
+        margin-top: 1.25rem;
+    }
+
+    .rich-text p:not([class]) + p:not([class]) {
+        margin-top: 2.1875rem;
+    }
+
+.rich-text ul:not([class]), .rich-text ol:not([class]) {
+    margin-bottom: 1em;
+    padding: 1em 0 0 1em;
+}
+
+    .rich-text ul:not([class]) li, .rich-text ol:not([class]) li {
+        font-size: 1em;
+        font-weight: 100;
+        padding-left: .625em;
+    }
+
+.rich-text figcaption {
+    font-size: 0.75rem;
+    color: #909090;
+}
+
+.rich-text blockquote:not([class]) {
+    position: relative;
+    margin: 1em 1.25em;
+    padding: 1em;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+    .rich-text blockquote:not([class]):before {
+        content: "";
+        float: left;
+        width: 1.75em;
+        height: 1em;
+    }
+
+    .rich-text blockquote:not([class]):after {
+        content: "\201C";
+        position: absolute;
+        top: 1.25rem;
+        left: 1rem;
+        font-size: 2.4em;
+        font-weight: 700;
+        line-height: 1;
+        color: #17bc8f;
+    }
+
+@media all and (min-width: 40em) {
+    .rich-text blockquote:not([class]) {
+        padding: 1em 2em;
+    }
+
+        .rich-text blockquote:not([class]):after {
+            left: 2.5rem;
+        }
+}
+
+@media all and (min-width: 55em) {
+    .rich-text blockquote:not([class]) {
+        font-size: 1.875rem;
+    }
+
+        .rich-text blockquote:not([class]):before {
+            width: 1.85em;
+        }
+
+        .rich-text blockquote:not([class]):after {
+            top: 1.5rem;
+            left: 3.25rem;
+        }
+}
+
+/* Settings */
+
+
+/* Components */
+
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+.button {
+    border: 1px solid;
+    padding: 0 10px;
+    color: #444444;
+    height: 22px;
+}
+
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+.forms {
+    position: relative;
+}
+
+.forms__label--hidden {
+    display: none;
+}
+
+.forms__field {
+    position: relative;
+    margin-bottom: 0.3125rem;
+}
+
+.forms legend {
+    display: none;
+}
+
+.forms__input {
+    box-sizing: border-box;
+    height: 3.125rem;
+    width: 100%;
+    padding: 0 0.9375rem;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    color: #2f2f2f;
+    border: 1px solid transparent;
+}
+
+    .forms__input:focus {
+        outline: 0;
+        border: 1px solid #909090;
+    }
+
+.forms__input--search {
+    padding-right: 5rem;
+}
+
+.forms__submit {
+    height: 3.125rem;
+    padding: 0 0.9375rem;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: #2f2f2f;
+    background-color: #fff;
+}
+
+.forms__checkbox[type="checkbox"] {
+    display: none;
+}
+
+    .forms__checkbox[type="checkbox"] + label span {
+        box-sizing: border-box;
+        width: 1.25rem;
+        height: 1.25rem;
+        cursor: pointer;
+        background-color: #ebeceb;
+        border: 2px solid #036;
+        border-radius: 0.125rem;
+        margin-right: 1rem;
+        padding-left: 0.125rem;
+        color: #ebeceb;
+        font-size: 0.875rem;
+    }
+
+        .forms__checkbox[type="checkbox"] + label span:before, .forms__checkbox[type="checkbox"] + label span:after {
+            font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            text-decoration: none;
+            text-transform: none;
+        }
+
+        .forms__checkbox[type="checkbox"] + label span:before {
+            content: "\E011" !important;
+        }
+
+    .forms__checkbox[type="checkbox"]:checked + label span {
+        background-color: #036;
+        border: 2px solid #036;
+        color: #fff;
+    }
+
+.forms__checkbox--inline-input {
+    border: 2px solid #dbdcdb;
+    border-radius: 0.125rem;
+    height: 1.4375rem;
+    font-family: 'TDC', arial, helvetica, sans-serif;
+    text-align: right;
+    padding-right: 0.3125rem;
+    width: 50%;
+}
+
+.forms__select {
+    display: block;
+    height: 3.125rem;
+    margin-top: 0.75rem;
+}
+
+@media all and (min-width: 55em) {
+    .forms__select {
+        background-color: #fff;
+    }
+}
+
+.forms__select > select {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    color: #2f2f2f;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+@media all and (min-width: 55em) {
+    .forms__select > select {
+        margin: 0;
+        padding: 0 2.5rem 0 0.9375rem;
+        background: 0;
+        border: 1px solid transparent;
+        outline: 0;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        z-index: 1;
+        border-radius: 0;
+        cursor: pointer;
+    }
+
+        .forms__select > select:focus {
+            outline: 0;
+            border: 1px solid #909090;
+        }
+}
+
+@media all and (min-width: 55em) and (-ms-high-contrast: active) {
+    .forms__select > select::-ms-expand {
+        display: none;
+    }
+
+    .forms__select > select:focus::-ms-value {
+        background: transparent;
+        color: #2f2f2f;
+    }
+}
+
+@media all and (min-width: 55em) and (-ms-high-contrast: none) {
+    .forms__select > select::-ms-expand {
+        display: none;
+    }
+
+    .forms__select > select:focus::-ms-value {
+        background: transparent;
+        color: #2f2f2f;
+    }
+}
+
+.forms__select .forms__icon {
+    display: none;
+}
+
+@media all and (min-width: 55em) {
+    .forms__select .forms__icon {
+        display: block;
+    }
+}
+
+.forms__icon {
+    display: table-cell;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0.625rem;
+    right: 0;
+    line-height: 1.875rem;
+    height: 1.875rem;
+    width: 2.5rem;
+    border-left: 1px solid #dbdcdb;
+    color: #005daa;
+    font-size: 1.3125rem;
+}
+
+    .forms__icon:focus {
+        outline: 0;
+        border: 1px solid #dbdcdb;
+    }
+
+.forms__icon--select {
+    font-size: 0.75rem;
+}
+
+.forms__icon--close {
+    visibility: hidden;
+    opacity: 0;
+    right: 2.5rem;
+    border: 0;
+    color: #909090;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.forms__icon--close-visible {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.forms__clear-all {
+    text-align: right;
+    margin: 0;
+    line-height: 1.5625rem;
+    height: 1.5625rem;
+}
+
+    .forms__clear-all .forms__button:focus {
+        outline: 1px solid #909090;
+    }
+
+.forms--dark .forms__input {
+    background-color: #3f3f3f;
+    border: 1px solid #909090;
+    color: #fff;
+}
+
+    .forms--dark .forms__input:focus {
+        border: 1px solid #dbdcdb;
+    }
+
+.forms--dark .forms__icon {
+    border-left: 1px solid #909090;
+    top: 0;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    color: #909090;
+}
+
+.forms--dark .forms__icon--close {
+    border: 0;
+}
+
+.forms--blue .forms__clear-all .forms__button {
+    color: #ebeceb;
+}
+
+.forms__errortext {
+    color: #d03131;
+}
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+.deck {
+    padding: 0 1.25rem;
+    margin-bottom: 3.125rem;
+}
+
+    .deck:before, .deck:after {
+        content: "";
+        display: table;
+    }
+
+    .deck:after {
+        clear: both;
+    }
+
+@media all and (min-width: 40em) {
+    .deck {
+        margin-bottom: 6.25rem;
+    }
+}
+
+@media all and (min-width: 61.25em) {
+    .deck {
+        margin-bottom: 9.375rem;
+        padding: 0 calc((100% - 75em) / 2);
+    }
+}
+
+.deck__header {
+    font-weight: bold;
+    color: #005daa;
+    font-size: 1.875em;
+    text-align: center;
+    margin-bottom: 0.625rem;
+    line-height: inherit;
+}
+
+.deck--blue .deck__header, .deck--green .deck__header {
+    color: #fff;
+}
+
+@media all and (min-width: 40em) {
+    .deck__header {
+        font-size: 2.5em;
+    }
+}
+
+.deck__headertext {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+.deck--blue .deck__headertext, .deck--green .deck__headertext {
+    color: #fff;
+}
+
+@media all and (min-width: 46.25em) {
+    .deck__headertext {
+        margin-bottom: 3.75rem;
+    }
+}
+
+.deck--collapse {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.deck--collapse-bottom {
+    margin-bottom: 0;
+}
+
+.deck--margin-top {
+    margin-top: 3.125rem;
+}
+
+@media all and (min-width: 40em) {
+    .deck--margin-top {
+        margin-top: 6.25rem;
+    }
+}
+
+@media all and (min-width: 61.25em) {
+    .deck--margin-top {
+        margin-top: 9.375rem;
+    }
+}
+
+.deck--white {
+    background: #fff;
+}
+
+.deck--blue {
+    background: #036;
+}
+
+.deck--green {
+    background: #00b785;
+}
+
+.deck--background-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Useful utilies */
+
+
+/*#####################################
+Working in rem is annoying. Think in pixels by using this handy function, rem(#px) //fx. 10
+#####################################*/
+
+
+/**
+ * Adjusts line-height and position to help UI designers follow their own rules
+ * @param  {int} $value 1
+ * @param  {int} $value 1.5
+ * @return {void}
+ */
+
+
+/**
+ * Sets the user-select value
+ * @param  {string} $value none | text | all | element
+ * @return {void}
+ */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+
+/* Defines a map of global z-index values to be used throughout all sites. */
+
+.email-alert-subscription {
+    display: inline;
+    float: left;
+    width: 81.06061%;
+    margin: 0 1.13636%;
+    margin-left: 9.4697%;
+}
+
+.email-alert-subscription__box {
+    display: inline;
+    float: left;
+    width: 97.72727%;
+    margin: 0 1.13636%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+    .email-alert-subscription__box.percentage {
+        margin-top: -10px;
+    }
+
+@media all and (min-width: 40em) {
+    .email-alert-subscription__box {
+        display: inline;
+        float: left;
+        width: 47.72727%;
+        margin: 0 1.13636%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+.email-alert-subscription__box--last > button, .button {
+    /*text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    border: 0;
+    line-height: 20px;
+    background: #bee6fb;
+    color: #000;*/
+    font-weight: normal;
+    font-size: 14px;
+    -webkit-appearance: button;
+    border: 1px solid #949494;
+    background: #f6f6f6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f6f6f6, #dedede); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f6f6f6, #dedede); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f6f6f6, #dedede); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f6f6f6, #dedede); /* Standard syntax */
+}
+
+    .email-alert-subscription__box--last > button:hover, .button:hover {
+        border: 1px solid #696969;
+    }
+
+.email-alert-subscription__box--last > a {
+    text-decoration: underline;
+}
+
+.email-alert-subscription__label, .email-alert-subscription__header {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin: 0.9375rem 0;
+    display: block;
+}
+
+.email-alert-subscription__label--space-top {
+    margin-top: 1rem;
+}
+
+.email-alert-subscription__label > span {
+    float: right;
+}
+
+.email-alert-subscription__label-right {
+    float: right;
+    text-align: left;
+    width: auto;
+    margin-left: 3px;
+}
+
+.email-alert-subscription__text {
+    margin-left: 2.25rem;
+    font-weight: 100;
+    margin-right: 1.25rem;
+}
+
+.email-alert-subscription__spacer {
+    height: 6.25rem;
+}
+
+.email-alert-subscription__label-no-margin {
+    margin: 0;
+}
+
+.email-alert-subscription__bg-transparent {
+    background-color: transparent;
+}
+
+a:link, a:visited {
+    color: #e30613;
+    text-decoration: none;
+    outline-style: none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/*# sourceMappingURL=../TdcCom/eas.css.map */
+
+.checkbox {
+    padding-left: 31px;
+    background-image: url('../inc/checkbox_false.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    cursor: pointer;
+    min-width: 145px;
+    margin-top: 20px;
+    color: #015CAE;
+    font-size: 14px;
+}
+
+    .checkbox.checked {
+        background-image: url('../inc/checkbox_true.jpg');
+    }
+
+.subGroup {
+    width: 100%;
+    /*border-top: 1px solid #E7E7E7;*/
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+    .subGroup.other {
+        padding-left: 20px;
+    }
+
+    .subGroup.first {
+        border-top: none;
+    }
+
+.checkbox {
+    width: 28%;
+    float: left;
+    margin-left: 10px;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+/*
+
+
+
+.RSS_SubmitForm {
+    background-color: #F9F9F9;
+    padding-bottom: 0px;
+}
+
+.RSS_SubmitFormButton {
+    position: relative;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    background-color: #015CAE;
+}
+
+    .RSS_SubmitFormButton:hover {
+        background-color: #014079;
+    }
+
+.innerGroup {
+    width: 48%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    min-width: 290px;
+}
+
+    .innerGroup label {
+        padding-left: 10px;
+        color: #015CAE;
+        font-size: 14px;
+    }
+
+input[type="text"] {
+    background-color: #F9F9F9;
+    border: none;
+    margin-left: 10px;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+input[type=text].informationInput {
+    width: 80%;
+}
+
+
+
+
+
+
+*/
+
+.pageRegister form {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+.blockInner {
+    display: inline;
+    float: left;
+    margin-top: 0;
+}
+
+@media all and (min-width: 40em) {
+    .blockInner {
+        display: inline;
+        float: left;
+        width: 100%;
+        clear: none;
+        min-width: inherit;
+    }
+}
+
+.inputTextTitle {
+    float: left;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.inputText {
+    float: left;
+    width: 200px;
+    height: 24px;
+}
+
+    .inputText .informationInput {
+        height: 24px;
+        border: 1px solid #EBEBEB;
+        padding: 3px 5px;
+        width: 200px;
+        font-weight: normal;
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+    }
+
+
+input[type=text], input[type=email], .informationInput {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin: 10px 0 5px 0;
+    display: block;
+    padding: 0;
+}
+
+.checkbox {
+    color: #444444;
+    padding-left: 15px;
+    font-size: 14px;
+    margin-left: 0;
+    width: 100%;
+    margin: 0;
+    font-weight: 400;
+}
+
+.filter-box {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+    .filter-box p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .filter-box .blockInner {
+        margin-bottom: 10px;
+    }
+
+    .filter-box.group .subGroup {
+        margin-bottom: 10px;
+    }
+
+@media all and (min-width: 40em) {
+    .filter-box {
+        display: inline;
+        float: left;
+        width: 100%;
+        clear: none;
+        min-width: inherit;
+    }
+}
+/*input[type=text], input[type=email], .informationInput {
+    box-sizing: border-box;
+    height: 3.125rem;
+    width: 100%;
+    padding: 0 0.9375rem;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    color: #2f2f2f;
+    border: 1px solid transparent;
+}*/
+input[type=text]:focus, input[type=email]:focus, .informationInput:focus {
+    outline: 0;
+    border: 1px solid #909090;
+}
+
+.email-alert-subscription__text {
+    margin-left: 2.25rem;
+    font-weight: 100;
+    margin-right: 1.25rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.email-alert-subscription__box {
+    display: inline;
+    float: left;
+    width: 97.72727%;
+    margin: 0 1.13636%;
+    margin-top: -20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+@media all and (min-width: 40em) {
+    .email-alert-subscription__box {
+        display: inline;
+        float: left;
+        width: 97.72727%;
+        margin: 0 1.13636%;
+        margin-top: -20px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+.email-alert-subscription__box--last > button {
+    text-align: center;
+}
+
+.email-alert-subscription__box--last > a {
+    text-docoration: underline;
+}
+
+.email-alert-subscription__label, .email-alert-subscription__header {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin: 0.9375rem 0;
+    display: block;
+}
+
+.email-alert-subscription__label--space-top {
+    margin-top: 1rem;
+}
+
+.email-alert-subscription__label > span {
+    float: right;
+}
+
+.email-alert-subscription__label-right {
+    float: right;
+    text-align: right;
+}
+
+.email-alert-subscription__text {
+    margin-left: 2.25rem;
+    font-weight: 100;
+    margin-right: 1.25rem;
+}
+
+.email-alert-subscription__spacer {
+    height: 6.25rem;
+}
+
+.email-alert-subscription__label-no-margin {
+    margin: 0;
+}
+
+.email-alert-subscription__bg-transparent {
+    background-color: transparent;
+}
+
+.forms__checkbox--inline-input {
+    border: 2px solid #dbdcdb;
+    border-radius: 0.125rem;
+    height: 1.4375rem;
+    font-family: 'TDC', arial, helvetica, sans-serif;
+    text-align: left;
+    padding-right: 0.3125rem;
+    float: right;
+    width: 100%;
+    height: 22px !important;
+    padding: 3px 5px !important;
+    margin-left: 4px;
+}
+
+.forms__checkbox--label {
+    float: left;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 4px;
+    line-height: 28px;
+}
+
+.email-alert-subscription__email {
+    margin-top: 10px;
+    display: block;
+    font-weight: 400;
+}
+
+hr {
+    border-width: 1px;
+    border-style: inset;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}
+
+.pageRegister {
+    margin-bottom: 3.125rem;
+}
+
+.forms__errortext {
+    color: #d03131;
+}
+
+.blockNoBorder {
+    padding: 0 1.25rem;
+    margin-bottom: 3.125rem;
+    margin-top: 2rem;
+}
+
+    .blockNoBorder h2 {
+        margin-bottom: 10px;
+        font-size: 1.875em;
+    }
+
+.clearinput {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    background: #bee6fb;
+    color: #000;
+    border: 0;
+    line-height: 20px;
+}
+
+    .clearinput:hover {
+        background: #464749;
+        color: #fff;
+    }
+
+.blockNoBorder .blockNoBorder {
+    padding: 0;
+}
+
+.blockInner .filter-box {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#RemindMinutes {
+    width: auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ndq-disclaimer {
+    clear: both;
+    font-size: .8em;
+    line-height: 1.5em;
+    margin-top: 20px !important;
+    font-weight: 400;
+}
+
+.pageRegister form.form-enter {
+    width: 350px;
+}
+
+#ndq_investor_type {
+    float: right;
+    width: 200px;
+    margin-top: 5px;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #EBEBEB;
+    padding: 3px 5px;
+    background: none;
+    color: #000000;
+    font: normal 12px Arial, Helvetica, sans-serif;
+    height: 24px;
+}
+
+.goToHome {
+    font-weight: normal;
+    color: #e30613;
+    margin-left: 10px;
+}
+
+    .goToHome:hover {
+        color: #000000;
+    }
+
+@media all and (min-width: 40em) {
+    .pageRegister {
+        margin-bottom: 6.25rem;
+    }
+
+    .forms__checkbox--inline-input {
+        width: 40px;
+        height: 24px;
+    }
+}
+
+.forms__checkbox--label.email-alert-subscription__label--space-top .email-alert-subscription__label-right {
+    width: 30%;
+}
+
+@media screen and (max-width: 806px) {
+    .checkbox {
+        width: 85%;
+        min-width: 42%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .checkbox {
+        width: 70%;
+        min-width: 80%;
+    }
+
+    .outerWrapper {
+        min-width: 300px;
+    }
+}

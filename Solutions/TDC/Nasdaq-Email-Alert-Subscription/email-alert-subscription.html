@@ -1,0 +1,285 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <title>TDC Group Prototype</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:type" content="article" />
+    <link rel="stylesheet" type="text/css" href="build/css/TdcCom/eas.css" />
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+        
+    <script src="build/js/global/modernizr.custom.js"></script>
+</head>
+<body>
+    
+    
+
+    
+    
+
+    <div class="content" id="main-content">
+        
+
+
+<section class="deck " >
+  
+    <header>
+      <h2 class="deck__header">Stay updated on financial information</h2>
+        <p class="deck__headertext">Subscribe to TDC’s latest published financial information.</p>
+    </header>
+  
+  
+    
+<form action="#" class="forms email-alert-subscription">
+    <fieldset>
+
+        <div class="email-alert-subscription__box">
+            <label class="email-alert-subscription__label" for="fullname">Full name</label>
+            <input id="fullname" type="text" placeholder="Enter fullname" class="forms__input"/>
+            <p class="forms__errortext" id="fullname-error" style="display: none;">Please enter your name</p>
+
+            <p class="email-alert-subscription__header">Press Releases</p>
+
+            <input class="forms__checkbox" type="checkbox" id="eas0">
+            <label class="forms__checkbox--label" for="eas0"><span></span>Generel Releases</label>
+
+        </div>
+        <div class="email-alert-subscription__box">
+            <label class="email-alert-subscription__label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter email" class="forms__input"/>
+            <p class="forms__errortext" id="email-error" style="display: none;">Please enter a valid email address</p>
+
+            <p class="email-alert-subscription__header">Webcasts and events</p>
+
+            <div class="email-alert-subscription__spacer">
+                <input class="forms__checkbox" type="checkbox" id="eas1">
+                <label class="forms__checkbox--label" for="eas1"><span></span>All events and webcasts</label>
+
+                <input class="forms__checkbox" type="checkbox" id="eas2">
+                <label class="forms__checkbox--label" for="eas2"><span></span>Remind me by email in advance of events</label>
+            </div>
+
+            <div class="forms__field forms__select" id="eas-choose-time" style="display: none;">
+                <select id="eas-choose-time-select-id">
+                    <option disabled selected>Choose a time</option>
+                    <option>1/2 hour</option>
+                    <option>2 hours</option>
+                    <option>6 hours</option>
+                    <option>12 hours</option>
+                    <option>1 day</option>
+                    <option>2 days</option>
+                    <option>3 days</option>
+                    <option>1 week</option>
+                </select>
+                <span class="forms__icon forms__icon--select iconfont icon__ui__arrow--down"></span>
+                <p class="forms__errortext" id="eas-choose-time-error" style="display: none;">Please choose a time for your reminder email</p>
+            </div>
+        </div>
+
+        <div class="email-alert-subscription__box">
+            <p class="email-alert-subscription__header">Stock Information</p>
+
+            <input class="forms__checkbox" type="checkbox" id="eas3">
+            <label class="forms__checkbox--label email-alert-subscription__label-no-margin" for="eas3"><span></span><strong>Daily Stock Summary.</strong></label>
+            <p class="email-alert-subscription__text">Send me a stock update at the end of the trading day.</p>
+
+            <input class="forms__checkbox" type="checkbox" id="eas4">
+            <label class="forms__checkbox--label  email-alert-subscription__label-no-margin" for="eas4"><span></span><strong>Weekly Stock Summary.</strong></label>
+            <p class="email-alert-subscription__text">Send me a stock update at the end of the week.</p>
+
+            <input class="forms__checkbox" type="checkbox" id="eas5">
+            <label class="forms__checkbox--label email-alert-subscription__label-no-margin" for="eas5"><span></span><strong>Percent Change Alert.</strong></label>
+            <p class="email-alert-subscription__text" id="eas5-text" style="display: none;">Notify me about daily stock changes more than: <input class="forms__checkbox--inline-input email-alert-subscription__bg-transparent" type="text" size="5" value="%" id="eas5-inline">
+                <span class="forms__errortext" id="eas5-error" style="display: none;">Please enter a percentage</span>
+            </p>
+            
+        </div>
+        <div class="email-alert-subscription__box">
+            <p class="email-alert-subscription__header">Webcasts and events</p>
+
+            <input class="forms__checkbox" type="checkbox" id="eas6">
+            <label class="forms__checkbox--label email-alert-subscription__label-no-margin" for="eas6">
+                <span></span>
+                <strong>Stock Threshold Alert.</strong>
+            </label>
+
+        </div>
+        <div class="email-alert-subscription__box" id="eas6-box" style="display: none;">
+            <div>
+                <p class="email-alert-subscription__text">Notify me when the stock crosses the following price thresholds:</p>
+                <label class="forms__checkbox--label email-alert-subscription__label--space-top" for="eas6">
+                    Current Stock Price is <span class="email-alert-subscription__label-right"><strong>DKK 33.96</strong></span>
+                </label>
+            </div>
+            <div>
+                <label class="forms__checkbox--label" for="eas6">
+                    Low: <span class="email-alert-subscription__label-right">DKK<input class="forms__checkbox--inline-input email-alert-subscription__label-right--space email-alert-subscription__bg-transparent" type="number" size="5" id="eas6-inline-low" style="width: 30%;"></span>
+                </label>
+            </div>
+            <div>
+                <label class="forms__checkbox--label" for="eas6">
+                    High: <span class="email-alert-subscription__label-right">DKK<input class="forms__checkbox--inline-input email-alert-subscription__label-right--space email-alert-subscription__bg-transparent" type="number" size="5" id="eas6-inline-high" style="width: 30%;"></span>
+                </label>
+            </div>
+            <p class="forms__errortext" id="eas6-error" style="display: none;">Please enter a high and low threshold price</p>
+        </div>
+    </fieldset>
+    <div class="email-alert-subscription__box--last">
+        <button type="submit" id="eas-submit" class="button button--secondary" style="opacity: 0.2;">Submit</button>
+        <p class="forms__errortext" id="checkbox-error" style="display: none;">Please select your subscription preferences</p>
+        <hr/>
+        <p><a href="#" class="email-alert-subscription__email">Unsubscribe from email alerts</a></p>
+    </div>
+</form>
+
+<script>
+    $(document).ready(function () {
+        var fullnameError = 1;
+        var emailError = 1;
+        var errorCount = 0;
+        var canClickSubmit = false;
+
+        function checkErrorCount() {
+            if (fullnameError === 0 && emailError === 0 && errorCount < 0) {
+
+                $('#eas-submit').css('opacity', '1');
+                return true;
+            } else {
+                $('#eas-submit').css('opacity', '0.2');
+                return false;
+            }
+        };
+
+        function updateSubmitBool() {
+            if (checkErrorCount()) {
+                canClickSubmit = true;
+                if ($('#checkbox-error').is(':visible')) {
+                    $('#checkbox-error').hide();
+                }
+            } else {
+                canClickSubmit = false;
+            }
+        };
+
+        $('#fullname').blur(function () {
+            if ($(this).val().indexOf(' ') === -1 && $(this).val().length < 5) {
+                fullnameError++;
+                $('#fullname-error').show();
+            } else {
+                if ($('#fullname-error').is(':visible')) {
+                    $('#fullname-error').hide();
+                }
+                fullnameError = 0;
+            }
+        });
+
+        $('#email').blur(function () {
+            if ($(this).val().indexOf('@') === -1 && $(this).val().length < 5) {
+                emailError++;
+                $('#email-error').show();
+            } else {
+                if ($('#email-error').is(':visible')) {
+                    $('#email-error').hide();
+                }
+                emailError = 0;
+            }
+        });
+
+        $('#eas2').change(function() {
+            $('#eas-choose-time').toggle();
+        });
+
+        $('#eas5').change(function () {
+            $('#eas5-text').toggle();
+        });
+
+        $('#eas6').change(function () {
+            $('#eas6-box').toggle();
+        });
+
+        $('#eas-choose-time-select-id').change(function () {
+            if ($('#eas-choose-time-error').is(':visible')) {
+                $('#eas-choose-time-error').hide();
+                updateSubmitBool();
+            }
+        });
+
+        $('#eas5-inline').bind('input', function () {
+            if ($('#eas5-error').is(':visible') && $(this).val().length > 1) {
+                $('#eas5-error').hide();
+                updateSubmitBool();
+            }
+        });
+
+        $('#eas6-inline-low, #eas6-inline-high').bind('input', function () {
+            if ($('#eas6-inline-low').val().length > 0 && $('#eas6-inline-high').val().length > 0 && $('#eas6-error').is(':visible')) {
+                $('#eas6-error').hide();
+                updateSubmitBool();
+            }
+        });
+   
+        $('#eas0, #eas1, #eas2, #eas3, #eas4, #eas5, #eas6').change(function () {
+            
+            if ($(this).is(':checked')) {
+                errorCount--;
+            } else {
+                errorCount++;
+            }
+
+            updateSubmitBool();
+        });
+
+           $('#eas-submit').click(function (event) {
+
+            if ($('#eas-choose-time-error').is(':hidden') && $('#eas2').is(':checked') && $('#eas-choose-time-select-id').val() === null) {
+                $('#eas-choose-time-error').show();
+                canClickSubmit = false;
+            }
+
+            if ($('#eas5-error').is(':hidden') && $('#eas5-inline').val().length < 2 && $('#eas5').is(':checked')) {
+                $('#eas5-error').show();
+                canClickSubmit = false;
+            }
+
+            
+            if ($('#eas6').is(':checked')) {
+                if (!$('#eas6-inline-low').val().length > 0 || !$('#eas6-inline-high').val().length > 0) {
+                    canClickSubmit = false;
+                    if ($('#eas6-error').is(':hidden')) {
+                        $('#eas6-error').show();
+                    }
+                }
+            }
+
+            if (!canClickSubmit) {
+                event.preventDefault();
+                if ($('#fullname-error').is(':hidden') && fullnameError !== 0) {
+                    $('#fullname-error').show();
+                }
+                if ($('#email-error').is(':hidden') && emailError !== 0) {
+                    $('#email-error').show();
+                }
+                if ($('#checkbox-error').is(':hidden') && errorCount === 0) {
+                    $('#checkbox-error').show();
+                }
+            } else {
+                checkErrorCount();
+            }
+        });
+    });
+</script>
+
+  
+</section>
+
+
+
+    </div>
+
+
+</body>
+</html>

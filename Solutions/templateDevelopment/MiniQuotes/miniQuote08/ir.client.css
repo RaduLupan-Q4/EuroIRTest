@@ -1,0 +1,231 @@
+﻿
+
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #404040;
+}
+.table-look th, .table-look td {
+    border: none;
+    /*height:40px;*/
+    line-height:40px;
+}
+
+
+@media only screen and (min-width: 572px) {
+    h3.vertical-header {
+        display: none;
+    }
+
+    .divideLine.vertical {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+
+    table.IRQuoteModule {
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+
+    div.IRNewsModule div.IRData {
+        padding-left: 0!important;
+    }
+
+    div.IRNewsModule div.IRTitle {
+        max-width: 230px;
+        overflow: hidden;
+    }
+}
+
+/* Miniquote */
+.IRQuoteModule * {
+    color: #404040;
+    font-size: 14px;
+}
+
+.IRQuoteModule .lastAndCurrency {
+    font-weight: bold;
+}
+    
+
+
+.IRCustomModule .timeframe,
+.IRCustomModule .timeframeHeader,
+.IRCustomModule .IRButton {
+    display:block;
+    float: left;
+    height: 58px;
+    line-height: 58px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.IRCustomModule .timeframe {
+    height: 60px;
+    line-height: 60px;
+}
+
+
+.IRCustomModule .IRButton {
+    border: none;
+    background-color: #D42D27;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #D42D27;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    width: 200px;
+}
+
+    .IRCustomModule .IRButton:hover {
+        cursor: pointer;
+    }
+
+
+    .IRCustomModule .controls {
+        width: 100%;
+    }
+
+@media only screen and (max-width: 560px) {
+    .IRCustomModule .controls {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .accessibilityViewTable .IRElement6,
+    .accessibilityViewTable .IRElement7 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .accessibilityViewTable .IRElement3 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 460px) {
+    div.floatBox.left {
+        height:20px;
+    }
+    div.floatBox.right {
+        width:100%;
+        height:20px;
+        
+    }
+}
+@media only screen and (max-width: 400px) {
+    .accessibilityViewTable .IRElement5 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .accessibilityViewTable .IRElement2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .accessibilityViewTable .IRElement4 {
+        display: none;
+    }
+}
+
+
+.IRCustomModuleMiniquote {
+    width: 100%;
+}
+.IRCustomModuleMiniquote .exchangeGroup {
+    display: block;
+    float: left;
+    width: 33%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top:1px solid rgb(217,217,217);
+    border-bottom:1px solid rgb(217,217,217);
+}
+
+    .IRCustomModuleMiniquote .exchangeGroup .subExchangeRow {
+        padding: 10px;
+        line-height: 30px;
+    }
+    .IRCustomModuleMiniquote .exchangeGroup .subExchangeRow div {
+        float: left;
+        width: 32%;
+    }
+
+    .IRCustomModuleMiniquote .exchangeGroup .exchangeCity {
+        padding-left: 10px;
+    }
+
+    .IRCustomModuleMiniquote .clear {
+        clear:both;
+    }
+
+    .IRCustomModuleMiniquote .exchangeGroup .subExchangeRow div.ticker,
+    .IRCustomModuleMiniquote .exchangeGroup .subExchangeRow div.price {
+        font-weight: bold;
+    }
+    
+@media only screen and (max-width: 730px) {
+    .IRCustomModuleMiniquote .exchangeGroup {
+        width: 100%;
+    }
+
+        .IRCustomModuleMiniquote .exchangeGroup .subExchangeRow div {
+            width: 33%;
+        }
+
+    .exchangeCity {
+        padding-top: 10px;
+    }
+    
+}
+@media (min-width: 900px) {
+    div.IRCustomModuleMiniquote {
+        width: 80%;
+        margin:auto;
+    }
+}
+
+.disclaimer-customMiniquote {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: #353535;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+    .disclaimer-customMiniquote a,
+    .disclaimer-customMiniquote a:visited {
+        color: #353535;
+    }
+
+.formatArrowNeg {
+    width: 13px;
+    height: 13px;
+    background-image: url('images/medium-down.gif');
+    background-position: center center;
+}
+.formatArrowPos {
+    width: 13px;
+    height: 13px;
+    background-image: url('images/medium-up.gif');
+    background-position: center center;
+}
+.formatArrowDef {
+    width: 13px;
+    height: 13px;
+    background-image: url('images/medium-unchanged.gif');
+    background-position: center center;
+    display:inline-block;
+}
+.shellDisclaimer {
+    font-size: 12px;
+    border-top: 1px solid #D9D9D9;
+    height:440px!important;
+}
+

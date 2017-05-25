@@ -1,0 +1,178 @@
+﻿
+/* Fonts */
+@font-face {
+    font-family: DINWeb;
+    src: url("inc/fonts/DINWeb.eot");
+}
+
+@font-face {
+    font-family: DINWeb;
+    src: url("inc/fonts/DINWeb.woff") format("woff");
+}
+
+@font-face {
+    font-family: DINWeb-Light;
+    src: url("inc/fonts/DINWeb-Light.eot");
+}
+
+@font-face {
+    font-family: DINWeb-Light;
+    src: url("inc/fonts/DINWeb-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: DINWeb-Medium;
+    src: url("inc/fonts/DINWeb-Medium.eot");
+}
+
+@font-face {
+    font-family: DINWeb-Medium;
+    src: url("inc/fonts/DINWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: DINWeb-Bold;
+    src: url("inc/fonts/DINWeb-Bold.eot");
+}
+
+@font-face {
+    font-family: DINWeb-Bold;
+    src: url("inc/fonts/DINWeb-Bold.woff") format("woff");
+}
+/* end of fonts */
+
+body {
+    font-family: 'DINWeb', Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15.4px;
+    color: #647783;
+    overflow-x: hidden;
+}
+
+a {
+}
+
+    a:hover {
+        color: #00c8d7;
+    }
+
+h2 {
+    padding-top: 5px !important;
+    color: #647783;
+    font-family: 'DINWeb-Bold';
+    font-weight: 400;
+}
+
+
+/* Table look css =============================================================== */
+
+.table-look th {
+    font-weight: bold;
+    color: #505253;
+    font-size: 16px;
+    border: 0;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 0 0 10px;
+    background: #f2f3f3;
+}
+
+.table-look.horizontal th, .table-look.horizontal td {
+    border-left: 0;
+    border-right: 0;
+}
+
+.table-look td {
+    border-bottom: 0px solid #dcdcdc;
+}
+
+/* End ====================================================================== */
+
+
+/* IRPerformanceModule ======================================================= */
+
+.IRPerformanceModule {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.Performance {
+    height: 32px !important;
+    line-height: 32px !important;
+}
+
+    .Performance.Data {
+        padding-left: 5px !important;
+        padding-bottom: 5px !important;
+        padding-top: 5px !important;
+        font-size: 18px !important;
+        font-size: 90% !important;
+        text-align: center;
+    }
+
+    .Performance.Header {
+        color: #de076e;
+        border-top: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        font-weight: normal;
+        background: none repeat scroll 0 0 #fafafa;
+        font-size: 18px !important;
+        font-size: 90% !important;
+    }
+
+    .Performance.column-last.highLow {
+        border-right: 1px solid #cccccc !important;
+        padding-right: 5px !important;
+        text-align: right !important;
+    }
+
+    .Performance.Data.column-last.highLow {
+        text-align: left !important;
+        padding-right: 0px !important;
+        border-right: 0px !important;
+    }
+
+    .Performance.Header.price, Trades.Data.price {
+        text-align: center !important;
+    }
+
+    .Performance.Data.column-first.symbol {
+        text-align: left !important;
+    }
+
+    .Performance.column-first.name {
+        border-left: 1px solid #cccccc !important;
+        padding-left: 5px !important;
+        text-align: center !important;
+    }
+
+.performanceSelector {
+    height: 25px;
+    padding: 10px;
+    padding-left: 0px;
+    border: none;
+}
+
+#performanceTbl_0 td.Data {
+    vertical-align:middle;
+}
+#performanceTbl_0 td.Data.highLow div {
+}
+#performanceTbl_0 td.Data.highLow p {
+    line-height: 20px;
+    height: 20px;
+}
+#shiftPerformanceTool {
+    line-height: 20px;
+
+/* End ======================================================================= */
+
+
+
+/* @media only screen ======================================================== */
+
+/* End ======================================================================= */
+

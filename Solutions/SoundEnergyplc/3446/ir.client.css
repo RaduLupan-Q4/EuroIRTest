@@ -1,0 +1,378 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+    color: #43474F;
+}
+
+.table-look th {
+    background: #26648a;
+    border: 1px solid #26648a;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    color: #fff;
+}
+.table-look td {
+    /* font-weight: bold; */
+    text-align: left;
+    border: none;
+    padding: 10px;
+}
+
+/* IRChart =============================================================== */
+
+.IRQuoteModule .updated {
+    text-align: right;
+    color: #999999;
+}
+
+.IRChartColour {
+    color: #26648a;
+}
+
+.IRQuoteModule th.Header {
+    height: 20px;
+    line-height: 20px;
+}
+
+.IRQuoteModule td.Data {
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.table-look th.column-last, .table-look td.column-last {
+    text-align: right;
+}
+
+
+.IRChartPlaceholderArea .IRChartPlaceholder {
+    box-sizing: initial;
+}
+
+
+.IRChartPlaceholderArea .IRChartChangePeriod div {
+    width: 40px;
+    border: none;
+    border-right: 0;
+    font-size: 12px;
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+        
+background-color: #232b41;
+        
+color: #fff;
+    }
+
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+        /* text-transform: uppercase; */
+        color: #fff;
+        background: #f2933d;
+        }
+
+        .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover, .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+            background: #f2933d;
+            box-shadow: none;
+        }
+
+.IRChartNavigation .IRChartTA .pop-submit {
+    color: #fff;
+    background: #515054; 
+    border: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+    .IRChartNavigation .IRChartTA .pop-submit:hover {
+        color: #fff;
+    }
+
+.IRChartPlaceholderArea .IRChartChangePeriod {
+    height: 22px;
+    line-height: 22px;
+    /* width: 400px; */
+
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+.IRChartMiniHTMLPlaceholder .IRChartHTMLPlaceholder {
+    height: 200px;
+}
+
+.tooltipHTML {
+    border: 0;
+    -moz-box-shadow: 0px 0px 2px 2px #d2d2d2;
+    -webkit-box-shadow: 0px 0px 2px 2px #d2d2d2;
+    box-shadow: 0px 0px 2px 2px #d2d2d2;
+    font-size: 12px;
+    width: 120px;
+    padding: 5px;
+}
+
+    .tooltipHTML .IRChartTooltipDate {
+        font-size: 12px;
+        font-weight: 700;
+        border-bottom: 1px solid #a8a9a3;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+.highcharts-tooltip span {
+    color: #515054;
+}
+
+.tooltipHTML .IRChartTooltipDate, .tooltipHTML div.IRChartTooltipVolume span {
+    color: #333;
+}
+
+.IRChartCompanyName {
+    color: #333;
+}
+
+.IRChartCurrency {
+    color: #333;
+    font-size: 12px;
+}
+
+.highcharts-xaxis-labels text, .highcharts-yaxis-labels {
+    font-size: 10px !important;
+}
+
+table.IRQuoteModule.table-look.vertical.customResponsiveVertical {
+    display: none;
+}
+
+.highcharts-background {
+    fill: #fff;
+}
+
+.icon-enlarge:before {
+    content: "\e989";
+}
+
+.companyInfoWrapper .updated {
+    float: right;
+    width: 42%;
+    text-align: right;
+}
+
+.IRChartNavigation {
+    border-bottom: 1px solid #eee;
+}
+
+    .IRChartNavigation .IRChartView, .IRChartNavigation .IRChartTA, .IRChartNavigation .IRChartComparison, .IRChartNavigation .IRChartTSR, .IRChartNavigation .IRChartCC, .IRChartNavigation .IRChartFullscreen, .IRChartNavigation .IRChartSettings, .IRChartNavigation .IRChartListings, .IRChartNavigation .IRChartMenuTrigger {
+        background-color: transparent;
+        color: #000;
+        font-size: 11px;
+        display: none;
+    }
+
+        .IRChartNavigation .IRChartFullscreen .IRChartFullscreenBody div, .IRChartNavigation .IRChartComparison .IRChartComparisonBody div, .IRChartNavigation .IRChartTSR .IRChartTSRBody div, .IRChartNavigation .IRChartSettings .IRChartSettingsBody div, .IRChartNavigation .IRChartNavigationInner .IRChartMenuTriggerBody div, .IRChartNavigation .IRChartTA .IRChartTABody div, .IRChartNavigation .IRChartCC .IRChartCCBody div {
+            font-size: 10px;
+            font-weight: 400;
+            color: #555;
+        }
+
+            .IRChartNavigation .IRChartTA .IRChartTABody div.IRChartTABodyListHeader, .IRChartNavigation .IRChartComparison .IRChartComparisonBody div.IRChartComparisonBodyListHeader, .IRChartNavigation .IRChartSettings .IRChartSettingsBody .IRChartSettingsBodyListHeader {
+                color: #000;
+                font-weight: 700;
+                font-size: 11px;
+            }
+
+
+.IRChartNavigation .IRChartView:hover, .IRChartNavigation .IRChartTA:hover, .IRChartNavigation .IRChartCC:hover, .IRChartNavigation .IRChartComparison:hover, .IRChartNavigation .IRChartTSR:hover, .IRChartNavigation .IRChartSettings:hover, .IRChartNavigation .IRChartFullscreen:hover, .IRChartNavigation .IRChartListings:hover {
+    background-color: #d2d2d2;
+    color: #fff;
+}
+
+.IRChartNavigation .IRChartCompanyName {
+    font-weight: bold;
+    font-size: 12px;
+}
+/* End ====================================================================== */
+
+/* Calculator and Lookup ====================================================================== */
+.input-row {
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.radio label {
+    position: relative;
+    vertical-align: bottom;
+    padding-right: 20px;
+}
+
+select#from-day, select#from-month, select#from-year, select#to-day, select#to-month, select#to-year, select#frequency, select#format {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    min-width: 60px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ededed;
+    background-image: url(images/arrowdown.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 8px;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+select#dividend {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-image: url(images/arrowdown.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 8px;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 0px;
+    width: 187px;
+}
+input[type=submit] {
+    font-size: 14px;
+    margin-right: 0px;
+    background-color: #f2933d;
+    box-shadow: none;
+    height: 30px;
+    min-width: 186px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+    float: right;
+}
+
+input#amount-invested, select#frequency, select#format {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 187px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ededed;
+    line-height: 16px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.radioBtn {
+    margin: 0 25px 0 0;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+    .radioBtn:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #ededed;
+        opacity: .8;
+        top: 50%;
+        margin-top: -8px;
+    }
+
+    .radioBtn.checked:before {
+        background: #f2933d;
+    }
+
+.IRCalcModule #calc-form {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.IRCalcModule #calculate-button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+form#lookup-form {
+    margin-top: 10px;
+}
+
+.IRCalcModule .vertical {
+    display: none;
+}
+
+input[type=submit]:hover {
+    box-shadow: none;
+    color: #fff;
+    background: #232b41;
+}
+input:focus, select:focus {
+    outline: none;
+}
+.table-look tr:nth-child(odd) {
+}
+.table-look tr:nth-child(even) {
+}
+
+/* End ====================================================================== */
+
+
+@media only screen and (max-width: 480px) {
+    input[type=submit] {
+        width: 100%;
+    }
+
+    form#lookup-form {
+        width: 100%;
+    }
+    
+    .IRCalcModule .horizontal {
+        display: none;
+    }
+
+    .IRCalcModule .vertical {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+        .IRCalcModule .vertical th {
+            line-height: 30px;
+            height: 30px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            padding: 0;
+            background: transparent;
+            color: initial;
+            border-bottom: 1px solid #26648a;
+        }
+        
+        .IRCalcModule .vertical td {
+            text-align: right;
+            border: none;
+            border-bottom: 1px solid #26648a;
+        }
+     .IRCalcModule #calc-form {
+         width: 100%;
+     }
+}
+
+@media only screen and (max-width: 300px) {
+    input#amount-invested {
+        width: 124px;
+}

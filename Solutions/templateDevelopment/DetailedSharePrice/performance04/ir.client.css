@@ -1,0 +1,383 @@
+﻿/*   reset   */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-look td.formatColorNeg, .table-look td.formatColourNeg {
+    color: red;
+}
+
+.table-look td.formatColorPos, .table-look td.formatColourPos {
+    color: green;
+}
+
+input, select {
+    margin: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong, b, strong *, b * {
+    font-weight: bold !important;
+}
+
+em, i, em *, i * {
+    font-style: italic !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*end*/
+
+body {
+    font-weight: normal;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.formatColourPos {
+    color: #1BA71B;
+}
+
+.IRQuoteHorizontalModule span.formatArrowPos {
+    margin-top: 6px;
+}
+
+.divideLine {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+/* IRProfileModule ========================================================= */
+.profile-wrapper .table-look {
+    table-layout: fixed;
+}
+
+    .profile-wrapper .table-look td {
+        position: relative;
+        text-align: center;
+        font-size: 16px;
+        border: 1px solid #4d4d4d;
+        padding: 0;        
+        line-height: normal;
+        white-space: normal;
+        height: 36px;
+        vertical-align: middle;
+        border-left: 0;
+        border-right: 0;
+
+    }
+
+        .profile-wrapper .table-look td.Header {
+            text-align: left;
+        }
+
+        .profile-wrapper .table-look td.Data {
+            text-align: right;
+        }
+
+.profile-wrapper .table-look th {
+    line-height: 36px;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #4d4d4d;
+    padding: 0;
+    }
+    
+.profile-wrapper h2 {
+    line-height: normal;
+    color: #35a7df;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 15px 0;
+}
+.profile-wrapper.two-columns{
+    line-height: 20px;
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+    .profile-wrapper.two-columns strong, .profile-wrapper.two-columns b, .profile-wrapper.two-columns strong *, .profile-wrapper b * {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .profile-wrapper.two-columns .table-look th, .profile-wrapper.two-columns .table-look td {
+        border: 0;
+        border-bottom: 1px solid #cccccc;
+        text-align: right;
+    }
+
+.two-columns .table-wrapper .company-listing-data, .two-columns .profileCompanyInformationWrapper .company-listing-data {
+    width: 49%;
+    margin-right: 2%;
+    float: left;
+}
+
+.two-columns .table-wrapper .price-data, .two-columns .profileCompanyInformationWrapper .price-data {
+    width: 49%;
+    float: left;
+}
+.profile-wrapper.two-columns .table-look {
+    border-top: 0;
+    width: 100%;
+    float: left;
+    margin-right: 4%;
+}
+
+.two-columns .price-data .table-look {
+    margin-right: 0;
+}
+
+.profile-wrapper.two-columns .table-look td {
+    border-bottom: dotted 1px #bbc0c4;
+}
+
+    .profile-wrapper.two-columns .table-look td.Header {
+        float: left;
+        font-weight: 400;
+        width: 50%;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .profile-wrapper.two-columns .table-look td.Data {
+        float: right;
+        font-weight: 700;
+        width: 50%;
+        padding-right: 10px;
+    }
+
+.profile-wrapper.two-columns h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #ad0033;
+}
+
+.profile-wrapper.two-columns .table-look td.Data.formatColourPos {
+    color: green;
+}
+
+.profile-wrapper.two-columns .table-look td.Data.formatColourNeg {
+    color: red;
+}
+/* End ===================================================================== */
+/* IRDetailedSharePrice  plain table ===================================================== */
+.IRDetailedSharePrice.table-look.plain-table th, .IRDetailedSharePrice.table-look.plain-table td {
+    border-left: 0;
+    border-right: 0;
+}
+
+.IRDetailedSharePrice.table-look.plain-table td {
+  font-size:11px;
+    padding-left: 0.91em;
+    border: 1px solid #dbdbdb;
+    height: 24px;
+    line-height: 24px;
+    text-align:right;
+    padding: 5px 10px 5px 10px;
+    vertical-align: top;
+    color:#000000;
+}
+
+.IRDetailedSharePrice.table-look.plain-table th {
+    background: transparent;
+    border: 1px solid #dbdbdb;
+    vertical-align: top;
+    padding: 5px 10px 5px 10px;
+    padding-left: 0.91em;
+    color: #000000;
+    text-align: left;
+    height: 29px;
+    line-height: 29px;
+    font-size:11px;
+}
+
+.IRDetailedSharePrice.plain-table th, .IRDetailedSharePrice.plain-table td {
+    padding: 5px 10px;
+    text-align: left;
+    width: 110px;
+}
+
+/* End ======================================================================== */
+/* IRDetailedSharePrice .sections-table ===================================================== */
+
+
+.IRQuoteHorizontalModule h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.table-look.sections-table td, .table-look.sections-table th {
+    line-height: 50px;
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    border: 0;
+    padding: 0;
+}
+
+.table-look.sections-table th {
+    font-weight: bold;
+    background: #cfdfef;
+    border-bottom: 1px solid #115fb1;
+    border-top: 1px solid #115fb1;
+    color: #115fb1;
+}
+
+.table-look.sections-table td {
+    background-color: #fff;
+    border-bottom: 1px solid #115fb1;
+}
+
+    .table-look.sections-table td.formatColourPos, *.formatColourPos {
+        color: green;
+    }
+
+    .table-look.sections-table td.formatColourNeg, *.formatColourNeg {
+        color: red;
+    }
+
+    .table-look.sections-table th.column-first, .table-look td.column-first {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .table-look.sections-table th.column-last, .table-look td.column-last {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+/* End ======================================================================== */
+
+/* @media only screen =========================================================*/
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .profile-wrapper.two-columns .IRTable.company-listing-data {
+        margin-bottom: 35px;
+    }
+
+    .profile-wrapper.two-columns .table-wrapper .company-listing-data, .profile-wrapper.two-columns .table-wrapper .price-data, .two-columns .profileCompanyInformationWrapper .company-listing-data, .two-columns .profileCompanyInformationWrapper .price-data {
+        width: 100% !important;
+    }
+
+        .two-columns .profileCompanyInformationWrapper .company-listing-data .table-look {
+            border-bottom: 0;
+        }
+
+    .two-columns .profileCompanyInformationWrapper .price-data {
+        margin-top: -1px;
+    }
+}
+@media only screen and (min-width: 572px) {
+    .IRDetailedSharePrice.vertical.sections-table {
+        display: none !important;
+    }
+
+    .IRDetailedSharePrice.vertical.sections-table {
+        display: none;
+    }
+
+    h3.vertical-header {
+        display: none;
+    }
+
+    .divideLine.vertical {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+
+    .IRDetailedSharePrice.table-look.sections-table tr {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+
+    .IRDetailedSharePrice.table-look.sections-table tr, .IRDetailedSharePrice.table-look.sections-table td {
+        border-left: 0;
+    }
+
+    .table-look.sections-table .vertical th {
+        border: 1px;
+    }
+
+    .table-look.vertical.sections-table tbody {
+        display: table;
+        width: 100%;
+    }
+
+    .IRDetailedSharePrice.table-look.sections-table th {
+        padding-left: 10px;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+        text-transform: none;
+    }
+
+    .IRDetailedSharePrice.vertical.sections-table td {
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+        font-weight: normal;
+        font-size: 14px;
+        height: initial;
+        line-height: initial;
+        white-space: initial;
+    }
+
+    .IRDetailedSharePrice.table-look.sections-table th {
+        width: 45%;
+    }
+
+    .IRDetailedSharePrice.horizontal.sections-table {
+        display: none !important;
+    }
+
+    .IRDetailedSharePrice.horizontal.sections-table {
+        display: none;
+    }
+
+    h3.horizontal-header {
+        display: none;
+    }
+
+}
+/* End ======================================================================== */
+

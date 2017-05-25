@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'FS Albert Web´Thin';
+    src: url('FSAlbert/FSAlbertWeb-Thin.eot');
+    src: url('FSAlbert/FSAlbertWeb-Thin.eot?#iefix') format('embedded-opentype'), url('FSAlbert/FSAlbertWeb-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'FS Albert Web Light';
+    src: url('FSAlbert/FSAlbertWeb-Light.eot');
+    src: url('FSAlbert/FSAlbertWeb-Light.eot?#iefix') format('embedded-opentype'), url('FSAlbert/FSAlbertWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Albert Web';
+    src: url('FSAlbert/FSAlbertWeb-LightItalic.eot');
+    src: url('FSAlbert/FSAlbertWeb-LightItalic.eot?#iefix') format('embedded-opentype'), url('FSAlbert/FSAlbertWeb-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Albert Web Regular';
+    src: url('FSAlbert/FSAlbertWeb-Regular.eot');
+    src: url('FSAlbert/FSAlbertWeb-Regular.eot?#iefix') format('embedded-opentype'), url('FSAlbert/FSAlbertWeb-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Albert Web Italic';
+    src: url('FSAlbert/FSAlbertWeb-Italic.eot');
+    src: url('FSAlbert/FSAlbertWeb-Italic.eot?#iefix') format('embedded-opentype'), url('FSAlbert/FSAlbertWeb-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Albert Web Bold';
+    src: url('FSAlbert/FSAlbertWeb-Bold.eot');
+    src: url('FSAlbert/FSAlbertWeb-Bold.eot?#iefix') format('embedded-opentype'), url('FSAlbert/FSAlbertWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Albert Web BoldItalic';
+    src: url('FSAlbert/FSAlbertWeb-BoldItalic.eot');
+    src: url('FSAlbert/FSAlbertWeb-BoldItalic.eot?#iefix') format('embedded-opentype'), url('FSAlbert/FSAlbertWeb-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+*, body {
+    /*font-family: "Arial", Helvetica, sans-serif;*/
+    font-size: 14px;
+    color: #333;
+    -webkit-appearance: none;	
+	font-family:'FS Albert Web Regular', Verdana , sans-serif; 
+	font-size-adjust:0.48; 
+	font-weight:normal; 
+	font-style:normal;
+	
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #404040;
+}
+
+/* Chart ======================================================= */
+.IRChartColour {
+    color: #b2bb1e;
+}
+
+.IRChartOuter .IRChartCurrency {
+    top: 0;
+    z-index: 999;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod {
+    height: 24px;
+    line-height: 24px;
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+        background: #3e4518;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+        .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+            opacity: 0.9;
+        }
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+        border-radius: 4px;
+    }
+
+
+.IRChartComparisonHeader, .basicButtonLook, .IRChartCompanyName {
+    color: #1E398D;
+}
+
+
+/* End ========================================================= */
+
+.IRQuoteModule {
+    border: none;
+}
+
+    .IRQuoteModule th, .IRQuoteModule td {
+        height: 27px;
+        line-height: 27px;
+        border: none;
+        text-align: left;
+    }
+
+    .IRQuoteModule th {
+        border-bottom: 2px solid #fff;
+        font-weight: bold;
+        background-color: #D6CFC9;
+        border-left: 2px solid #fff;
+    }
+
+    .IRQuoteModule td {
+        background-color: #f1efed;
+        border-left: 2px solid #fff;
+    }
+
+.IRChartClientName {
+    border-color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+.IRChartCurrency {
+    color: #404040;
+}
+
+.chartCurrentPriceBox .chartLastPrice {
+    color: #ffffff;
+}
+
+.chartChangePeriod {
+    border-top: 1px solid #EEEEEE;
+}
+
+    .chartChangePeriod div {
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
+    }
+
+        .chartChangePeriod div.activePeriod {
+            background-color: #5985A6;
+        }
+
+.disclaimer {
+}
+
+.disclaimer {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 10px;
+    color: #777;
+	font-family:"FS Albert Web Regular", Verdana , sans-serif; 
+	font-size-adjust:0.48; 
+	font-weight:normal; 
+	font-style:normal;
+}
+
+    .disclaimer a:link, .disclaimer a:visited {
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        font-size: 10px;
+        color: #777;
+        text-decoration: none;
+		font-family:"FS Albert Web Regular", Verdana , sans-serif; 
+		font-size-adjust:0.48; 
+		font-weight:normal; 
+		font-style:normal;
+    }
+
+    .disclaimer a:hover {
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        color: #000;
+		font-family:"FS Albert Web Regular", Verdana , sans-serif; 
+		font-size-adjust:0.48; 
+		font-weight:normal; 
+		font-style:normal;
+    }
+
+.inputTextTitle {
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+input[type=text] {
+    padding: 10px;
+    line-height: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 32px;
+}
+
+input[type=email] {
+    height: 32px;
+    float: left;
+    margin-right: 2%;
+}
+
+
+.buttonStyle {
+    height: 34px;
+    line-height: 34px;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background: #3e4518;
+    border: 0;
+}
+
+    .buttonStyle:hover {
+        opacity: 0.9;
+        color: #fff;
+        background: #b2bb1e;
+        border: 0;
+    }
+
+.IRChartHTMLPlaceholder {
+    height: 200px;
+}
+
+/* Miniquote*/
+
+.IRMiniquoteModule .title {
+    font-size: 14px;
+}
+
+.IRMiniquoteModule {
+    background: transparent;
+    font-size: 11px;
+}
+
+.IRMiniquoteModule .Data.last {
+    color: #B1BA1F;
+    font-size: 50px;
+    line-height: 50px;
+    padding: 10px 0;
+}
+
+.IRMiniquoteModule span.p {
+    color: #B1BA1F;
+    font-size: 20px;
+}
+
+.disclaimer.disclaimer-IRMiniquote {
+    display: none;
+}
+
+.IRMiniQuoteQuoteModule.table-look.responsive {
+    border: none;
+}
+/* @media only screen =========================================================*/
+@media only screen and (max-width: 550px) {
+    .inputTextTitle {
+        width: 100%;
+    }
+
+    .inputText {
+        max-width: initial;
+        width: 99%;
+    }
+
+    input[type=text] {
+        padding: 0;
+    }
+
+    .buttonStyle {
+        width: 100%;
+    }
+
+    input[type=email] {
+        margin-right: 0;
+        width: 99%;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .column-last, .column-last {
+        display: none;
+    }
+}
+/* End ======================================================================== */

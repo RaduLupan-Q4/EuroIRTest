@@ -1,0 +1,322 @@
+@font-face {
+	font-family: 'Geogrotesque SmBd';
+	src: url('fonts/Geogrotesque-SemiBold.eot');
+	src: url('fonts/Geogrotesque-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Geogrotesque-SemiBold.woff') format('woff'),
+		url('fonts/Geogrotesque-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geogrotesque Rg';
+	src: url('Geogrotesque-Regular.eot');
+	src: url('Geogrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Geogrotesque-Regular.woff') format('woff'),
+		url('Geogrotesque-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+    font-family: Geogrotesque SmBd, Geogrotesque Rg, Sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #131313;
+    overflow-x: hidden;
+    
+}
+/*
+.table-look th.column-last, .table-look td.column-last {
+    padding-right: 2%;
+}*/
+
+/* IRChart =============================================================== */
+
+.IRQuoteModule .updated {
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10 0px;
+}
+
+.IRChartColour {
+    color: #565656;
+}
+
+.IRQuoteModule th.Header {
+    color: #fff;
+    background-color: #222222;
+    font-weight: normal;
+}
+
+.IRQuoteModule td.Data, .IRQuoteModule th.Header {
+    border: 1px solid #D2D2CF;
+}
+
+
+.IRChartPlaceholderArea .IRChartPlaceholder {
+    box-sizing: initial;
+}
+
+
+.IRChartPlaceholderArea .IRChartChangePeriod div {
+/*    width: 40px;*/
+    border: 1px solid #D2D2CF;
+    border-right: 0;
+/*    font-size: 12px;*/
+/*
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(238,238,238,0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(238,238,238,0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(238,238,238,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6eeeeee',GradientType=0 );
+*/
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+        background-color: #333333;
+        color: #fff;
+/*
+        -webkit-box-shadow: inset 0px 0px 8px 2px rgba(171,168,171,0.82);
+        -moz-box-shadow: inset 0px 0px 8px 2px rgba(171,168,171,0.82);
+        box-shadow: inset 0px 0px 8px 2px rgba(171,168,171,0.82);
+*/
+    }
+
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+        text-transform: uppercase;
+        color: #fff;
+        background: #333333; }
+
+        .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover, .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+            background: #333333;
+            box-shadow: none;
+        }
+
+.IRChartNavigation .IRChartTA .pop-submit {
+    color: #fff;
+    background: #565656; 
+    border: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+    .IRChartNavigation .IRChartTA .pop-submit:hover {
+        color: #fff;
+    }
+
+.IRChartPlaceholderArea .IRChartChangePeriod {
+    height: 22px;
+    line-height: 22px;
+    /* width: 400px; */
+
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+.IRChartMiniHTMLPlaceholder .IRChartHTMLPlaceholder {
+    height: 200px;
+}
+
+.tooltipHTML {
+    border: 0;
+    -moz-box-shadow: 0px 0px 2px 2px #d2d2d2;
+    -webkit-box-shadow: 0px 0px 2px 2px #d2d2d2;
+    box-shadow: 0px 0px 2px 2px #d2d2d2;
+    font-size: 12px;
+    width: 120px;
+    padding: 5px;
+}
+
+    .tooltipHTML .IRChartTooltipDate {
+        font-size: 12px;
+        font-weight: 700;
+        border-bottom: 1px solid #a8a9a3;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+.highcharts-tooltip span {
+    color: #565656;
+}
+
+.tooltipHTML .IRChartTooltipDate, .tooltipHTML div.IRChartTooltipVolume span {
+    color: #333;
+}
+
+.IRChartCompanyName {
+    color: #333;
+}
+
+.IRChartCurrency {
+    color: #333;
+    font-size: 12px;
+}
+
+.highcharts-xaxis-labels text, .highcharts-yaxis-labels {
+    font-size: 10px !important;
+}
+
+table.IRQuoteModule.table-look.vertical.customResponsiveVertical {
+    display: none;
+}
+
+.highcharts-background {
+    fill: #fff;
+}
+
+.disclaimer {
+    display: none;
+}
+
+.icon-enlarge:before {
+    content: "\e989";
+}
+
+.companyInfoWrapper .updated {
+    float: right;
+    width: 42%;
+    text-align: right;
+}
+
+.IRChartNavigation .IRChartView, .IRChartNavigation .IRChartTA, .IRChartNavigation .IRChartCC, .IRChartNavigation .IRChartComparison, .IRChartNavigation .IRChartTSR, .IRChartNavigation .IRChartSettings, .IRChartNavigation .IRChartFullscreen, .IRChartNavigation .IRChartListings, .IRChartNavigation .IRChartMenuTrigger {
+    border-left: 1px solid #D2D2CF;
+}
+
+.IRChartNavigation {
+    border-bottom: 1px solid #D2D2CF;
+    border-top: 1px solid #D2D2CF;
+    background-color: #F3F2EE;
+}
+
+    .IRChartNavigation .IRChartView, .IRChartNavigation .IRChartTA, .IRChartNavigation .IRChartComparison, .IRChartNavigation .IRChartTSR, .IRChartNavigation .IRChartCC, .IRChartNavigation .IRChartFullscreen, .IRChartNavigation .IRChartSettings, .IRChartNavigation .IRChartListings, .IRChartNavigation .IRChartMenuTrigger {
+        background-color: transparent;
+        color: #000;
+        font-size: 11px;
+    }
+
+        .IRChartNavigation .IRChartFullscreen .IRChartFullscreenBody div, .IRChartNavigation .IRChartComparison .IRChartComparisonBody div, .IRChartNavigation .IRChartTSR .IRChartTSRBody div, .IRChartNavigation .IRChartSettings .IRChartSettingsBody div, .IRChartNavigation .IRChartNavigationInner .IRChartMenuTriggerBody div, .IRChartNavigation .IRChartTA .IRChartTABody div, .IRChartNavigation .IRChartCC .IRChartCCBody div {
+            font-size: 10px;
+            font-weight: 400;
+            color: #555;
+        }
+
+            .IRChartNavigation .IRChartTA .IRChartTABody div.IRChartTABodyListHeader, .IRChartNavigation .IRChartComparison .IRChartComparisonBody div.IRChartComparisonBodyListHeader, .IRChartNavigation .IRChartSettings .IRChartSettingsBody .IRChartSettingsBodyListHeader {
+                color: #000;
+                font-weight: 700;
+                font-size: 11px;
+            }
+
+.IRChartPlaceholderArea .IRChartChangePeriod div#Max {
+/*
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+*/
+    border-right: 1px solid #D2D2CF;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div#d1 {
+/*
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+*/
+}
+
+.IRChartNavigation .IRChartView:hover, .IRChartNavigation .IRChartTA:hover, .IRChartNavigation .IRChartCC:hover, .IRChartNavigation .IRChartComparison:hover, .IRChartNavigation .IRChartTSR:hover, .IRChartNavigation .IRChartSettings:hover, .IRChartNavigation .IRChartFullscreen:hover, .IRChartNavigation .IRChartListings:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+.IRChartNavigation .IRChartCompanyName {
+    font-weight: bold;
+    font-size: 12px;
+}
+/*
+.highcharts-series rect{
+    fill: #ff0000 !important;
+}*/
+
+/* End Chart ====================================================================== */
+
+/* End Miniquote ====================================================================== */
+
+.miniquoteDetailsWrapper {
+    border-top: 1px solid #D2D2CF;
+    border-bottom: 1px solid #D2D2CF;
+    width: 190px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.currency, .IRMiniQuoteQuoteModule .Data.change {
+    display: inline-block;
+}
+
+.currency {
+    font-weight: 700;
+}
+
+.IRMiniQuoteQuoteModule .Data.change {
+    margin-left: 8px;
+}
+
+.IRMiniquoteChartModule .IRMiniquoteChartPlaceholder {
+    height: 130px;
+}
+
+
+.IRMiniquoteChartModule .table-look th {
+    color: #ada364;
+}
+.IRMiniquoteChartModule .table-look td,
+.IRMiniquoteChartModule .table-look th {
+	padding: 0;
+	font-size: 11px;
+}
+.IRMiniquoteChartModule .table-look td {
+    text-align: right;
+}
+/* End Miniquote ====================================================================== */
+
+
+/* Media Query ====================================================================== */
+
+@media screen and (max-width: 500px) {
+    .horizontal.customResponsive .IRElement7 {
+    display: none;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .horizontal.customResponsive .IRElementLast {
+        display: none;
+    }
+    .horizontal.customResponsive .IRElement6 {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .horizontal.customResponsive .IRElement5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .IRChartChangePeriod div:nth-child(7) {
+        border-right: 1px solid #D2D2CF;
+    }
+}
+
+@media screen and (max-width: 325px) {
+   .horizontal.customResponsive .IRElement3,
+    .horizontal.customResponsive .IRElement4 {
+        display: none;
+    }
+}
+/* Media Query End ====================================================================== */
+
+
