@@ -1,0 +1,151 @@
+﻿@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/MontserratRegular.eot') format('embedded-opentype'), url('../fonts/MontserratRegular.ttf') format('truetype'), url('../fonts/MontserratRegular.woff') format('woff');
+}
+a:hover {cursor: pointer;}
+body {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #808080;
+}
+
+.inputText input {
+    padding: 5px;
+    height: 31px;
+    line-height: 31px;
+}
+
+.formLoginConfirm.buttonStyle.clearInput {
+    width: 40%;
+}
+
+.fullwidth {
+    width: 100%;
+    height: 50px;
+}
+
+.subPageLogin {
+    height: 200px;
+}
+
+.header {
+    margin-top: 15px;
+}
+
+.subGroup #allRNSnews {
+    font-weight: 400;
+}
+
+.checkbox {
+    height: 22px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 31px;
+    background-image: url('checkbox_false.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    min-width: 145px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-size: 22px;
+    background-position: center left;
+    width: 45%;
+    float: left;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.subGroup {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.checkbox.checked {
+    background-image: url('checkbox_true.png');
+}
+
+.requiredFieldMSG {
+    color: red;
+    font-weight: bold;
+}
+
+.hidden, .disclaimer.disclaimer-IRCustomModule {
+    display: none;
+}
+
+.semiTransparantOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: White;
+    opacity: 0.7;
+    z-index: 900;
+}
+
+.pageVerification {
+    width: 100%;
+    margin-right: 10px;
+    position: absolute;
+    border: 1px solid #ccc;
+    bottom: 0px;
+    left: 10px;
+    z-index: 1000;
+    padding: 8px;
+    background-color: white;
+    max-width: 300px;
+}
+
+.pageUnsubscribe .inputText input {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .subPageLogin {
+        height: 300px;
+    }
+
+    .fullwidth {
+        height: 80px;
+    }
+
+    .subGroup .checkbox {
+        width: 100%;
+    }
+
+    .emailAlerts .buttonStyle {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .pageUnsubscribe .formUnsubscribeInTool {
+        line-height: 30px;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .emailAlerts .buttonStyle{margin-bottom: 10px;}
+}
+
+@media only screen and (max-width: 470px) {
+    /*div {
+        width: 95% !important;
+    }*/
+
+    .emailAlerts input[type=email] {
+        width: 100%;
+    }
+
+    input.checkboxRelease {
+        width: 13px !important;
+    }
+
+    .formLogin.clearInput {
+        margin-top: 10px;
+        width: 100%;
+    }
+}

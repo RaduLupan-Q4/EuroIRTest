@@ -1,0 +1,72 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    color: #4f4f4f;
+}
+
+.table-look {
+    border: none;
+}
+
+.stock-symbol {
+    margin-left: 5px;
+}
+
+.IRMiniquoteModule {
+    margin: 12px 0 0 9px;
+}
+
+    .IRMiniquoteModule h2, .currency {
+        color: #fff;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+
+    .IRMiniquoteModule h2 {
+        margin-bottom: 10px;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+.Data.change {
+    color: #67F118;
+    display: inline-block;
+    margin-left: 22px;
+}
+
+.closeDate {
+    margin-left: 4px;
+    font-size: 10px;
+    color: #969696;
+}
+
+.currencyDataChangeContainer {
+    margin-left: 4px;
+    font-size: 16px;
+    height: 10px;
+}
+
+    .currencyDataChangeContainer .up {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 9.5px 9px;
+        border-color: transparent transparent #6bed23;
+        content: '';
+        position: relative;
+        top: -15px;
+        left: 17px;
+    }
+
+.last {
+    margin-left: 5px;
+}
+
+.disclaimer-IRMiniquote {
+    display: none;
+}
+/* End ======================================================================== */
