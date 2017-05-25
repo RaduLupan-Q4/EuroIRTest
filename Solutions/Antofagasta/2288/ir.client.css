@@ -1,0 +1,497 @@
+﻿
+/*@font-face {
+    font-family: 'UniversLTW01-47LightCond';
+    src: url('fonts/30d23194-f646-428e-9323-c85f8aea47ed.eot'); 
+    src: url('fonts//30d23194-f646-428e-9323-c85f8aea47ed.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/58c01d2a-ce4a-4360-a61f-761e91aa67c0.woff2') format('woff2'),
+    url('fonts/ccd9698a-60c5-48f7-acbe-5352b4aa81d4.woff') format('woff'), 
+    url('fonts/ba8ec1ac-e90e-4cea-bda8-85f718fb8fd0.ttf') format('truetype'), 
+    url('fonts/5e991f15-a051-4a36-b07e-660ad0a9fcd7.svg#svgFontName') format('svg'); 
+}
+
+@font-face {
+    font-family: 'UniversLTW01-57Condensed';
+    src: url('fonts/4a916908-f6f7-4df6-90a1-176fb83137d9.eot'); 
+    src: url('fonts/4a916908-f6f7-4df6-90a1-176fb83137d9.eot?#iefix') format('embedded-opentype'),
+    url('fonts/bf8f8741-5f64-4db9-a877-a44624092e68.woff2') format('woff2'), 
+    url('fonts/7ce02c2c-45d4-4dee-90f2-f8034e29ac24.woff') format('woff'), 
+    url('fonts/0955c906-88fc-47e8-8ea2-0765bdf88050.ttf') format('truetype'), 
+    url('fonts/2fec7d2f-9df6-445b-8d59-892ed9b8ab56.svg#svgFontName') format('svg'); 
+}
+
+@font-face {
+    font-family: 'UniversLTW01-67BoldCond';
+    src: url('fonts/7815db54-3fc9-46f7-a082-a7db4c26b44d.eot'); 
+    src: url('fonts/7815db54-3fc9-46f7-a082-a7db4c26b44d.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/3bdb4597-ff70-447c-8620-8836686bf840.woff2') format('woff2'), 
+    url('fonts/5599ac9f-d136-4277-aeee-f82aac5d527f.woff') format('woff'), 
+    url('fonts/ae81ec98-60d0-408d-960f-8c3f9f74e6c7.ttf') format('truetype'), 
+    url('fonts/6a2c8943-c768-4f87-8d9d-0b70a871e8fe.svg#svgFontName') format('svg'); 
+}*/
+
+/* Fonts */
+@font-face {
+    font-family: 'UniversLTW01-57Condensed';
+    src: url("fonts/4a916908-f6f7-4df6-90a1-176fb83137d9.eot");
+}
+
+@font-face {
+    font-family: 'UniversLTW01-57Condensed';
+    src: url("fonts/7ce02c2c-45d4-4dee-90f2-f8034e29ac24.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'UniversLTW01-47LightCond';
+    src: url("fonts/30d23194-f646-428e-9323-c85f8aea47ed.eot");
+}
+
+@font-face {
+    font-family: 'UniversLTW01-47LightCond';
+    src: url("fonts/ccd9698a-60c5-48f7-acbe-5352b4aa81d4") format("woff");
+}
+
+@font-face {
+    font-family: 'UniversLTW01-67BoldCond';
+    src: url("fonts/7815db54-3fc9-46f7-a082-a7db4c26b44d.eot");
+}
+
+@font-face {
+    font-family: 'UniversLTW01-67BoldCond';
+    src: url("fonts/5599ac9f-d136-4277-aeee-f82aac5d527f.woff") format("woff");
+}
+/* end of fonts */
+
+
+
+body {
+    font-family: 'UniversLTW01-57Condensed', arial, sans-serif;
+    font-size: 18px;
+    color: #666666;
+}
+
+h2 {
+    color: #0097d6;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+input[type=submit] {
+    height: 30px;
+    font-size: 14px;
+    -webkit-appearance: none;
+    background-color: #279989;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-bottom-right-radius: 7px;
+    -webkit-appearance: none;
+}
+
+    input[type=submit]:hover {
+        background-color: #005b6d;
+        color: #fff;
+    }
+
+.IRChartPlaceholderArea .IRChartChangePeriod div:hover {
+    border-bottom-right-radius: 7px;
+    background-color: #005b6d;
+    color: #fff;
+}
+
+input#amount-invested {
+    width: 160px;
+}
+
+.IRChartColour {
+    color: #279989;
+}
+
+.IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod {
+    background-color: #279989;
+    border-bottom-right-radius: 7px;
+}
+
+    .IRChartPlaceholderArea .IRChartChangePeriod div.activePeriod:hover {
+        background-color: #005b6d;
+    }
+
+.table-look {
+    border: none;
+}
+
+    .table-look th, .table-look td {
+        height: 50px;
+        line-height: 50px;
+        font-weight: 400;
+        font-style: normal;
+        border: none;
+        text-align: left;
+        padding: 0 5px;
+    }
+
+    .table-look th {
+        color: #333;
+        background: #eceff1;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'UniversLTW01-67BoldCond', Arial, sans-serif;
+    }
+
+    .table-look td {
+        border-bottom: 1px solid #f5f5f5 !important;
+        font-weight: normal;
+        background: #fff;
+    }
+
+.chartDisclaimer, .performanceDisclaimer, .calcDisclaimer, .lookupDisclaimer {
+    display: none;
+}
+
+.disclaimer-IRLookup {
+    text-align: left;
+    float: left;
+}
+
+
+/* IRChartModule ==================================== */
+
+.IRChartPlaceholderArea .IRChartChangePeriod {
+    width: initial;
+    max-width: 450px;
+}
+
+.IRChartModule .basicButtonLook {
+    font-size: 14px;
+}
+
+.basicButtonLook.color96EAFF:hover {
+    border-left: 5px solid #96EAFF;
+}
+
+.basicButtonLook.color96EAFF.active {
+    border-left: 5px solid #96EAFF;
+}
+
+.color96EAFF.active span {
+    border-left: 5px solid #96EAFF;
+}
+
+.colorIndicator.color96EAFF.active {
+    border-left: 5px solid #96EAFF;
+    padding-right: 4px;
+}
+
+.basicButtonLook.colorBDE924:hover {
+    border-left: 5px solid #BDE924;
+}
+
+.basicButtonLook.colorBDE924.active {
+    border-left: 5px solid #BDE924;
+}
+
+.colorBDE924.active span {
+    border-left: 5px solid #BDE924;
+}
+
+.colorIndicator.colorBDE924.active {
+    border-left: 5px solid #BDE924;
+    padding-right: 4px;
+}
+
+.basicButtonLook.color000000:hover {
+    border-left: 5px solid #000000;
+}
+
+.basicButtonLook.color000000.active {
+    border-left: 5px solid #000000;
+}
+
+.color000000.active span {
+    border-left: 5px solid #000000;
+}
+
+.colorIndicator.color000000.active {
+    border-left: 5px solid #000000;
+    padding-right: 4px;
+}
+
+.basicButtonLook.colorC1D6D6:hover {
+    border-left: 5px solid #C1D6D6;
+}
+
+.basicButtonLook.colorC1D6D6.active {
+    border-left: 5px solid #C1D6D6;
+}
+
+.colorC1D6D6.active span {
+    border-left: 5px solid #C1D6D6;
+}
+
+.colorIndicator.colorC1D6D6.active {
+    border-left: 5px solid #C1D6D6;
+    padding-right: 4px;
+}
+
+
+.IRChartComparisonPlaceholder div span {
+    font-size: 12px;
+}
+
+/* End ============================================== */
+
+/* IRLookup- & IRCalcModule =================================== */
+.IRLookupModule #lookup-form {
+    max-width: 400px;
+}
+
+.IRLookupModule .IRLookupResultsTable.horizontal th,
+.IRLookupModule .IRLookupResultsTable.horizontal td {
+    font-style: normal;
+    line-height: 17px;
+    border: none;
+    line-height: 50px;
+    padding: 0px 5px;
+}
+
+.IRLookupModule > table > tbody > tr:nth-child(odd) {
+    background-color: #eceff1;
+}
+
+.input-row {
+    height: 37px;
+}
+
+select {
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.IRLookupModule .IRLookupResultsTable.horizontal th {
+    /*font-weight: bold;*/
+}
+
+.IRPerformanceModule .Header {
+    text-align: right;
+}
+
+.formatArrowNeg, .formatArrowPos {
+    width: 11px;
+    height: 13px;
+    display: inline-block;
+    background-position: center center;
+    margin-right: 3px;
+}
+
+.formatArrowPos {
+    background-image: url(images/arrow_up.png);
+    color: #91c453;
+}
+
+.formatArrowNeg {
+    background-image: url(images/arrow_down.png);
+    background-repeat: no-repeat;
+    color: red;
+}
+
+.IRToolCalcResultsTable.horizontal {
+    display: table;
+}
+
+.IRToolCalcResultsTable.vertical {
+    display: none;
+}
+
+.IRCalcModule .input-wrapper, .IRLookupModule .input-wrapper {
+    text-align: right;
+    -webkit-appearance: none;
+}
+
+.IRLookupModule label {
+    float: left;
+    line-height: 30px;
+    height: 24px;
+}
+
+.IRCalcModule label, .IRCalcModule input[type="radio"] {
+    cursor: pointer;
+    float: left;
+    line-height: 24px;
+    height: 24px;
+}
+
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal th {
+}
+
+.IRCalcModule .IRToolCalcResultsTable.horizontal td {
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical th {
+    text-align: left;
+}
+
+.IRCalcModule .IRToolCalcResultsTable.vertical td {
+    text-align: right;
+}
+
+.IRCalcModule #calc-form {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    max-width: 400px;
+}
+/* IRQuoteDualModule ======================================= */
+.IRQuoteDualModule.table-look th, .IRQuoteDualModule.table-look td {
+    font-size: 10px;
+}
+
+.IRQuoteDualModule.table-look th {
+    line-height: 13px;
+    font-size: 10px;
+    background-color: #CED2E5;
+    color: #00348B;
+    text-align: center;
+    font-weight: normal;
+    border-collapse: collapse;
+    padding: 5px;
+    border: 2px solid #FFFFFF;
+}
+
+.IRQuoteDualModule.table-look td {
+    line-height: 13px;
+    background-color: #E5E7F1;
+    color: #00348B;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid #FFFFFF;
+    vertical-align: middle;
+}
+
+.IRQuoteDualModule .exchange {
+    width: 108px;
+}
+
+.IRQuoteDualModule.table-look .column-first {
+    text-align: left;
+}
+
+.IRQuoteDualModule th.column-first, .IRQuoteDualModule th.column-last {
+    visibility: hidden;
+}
+
+.IRQuoteDualModule .column-last {
+    width: 60px;
+}
+/* End ===================================================== */
+
+.IRCalcModule select {
+    min-width: 50px;
+}
+
+/* detailedSharePrice ====================================== */
+
+h3.horizontal-header, h3.vertical-header {
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #585858;
+    font-family: 'UniversLTW01-47LightCond', arial, sans-serif;
+}
+
+h3.vertical-header {
+    line-height: 25px;
+}
+/*===========================================================*/
+
+
+/* Media Queries =========================================== */
+@media screen and (min-width: 660px) {
+    .IRDetailedSharePrice.table-look.vertical.responsive-flip {
+        display: none;
+    }
+
+    h3.vertical-header {
+        display: none;
+    }
+
+    .IRDetailedSharePrice.table-look.horizontal.responsive-flip {
+        margin-bottom: 30px;
+        padding-top: 5px;
+    }
+
+    .mobileOnly {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .IRDetailedSharePrice.table-look.vertical th{width: 55%;}
+    body > div.IRQuoteHorizontalModule > table:nth-child(11) > tbody > tr:nth-child(4) > th {
+        width: 50%;
+        word-break: initial;
+        white-space: normal;
+        line-height: initial;
+        height: initial;
+        vertical-align: middle;
+    }
+    h3.horizontal-header, h3.vertical-header{padding:0;}
+
+    .IRDetailedSharePrice.table-look.horizontal.responsive-flip {
+        display: none;
+    }
+
+    h3.horizontal-header {
+        display: none;
+    }
+
+    .desktopOnly {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .IRToolCalcResultsTable.horizontal {
+        display: none;
+    }
+
+    .IRToolCalcResultsTable.vertical {
+        display: table;
+    }
+
+    iframe.calc {
+        height: 500px !important;
+    }
+
+    .IRPerformanceModule .avg_volume_Past12monthsHeader, .IRPerformanceModule .avg_volume_Past12months, .IRPerformanceModule .percentageChangeHeader, .IRPerformanceModule .percentageChange {
+        display: none;
+    }
+
+    .IRPerformanceModule .avg_volume_Past6monthsHeader, .IRPerformanceModule .avg_volume_Past6months, .IRPerformanceModule .pctChange_12monthsHeader, .IRPerformanceModule .pctChange_12months {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .IRPerformanceModule .avg_volume_Past6monthsHeader, .IRPerformanceModule .avg_volume_Past6months, .IRPerformanceModule .pctChange_12monthsHeader, .IRPerformanceModule .pctChange_12months {
+        display: none;
+    }
+
+    .IRPerformanceModule .avg_volume_Past3monthsHeader, .IRPerformanceModule .avg_volume_Past3months, .IRPerformanceModule .pctChange_YTDmonthsHeader, .IRPerformanceModule .pctChange_ytd {
+        text-align: left;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .formatArrowNeg, .formatArrowPos {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+
+/* End ===================================================== */

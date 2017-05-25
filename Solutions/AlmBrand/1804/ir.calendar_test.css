@@ -1,0 +1,565 @@
+﻿body {
+    font-family: Georgia;
+    color: #000;
+    font-size: 14px;
+    overflow: auto !important;
+    overflow-x: hidden !important;
+}
+
+h1 {
+    color: #ff6a00;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+    font-weight: normal;
+    display: block;
+    padding-left: 5px;
+}
+
+h2.t_unsubscribe {
+    text-transform: capitalize;
+}
+
+.widgetModule .tabs-container li a.current, .categoryFilters li.active a, .categoryFilters li.active button {
+    display: block;
+}
+
+.select-style {
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+select#period {
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 20px;
+    color: #000;
+    padding: 0px;
+}
+
+.IRCalendar {
+    line-height: 30px;
+    border-top: 0px solid #ccc;
+}
+
+.calendarDate {
+    width: 16%;
+    float: left;
+    font-size: 38px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    min-width: 75px;
+    color: #000;
+}
+
+.CalendarContentWrapper {
+    width: 82%;
+    float: left;
+}
+
+.calendarTime {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+.calendarLocation {
+    font-weight: bold;
+}
+
+/*.divideLine {
+    border-bottom: 1px solid #ccc;
+}*/
+
+.calendarDetails, .calendarAddTo, .calendarReminder, .calendarReminderAll, .calendarReminderFinancial, .calendarReminderRoadshow {
+    float: left;
+    width: 27%;
+    padding: 0 0 0 20px;
+    text-indent: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    min-width: 185px;
+}
+
+.calendarDetails {
+    background: url('images/detailed.png') 5px no-repeat;
+}
+
+.calendarAddTo {
+    background: url('images/calendar-check.png') 5px no-repeat;
+}
+
+.calendarReminder, .calendarReminderAll, .calendarReminderFinancial, .calendarReminderRoadshow {
+    background: url('/inc/images/checkbox_false.png') 5px no-repeat;
+}
+
+.calendarReminder_checked, .calendarReminderAll_checked, .calendarReminderFinancial_checked, .calendarReminderRoadshow_checked {
+    background: url('/inc/images/checkbox_true.png') 5px no-repeat;
+}
+
+#emailCalendarSignup {
+    max-width: 300px;
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 10px;
+}
+
+#emailCalendarSignup_submit, #emailCalendarUnsubscribe {
+    width: 120px;
+    height: 42px;
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    font-family: inherit;
+}
+
+#emailCalendarSignup_submit {
+    background-color: #a11a46;
+}
+
+    #emailCalendarSignup_submit:hover {
+        background-color: #c12054;
+    }
+
+#emailCalendarUnsubscribe {
+    text-transform: capitalize;
+    background-color: #8f8d8a;
+}
+
+    #emailCalendarUnsubscribe:hover {
+        background-color: #a9a49f;
+    }
+
+.divLine {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    margin: 30px 0 20px 0;
+}
+
+.calendarMoreInfo {
+    margin-left: 16%;
+}
+
+.calendarRemindAllEncapsulator {
+    /*background: #f2f2f2;*/
+    color: #000;
+    width: 97%;
+    /*padding-top: 9px;*/
+    /*padding-bottom: 9px;*/
+    /*padding-left: 1%;*/
+    /*border-radius: 4px;*/
+    float: left;
+    margin-left: 1%;
+    position: relative;
+}
+
+    .calendarRemindAllEncapsulator .calendarButtonStyle, input.calendarButtonStyle {
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        border: 1px solid #A9A9A9;
+        -webkit-appearance: none;
+    }
+
+calendarButtonStyle {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.unsubscribe calendarButtonStyle {
+    float: left;
+    width: 60%;
+    margin-left: 2%;
+    max-width: 150px;
+    height: 42px;
+}
+
+.enterInformationLoginEmail {
+    /*float: left;
+    width: 30%;
+    max-width: 200px;
+    border: 1px solid #ececec;
+    height: 36px;
+    border-radius: 5px;*/
+    max-width: 300px;
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 10px;
+}
+
+.subscribe p, .calendarRemindAllEncapsulator label {
+}
+
+.socialIcons {
+    border-top: 1px solid #eee;
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+
+.twitterIcon {
+    background-image: url("images/twitter-circle-light.png");
+    height: 24px;
+    width: 24px;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-left: 2%;
+}
+
+    .twitterIcon:hover {
+        background-image: url("images/twitter-circle-dark.png");
+    }
+
+.linkedinIcon {
+    background-image: url("images/linkedin-box-light.png");
+    height: 24px;
+    width: 24px;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-left: 2%;
+}
+
+    .linkedinIcon:hover {
+        background-image: url("images/linkedin-box-dark.png");
+    }
+
+/* End ======================================================================== */
+
+
+
+/* Calendar Test ============================================================== */
+
+.IRCalendarModule {
+    float: left;
+    vertical-align: middle;
+}
+
+    .IRCalendarModule th {
+        background: #0083A9;
+        color: #fff;
+        vertical-align: middle;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 5px 0 5px;
+    }
+
+    .IRCalendarModule .calendarInformation {
+        text-align: left;
+    }
+
+    .IRCalendarModule .calendarDate {
+        width: 20%;
+    }
+
+
+
+
+
+/* End ======================================================================== */
+
+
+/* Select Reminder ============================================================ */
+.select_wrapper {
+    /*background: url("images/alarm.png") no-repeat top 3px left 0px;*/
+    line-height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #0083A9;
+    max-width: 280px;
+}
+
+    /*.select_wrapper:hover {
+        background: url("images/alarm.png") no-repeat top 3px left 0px;
+    }*/
+
+    .select_wrapper span {
+        display: block;
+        text-align: center;
+    }
+
+
+
+
+.select_wrapper .select_inner {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #687278;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    width: 120%;
+    z-index: 3;
+}
+
+    .select_wrapper .select_inner li {
+        border-bottom: 1px solid #eee;
+        padding: 0 15px;
+    }
+
+        .select_wrapper .select_inner li:hover {
+            background: #eee;
+        }
+
+        .select_wrapper .select_inner li:last-child {
+            border: none;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .select_wrapper .select_inner li:first-child {
+            border-radius: 5px 5px 0 0;
+        }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.calendarReminderAll, .calendarReminderFinancial, .calendarReminderRoadshow {
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.transparantOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: White;
+    opacity: 0.7;
+    z-index: 900;
+}
+
+.dialogueBox {
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    z-index: 1000;
+    position: absolute;
+    left: 30px;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(204,204,204,1);
+    box-shadow: 0px 0px 10px 4px rgba(204,204,204,1);
+}
+
+    .dialogueBox h3 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+#dialogueBox_register {
+    bottom: 40px;
+    padding-left: 60px;
+}
+
+#dialogueBox_unsubscribe {
+    padding-left: 60px;
+}
+
+.closeBox {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #333;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.verificationImage {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    width: 40px;
+    height: auto;
+}
+
+.unsubscribeConfirmEmail {
+    text-decoration: underline;
+}
+
+.sendMeReminderInAdvance div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.calendarDetails_expanded {
+    background: url('images/detailedDown.png') 5px no-repeat;
+}
+
+
+/* End ======================================================================== */
+
+
+
+/* Responsive ================================================================= */
+
+@media only screen and (max-width: 800px) {
+    .profile-wrapper .IRTable.company-listing-data; {
+        margin-bottom: 35px;
+    }
+
+    .profile-wrapper .table-wrapper .company-listing-data, .profile-wrapper .table-wrapper .price-data {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    /*#emailCalendarUnsubscribe {
+        width: 98%;
+        margin-left: 5px;
+        margin-top: 10px;
+    }*/
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .CalendarContentWrapper {
+        width: 70%;
+    }
+
+    .calendarDate {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+
+    .calendarTime, .calendarLocation {
+        font-size: 12px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .calendarDetails, .calendarAddTo, .calendarReminder {
+        width: 95%;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 1%;
+        margin-right: 2%;
+        font-size: 12px;
+        text-indent: 10%;
+    }
+
+
+    /*.calendarAddTo {
+        background: #F2F2F2 url('images/calendar-check.png') 5px no-repeat;
+    }*/
+
+    .calendarMoreInfo .calendarReminder {
+        /*padding: 0;*/
+        margin-right: 0;
+        width: 97%;
+    }
+
+    .calendarReminder [selected] {
+        background: #b8b8b8;
+    }
+
+    .calendarReminder2 {
+        background: #F2F2F2 url('images/alarm.png') 5px no-repeat;
+        text-indent: 12%;
+    }
+
+    .select_wrapper span {
+        /*background: #F2F2F2 url('images/alarm.png') 5px no-repeat;*/
+        color: #0083A9;
+        padding-left: 0px;
+    }
+
+    .calendarMoreInfo {
+        margin-left: 1%;
+    }
+
+    .IRCalendar .calendarDay {
+        padding-top: 0;
+    }
+
+    input.calendarButtonStyle {
+        width: 98%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .unsubscribe input.calendarButtonStyle /*, .enterInformationLoginEmail*/ {
+        width: 98%;
+        float: left;
+        max-width: none;
+        margin-left: 1%;
+    }
+
+    .unsubscribe input.calendarButtonStyle {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .calendarReminderAll, .calendarReminderFinancial, .calendarReminderRoadshow {
+        padding-left: 7%;
+    }
+
+    .dialogueBox {
+        width: unset;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 478px) {
+    #emailCalendarSignup_submit, #emailCalendarUnsubscribe {
+        margin-top: 10px;
+        width: 98%;
+        margin-left: 0px;
+    }
+
+    #emailCalendarSignup, #unsubscribeEmail {
+        max-width: 94%;
+    }
+}
+
+
+
+/* End =============================================================== */
