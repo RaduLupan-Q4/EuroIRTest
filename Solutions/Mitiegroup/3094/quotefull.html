@@ -1,0 +1,142 @@
+<base href="http://ir.euroinvestor.com/Solutionsstaging/mitiegroup/3094/miniquote.aspx" target="_blank">
+
+<!-- New Header Start -->
+<!DOCTYPE html>
+<html dir="lrt">
+<head>
+    <meta charset="UTF-8">
+    <title>IR Solutions, Euroinvestor</title>
+    <!--Polyfill for html5 features in IE -->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="ir.client.css?v=7.2"/>
+</head>
+<body>
+<!-- New Header End -->
+
+<!-- Module Activation Params Start -->
+<script type="text/javascript">
+    var activeModules = ['IRMiniquote'];
+</script>
+<!-- Module Activation Params End -->
+<!-- Module View Start -->
+<div class="IRMiniquoteModule">
+    <div class="IRChartColour"></div>
+    <span class="ajaxLoader">Loading</span>
+</div>
+<!-- Module View End -->
+<!-- Module Templates Start-->
+<script id="IRMiniquoteModuleTemplate" type="text/x-handlebars-template">
+    <div class="IRMiniQuoteQuoteModule table-look responsive">
+        <div class="miniquoteDetailsWrapper">
+            <table class="fullQuote">
+                <tr>
+                    <th class="Header" colspan="4"><span>{{headers/t_currency}}: {{stocks/currency}}</span> <span>{{headers/t_code}}: {{stocks/symbol}} </span> <span>{{headers/t_date}}: {{showDateWithFormat stocks/timestamp "DD MMM YYYY"}}</span></th>
+                </tr>    
+                <tr class="rowBorder">
+                  <td class="header">{{headers/t_price}}</td>
+                  <td class="txtGrey" colspan="3">{{decimals stocks/lastTradePrice}}</td>
+                </tr>
+                <tr class="rowBorder">
+                    <td class="header">{{headers/t_change}}</td>
+                    <td class="txtGrey">{{decimals stocks/change}}</td>
+                    <td class="header forMquery">{{headers/t_bid}}</td>
+                    <td class="forMquery txtGrey">>{{decimals stocks/bid}}</td>
+                </tr>
+                <tr class="rowBorder">
+                    <td class="header">{{headers/t_last_trade_timestamp}}</td>
+                    <td class="txtGrey">{{stocks/last}}</td>
+                    <td class="header forMquery">{{headers/t_ask}}</td>
+                    <td class="forMquery txtGrey">{{decimals stocks/ask}}</td>
+                </tr>
+                <tr class="rowBorder">
+                    <td class="header">Daily High</td>
+                    <td class="txtGrey" colspan="3">{{decimals stocks/high}}</td>        
+                </tr>
+                <tr class="rowBorder">
+                    <td class="header">Daily Low</td>
+                    <td class="txtGrey">{{decimals stocks/low}}</td>
+                    <td class="header forMquery">Year High</td>
+                    <td class="forMquery txtGrey">{{decimals stocks/highYear}}</td>
+                </tr>
+                <tr class="rowBorder">
+                    <td class="header">Day Open</td>
+                    <td class="txtGrey">{{decimals stocks/open}}</td>
+                    <td class="header forMquery">Year Low</td>
+                    <td class="forMquery txtGrey">{{decimals stocks/lowYear}}</td>
+                </tr>
+                <tr class="rowBorder">
+                    <td class="header">{{headers/t_volume}}</td>
+                    <td class="txtGrey" colspan="3">{{toLocal stocks/volume}}</td>        
+                </tr>
+            </table>
+            <table class="fullQuote forMqueryShow">
+               
+                <tr class="rowBorder">
+                    <td class="header ">{{headers/t_bid}}</td>
+                    <td class="txtGrey">{{decimals stocks/bid}}</td>
+                </tr>
+                <tr>
+                    <td class="header ">{{headers/t_ask}}</td>
+                    <td class="txtGrey">{{decimals stocks/ask}}</td>
+                </tr>
+                <tr>
+                    <td class="header ">Year High</td>
+                    <td class="txtGrey">{{decimals stocks/highYear}}</td>
+                </tr>
+                <tr>
+                    <td class="header ">Year Low</td>
+                    <td class="txtGrey">{{decimals stocks/lowYear}}</td>
+                </tr>
+            </table>
+        
+                
+        <div class="disclaimer" style="width: 490px;">
+
+        </div>
+              
+    </div>
+</script>
+
+<!-- New Footer Start -->
+
+<!--Disclaimer Part Start-->
+<div class="disclaimer disclaimer-IRCalc">
+    <span class="disclaimer-copyright">Copyright &copy; 1997-2016
+        <a href="https://www.q4euroinvestor.com/">Q4 Euroinvestor</a>
+    </span>
+    <span class="disclaimer-dataSource">and our data suppliers. </span>
+    <span class="disclaimer-delayed">Data delayed by 15-20 min.</span>
+    <span class="disclaimer-terms">
+        <a href="https://www.q4euroinvestor.com/MainDisclaimer/">See Terms of use</a>
+    </span>
+</div>
+<!--Disclaimer Part End-->
+
+<!--Libs section-->
+<script type="text/javascript" src="/includes/js/libs/jquery1-8-3.min.js?v=636123107827135572"></script>
+<script type="text/javascript" src="ir.client.js?v=636056491076661082"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.js?v=636130028701079827"></script>
+<script type="text/javascript" src="/inc/scripts/bootstrap/3_2_0/bootstrap.min.js?v=636123107814576609"></script>
+<script type="text/javascript" src="/includes/js/libs/handlebars1-3-0.min.js?v=636123107826132936"></script>
+<script type="text/javascript" src="/includes/js/libs/moment2-7-0.min.js?v=636123107827760766"></script>
+<script type="text/javascript" src="/includes/js/libs/moment-timezone0-3-1.min.js?v=636123107827917020"></script>
+<script type="text/javascript" src="/inc/scripts/moment/moment-timezone-with-data-2010-2020.min.js?v=636123107822123587"></script>
+<script type="text/javascript" src="/inc/scripts/browserSupport/respond.min.js?v=636123107814732705"></script>
+<script type="text/javascript" src="/inc/scripts/ir.reset.js?v=636123107814067476"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.behaviour.js?v=636123107817425457"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.data.js?v=636124704891930054"></script>
+<script type="text/javascript" src="/includes/js/libs/highstock-2-0-4.js?v=636123107826601729"></script>
+<script type="text/javascript" src="/inc/scripts/jsv.js?v=636123107814107671"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"/></script>
+<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.tool.lookup.js?v=636123107819271615"></script>
+<script type="text/javascript" src="/inc/scripts/core/ir.util.draw.js?v=636123107819584295"></script>
+</body>
+</html>
+
+<!-- New Footer End -->

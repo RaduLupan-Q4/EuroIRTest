@@ -1,0 +1,115 @@
+﻿body {
+    font-size: 14px;
+    font-family: 'HelveticaNeue', Arial, Helvetica, sans-serif;
+    color: #000;
+    overflow: hidden;
+}
+
+input[type=text] {
+    border: 1px solid #ededed;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 10px;
+}
+
+.checkbox {
+    height: 18px;
+    line-height: 18px;
+    padding-left: 25px;
+    background-image: url('checkbox_false.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    min-width: 145px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-size: 18px 18px;
+}
+
+    .checkbox.checked {
+        background-image: url('checkbox_true.png');
+    }
+
+p, .inputTextTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 28px;
+}
+
+
+.blockOuter.indent, .blockNoBorder, .blockInner {
+    clear: both;
+}
+
+.pageVerification_placedAtSubmitbutton {
+    margin-top: 10px;
+    float: left;
+}
+
+.checkboxReleaseATrigger, .inputTextTitle {
+    width: 100%;
+    font-family: 'HelveticaNeueBold', Arial, sans-serif;
+}
+
+#MSC {
+    width: 90%;
+    font-family: 'HelveticaNeueBold', Arial, sans-serif;
+}
+
+.buttonStyle {
+    padding: 3px 6px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: #f14e12;
+    border: 1px solid #f14e12;
+    background: transparent;
+    padding-right: 30px;
+    background-image: url('../../images/buttonArrow.png');
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    text-align: left;
+    text-indent: 7px;
+}
+
+    .buttonStyle:hover {
+        text-decoration: none;
+        background: transparent;
+        background-image: url('../../images/buttonArrow.png');
+        background-repeat: no-repeat;
+        background-position: 90% center;
+        color: #f14e12;
+        border: 1px solid #f14e12;
+    }
+
+input#enterInformationEmail {
+    width: 160px;
+}
+
+span.requiredFieldMSG {
+    color: #ff0000;
+}
+
+/*.checkbox.checkboxReleaseATrigger {
+    display: none;
+}*/
+
+input.formUnsubscribeInTool.buttonStyle.clearInput {
+    width: 130px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    input#enterInformationEmail, .buttonStyle, .inputText {
+        width: 100%;
+        max-width: initial;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .buttonStyle {
+        text-indent: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
