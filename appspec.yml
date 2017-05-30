@@ -1,5 +1,5 @@
 version: 0.0
 os: windows
 files:
-  - source: \IR Solutions-staging\Website\Solutions
+  - source: \IR Solutions\Website\Solutions
     destination: D:\http\staging-ir.euroinvestor.com\Solutions

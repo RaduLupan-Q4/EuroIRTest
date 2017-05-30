@@ -1,3 +1,0 @@
-ModulesReady.triggerCustom = function () {
-        addPrettyRadioBtn();
-    }
