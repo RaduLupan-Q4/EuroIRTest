@@ -2,4 +2,4 @@ version: 0.0
 os: windows
 files:
   - source: \Solutions
-    destination: D:\http\staging-ir.euroinvestor.com\Solutions
+    destination: D:\http\ir.euroinvestor.com\Solutions
